@@ -9,6 +9,10 @@ Glossary
         AngularJS (commonly referred to as "Angular") is an open-source front-end javascript framework for extending  and adding interactivity to HTML to meet the challenges of single page applications (SPA). It was created and is maintained by Google and a community of developers. The goal of Angular is to simplify the development and the testing of the user interface of SPA applications by providing a framework for client-side model–view–controller (MVC) architecture, as well as other components commonly used in rich Internet applications. Angular is used intensly in DreamFace to do the data binding between the view (user interface) and the model (application data).
     API
         Application Programming Interface (API) - Definition of call parameters to enable an application to access IT services for example to access back-ed data sources. APIs are consumed by the GUI but remain independent components offering a loosely coupled interaction of visual and data components.
+    API Services
+        API Services are is a DreamFace component for defining a logical group of API Routes.
+    API Routes
+        API Routes are ..
     BlueMix
         BlueMix is the name of the IBM Cloud Platform with the goal helping software developers rapidly build, manage and run web and mobile applications by combining services to create applications.
     Bootstrap

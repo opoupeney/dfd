@@ -11,8 +11,8 @@ We look forward to working with you to build the best enterprise desktop and mob
 Our goal is to provide a full-featured development platform that leverages best of breed technology and empowers developers to create well-architected, beautiful and secure applications that are open and extensible,
 and scale to the limits of the cloud. DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an unparelled, out of the box
 feartureset. If you're a fan of Angular then you'll love the way DreamFace embraces its full functionality giving developers full control then picking up the baton and charging ahead with built-in enterprise bells and
-whistles. And best of all, your deployed application is a collection of open, standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help where
-you need it and freedom where you don't.
+whistles. And best of all, your deployed application is a collection of open, standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when
+you need it and freedom when you don't.
 
 DreamFace is available on **npm**. Installation instructions will be available soon.
 

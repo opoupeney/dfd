@@ -3,9 +3,10 @@ Getting Started
 
 Welcome to the Getting Started with DreamFace documentation.
 
-DreamFace X-Platform (DFX) or just plain DreamFace, is a development platform that empowers developers to create responsive web or mobile cross-platform business applications.
+DreamFace X-Platform (DFX) or just plain DreamFace, is a development platform that empowers developers to create cloud-based desktop or mobile cross-platform business applications.
 
 The Getting Started Tutorials are meant to introduce you to important DreamFace concepts to get you started, as quickly as possible,on the right track to building your first DreamFace application. In the tutorials you will learn best practices for building cloud applications with DreamFace with a focus on how to get the most benefit from the many buit-in features provided in the platform.
+
 
 
 
