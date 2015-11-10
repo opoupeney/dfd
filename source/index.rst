@@ -1,34 +1,35 @@
-Build the applications of your dreams with DreamFace!
 
-DreamFace is an open-source development platform for creating composite, cloud-native, desktop and mobile applications built from modular back-end services (APIs).
+Start building the applications of your dreams today!
 
-|
 
 Welcome to the DreamFace Documentation
 ======================================
 
 We look forward to working with you to build the best enterprise desktop and mobile applications in the cloud today.
-Our goal is to provide a full-featured development platform that leverages best of breed technology and empowers developers to create well-architected, beautiful and secure applications that are open and extensible,
-and scale to the limits of the cloud. DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an unparelled, out of the box
-feartureset. If you're a fan of Angular then you'll love the way DreamFace embraces its full functionality giving developers full control then picking up the baton and charging ahead with built-in enterprise bells and
-whistles. And best of all, your deployed application is a collection of open, standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when
-you need it and freedom when you don't.
+Our goal is to provide a full-featured development platform that leverages best of breed technology and empowers developers to
+create well-architected, beautiful and secure applications that are open and extensible, and scale to the limits of the cloud.
+DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an
+unparelled, out of the box fearture set.
+
+If you're a fan of Angular then you'll love the way DreamFace embraces its full functionality and extends it with built-in enterprise
+bells and whistles. Developers have complete control and best of all, your deployed application is a collection of open,
+standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when you need it and freedom when you don't.
 
 DreamFace is available on **npm**. Installation instructions will be available soon.
 
-You can try DreamFace risk-free. Interactive Clouds provides **Free 30-day DreamFace Support** to help you during your evaluation period. To request a free support account, please send an email to support@interactive-clouds.com.
-
-
-Guide to DreamFace Documentation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-The DreamFace Getting Started Guide provides everything you need to get up and running and create your first DreamFace app from development, to compilation, to deployment in the cloud and and finally dockerization.
-
-.. toctree::
-   :maxdepth: 1
-
-   getting-started
-   glossary
+To help you get started, `Interactive Clouds <http://www.interactive-clouds.com>`_ provides **Free DreamFace Support** for 30 days. Ask any question and get your app
+up and running in no time. To request a free support, send an email to support@interactive-clouds.com.
 
 |
+
+Guide to DreamFace Documentation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+The DreamFace documentation is divided in to a number of guides to take you from novice to DreamFace Expert as quickly as possible.
+
+* :ref:`getting-started-label` contains everything you need to get up and running and create your first DreamFace application.
+* :ref:`developer-guide-label` is a practical, hands-on guide for developers providing reference information and real-world examples.
+* :ref:`product-guide-label` provides general DreamFace product information such as product description, features and licensing.
+* :ref:`glossary-label` is a list of technical terms used in the documentation along with their definition and how they relate to DreamFace.
+
 |
