@@ -1,14 +1,10 @@
 Anatomy of a DreamFace App
 ==========================
 
-DreamFace applications are built using four main components :
-
-|
+DreamFace applications are cloud-native, multitenant applications built using four main components :
 
 Application Components
-----------------------
-
-|
+^^^^^^^^^^^^^^^^^^^^^
 
 ====================   ==========================================================================================================================================
  **Component**         **Description**
@@ -16,11 +12,18 @@ Application Components
  **Navigation Menu**   Menu and Sub-Menus provide navigation through the application. Navigation starts with a Home Menu linked to the Home Page of the application. Menu Items are associated with Pages.
  **Pages**             Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns which makes up the user interface of the application.
  **Views**             Views (sometimes called Widgets) contain graphical controls like input fields, buttons and tables, arranged in a layout of rows and columns which makes up the User Interface of the View
- **API Services**      API Services provide access to the data by defining the different API Routes related to that service that access the data.
+ **API Services**      API Services group together related API Routes which define how to access to the data by defining API call to a service.
 ====================   ==========================================================================================================================================
 
-|
+.. image:: ../images/diagrams/dfd-app-anatomy.png
 
+If we boil it down to just the basics we could say that a DreamFace application is a number of Views and Routes attacted to an application.  Putting that in perspective,
+applications also need navigation or application flow. In DreamFace the Navigation Menu manages the application flow defining which Page will be displayed when a menu
+item is clicked. For desktop applications, Pages contain a composition of Views, organized in a layout of rows and columns. One View might have client information and
+another may show sales for that client in a graph or a table view and a third view might show a map of where the client is located. This composition makes up the user
+interface of the Page. The data that is used in the Page comes from the API Routes which are bound or linked to the View.
+
+|
 
 Menu Navigation
 ---------------
@@ -37,13 +40,10 @@ Page
 A Page is a DreamFace component used to display one or more Views in a layout of rows and columns. A Page defines the user interface for
 a part of the application, for example, a Page might display, update and delete Client data.
 
-
 |
 
 View
 ----
-
-|
 
 A View is a DreamFace component used to define the User Interface of an applciation or part of an application. Views are a composition of Graphical
 Controls like input fields, buttons, tables that are provided as a list of pre-defined, ready to use Graphical Controls, available in the View Editor.
@@ -52,11 +52,12 @@ Views are sometimes referred to as widgets. For a more information on available 
 
 |
 
-API Services
-------------
+API Routes
+----------
 
-An API Service is a DreamFace component that is used to consume public, private or internal APIs. An API Service is a DreamFace concept
-used to make a logical grouping of API Routes. API Services are defined by Properties and API Routes. API Routes are components that define the access to back-end API Services.
+An API Route is a DreamFace component that is used to consume public, private or internal APIs. An API Service is a DreamFace concept
+used to make a logical grouping of API Routes. API Services are defined by Properties and API Routes. API Routes are components that
+define the access to back-end API Services.
 
 For a more on API Services see :ref:`apiservices-label`
 
