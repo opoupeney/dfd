@@ -5,7 +5,7 @@ Getting Started
 
 Get started building your first DreamFace app!
 
-Follow the steps below to get up and running with your first DreamFace app. For a deeper dive, check out the :ref:`developer-guide-label`, which goes hands on into best practices and the most common use cases for developing with DreamFace.
+Follow the steps below to get up and running with your first DreamFace app or for a deeper dive, check out the :ref:`developer-guide-label`, which goes hands on into best practices and the most common use cases for developing with DreamFace.
 
 
 .. toctree::
@@ -20,11 +20,10 @@ Follow the steps below to get up and running with your first DreamFace app. For 
 
 |
 
-
 Creating Your First App
 -----------------------
 
-The steps we'll take in guiding you to create your first app:
+Follow the steps below to create your first app:
 
 1. Setting up your cloud tenant
 2. Exploring the Studio
@@ -34,9 +33,8 @@ The steps we'll take in guiding you to create your first app:
 6. Build and Compile the App
 7. Deploy the App
 
-1. Setting up your Cloud a tenant
+**1. Setting up your Cloud a tenant**
 
-Setting Up Your Cloud Tenant
 Multitenancy refers to a principle in software architecture where a single instance of the software (i.e DreamFace) runs on a server, serving multiple client-organizations (tenants).
 Multitenancy contrasts with multi-instance architectures where separate software instances (or hardware systems) operate on behalf of different client organizations. To simplify, many different clients-organizations can share the same mulitenant application and only one client-organization uses the software instance application.
 
@@ -57,18 +55,17 @@ Each tenant has access to a dedicated DreamFace Studio. All applications created
 up the applications will be stored in a repository linked to this tenant and will be completely isolin
 
 
-Exploring the Studio
+**2. Exploring the Studio**
 
-Creating API Services
+**3. Creating API Services**
 
-Creating Views
+**4. Creating Views**
 
-Creating Pages and Adding Views to a Page
+**5. Creating Pages and Adding Views to a Page**
 
-Build and Compile the App
+**6. Build and Compile the App**
 
-Deploying the App
-
+**7. Deploying the App**
 
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
