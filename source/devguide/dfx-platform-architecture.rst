@@ -4,13 +4,13 @@ Architecture of the DreamFace Platform
 The DreamFace Cloud Platform that you use to develop applications is a cloud-based, multitenant development platform built on :term:`MEAN Stack` technologies.
 
 
-.. image:: ../images/diagrams/dfd-generator2.png
+.. image:: ../images/diagrams/dfd-dfgenerator.png
 
 The DreamFace Cloud Platform is composed of:
 
-* **DreamFace X-Platform** is a Cloud Application Platform used to develop and deploy desktop and mobile applications.
-* **DreamFace Application Compiler** is used to compile and manage different builds of your DreamFace application.
-* **DreamFace Application Generator** is a tool used during installation to generate development, compiler and deployment environments.
+* **DreamFace X-Platform** is a cloud-based platform used to develop and deploy desktop and mobile applications.
+* **DreamFace Compiler** is used to compile and manage different builds of your DreamFace application.
+* **DreamFace Generator** is a tool used during installation to generate development, compiler and deployment environments.
 
 
 DreamFace (DFX) and the DreamFace Compiler (DFC) are node modules. Node apps that use DreamFace need to have dependencies on DFX and DFC.
@@ -21,8 +21,8 @@ To install the DreamFace Cloud Platform, 3 node apps must be created:
 * (comp) one for the compiler which depends on DFC
 * (dep) one for deployment which depends on DFX
 
-The DreamFace Application Generator is a node module that can be installed globally and is used to create the environment that
-generates the 3 node apps: dev, comp and dep.
+The DreamFace Generator is a node module that can be installed globally and is used to create the environment that generates the
+3 node apps: dev, comp and dep.
 
 
 |
