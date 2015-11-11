@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Anatomy of a DreamFace App &mdash; DreamFace X-Platform 2.1.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.1.0/dreamface/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/dfx-styles.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="DreamFace X-Platform 2.1.0 documentation" href="../index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html" style="height: 40px;vertical-align: middle;padding-top: 8px;"><img src="../_static/dfx_logo.png">
+        </a>
+        <span class="navbar-text navbar-version pull-left"><b>2.1.0</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"></ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">Anatomy of a DreamFace App</a><ul>
+<li><a class="reference internal" href="#application-components">Application Components</a><ul>
+<li><a class="reference internal" href="#navigation-menu">Navigation Menu</a></li>
+<li><a class="reference internal" href="#page">Page</a></li>
+<li><a class="reference internal" href="#view">View</a></li>
+<li><a class="reference internal" href="#api-routes">API Routes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/devguide/app-anatomy.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="anatomy-of-a-dreamface-app">
+<h1>Anatomy of a DreamFace App<a class="headerlink" href="#anatomy-of-a-dreamface-app" title="Permalink to this headline">¶</a></h1>
+<p>DreamFace applications are cloud-native, multitenant applications built using four main components :</p>
+<div class="section" id="application-components">
+<h2>Application Components<a class="headerlink" href="#application-components" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Component</strong></th>
+<th class="head"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Navigation Menu</strong></td>
+<td>Menu and Sub-Menus provide navigation through the application. Navigation starts with a Home Menu linked to the Home Page of the application. Menu Items are associated with Pages.</td>
+</tr>
+<tr class="row-odd"><td><strong>Pages</strong></td>
+<td>Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns which makes up the user interface of the application.</td>
+</tr>
+<tr class="row-even"><td><strong>Views</strong></td>
+<td>Views (sometimes called Widgets) contain graphical controls like input fields, buttons and tables, arranged in a layout of rows and columns which makes up the User Interface of the View</td>
+</tr>
+<tr class="row-odd"><td><strong>API Services</strong></td>
+<td>API Services group together related API Routes which define how to access to the data by defining the API call to a service.</td>
+</tr>
+</tbody>
+</table>
+<img alt="../_images/dfd-app-anatomy.png" src="../_images/dfd-app-anatomy.png" />
+<p>If we boil it down to just the basics we could say that a DreamFace application is a number of Views and Routes attached to an application.  Putting that in perspective,
+applications also need navigation or application flow. In DreamFace the Navigation Menu manages the application flow defining which Page will be displayed when a menu
+item is clicked. For desktop applications, Pages contain a composition of Views, organized in a layout of rows and columns. One View might have client information and
+another may show sales for that client in a graph or a table view and a third view might show a map of where the client is located. This composition makes up the user
+interface of the Page. The data that is used in the Page comes from the API Routes which are bound or linked to the View.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="navigation-menu">
+<h3>Navigation Menu<a class="headerlink" href="#navigation-menu" title="Permalink to this headline">¶</a></h3>
+<p>The Navigation Menu provides a way to navigate through the application. By default the Navigation Menu starts with a Home Menu linked to
+the Home Page of the application. The Navigation Menu is organized in a tree structure with Main Menu or top level either linked to a Page
+or containing sub-menu items. Each menu item is linked to a Page. Each Page is a composition of Views, which in turn is a composition of
+Graphical Controls, Api Routes to interact with the data and scripts which define View behavior.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="page">
+<h3>Page<a class="headerlink" href="#page" title="Permalink to this headline">¶</a></h3>
+<p>A Page is a DreamFace component used to display one or more Views in a layout of rows and columns. A Page defines the user interface for
+a part of the application, for example, a Page might display, update and delete Client data. Mobile applications do not use Pages as they
+display the Views directly, one at a time.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="view">
+<h3>View<a class="headerlink" href="#view" title="Permalink to this headline">¶</a></h3>
+<p>A View is a DreamFace component used to define the User Interface of an application or part of an application. Views are a composition
+of Graphical Controls like input fields, buttons, tables that are provided as a list of pre-defined, ready to use Graphical Controls,
+available in the View Editor. Graphical Controls are arranged in rows and columns in the View and are used to display and interact with
+data coming from the API Routes. Views are sometimes referred to as widgets.</p>
+<p>For a more information on available pre-defined GraphicalControls available in the View Editor see <a class="reference internal" href="graphical-controls.html#gcontrols-label"><em>Graphical Controls</em></a></p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="api-routes">
+<h3>API Routes<a class="headerlink" href="#api-routes" title="Permalink to this headline">¶</a></h3>
+<p>An API Route is a DreamFace component that is used to consume public, private or internal APIs. An API Service is a DreamFace concept
+used to make a logical grouping of API Routes. API Services are defined by Properties and API Routes. API Routes are components that
+define the access to back-end API Services. DreamFace provides a number of ready to consume API Routes, for example in the API Service
+Social Media you have predefined API Routes for facebook, twitter and other popular Social Media APIs.</p>
+<p>For a more on API Services and API Routes see <a class="reference internal" href="api-services.html#apiservices-label"><em>API Services</em></a></p>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2015, Interactive Clouds.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

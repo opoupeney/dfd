@@ -1,0 +1,321 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>What is DreamFace? &mdash; DreamFace X-Platform 2.1.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.1.0/dreamface/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/dfx-styles.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="DreamFace X-Platform 2.1.0 documentation" href="../index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html" style="height: 40px;vertical-align: middle;padding-top: 8px;"><img src="../_static/dfx_logo.png">
+        </a>
+        <span class="navbar-text navbar-version pull-left"><b>2.1.0</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"></ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">What is DreamFace?</a></li>
+<li><a class="reference internal" href="#who-is-dreamface-for">Who is DreamFace for?</a></li>
+<li><a class="reference internal" href="#what-you-need-to-know">What you need to know</a></li>
+<li><a class="reference internal" href="#architecture-of-the-dreamface-platform">Architecture of the DreamFace Platform</a><ul>
+<li><a class="reference internal" href="#dreamface-deployment-edition">DreamFace Deployment Edition</a></li>
+<li><a class="reference internal" href="#dreamface-compiler">DreamFace Compiler</a></li>
+<li><a class="reference internal" href="#dreamface-deployment">DreamFace Deployment</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#anatomy-of-a-dreamface-app">Anatomy of a DreamFace App</a><ul>
+<li><a class="reference internal" href="#application-components">Application Components</a></li>
+<li><a class="reference internal" href="#ananotmy-of-a-dreamface-app">Ananotmy of a DreamFace app</a></li>
+<li><a class="reference internal" href="#development-process">Development Process</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/gsguide/dreamface-intro.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="what-is-dreamface">
+<h1>What is DreamFace?<a class="headerlink" href="#what-is-dreamface" title="Permalink to this headline">¶</a></h1>
+<p><em>DreamFace is an open-source development platform for creating modular and dynamic, cloud-native desktop and mobile applications.</em></p>
+<p>DreamFace applications are a composition of user interface and data access components. The goal of DreamFace is to leverage best of
+breed technologies to empowers developers to create cloud-based desktop or mobile cross-platform business applications.</p>
+<p>The goal of DreamFace is to leverage best of breed technology and empower developers to
+create well-architected, beautiful and secure applications that are open and extensible, and scale to the limits of the cloud.
+DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an
+unparelled, out of the box fearture set.</p>
+<p>DreamFace X-Platform (DFX or just DreamFace as we will refer to it in this documentation) is a part of emerging category of cloud-native Rapid
+Application Development Platforms for delivering Enterprise scale Web and Mobile applications with ease and speed, producing uncompromising User
+Experiences, and delivering the right data to the right user on the right device by secure and code-less consumption of any public or private API.</p>
+<p>DreamFace accelerates development with a Widget Editor providing drag and drop development. In the Widget Editor, pre-defined graphical controls are
+dragged on to an panel and properties and attributes are set, minimizing the coding required and allowing developers to focus on creating the user
+experience. Developers can drop into code when the user interface requires specific customization and they have always have access to underlying assets
+of the application in the DreamFace Repository which contains a description of each component in JSON format.</p>
+<p>DreamFace was created to ease development of two difficult and time consuming tasks:</p>
+<ul class="simple">
+<li><strong>User Interface</strong> - industrialize and simplify the creation of beautiful, complex user interfaces for multiples screens</li>
+<li><strong>Back-End Data Integration</strong> - codeless and secure intregration of virtually any API or back-end data source</li>
+</ul>
+<p>The X-Platform part of the DreamFace name refers to the cross platform development. With DreamFace you can build applications for web or mobile with dedicated editors for creating the user interface for web and mobile environments. DreamFace offers several options. You can create a responsive web application that adapts to web and mobile use by adjusting to the screen size of the device automatically in a responsive way or you can create specific Web and Mobile versions of your application that reuse the same back-end query components. In the case of mobile deployment DreamFace provides tools to create cross platform mobile versions of your application. This flexibility lets you decide which is the best platform for your application.</p>
+<p>DreamFace is built on the MEAN Stack, MongoDB, ExpressJS, Angularjs and Nodejs.</p>
+</div>
+<div class="section" id="who-is-dreamface-for">
+<h1>Who is DreamFace for?<a class="headerlink" href="#who-is-dreamface-for" title="Permalink to this headline">¶</a></h1>
+<p><strong>DreamFace is for Developers</strong></p>
+<p>DreamFace was built to empower developers by giving them a platform with built-in best practices for building cloud-native desktop and mobile applications.
+Multi-tenancy and enterprise-scale features are built-in and ready to use helping the developer to deliver consistently well architected and scalable application
+every time.</p>
+<p>Because of it&#8217;s modular approach to development, DreamFace allows teams of different skill levels to work together and leverage each others skills to the benefit
+the project. For example, a developer who is much better at building the user interface and knows web technologies could create the DataWidgets, Application Screens
+(compositions of DataWidgets) and application branding and a developer with more backend skills could create the DataQueries that access the backend data. Then just put them together to visualise the data. The same DataQueries can be used for both web and mobile applications.</p>
+</div>
+<div class="section" id="what-you-need-to-know">
+<h1>What you need to know<a class="headerlink" href="#what-you-need-to-know" title="Permalink to this headline">¶</a></h1>
+<p>DreamFace is a platform that empowers MEAN Stack developers. Developers can leverage it to take care of the application infrastructure and focus their efforts on
+building great user experience and applications. To get the maximum benefit from DreamFace developers should have a working knowledge of the following technologies :</p>
+<ul class="simple">
+<li>Standard Web Technologies (HTML5, CSS3, Javascript)</li>
+<li>Angular.js</li>
+<li>MongoDB</li>
+<li>Node.js</li>
+</ul>
+<p>Good to know :</p>
+<ul class="simple">
+<li>Jade</li>
+<li>REST Services</li>
+<li>JQuery</li>
+</ul>
+</div>
+<div class="section" id="architecture-of-the-dreamface-platform">
+<h1>Architecture of the DreamFace Platform<a class="headerlink" href="#architecture-of-the-dreamface-platform" title="Permalink to this headline">¶</a></h1>
+<img alt="../_images/dfd-gs-platform.png" class="align-left" src="../_images/dfd-gs-platform.png" />
+<p>The DreamFace Platform that you use to develop applications has 3 main components:</p>
+<ul class="simple">
+<li><strong>DreamFace Developer Edition</strong> Edition* which includes includes the DreamFace Studio</li>
+<li><strong>DreamFace Compiler Edition</strong> which is used to compile applications and manage different builds of your application</li>
+<li><strong>DreamFace Deployment Edition</strong> which hosts deployed apps</li>
+</ul>
+<div class="section" id="dreamface-deployment-edition">
+<h2>DreamFace Deployment Edition<a class="headerlink" href="#dreamface-deployment-edition" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="dreamface-compiler">
+<h2>DreamFace Compiler<a class="headerlink" href="#dreamface-compiler" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="dreamface-deployment">
+<h2>DreamFace Deployment<a class="headerlink" href="#dreamface-deployment" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+<div class="section" id="anatomy-of-a-dreamface-app">
+<h1>Anatomy of a DreamFace App<a class="headerlink" href="#anatomy-of-a-dreamface-app" title="Permalink to this headline">¶</a></h1>
+<p>DreamFace applications are built using four main components :</p>
+<div class="section" id="application-components">
+<h2>Application Components<a class="headerlink" href="#application-components" title="Permalink to this headline">¶</a></h2>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head"><strong>Component</strong></th>
+<th class="head"><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><strong>Navigation Menu</strong></td>
+<td>Menu and Sub-Menus provide navigation through the application. Navigation starts with a Home Menu linked to the Home Page of the application.</td>
+</tr>
+<tr class="row-odd"><td><strong>Pages</strong></td>
+<td>Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns which makes up the user interface of the application</td>
+</tr>
+<tr class="row-even"><td><strong>Views</strong></td>
+<td>Views (sometimes called Widgets) contain graphical controls like input fields and buttons, arranged in a layout of rows and columns which makes up the User Interface of the View</td>
+</tr>
+<tr class="row-odd"><td><strong>API Services</strong></td>
+<td>API Services provide access to the data by defining the different API Routes related to that service</td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="ananotmy-of-a-dreamface-app">
+<h2>Ananotmy of a DreamFace app<a class="headerlink" href="#ananotmy-of-a-dreamface-app" title="Permalink to this headline">¶</a></h2>
+<p>Each DreamFace application has three main parts :</p>
+<ul class="simple">
+<li>System Configuration and Settings</li>
+<li>Application Personalisation</li>
+<li>Application Components</li>
+</ul>
+<p>In System Configuration and Settings we have</p>
+<ul>
+<li><p class="first">General Settings</p>
+</li>
+<li><p class="first">Security Providers</p>
+</li>
+<li><dl class="first docutils">
+<dt>Resources</dt>
+<dd><ul class="first last simple">
+<li>Javascript</li>
+<li>CSS</li>
+<li>Images</li>
+<li>All assets</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first">Deployment</p>
+</li>
+</ul>
+<p>Application Personalization</p>
+<ul class="simple">
+<li>Application Roles</li>
+<li>User Access Rights</li>
+<li>Application Users</li>
+</ul>
+<p>Application Components</p>
+<ul class="simple">
+<li>Navigation Menu</li>
+<li>Views</li>
+<li>API Services / Routes</li>
+<li>Pages (for desktop apps, mobile apps don’t have pages since they display one view at a time)</li>
+</ul>
+<p>Views, API Services and Pages can be grouped into Categories which is  a logical association between components. The Default Category is Default, you can add others.</p>
+<p>Two ways to search for Views, I can click on Views and see all the Views for the current application. I can also click on the search loop and search for views.</p>
+<p>You can click on View Editor and go directly to the Widget editor to modify the View. The View Editor is opened in a separate tab so the developer can work on several Views at the same time in different tabs.</p>
+<p>The API Services</p>
+<p>Meta data can be shown directly and each element can be expanded.</p>
+<p>Versionning - each application has it’s own dedicated github repository.</p>
+<p>Deleting the App would delete everything attached to the app.</p>
+<p>Shared Catalogue - Components that are shared across apps are stored in the shared catalogue. You can copy a view from one app to another.</p>
+<ul class="simple">
+<li>Application Settings</li>
+<li>Navigation Menu</li>
+<li>Pages</li>
+<li>Views</li>
+<li>API Services</li>
+</ul>
+</div>
+<div class="section" id="development-process">
+<h2>Development Process<a class="headerlink" href="#development-process" title="Permalink to this headline">¶</a></h2>
+<p><strong>Bottom-up development</strong></p>
+<p>Although DreamFace allows both top-down and bottom-up development most developers prefer the bottom up approach.</p>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2015, Interactive Clouds.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

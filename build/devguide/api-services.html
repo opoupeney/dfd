@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>API Services &mdash; DreamFace X-Platform 2.1.0 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootswatch-3.1.0/dreamface/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/dfx-styles.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.1.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-3.1.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="DreamFace X-Platform 2.1.0 documentation" href="../index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html" style="height: 40px;vertical-align: middle;padding-top: 8px;"><img src="../_static/dfx_logo.png">
+        </a>
+        <span class="navbar-text navbar-version pull-left"><b>2.1.0</b></span>
+      </div>
+
+        <div class="collapse navbar-collapse nav-collapse">
+          <ul class="nav navbar-nav">
+            <li class="divider-vertical"></li>
+            
+            
+              <li class="dropdown globaltoc-container">
+  <a role="button"
+     id="dLabelGlobalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="../index.html">Site <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+      role="menu"
+      aria-labelledby="dLabelGlobalToc"></ul>
+</li>
+              
+                <li class="dropdown">
+  <a role="button"
+     id="dLabelLocalToc"
+     data-toggle="dropdown"
+     data-target="#"
+     href="#">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"
+      role="menu"
+      aria-labelledby="dLabelLocalToc"><ul>
+<li><a class="reference internal" href="#">API Services</a><ul>
+<li><a class="reference internal" href="#properties">Properties</a></li>
+<li><a class="reference internal" href="#api-routes">API Routes</a></li>
+<li><a class="reference internal" href="#settings-parameters">Settings &amp; Parameters</a></li>
+<li><a class="reference internal" href="#filters">Filters</a></li>
+<li><a class="reference internal" href="#simulate">Simulate</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+              
+            
+            
+              
+                
+              
+            
+            
+            
+            
+              <li class="hidden-sm">
+<div id="sourcelink">
+  <a href="../_sources/devguide/api-services.txt"
+     rel="nofollow">Source</a>
+</div></li>
+            
+          </ul>
+
+          
+            
+<form class="navbar-form navbar-right" action="../search.html" method="get">
+ <div class="form-group">
+  <input type="text" name="q" class="form-control" placeholder="Search" />
+ </div>
+  <input type="hidden" name="check_keywords" value="yes" />
+  <input type="hidden" name="area" value="default" />
+</form>
+          
+        </div>
+    </div>
+  </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      
+  <div class="section" id="api-services">
+<span id="apiservices-label"></span><h1>API Services<a class="headerlink" href="#api-services" title="Permalink to this headline">¶</a></h1>
+<p>An API Service is a DreamFace component that is used to consume public, private or internal APIs. API Services are defined by Properties and API Routes.</p>
+<p>An API Service is composed of one or more API Routes and is a logical grouping of API Routes under a single entity, that maps that route or service with a client side service.</p>
+<p>We can differentiate API Services into several categories depending on their authentication requirements :</p>
+<ul>
+<li><p class="first"><strong>Simple API Services</strong> are API Services which do not require authentication, for example an RSS feed or a url like the github api api.github.com/users Simple API Services have the following characteristics, they :</p>
+<blockquote>
+<div><ul class="simple">
+<li>Can be called from the browser and therefore from javascript in the browser</li>
+<li>Return data in JSON format which can be converted into javascript ojbects and easily consumed</li>
+<li>Do not require authentication or any client key</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>API Services with Basic Authentication</strong> these API require Basic Authentication which is used to create a key based on username and password of the user account</p>
+</li>
+<li><p class="first"><strong>API Services with oAuth2 Authentication</strong> these are API Services that are related to personal data and require more extensive Authentication and Acknowlegement and Authorization to use tha personal data</p>
+<blockquote>
+<div><ul class="simple">
+<li>Key to consume the API (Google Translate, Goooge) authenticates the application to consume the API token and secret</li>
+<li>Personal data - the user needs extension to oAuth1 application neeeds to be authenticated and user needs to accept or decline that the applicatio</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="section" id="properties">
+<h2>Properties<a class="headerlink" href="#properties" title="Permalink to this headline">¶</a></h2>
+<p>Properties of the API Service include :</p>
+<ul class="simple">
+<li><strong>API Service Name</strong> - the name of the API service on the server</li>
+<li><strong>Description</strong> - a description of what the API Service does</li>
+<li><strong>Category</strong> - The Category that the API Service being defined belonds too. This is a logical grouping of API Services, for example News would contain services accessing news.</li>
+<li><strong>Angular Service Name</strong> - This is the name of the Angular Service on the client side.</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="api-routes">
+<h2>API Routes<a class="headerlink" href="#api-routes" title="Permalink to this headline">¶</a></h2>
+<p>API Routes can be defined and tested without any codeing, just set the parameters that define the desired connector and test it. The API Routes are listed in the
+API Routes section. By clicking on a given API Route, you can change Settings &amp; Parameters for an API Route. You can set Filters and test the functioning of the
+API Route under Simulate.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="settings-parameters">
+<h2>Settings &amp; Parameters<a class="headerlink" href="#settings-parameters" title="Permalink to this headline">¶</a></h2>
+<p>Settings &amp; Parameters for API Routes contain</p>
+<ul>
+<li><p class="first"><strong>Main Properties</strong> The Main Properties contain API Route URL which is a name given to the route. This can be modified and can contain any name.</p>
+</li>
+<li><dl class="first docutils">
+<dt><strong>Connector Settings</strong> The Connector setting define several parameters:</dt>
+<dd><ul class="first last simple">
+<li>Conncector Type</li>
+<li>Request URL</li>
+<li>Request Type (REST, ...)</li>
+<li>Data Format Received</li>
+<li>Authentication Provider</li>
+<li>Angular Service Function</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first"><strong>Parameters</strong> - used to define parameters to send to the service in the service call.</p>
+</li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="filters">
+<h2>Filters<a class="headerlink" href="#filters" title="Permalink to this headline">¶</a></h2>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="simulate">
+<h2>Simulate<a class="headerlink" href="#simulate" title="Permalink to this headline">¶</a></h2>
+<p>Once the Setting &amp; Parameters are defined, you can go to the Simulate tab and test to see if your your API Route is functioning properly. Among the tests
+you can perform :</p>
+<ul class="simple">
+<li>View Meta Data - will return all of the Metadata from the service call</li>
+<li>View Result - will return the results (data) from the service call</li>
+<li>View Request - will display the request that was sent off to the service. This is used mainly to view the Request that was sent to the service for debugging purposes.</li>
+</ul>
+</div>
+</div>
+
+
+    </div>
+      
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2015, Interactive Clouds.<br/>
+      Created using <a href="http://sphinx.pocoo.org/">Sphinx</a> 1.2.3.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>
