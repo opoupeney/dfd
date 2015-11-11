@@ -1,3 +1,5 @@
 .DS_Store
 .idea/
 build/
+
+theme/sphinx_bootstrap_theme/__init__.pyc
