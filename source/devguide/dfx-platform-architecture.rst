@@ -1,52 +1,52 @@
 Architecture of the DreamFace Platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The DreamFace Cloud Platform that you use to develop applications is a cloud-based, multitenant development platform built on :term:`MEAN Stack` technologies.
-
-
-.. image:: ../images/diagrams/dfd-dfgenerator.png
+The DreamFace Cloud Platform that you use to develop applications is a cloud-based, multitenant development platform built
+on :term:`MEAN Stack` technologies.
 
 The DreamFace Cloud Platform is composed of:
 
-* **DreamFace X-Platform** is a cloud-based platform used to develop and deploy desktop and mobile applications.
-* **DreamFace Compiler** is used to compile and manage different builds of your DreamFace application.
-* **DreamFace Generator** is a tool used during installation to generate development, compiler and deployment environments.
+* **DFX - DreamFace X-Platform** a cloud-based platform used to develop and deploy desktop and mobile applications.
+* **DFC - DreamFace Compiler** a compiler used to compile and manage different builds of your DreamFace application.
+* **DFG - DreamFace Generator** a tool used during installation to generate development, compiler and deployment environments.
 
+DreamFace (DFX) and the DreamFace Compiler (DFC) are node modules. Node apps that use DreamFace need to have dependencies
+on DFX and DFC.
 
-DreamFace (DFX) and the DreamFace Compiler (DFC) are node modules. Node apps that use DreamFace need to have dependencies on DFX and DFC.
+A typical architecture for the DreamFace Cloud Platform would have 3 node applications:
 
-To install the DreamFace Cloud Platform, 3 node apps must be created:
+* one to host development environment, typically **app_dev.js** which has a dependency on DFX
+* one to host the compiler environment, typically **app_comp.js** which has a dependency on DFC
+* one to host the deployment environment, typically **app_dep.js** has a dependency on DFX
 
-* (dev) one for development which depends on DFX
-* (comp) one for the compiler which depends on DFC
-* (dep) one for deployment which depends on DFX
+.. image:: ../images/diagrams/dfd-environments5.png
 
-The DreamFace Generator is a node module that can be installed globally and is used to create the environment that generates the
-3 node apps: dev, comp and dep.
-
-
-|
-
-DreamFace X-Platform (DFX)
---------------------------
-
-The app created for dev by default is called *app_dev.js*. This app will be used to create cloud DreamFace applications. It requires MongoDB
-to be installed and running.
-
-This is the app we call DreamFace X-Platform (DFX) or just DreamFace. It is the development platform for creating DreamFace applications.
-
-The DreamFace is a cloud-native, multitenant development platform. The main component is the DreamFace Studio which contains all of
-the components needed for building DreamFace applications. In the DreamFace Studio there are View Editors for drag and drop development
-of desktop and mobile applications using pre-defined graphical controls. DreamFace is open and extensible so you can also
-add your own custom graphical controls. The DreamFace View Editors have a preview capability for the iterative process of creating and
-testing Views. When adding applcation logic DreamFace provides a script editor where you write your script in javascript and Angular.
+The DreamFace Generator (DFG) is a node module that can be installed globally and is used during the installation to generate the
+environment used to create the 3 node apps: **app_dev.js**, **app_comp.js** and **app_dep.js** required by DreamFace.
 
 |
 
-DreamFace Compiler (DFC)
-------------------------
+Development Environment (app_dev.js)
+------------------------------------
 
-The DreamFace Compiler compiles DreamFace applications and manages the builds that are created during the compilation.
+The app created for development, typically *app_dev.js*v with a dependency on DFX will be used to create DreamFace applications. It
+requires MongoDB to be installed and running.
+
+This app is a cloud-native, multitenant development platform. It comes with a Studio which contains all of the components needed for
+building cloud-native, multitenant applications. The Studio is linked to a Reposity which is stored in MongoDB. The Studio includes
+View Editors providing drag and drop development for creating desktop and mobile applications using pre-defined graphical controls.
+Because is it open and extensible, you can easily add your own custom graphical controls. The View Editors have a preview capability
+for the iterative process of creating and testing Views. When adding applcation logic a script editor is provided where you write your
+script in javascript and Angular.
+
+|
+
+Compiler Environment (app_comp.js)
+----------------------------------
+
+The Compiler Environment compiles DreamFace applications and manages the builds that are created during the compilation. The application
+would typically called app_comp.js and has a dependency on DFC. The manages requests for compilation coming from the Development
+Environment.
 
 **How the compiler works**
 
@@ -87,16 +87,35 @@ set to run on another port or server by setting an option in the Application Con
 
 |
 
-DreamFace Deployment (DFX)
---------------------------
+Deployment Environment (app_dep.js)
+-----------------------------------
 
 Successful Builds can be deployed. From the list of successful builds you can click on the small cloud icon to deploy the build.
 
-The DreamFace Deployment Edition is a streamlined, lightweight runtime version of the DreamFace Developer Edition.
-It is built for speed of execution and efficiency.
+The Deployment Environment app would be called app_dep.js and has a dependency on DFX. It manages requests coming from the Compiler
+Environment to deploy the application.
 
-Deployed Builds are shown in a list at the top of the Deployment View. The list of Deployed Builds includes
+It is a streamlined, lightweight runtime version of the Development Environment app. It does not contain the Studio or Editors and
+MongoDB is replaced by a file system database (FSDB). When the compiled application is deployed, all of the definitions that need
+to be deployed are deployed in a lightweight file system database (FSDB). This means that **the deployed application does not need
+MongoDB in order to run.**
+
+It is built for speed of execution, efficiency and ease of management.
+
+In the Studio, Deployed Builds are shown in a list at the top of the Deployment View. The list of Deployed Builds includes
 Application Version, Build Number and Build Date.
+
+|
+
+How the 3 environments work together
+------------------------------------
+
+When the application is built, the Development app sends a request to the compiler to compile the application.
+
+When the compilation is complete and successful, the compiler returns a zip file containing the application build.
+
+The compiler sends the application build to the deployment environment in order to deploy the build in the Deployment Environment.
+
 
 |
 |

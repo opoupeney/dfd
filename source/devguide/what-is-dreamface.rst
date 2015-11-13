@@ -22,6 +22,10 @@ DreamFace was created to ease development of two difficult and time consuming ta
 DreamFace applications are a composition of user interface and data access components. In DreamFace these are called Views and API Routes.
 Applications are a composition of Views and API Routes dispayed on Pages with application flow driven by a Navigation Menu.
 
-DreamFace is built on the MEAN Stack technologies (MongoDB, ExpressJS, Angularjs and Nodejs) that have grown up by powering the internet.
+DreamFace is built on the MEAN Stack technologies (MongoDB, ExpressJS, Angularjs and Nodejs) that power today's most demanding internet
+applications.
+
+|
+|
 
 

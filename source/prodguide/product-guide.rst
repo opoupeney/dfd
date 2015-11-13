@@ -73,15 +73,19 @@ Below is a list of the main features that set DreamFace apart:
 DreamFace Licensing
 ^^^^^^^^^^^^^^^^^^^
 
-DreamFace X-Platform follows the **DREAMFACE™ OPEN LICENSE**. It is recommended that you read the license, it is very short and straight forward.
+DreamFace X-Platform follows the `**DREAMFACE™ OPEN LICENSE** <http://interactive-clouds.com/dreamface_license.html>`_  .
+It is recommended that you read the license, it is very short and straight forward.
 
-To summarize, DreamFace software and documentation are provided free of charge for development, testing, staging, production, hosting, distribution, demonstration, evaluation and technical support with a few minor restrictions :
+To summarize, DreamFace software and documentation are provided free of charge for development, testing, staging, production,
+hosting, distribution, demonstration, evaluation and technical support with a few minor restrictions :
 
 *Licensees may impose any terms and conditions on the use of any Integrated Product but may not*
 * *(i) restrict any third party's use of the Software for the Intended Functions or*
-* *(ii) use or authorize the use of the Software to assist or take part in the development, marketing, or sale of any product or service that may be offered or used for the Intended Functions in competition with the Software.*
+* *(ii) use or authorize the use of the Software to assist or take part in the development, marketing, or sale of any product
+or service that may be offered or used for the Intended Functions in competition with the Software.*
 
-If you have questions about the DREAMFACE OPEN LICENSE or DreamFace licensing in general, please contact DreamFace Sales at sales@interactive-clouds.com.
+If you have questions about the DREAMFACE OPEN LICENSE or DreamFace licensing in general, please contact DreamFace Sales at
+sales@interactive-clouds.com.
 
 .. _contact-label:
 
