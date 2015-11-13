@@ -15,7 +15,7 @@ Application Components
  **API Services**      API Services group together related API Routes which define how to access to the data by defining the API call to a service.
 ====================   ==========================================================================================================================================
 
-.. image:: ../images/diagrams/dfd-app-anatomy.png
+.. image:: ../images/diagrams/dfd-appanatomy2.png
 
 If we boil it down to just the basics we could say that a DreamFace application is a number of Views and Routes attached to an application.  Putting that in perspective,
 applications also need navigation or application flow. In DreamFace the Navigation Menu manages the application flow defining which Page will be displayed when a menu
