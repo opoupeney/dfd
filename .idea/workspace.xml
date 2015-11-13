@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96c1632-325d-4bdf-834e-9e67cbe7155a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/diagrams/dfd-environments.png" afterPath="$PROJECT_DIR$/source/images/diagrams/dfd-environments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/diagrams/dfd-app-anatomy.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/diagrams/dfd-appanatomy2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/diagrams/dfd-dfgenerator.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/app-anatomy.rst" afterPath="$PROJECT_DIR$/source/devguide/app-anatomy.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dfd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,11 +29,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app-anatomy.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app-anatomy.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/devguide/app-anatomy.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.39086294">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -45,18 +49,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfx-platform-architecture.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dfx-platform-architecture.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79949236">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfd-dfgenerator.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfd-dfgenerator.png">
+      <file leaf-file-name="dfd-environments.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfd-environments.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -112,9 +116,9 @@
         <option value="$PROJECT_DIR$/source/devguide/who-is-dfx-for.rst" />
         <option value="$PROJECT_DIR$/source/conf.py" />
         <option value="$PROJECT_DIR$/source/prodguide/product-guide.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/app-anatomy.rst" />
         <option value="$PROJECT_DIR$/source/devguide/what-is-dreamface.rst" />
         <option value="$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/app-anatomy.rst" />
       </list>
     </option>
   </component>
@@ -773,19 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfd-dfgenerator.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/app-anatomy.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -802,10 +793,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfd-environments.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79949236">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/app-anatomy.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39086294">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
           <folding />
         </state>
       </provider>
