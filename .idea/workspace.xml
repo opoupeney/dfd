@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96c1632-325d-4bdf-834e-9e67cbe7155a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/diagrams/dfd-environments.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/images/diagrams/dfd-environments5.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/diagrams/dfd-environments.png" afterPath="$PROJECT_DIR$/source/images/diagrams/dfd-environments.png" />
     </list>
     <ignored path="dfd.iws" />
     <ignored path=".idea/workspace.xml" />
