@@ -3,10 +3,10 @@
 Getting Started
 ===============
 
-Get started building your first DreamFace app!
+Get started now building your first DreamFace app!
 
-Follow the step-by-step tutorial below to Create your First App or find out more about DreamFace, by checking out one of the topics below.
-For a deeper dive viist the :ref:`developer-guide-label`, which goes hands on into best practices and the most common use cases for developing with DreamFace.
+Follow the step-by-step tutorial below to Create your First App or find out more about DreamFace by checking out one of the topics below.
+For a deeper dive visit the :ref:`developer-guide-label`, which goes hands on into best practices and the most common use cases for developing with DreamFace.
 
 
 .. toctree::

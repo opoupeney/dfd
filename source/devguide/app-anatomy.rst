@@ -1,7 +1,8 @@
 Anatomy of a DreamFace App
 ==========================
 
-DreamFace applications are cloud-native, multitenant applications built using four main components :
+DreamFace applications are cloud-native, multitenant applications consisting of Application Settings that define application behavior
+and four main components that are the fundamental building blocks of a DreamFace app :
 
 Application Components
 ^^^^^^^^^^^^^^^^^^^^^
@@ -12,7 +13,7 @@ Application Components
  **Navigation Menu**   Menu and Sub-Menus provide navigation through the application. Navigation starts with a Home Menu linked to the Home Page of the application. Menu Items are associated with Pages.
  **Pages**             Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns which makes up the user interface of the application.
  **Views**             Views (sometimes called Widgets) contain graphical controls like input fields, buttons and tables, arranged in a layout of rows and columns which makes up the User Interface of the View
- **API Services**      API Services group together related API Routes which define how to access to the data by defining the API call to a service.
+ **API Services**      API Services group together related **API Routes** which define how to access public, private or internal back-end API data sources (usually REST services).
 ====================   ==========================================================================================================================================
 
 .. image:: ../images/diagrams/dfd-app-anatomy.png

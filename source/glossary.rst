@@ -6,6 +6,7 @@ Glossary
 |
 
 .. glossary::
+    :sorted:
 
     Angular
         AngularJS (commonly referred to as "Angular") is an open-source front-end javascript framework for extending  and adding interactivity to HTML to meet the challenges of single page applications (SPA). It was created and is maintained by Google and a community of developers. The goal of Angular is to simplify the development and the testing of the user interface of SPA applications by providing a framework for client-side model–view–controller (MVC) architecture, as well as other components commonly used in rich Internet applications. Angular is used intensly in DreamFace to do the data binding between the view (user interface) and the model (application data).
@@ -55,6 +56,8 @@ Glossary
         be installed using npm. They can be combined with other
     MEAN Stack
         An emerging technology stack for building modern web and mobile applications in javascript from client to server. MEAN is an acronym that stands for MongoDB, ExpressJS, Angularjs and Node.js.
+    microservices
+        Microservices is an evolution of the composite approach to application development. It involves designing software applications as small packages of independently deployable services. Using these self-contained components as building blocks, companies can get innovative services to market more quickly, easily and affordably.
     MVC
         Model View Controller (MVC) architecture.
     Node

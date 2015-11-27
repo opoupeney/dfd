@@ -77,3 +77,4 @@ you can perform :
 * View Result - will return the results (data) from the service call
 * View Request - will display the request that was sent off to the service. This is used mainly to view the Request that was sent to the service for debugging purposes.
 
+|
