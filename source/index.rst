@@ -14,7 +14,8 @@ If you're a fan of Angular then you'll love the way DreamFace embraces its full 
 bells and whistles. Developers have complete control and best of all, your deployed application is a collection of open,
 standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when you need it and freedom when you don't.
 
-DreamFace is available on **npm**. Installation instructions will be available soon.
+DreamFace is available on **IBM BlueMix**. Just login to your BlueMix account and search for DreamFace or click on the
+link on `Interactive Clouds Download page <http://www.interactive-clouds.com/developercommunity.html#download>`_
 
 To help you get started, `Interactive Clouds <http://www.interactive-clouds.com>`_ provides **Free DreamFace Support** for 30 days. Ask any question and get your app
 up and running in no time. To request a free support, send an email to support@interactive-clouds.com.

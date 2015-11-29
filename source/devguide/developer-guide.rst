@@ -21,8 +21,8 @@ Table of Contents
    app-architecture
    dev-process
 
-
 |
 |
 
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
