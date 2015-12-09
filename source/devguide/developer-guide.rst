@@ -20,8 +20,9 @@ Table of Contents
    app-anatomy
    app-architecture
    dev-process
+   dfx-views
+   graphical-controls
 
-|
 |
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

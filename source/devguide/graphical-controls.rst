@@ -21,7 +21,7 @@ For a detailed explanation of each widget editor's pre-defined graphical control
 .. toctree::
    :maxdepth: 1
 
-   graphical-controls-web
-   graphical-controls-mobile
+   gcs-web
+   gcs-mobile
 
 

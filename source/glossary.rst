@@ -11,13 +11,13 @@ Glossary
     Angular
         AngularJS (commonly referred to as "Angular") is an open-source front-end javascript framework for extending  and adding interactivity to HTML to meet the challenges of single page applications (SPA). It was created and is maintained by Google and a community of developers. The goal of Angular is to simplify the development and the testing of the user interface of SPA applications by providing a framework for client-side model–view–controller (MVC) architecture, as well as other components commonly used in rich Internet applications. Angular is used intensly in DreamFace to do the data binding between the view (user interface) and the model (application data).
     Angular Material
-        Angular Material is an implementation of Material Design in Angular.js. This project provides a set of reusable, well-tested, and accessible UI components based on the Material Design system. DreamFace uses Angular Material for most of the graphical components provided in the DreamFace Studio.
+        Angular Material is an implementation of :term:`Material Design in Angular.js. This project provides a set of reusable, well-tested, and accessible UI components based on the Material Design system. DreamFace uses Angular Material for most of the graphical components provided in the DreamFace Studio.
     API
         Application Programming Interface (API) - Definition of call parameters to enable an application to access IT services for example to access back-ed data sources. APIs are consumed by the GUI but remain independent components offering a loosely coupled interaction of visual and data components.
     API Services
         API Services are is a DreamFace component for defining a logical group of API Routes.
     API Routes
-        API Routes are ..
+        API Routes are one of the main components of a DreamFace application. They define how to access backend data such as REST APIs, MongoDB Database, External Databases and SOAP services. With this definition DreamFace creates the request, accesses the metadata and data. You can then bind the API Route to the fields of a View to display the data in a DreamFace application.
     BlueMix
         BlueMix is the name of the IBM Cloud Platform with the goal helping software developers rapidly build, manage and run web and mobile applications by combining services to create applications.
     Bootstrap
@@ -30,13 +30,17 @@ Glossary
         This refers to applications that behave like native applications across different interfaces and devices. DreamFace uses Angular Material based on Material Design as the underlying technology to achieve cross-platform user experience.
     data binding
         Data binding is the concept of linking the user interface and applciaton data (model) through the the applcation controller in an MVC architecture.
-    DataQuery
+    API Route
         DataQuery refers to one of the main components of a DreamFace application, a reusable query component which defines how to access backend data such as REST APIs, MongoDB Database, External Databases and SOAP services.
         With this definition DreamFace creates the request for the query, accesses the metadata and data without coding. You can then bind the DataQuery to the fields of a DataWidgets to display the data in a DreamFace application.
     DFX
         DreamFace X-Platform (DFX) or just DreamFace, is a cloud application platform for developing desktop (web) and mobile applications.
     Docker
         A technology for automating deployment of applications inside software containers.
+    dp
+        dp is an abbreviation of Density-independent pixels (pronounced “dips”) which are flexible units that scale to uniform dimensions on any screen. When developing a DreamFace application, use dp to display elements uniformly on screens with different densities. dp is a unit that is common across devices and the web page displays.
+    DreamFace Studio
+        The DreamFace Studio is a development studio which allows developers to design the :term:`UI` of an web or mobile app and the consumption and integration fo back-end services. It is composed of a View Editor, a Script Editor and an Editor, a way to define API Services and Routes and to set application settings and parameters.
     feature set
         Feature set refers to the set of functionalities or capabilitities that are present in a software application. DreamFace has a full feature set for enterprise application development.
     framework
@@ -45,10 +49,14 @@ Glossary
         A Full Stack developer is a developer that can develop both the client and server sides of an application and who has familiarity at each layer of the technology stack from UX/UI to APIs to Data Modeling, Business Logic and Sever.
     grunt
         A command-line utility for running build scripts.
+    graphical controls
+        A graphical control element or control is an element of interaction in a graphcial user interface (GUI)
     Hexadecimal Colors
         Hexadecimal color values are supported in all major browsers. A hexadecimal color is specified in the following format: #RRGGBB, where the RR (red), GG (green) and BB (blue) hexadecimal integers specify the components of the color. All values must be between 00 and FF. For example, the #ff0000 value is rendered as red, since the red component is set to its highest value (ff) and the others are set to 00. #000000 if black and #ffffff is white.
     IaaS
         Infrastructure as a Service (IaaS) is a fundamental service model of cloud computing where servers, storage and networking are virtualized and provided on demand, in a pay-as-you-go model.
+    Material Design
+        Material Design is a specification for a unified system of visual, motion, and interaction design that adapts across different devices and different screen sizes.
     multitenancy
         Multitenancy refers to a software architecture where one instance of a software application (ie. DreamFace) runs on one server and serves multiple tenants or clients where each client is a tenant.
     module
@@ -72,6 +80,8 @@ Glossary
         REST stands for Representational State Transfer, which is an architectural style for networked internet applications, it is primarily used to build Web services that are lightweight, maintainable, and scalable. A service based on REST is called a RESTful service. REST is not dependent on any protocol, but almost every RESTful service uses HTTP as its underlying protocol.
     SaaS
         Software as a Service (SaaS) (also known as On-Demand Software) is a software distribution model in which software applications are hosted by a cloud service provider and made available to customers over internet on a subscription basis. Typically there is one application shared by all users or tenants via a web browser.
+    Script Editor
+        The Script Editor in DreamFace is an editor within the DreamFace Studio which allows developers to write scripts in native javascript or Angular.js.
     SOAP
         SOAP, originally an acronym for Simple Object Access Protocol, is a protocol specification for exchanging structured information in the implementation of web services in computer networks.
     SPA
@@ -86,10 +96,14 @@ Glossary
         The user interface of an application is everything that the user can see and interact with usually presented on a page with display text, input field, buttons, etc.
     view
         View is the name used for the UI component in DreamFace. It contains a layout and graphical controls which display text or create, modify or delete data.
+    View Editor
+        The View Editor in DreamFace is where developers can define the UI or visual layout of text and information of a view.
     VM
         A virtual machine is a software computer that, like a physical computer, runs an operating system and applications. The virtual machine is comprised of a set of specification and configuration files and on the physical resources of a host machine.
     VPN
         A virtual private network (VPN) extends a private network across a public network such as the Internet. It enables a computer to send and receive data across shared or public networks as if it is directly connected to the private network, while benefiting from the functionality, security and management policies of the private network.
+    whiteframe
+        whiteframe is an Material Design concept for adding depth and shadowing to graphical controls. It is set in :term:`dp`units. The higher the dp the more shadowing, so 10dp had a bigger shadow than 3dp.
     Yeoman
         Command-line utility written in Node.js which combines several functions into one place, such as generating a starter template, managing dependencies, running unit tests, providing a local development server, and optimizing production code for deployment.
 

@@ -89,11 +89,11 @@ The following prefixes are suggested naming conventions for DreamFace component 
 ==========================   ======   ===================
 Main Components	             Prefix   Example
 ==========================   ======   ===================
-View (desktop)	               v        *vMyWebView*
-View (mobile)                  m        *mMyMobileView*
-API Route	                   r        *rMyRoute*
+View (desktop)	             view     *viewMyView*
+View (mobile)                mview    *mviewMyMobileView*
+API Route	                 r        *rMyRoute*
 Shared DataView (web)	     ws       *wsMyWebView*
-Shared DataView (mobile)   ms       *msMyMobileView*
+Shared DataView (mobile)     ms       *msMyMobileView*
 Shared DataQuery 	         qs       *qsMyDataQuery*
 Screen                       none     No prefix
 Application                  none     No prefix
