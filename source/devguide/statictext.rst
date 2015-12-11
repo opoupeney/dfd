@@ -9,7 +9,7 @@ areas of the views. They also can be used to display icons that add context to t
 
 |
 
-.. image:: ../images/gcs/dfx-statictext.png
+.. image:: ../images/gcs/dfx-statictext2.png
 
 |
 

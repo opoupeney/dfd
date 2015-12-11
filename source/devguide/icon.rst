@@ -9,7 +9,7 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 |
 
-.. image:: ../images/gcs/dfx-icon.png
+.. image:: ../images/gcs/dfx-icon2.png
 
 |
 

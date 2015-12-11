@@ -34,40 +34,11 @@ Below is a description of each simple pre-defined graphcical controls for buildi
    chips
    radio
    rating
-   datatable
-
-
-
-
-Complex Graphical Controls
-^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Complex Graphical Controls are in general more complex than the simple graphical controls above and usually have several columns or parts that require
-data and require more properties to be set and managed than with simple graphical controls.
-
-Below is a description of each complex pre-defined graphcical control available in the Visual Widget Editor :
-
-
-**Chart**
-Charts are bla bla bla
-
-.. toctree::
-   :maxdepth: 1
-
    barchart
    piechart
    linechart
+   datatable
 
-
-**Layout**
-Layout is a bla bla bla
-
-.. toctree::
-   :maxdepth: 1
-
-   panel
-
-Custom
 
 |
 |

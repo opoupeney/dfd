@@ -3,8 +3,11 @@ Datatable
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-The datatable component
+The datatable component the uses Angular Material design look and feel. It has selectio and multi-selection on the rows.
+Table Columns can be defined as numeric, text or other graphical controls like HTML
 
+content is the value which is numeric or text
+representation style is a button a  chart an HTML, ...
 |
 
 .. image:: ../images/gcs/dfx-datatable.png

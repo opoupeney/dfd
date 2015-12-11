@@ -11,7 +11,7 @@ the action. For instance, a button might have SAVE, CANCEL, SUBMIT, OK, UPDATE o
 
 |
 
-.. image:: ../images/gcs/dfx-button.png
+.. image:: ../images/gcs/dfx-button2.png
 
 |
 

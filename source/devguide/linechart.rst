@@ -4,7 +4,14 @@ Linechart
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
+Static Text controls display text that does not require user input. They often serve as labels for other controls or to indentify
+areas of the views. They also can be used to display icons that add context to the user interface.
+
 |
+
+.. image:: ../images/gcs/dfx-linechart.png
+
+||
 Description
 ^^^^^^^^^^^
 
