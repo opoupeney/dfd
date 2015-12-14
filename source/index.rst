@@ -8,17 +8,20 @@ We look forward to working with you to build the best enterprise desktop and mob
 Our goal is to provide a full-featured development platform that leverages best of breed technology and empowers developers to
 create well-architected, beautiful and secure applications that are open and extensible, and scale to the limits of the cloud.
 DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an
-unparelled, out of the box fearture set.
+unparelled, out of the box fearture set including Visual Development, codeless API integration, reusable and customizable components,
+team development and much more.
 
 If you're a fan of Angular then you'll love the way DreamFace embraces its full functionality and extends it with built-in enterprise
 bells and whistles. Developers have complete control and best of all, your deployed application is a collection of open,
 standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when you need it and freedom when you don't.
 
 DreamFace is available on **IBM BlueMix**. Just login to your BlueMix account and search for DreamFace or click on the
-link on `Interactive Clouds Download page <http://www.interactive-clouds.com/developercommunity.html#download>`_
+link on `Interactive Clouds Download page <http://www.interactive-clouds.com/developercommunity.html#download>`_. Then click on
+Start Using DreamFace as a BlueMix Service.
 
-To help you get started, `Interactive Clouds <http://www.interactive-clouds.com>`_ provides **Free DreamFace Support** for 30 days. Ask any question and get your app
-up and running in no time. To request a free support, send an email to support@interactive-clouds.com.
+To help you get started, `Interactive Clouds <http://www.interactive-clouds.com>`_ offers **Free DreamFace Support** for
+30 days. Ask any question and get your app up and running in no time. To request a free support, send an email to
+support@interactive-clouds.com.
 
 |
 
