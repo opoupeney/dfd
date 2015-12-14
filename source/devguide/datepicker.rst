@@ -9,7 +9,8 @@ a date from a pop-up calendar.
 
 |
 
-.. image:: ../images/gcs/dfx-datepicker.png
+.. image:: ../images/gcs/dfx-datepicker-designtime.png
+.. image:: ../images/gcs/dfx-datepicker-runtime.png
 
 |
 
@@ -23,7 +24,7 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | dtField#          | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *dtField#* where #         |
-|                        |                   | corresponds to the order in which it was created. If it's the second accordion created it  |
+|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
 |                        |                   | will have a default Name of *dtField2*. Name is not required and can be removed if not     |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -42,10 +43,15 @@ Properties
 |                        |                   | from a dropdown list by clicking on the arrow on the right side of the field.              |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
+| Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
+|                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
 |                        |                   |                                                                                            |
+|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
+| Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active or it be a angular expression that|
+|                        | angular expression| evaulates to *true* or *false*, for example,                                               |
+|                        |                   |                                                                                            |
+|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
@@ -64,9 +70,9 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Style                  | CSS syles         | By clicking on the **...** on the right h                                                  |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the HTMLcomponent.                                            |
+| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the HTML control if an Angular      |
+| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 

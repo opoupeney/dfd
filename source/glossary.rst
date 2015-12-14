@@ -10,6 +10,8 @@ Glossary
 
     Angular
         AngularJS (commonly referred to as "Angular") is an open-source front-end javascript framework for extending  and adding interactivity to HTML to meet the challenges of single page applications (SPA). It was created and is maintained by Google and a community of developers. The goal of Angular is to simplify the development and the testing of the user interface of SPA applications by providing a framework for client-side model–view–controller (MVC) architecture, as well as other components commonly used in rich Internet applications. Angular is used intensly in DreamFace to do the data binding between the view (user interface) and the model (application data).
+    Angular Expression
+        An expression is any valid set of literals, variables, operators, and expressions that evaluates to a single value. The value may be a number, a string, or a logical value.
     Angular Material
         Angular Material is an implementation of :term:`Material Design in Angular.js. This project provides a set of reusable, well-tested, and accessible UI components based on the Material Design system. DreamFace uses Angular Material for most of the graphical components provided in the DreamFace Studio.
     API
@@ -91,7 +93,7 @@ Glossary
     two-way data binding
         Two-way data binding refers to the automatic synchronization of data between the model and view components in Angularjs applications.
     UI
-        UI is an abbreviation for User Interface.
+        UI is an abbreviation for :term:`User Interface`.
     User Interface
         The user interface of an application is everything that the user can see and interact with usually presented on a page with display text, input field, buttons, etc.
     view

@@ -9,7 +9,7 @@ pre-defined graphical controls does not have the functionality that you need, yo
 
 |
 
-.. image:: ../images/gcs/dfx-html-control.png
+.. image:: ../images/gcs/dfx-html-designtime.png
 
 |
 
@@ -21,10 +21,10 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Name                   | fldhtml#          | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                   | and set component properties. DreamFace gives a default name of *fldhtml* where #          |
-|                        |                   | corresponds to the order in which it was created. If it's the second accordion created it  |
-|                        |                   | will have a default Name of *fldhtml2*. Name is not required and can be removed if not     |
+| Name                   | htHtml#           | Name is a reference to the component's DOM element. It can be used to dynamically access   |
+|                        |                   | and set component properties. DreamFace gives a default name of *htHtml* where #           |
+|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
+|                        |                   | will have a default Name of *htHtml12*. Name is not required and can be removed if not     |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Binding                | Any text          | The HTML control can be bound to data coming from a service, for example a service that    |
@@ -51,9 +51,9 @@ Properties
 | Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
 |                        |                   | *color:red; background-color:lightgray*.                                                   |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the HTMLcomponent.                                            |
+| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the HTML control if an Angular      |
+| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 

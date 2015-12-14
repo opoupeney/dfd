@@ -7,8 +7,13 @@ Switch
 The switch graphical component allows the users to set a swich between two values, for example to *on* or *off*, *left* or *right*.
 
 |
+Switch Off
 
-.. image:: ../images/gcs/dfx-switch.png
+.. image:: ../images/gcs/dfx-switch-designtime.png
+
+Switch On
+
+.. image:: ../images/gcs/dfx-switch-designtime2.png
 
 |
 
@@ -22,7 +27,7 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | swtSwitchd#       | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *swtSwitchd#* where #      |
-|                        |                   | corresponds to the order in which it was created. If it's the second switch created it     |
+|                        |                   | corresponds to the order in which it was created. If it's the second Switch created it     |
 |                        |                   | will have a default Name of *swtSwitch*. Name is not required and can be removed if not    |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -34,7 +39,7 @@ Properties
 |                        |                   | is being entered.                                                                          |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| display value          | *true* or *false* | *true* to display the field or *false* to hide it. By clicking on the arrow to the right   |
+| Display value          | *true* or *false* | *true* to display the field or *false* to hide it. By clicking on the arrow to the right   |
 |                        |                   | side of the field a drop down list will propose the values  *true* or *false*              |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -59,9 +64,9 @@ Properties
 +========================+===================+============================================================================================+
 | Style                  | CSS syles         | By clicking on the **...** on the right h                                                  |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the HTMLcomponent.                                            |
+| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the HTML control if an Angular      |
+| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 

@@ -10,7 +10,7 @@ internal sources. Internal sources can be imported using resources to add the im
 
 |
 
-.. image:: ../images/gcs/dfx-image.png
+.. image:: ../images/gcs/dfx-image-designtime.png
 
 |
 
@@ -22,16 +22,19 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Name                   | imgImage1         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
+| Name                   | imgImage#         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *imgImage1* where #        |
-|                        |                   | corresponds to the order in which it was created.                                          |
+|                        |                   | corresponds to the order in which it was created. The second button created will have a    |
+|                        |                   | default Name of *imgImage2*. Name is not required and can be removed if not needed.        |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Source                 | Any text          | The source of the image.                                                                   |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
+| Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
+|                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
 |                        |                   |                                                                                            |
+|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
@@ -42,9 +45,9 @@ Properties
 | Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
 |                        |                   | *color:red; background-color:lightgray*.                                                   |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the HTMLcomponent.                                            |
+| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the HTML control if an Angular      |
+| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Width                  | number of pixels  | The width of the image in pixels, for example 150px, which is the default value.           |
