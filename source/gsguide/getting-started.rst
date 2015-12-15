@@ -34,6 +34,18 @@ Key Concepts
    ../devguide/keyconcepts
 
 
+Installation
+^^^^^^^^^^^^
+
+DreamFace is currently available on IBM Bluemix. If you haven't installed it yet, you'll need to before starting the next section
+which shows how to create your First App.
+
+.. toctree::
+   :maxdepth: 1
+
+   ../gsguide/installation
+
+
 Building Your First App
 ^^^^^^^^^^^^^^^^^^^^^^^
 

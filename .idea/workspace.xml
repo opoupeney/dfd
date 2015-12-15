@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96c1632-325d-4bdf-834e-9e67cbe7155a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/developer-guide.rst" afterPath="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/gcs-web.rst" afterPath="$PROJECT_DIR$/source/devguide/gcs-web.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/graphical-controls.rst" afterPath="$PROJECT_DIR$/source/devguide/graphical-controls.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.rst" afterPath="$PROJECT_DIR$/source/index.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/gsguide/installation.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/button.rst" afterPath="$PROJECT_DIR$/source/devguide/button.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/datepicker.rst" afterPath="$PROJECT_DIR$/source/devguide/datepicker.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/getting-started.rst" afterPath="$PROJECT_DIR$/source/gsguide/getting-started.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/statictext.rst" afterPath="$PROJECT_DIR$/source/devguide/statictext.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dfd.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,6 +30,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="statictext.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/statictext.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datepicker.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/datepicker.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="gcs-web.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/devguide/gcs-web.rst">
           <provider selected="true" editor-type-id="text-editor">
@@ -48,61 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphical-controls.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="button.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/button.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="graphical-controls.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/devguide/graphical-controls.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2814259">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="127" selection-start-line="10" selection-start-column="127" selection-end-line="10" selection-end-column="127" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkbox.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/checkbox.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="136" selection-start-line="38" selection-start-column="136" selection-end-line="38" selection-end-column="136" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="slider.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/slider.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.32">
-              <caret line="44" column="139" selection-start-line="44" selection-start-column="139" selection-end-line="44" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="knob.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/knob.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="54" column="133" selection-start-line="54" selection-start-column="133" selection-end-line="54" selection-end-column="133" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chips.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/chips.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="139" selection-start-line="51" selection-start-column="139" selection-end-line="51" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="radio.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/radio.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="139" selection-start-line="34" selection-start-column="139" selection-end-line="34" selection-end-column="139" />
               <folding />
             </state>
           </provider>
@@ -122,7 +104,27 @@
         <entry file="file://$PROJECT_DIR$/source/index.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="120" selection-start-line="21" selection-start-column="120" selection-end-line="21" selection-end-column="120" />
+              <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getting-started.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/gsguide/getting-started.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7467167">
+              <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="installation.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/gsguide/installation.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               <folding />
             </state>
           </provider>
@@ -153,7 +155,6 @@
         <option value="$PROJECT_DIR$/source/devguide/app-anatomy.rst" />
         <option value="$PROJECT_DIR$/source/devguide/api-services.rst" />
         <option value="$PROJECT_DIR$/source/gsguide/first-app-tutorial.rst" />
-        <option value="$PROJECT_DIR$/source/gsguide/getting-started.rst" />
         <option value="$PROJECT_DIR$/source/devguide/prerequisites.rst" />
         <option value="$PROJECT_DIR$/source/devguide/who-is-dfx-for.rst" />
         <option value="$PROJECT_DIR$/source/devguide/multitenancy.rst" />
@@ -166,7 +167,6 @@
         <option value="$PROJECT_DIR$/source/devguide/layout.rst" />
         <option value="$PROJECT_DIR$/source/glossary.rst" />
         <option value="$PROJECT_DIR$/source/devguide/expressions.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/statictext.rst" />
         <option value="$PROJECT_DIR$/source/devguide/switch.rst" />
         <option value="$PROJECT_DIR$/source/devguide/html.rst" />
         <option value="$PROJECT_DIR$/source/devguide/datatable.rst" />
@@ -174,11 +174,9 @@
         <option value="$PROJECT_DIR$/source/devguide/linechart.rst" />
         <option value="$PROJECT_DIR$/source/devguide/piechart.rst" />
         <option value="$PROJECT_DIR$/source/devguide/barchart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/button.rst" />
         <option value="$PROJECT_DIR$/source/devguide/icon.rst" />
         <option value="$PROJECT_DIR$/source/devguide/image.rst" />
         <option value="$PROJECT_DIR$/source/devguide/input.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/datepicker.rst" />
         <option value="$PROJECT_DIR$/source/devguide/select.rst" />
         <option value="$PROJECT_DIR$/source/devguide/checkbox.rst" />
         <option value="$PROJECT_DIR$/source/devguide/slider.rst" />
@@ -190,6 +188,11 @@
         <option value="$PROJECT_DIR$/source/devguide/gcs-web.rst" />
         <option value="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
         <option value="$PROJECT_DIR$/source/devguide/graphical-controls.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/statictext.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/button.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/datepicker.rst" />
+        <option value="$PROJECT_DIR$/source/gsguide/installation.rst" />
+        <option value="$PROJECT_DIR$/source/gsguide/getting-started.rst" />
       </list>
     </option>
   </component>
@@ -310,11 +313,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcs" />
+              <option name="myItemId" value="gsguide" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,8 +396,11 @@
       <recent name="$PROJECT_DIR$/source/gsguide" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.glossary.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dfd/build/index.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="glossary.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dfd/build/glossary.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -439,12 +441,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.glossary.html" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.glossary.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -547,11 +551,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfd-environments.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/what-is-dreamface.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -605,13 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gsguide/getting-started.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -732,14 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/statictext.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/panel.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -788,14 +772,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/button.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="139" selection-start-line="61" selection-start-column="139" selection-end-line="61" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/icon.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -816,14 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.32">
           <caret line="46" column="139" selection-start-line="46" selection-start-column="139" selection-end-line="46" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/datepicker.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="139" selection-start-line="53" selection-start-column="139" selection-end-line="53" selection-end-column="139" />
           <folding />
         </state>
       </provider>
@@ -884,14 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="120" selection-start-line="21" selection-start-column="120" selection-end-line="21" selection-end-column="120" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.6">
@@ -910,8 +870,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/graphical-controls.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2814259">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="127" selection-start-line="10" selection-start-column="127" selection-end-line="10" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/statictext.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="47" selection-start-line="6" selection-start-column="47" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/button.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/datepicker.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/gsguide/installation.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="1" selection-start-line="37" selection-start-column="1" selection-end-line="37" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/gsguide/getting-started.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7467167">
+          <caret line="45" column="26" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
           <folding />
         </state>
       </provider>

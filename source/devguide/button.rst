@@ -5,7 +5,7 @@ Button
    :class: pull-right
 
 A button communicates an action to be performed when the user clicks on it. It consists of a label, an icon or both indicating
-the action to be performed.
+the action to be performed
 
 |
 
