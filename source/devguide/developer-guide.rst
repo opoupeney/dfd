@@ -11,7 +11,7 @@ Table of Contents
 ^^^^^^^^^^^^^^^^
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    what-is-dreamface
    who-is-dreamface-for
@@ -22,7 +22,7 @@ Table of Contents
    dev-process
    dfx-views
    graphical-controls
-      gc-web
+   :ref:`webgcs-label`
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

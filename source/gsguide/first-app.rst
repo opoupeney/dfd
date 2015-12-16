@@ -12,53 +12,29 @@ Creating My First App
 Creating Your First App
 -----------------------
 
-Follow the steps below to create your first app:
+Follow the steps below to create your first app on Bluemix:
 
-1. Setting up your cloud tenant
-2. Exploring the Studio
-3. Creating API Services
-4. Creating Views
-5. Creating Pages and Adding Views to a Page
-6. Build and Compile the App
-7. Deploy the App
+1. Exploring the Studio
+2. Creating API Services
+3. Creating Views
+4. Creating Pages and Adding Views to a Page
+5. Build and Compile the App
+6. Deploy the App
 
 |
 
-**1. Setting up your Cloud a tenant**
+**1. Exploring the Studio**
 
-Multitenancy refers to a principle in software architecture where a single instance of the software (i.e DreamFace) runs on a server,
-serving multiple client-organizations (tenants). Multitenancy contrasts with multi-instance architectures where separate software
-instances (or hardware systems) operate on behalf of different client organizations. To simplify, many different clients-organizations
-can share the same mulitenant application and only one client-organization uses the software instance application.
+**2. Creating API Services**
 
-You can use the multitenancy in DreamFace to suit your infrastructure needs. For example, a tenant can represent:
+**3. Creating Views**
 
-An environment (ex: dev, test, prod)
-A business unit (ex: marketing, sales, finance)
-An organization (ex: acme, durant)
-An application domain (ex: demo, crm, portal)
+**4. Creating Pages and Adding Views to a Page**
 
-For your first application we will use multitenancy to be an environment, for instance *dev*.
+**5. Build and Compile the App**
 
-When you log in to the DreamFace Console for the first time as Admin you have no tenants.
+**6. Deploying the App**
 
-Create a tenant called dev and give it a password.
-
-Each tenant has access to a dedicated DreamFace Studio. All applications created in this tenant and all of the components that make
-up the applications will be stored in a repository linked to this tenant and will be completely isolated.
-
-
-**2. Exploring the Studio**
-
-**3. Creating API Services**
-
-**4. Creating Views**
-
-**5. Creating Pages and Adding Views to a Page**
-
-**6. Build and Compile the App**
-
-**7. Deploying the App**
 
 
 Getting Starting DreamFace Tutorial Series

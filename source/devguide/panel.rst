@@ -4,12 +4,14 @@ Panel
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
+A panel is one of the most important graphical controls because it defines the layout of the View or a portion of the View.
+It consists of a title and an area where the layout will be organized. The layout is based on Angular Material and Material
+Design layout definition of rows and columns. Each row can be independently defined with horizontal or vertical layouts and
+CSS styles and classes.
+
 |
 
-Description
-^^^^^^^^^^^
-
-The image graphical control is used to display images. An image is specified using a url. Images can be from external or internal sources. Internal sources can be imported using resources to add the image as a resource.
+.. image:: ../images/gcs/dfx-panel-designtime.png
 
 |
 
@@ -19,38 +21,41 @@ Properties
 **Main Properties**
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Main Properties        | Possible Values   | Description                                                                                |
+| **Main Properties**    | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Name                   | imgImage#         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                   | and set component properties. DreamFace gives a default name of *imgImage#* where #        |
-|                        |                   | corresponds to the order in which it was created. If it's the second accordion created it  |
-|                        |                   | will have a default Name of *imgImage2*. Name is not required and can be removed if        |
-|                        |                   | not needed.                                                                                |
+|Title                   | Any text          | Title text or expression defines title of the panel.                                       |
+|                        | Angular Expression|                                                                                            |
+|                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| External URL           | Any text          | Specifies the URL of an image on another website. The URL can be an expression.            |
+| Title Visible          | Boolean value     | Title visible can either be set directly using *true* or *false* values or can be the      |
+|                        | Angular Expression| result of an angular expression that returns a boolean value of the true or false, $true*  |
+|                        |                   | meaning the title will be visible, *false* meaning title will not be displayed.            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Local URL              | associated url    | Specifies the URL of an image (imported in resources).  The url can be an expression.      |
+| Whiteframe             | number in dp units| Defines the border of the panel in :term:`dp` units, the higher the value of the dp the    |
+|                        |                   | more shadow depth the panel will have which helps the user with the perception of which    |
+|                        |                   | object is above the other.                                                                 |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip                | Any text          | Tip to help the user. It will be displayed when mouse passes over this control. Tooltip    |
+| Display                | Any text          | Tip to help the user. It will be displayed when mouse passes over this control. Tooltip    |
 |                        |                   | text can also be an expression.                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip Position       | *top*             | Position where tooltip will be displayed when mouse passes over.                           |
-|                        | *left*            |                                                                                            |
-|                        | *bottom*          |                                                                                            |
-|                        | *right*           |                                                                                            |
+
+|
+
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| **Repeatable**         | Possible Values   | Description                                                                                |
++========================+===================+============================================================================================+
+|Repeat for all $item in | Any text          | Title text or expression defines title of the panel.                                       |
+|                        | Angular Expression|                                                                                            |
+|                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-
+|
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Size                   | size in dp        | Choose the size of the icon from the dropdown list by clicking on the drop arrow on the    |
-|                        |                   | right of the size field.                                                                   |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Color                  | CSS color         | #hexcode for color| CSS colors are defined using a hexadecimal (HEX) notation              |
-|                        | Predefined Cross- | (see :term:`Hexadecimal Colors`) or enter one of the Pre-defined cross browser colors.     |
-|                        | Browser Colors    | `140 cross browser colors <http://www.w3schools.com/cssref/css_colornames.asp>`_           |
+| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
+|                        |                   | *color:red; background-color:lightgray*.                                                   |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -61,12 +66,27 @@ Properties
 |
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Events**             | Possible Values   | Description                                                                                |
+| **Layout Properties**  | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| On Click               | function name     | Enter the name of the function that will be executed when the user clicks on the HTML      |
-|                        |                   | control. The function should be defined in the controller in the script tab of the View    |
-|                        |                   | Editor. Clicking on the ... opens a window to to select a function defined in the          |
-|                        |                   | Controller.                                                                                |
+| row #                  | number            | Number of a row in the panel                                                               |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| col #                  | number            | Number of a column in the panel                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| width                  | number in pixels  | The width of the column in pixels. Default value is 100px.                                 |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| layout direction       | number            |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Hor. alignment         | number            | This value is chosen from a drop down list. Default value is *start*.                      |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Ver. alignment         | number            | This value is chosen from a drop down list. Default value is *start*.                      |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Style                  | CSS styles        | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
+|                        |                   | *color:red; background-color:lightgray*.                                                   |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
+|                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 
