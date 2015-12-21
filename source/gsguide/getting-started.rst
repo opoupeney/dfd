@@ -10,7 +10,7 @@ For a deeper dive visit the :ref:`developer-guide-label`, a hands on reference w
 cases for developing with DreamFace.
 
 The Basics
-^^^^^^^^^
+^^^^^^^^^^
 
 .. toctree::
     :maxdepth: 1

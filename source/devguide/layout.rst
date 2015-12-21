@@ -113,7 +113,7 @@ will affect the text that is in the container like the label but not the text th
 |                        | *right*           |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Custom CSS             | CSS Class         | Custom CSS provides a way to set CSS properties for which DreamFace does not expressly     |
-|                        | Bootstrap class   | provide a way to set. *example - border-style: solid; border-width: 5px puts a solid border|
+|                        | Bootstrap class   | provide a way to set. Example - border-style: solid; border-width: 5px puts a solid border |
 |                        |                   | around the container.                                                                      |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
@@ -176,9 +176,10 @@ The Component CSS is the CSS that affects the style of the component itself.
 |                        | *right*           |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Custom CSS             | CSS Class         | Custom CSS provides a way to set CSS properties for which DreamFace does not expressly     |
-|                        | Bootstrap class   | provide a way to set. *example - border-style: solid; border-width: 5px puts a solid border|
+|                        | Bootstrap class   | provide a way to set. Example - border-style: solid; border-width: 5px puts a solid border |
 |                        |                   | around the container.                                                                      |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
 **Events**

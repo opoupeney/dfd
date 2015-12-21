@@ -1,7 +1,7 @@
-.. _expressions-label:
+.. _angular-expression-label:
 
-Angular Expressions
-===================
+Angular Expression
+==================
 
 Many DreamFace graphical controls use Angular Expressions to define labels or content. Whenever you see a value in
 single quotes, for example 'Button' or when a property requires a *true* or *false* you can use an :term:`Angular expression`.
