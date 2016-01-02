@@ -4,8 +4,9 @@ Rating
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-Rating controls allow users to give a rate or give an appreciation to something by selecting a number of icons from fixed
-number of icons, often presented as stars.
+Rating controls allow users to rate or give an appreciation to something by selecting a number of icons from fixed number
+of icons, often presented as stars.
+
 |
 
 .. image:: ../images/gcs/dfx-rating-designtime.png
@@ -22,9 +23,9 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | rtRating#         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *rtRating#* where #        |
-|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
+|                        |                   | corresponds to the order in which it was created. If it's the second rating control created|
 |                        |                   | will have a default Name of *rtRating2*. Name is not required and can be removed if not    |
-|                        |                   | needed.                                                                                    |
+|                        |                   | it needed.                                                                                 |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Binding                | Any text          | The HTML control can be bound to data coming from a service, for example a service that    |
 |                        |                   | goes to a content management system. Text that will be displayed in the field.             |

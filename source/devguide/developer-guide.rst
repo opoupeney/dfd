@@ -19,6 +19,7 @@ Table of Contents
    dfx-platform-architecture
    app-anatomy
    app-architecture
+   multitenancy
    dev-process
    dfx-views
    graphical-controls

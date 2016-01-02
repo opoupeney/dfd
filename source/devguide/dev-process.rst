@@ -1,6 +1,28 @@
 Development Process
 -------------------
 
+
+
+
+
+
+
+Incremental Development with DreamFace
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+DreamFace supports an incremental development process.
+
+**Creating an Application**
+**Creating Application Components**
+    **Create View Components**
+    **Create API Routes**
+    **Create Pages**
+    **Add Views to a Page**
+    **Add Page to Navigation Menu**
+**Build and Deploy an Application**
+**Dockerize an Application
+
+
 **Bottom-up development**
 
 Although DreamFace allows both top-down and bottom-up development most developers prefer the bottom-up approach. In DreamFace, bottom-up

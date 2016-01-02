@@ -4,7 +4,7 @@ Icon
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-An icon is a graphical image that conveys a message, for example an image of a telephone might indicate that the view is
+An icon is a graphical image that conveys a message, for example an image of a telephone might indicate that the View is
 about telephone numbers, a house might mean to fill in your home address in a form.
 
 |
@@ -23,9 +23,9 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | icoIcon#          | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *icoIcon#* where #         |
-|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
-|                        |                   | will have a default Name of *icoIcon2*. Name is not required and can be removed if not     |
-|                        |                   | needed.                                                                                    |
+|                        |                   | corresponds to the order in which the control was created. If it's the second icon control |
+|                        |                   | created it will have a default Name of *icoIcon2*. Name is not required and can be removed |
+|                        |                   | if not needed.                                                                             |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | label                  | Any text          | This is the text that will appear under the icon, for example the fa-home icon could have  |
 |                        |                   | the label Home as DreamFace uses as the default for this component.                        |

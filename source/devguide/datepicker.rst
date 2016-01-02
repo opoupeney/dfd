@@ -4,12 +4,8 @@ Datepicker
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-The datepicker is an input field tied to an interactive popup calendar  component that assists the user in entering a valid date for a date field. The user can select
-a date from a pop-up calendar.
-
-The datepicker is tied to a standard form input field. Focus on the input (click, or use the tab key) to open an interactive calendar in a small overlay. Choose a date, click elsewhere on the page (blur the input), or hit the Esc key to close. If a date is chosen, feedback is shown as the input's value.
-
-
+The datepicker is a standard input field tied to an interactive overlay calendar component that assists the user in entering a valid
+date for a date field. The user can select and validate a date from a overlay calendar and that value will be copied to the field.
 
 |
 
@@ -28,9 +24,9 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | dtField#          | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *dtField#* where #         |
-|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
-|                        |                   | will have a default Name of *dtField2*. Name is not required and can be removed if not     |
-|                        |                   | needed.                                                                                    |
+|                        |                   | corresponds to the order in which the control was created. If it's the second datepicker   |
+|                        |                   | created it will have a default Name of *dtField2*. Name is not required and can be removed |
+|                        |                   | if not needed.                                                                             |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Binding                | Any text          | The HTML control can be bound to data coming from a service, for example a service that    |
 |                        |                   | goes to a content management system. Text that will be displayed in the field.             |

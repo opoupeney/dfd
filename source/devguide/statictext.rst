@@ -5,7 +5,7 @@ Statictext
    :class: pull-right
 
 Statictext controls display text that does not require user input. They often serve as labels for other controls or to indentify
-areas of the View. They also can be used to display icons that add context to the user interface.
+areas of the View. They can also be used to display icons that add context to the user interface.
 
 |
 
@@ -19,11 +19,11 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Name                   | txtText1          | Name is a reference to the component's DOM element. It can be used to dynamically access   |
+| Name                   | txtText1#         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *txtText#* where #         |
-|                        |                   | corresponds to the order in which it was created. The second Statictext created will have  |
-|                        |                   | a default Name of *txtText2*. Name is not required and can be removed if not needed.       |
-|                        |                   |                                                                                            |
+|                        |                   | corresponds to the order in which the control was created. The second statictext created   |
+|                        |                   | will have a default Name of *txtText12*. Name is not required and can be removed if not    |
+|                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Text                   | Any text          | Text that will be displayed in the field. It should be in quotes, otherwise it will be     |
 |                        |  *expression*     | treated as a variable.                                                                     |

@@ -1,12 +1,11 @@
-
 .. _panels-label:
 
-Understanding Panels and Layouts
+Understanding Layouts and Panels
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-DreamFace uses :term:`Àngular Material for most of the pre-defined graphical control elements provided in the View Editor
-and for the underlying design of the DreamFace Studio. Angular Material is a UI component library based on Google
-:term:`Material Design`. It is similar to :term:`Boostrap` since it provides UI components, a grid system and angular
+DreamFace uses :term:`Angular Material` for most of the pre-defined graphical control provided in the View Editor and for
+the underlying design of the DreamFace Studio. Angular Material is a UI component library based on Google
+:term:`Material Design`. It is similar to :term:`Bootstrap` since it provides UI components, a grid system and angular
 directives for their use. The Angualr Material layout is based on is based on the Flexible Box Layout specification, which
 is a W3C standard Flexible Box. As the name implies this layout system gives more flexibility to the layout. DreamFace panels
 use the Angular Material layout system to organize graphical controls within a View.

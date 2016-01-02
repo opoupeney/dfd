@@ -1,14 +1,14 @@
 Architecture of the DreamFace Platform
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The DreamFace Cloud Platform that you use to develop applications is a cloud-based, multitenant development platform built
-on :term:`MEAN Stack` technologies.
+DreamFace is an open-source, cloud-based, multitenant platform used to develop and deploy web and mobile applications. The
+underlying technology of DreamFace is based on :term:`MEAN Stack` (MongoDB, Expressjs, Angularjs and Nodejs) technologies.
 
-The DreamFace Cloud Platform is composed of:
+The DreamFace Cloud Platform is composed of three Node.js modules:
 
-* **DFX - DreamFace X-Platform** a cloud-based platform used to develop and deploy desktop and mobile applications.
+* **DFX - DreamFace X-Platform** a cloud-based platform used to **develop** and **deploy** web and mobile applications.
 * **DFC - DreamFace Compiler** a compiler used to compile and manage different builds of your DreamFace application.
-* **DFG - DreamFace Generator** a tool used during installation to generate development, compiler and deployment environments.
+* **DFG - DreamFace Generator** a tool used once during installation to generate development, compiler and deployment environments.
 
 DreamFace (DFX) and the DreamFace Compiler (DFC) are node modules. Node apps that use DreamFace need to have dependencies
 on DFX and DFC.

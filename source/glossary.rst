@@ -13,7 +13,7 @@ Glossary
     Angular Expression
         An expression is any valid set of literals, variables, operators, and expressions that evaluates to a single value. The value may be a number, a string, or a logical value.
     Angular Material
-        Angular Material is an implementation of :term:`Material Design in Angular.js. This project provides a set of reusable, well-tested, and accessible UI components based on the Material Design system. DreamFace uses Angular Material for most of the graphical components provided in the DreamFace Studio.
+        Angular Material is an implementation of :term:`Material Design` in Angular.js. This project provides a set of reusable, well-tested, and accessible UI components based on the Material Design system. DreamFace uses Angular Material for most of the graphical components provided in the DreamFace Studio.
     API
         Application Programming Interface (API) - Definition of call parameters to enable an application to access IT services for example to access back-ed data sources. APIs are consumed by the GUI but remain independent components offering a loosely coupled interaction of visual and data components.
     API Services
@@ -59,8 +59,8 @@ Glossary
         Infrastructure as a Service (IaaS) is a fundamental service model of cloud computing where servers, storage and networking are virtualized and provided on demand, in a pay-as-you-go model.
     Material Design
         Material Design is a specification for a unified system of visual, motion, and interaction design that adapts across different devices and different screen sizes.
-    multitenancy
-        Multitenancy refers to a software architecture where one instance of a software application (ie. DreamFace) runs on one server and serves multiple tenants or clients where each client is a tenant.
+    multitenant
+        A multitenant applciation or multitenancy refers to a software architecture where one instance of a software application (ie. DreamFace) runs on one server and serves multiple tenants or clients where each client is a tenant.
     module
         A module is a component that performs an entity of work composed of collection of tasks, functions or features. In nodejs it refers to a collection of packages that perform specific tasks that can
         be installed using npm. They can be combined with other
@@ -104,6 +104,8 @@ Glossary
         A virtual machine is a software computer that, like a physical computer, runs an operating system and applications. The virtual machine is comprised of a set of specification and configuration files and on the physical resources of a host machine.
     VPN
         A virtual private network (VPN) extends a private network across a public network such as the Internet. It enables a computer to send and receive data across shared or public networks as if it is directly connected to the private network, while benefiting from the functionality, security and management policies of the private network.
+    web application
+        Web application refers to an application that runs in a web browser. A web application is different from a desktop application which uses
     whiteframe
         whiteframe is an Material Design concept for adding depth and shadowing to graphical controls. It is set in :term:`dp`units. The higher the dp the more shadowing, so 10dp had a bigger shadow than 3dp.
     Yeoman

@@ -4,8 +4,8 @@ Button
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-A button communicates an action to be performed when the user clicks on it. It consists of a label, an icon or both indicating
-the action to be performed
+A button communicates an action to be performed when the user clicks on it. It consists of a label, an icon or both that
+indicate the action to be performed when the button is clicked.
 
 |
 
@@ -24,7 +24,7 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | btnButton#        | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *btnButton#* where #       |
-|                        |                   | corresponds to the order in which the control it was created. The second button created    |
+|                        |                   | corresponds to the order in which the control was created. The second button created       |
 |                        |                   | will have a default Name of *btnButton2*. Name is not required and can be removed if not   |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -89,9 +89,6 @@ Properties
 |                        |                   | Controller.                                                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-
-|
-|
 
 |
 |

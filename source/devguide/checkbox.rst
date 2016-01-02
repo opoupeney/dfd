@@ -24,9 +24,9 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | chkCheckbox#      | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *chkCheckbox#* where #     |
-|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
-|                        |                   | will have a default Name of *chkCheckbox2*. Name is not required and can be removed if not |
-|                        |                   | needed.                                                                                    |
+|                        |                   | corresponds to the order in which the control was created. If it's the second control      |
+|                        |                   | created it will have a default Name of *chkCheckbox2*. Name is not required and can be     |
+|                        |                   | removed if notneeded.                                                                      |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | label                  | Any text          | This is the text that will appear under the icon, for example the fa-home icon could have  |
 |                        |                   | the label Home as DreamFace uses as the default for this component.                        |

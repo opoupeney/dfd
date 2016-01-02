@@ -7,8 +7,14 @@ The datatable is used to present data coming from a static array or an API call.
 of the array (or API call) and is presented in a row of the table.
 
 Data tables help users visualize and manipulate large sets of data with sorting and filtering mechanisms and selection and
-multi-selection on rows for treatment as a single row or a group of rows. Table columns have a value and can be rendered
-as one of the following pre-defined graphical controls:
+multi-selection on rows for treatment as a single row or a group of rows.
+
+|
+
+.. image:: ../images/gcs/dfx-datatable-designtime.png
+
+|
+Table columns have a value and can be rendered as one of the following pre-defined graphical controls:
 
 * **Statictext**
 * **Button**
@@ -18,7 +24,7 @@ as one of the following pre-defined graphical controls:
 
 |
 
-.. image:: ../images/gcs/dfx-datatable-designtime.png
+.. image:: ../images/gcs/dfx-datatable-designtime-gcs.png
 
 |
 
@@ -35,7 +41,6 @@ Properties
 |                        |                   | corresponds to the order in which it was created. If it's the second datatable created it  |
 |                        |                   | will have a default Name of *dtblDatatable2*. Name is not required and can be removed if   |
 |                        |                   | not needed.                                                                                |
-|                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Binding                | $scope variable   | The data table can be bound to a value contained in a $scope variable.                     |
 |                        |                   |                                                                                            |
@@ -121,7 +126,7 @@ Properties
 +========================+===================+============================================================================================+
 | Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
 |                        |                   | *color:red; background-color:lightgray*. The Datatable has a default size of 100%,         |
-|                        |                   | width:100%                                                                                           |
+|                        |                   | width:100%                                                                                 |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

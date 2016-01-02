@@ -27,9 +27,9 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | swtSwitchd#       | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *swtSwitchd#* where #      |
-|                        |                   | corresponds to the order in which it was created. If it's the second Switch created it     |
-|                        |                   | will have a default Name of *swtSwitch*. Name is not required and can be removed if not    |
-|                        |                   | needed.                                                                                    |
+|                        |                   | corresponds to the order in which the control was created. If it's the second Switch       |
+|                        |                   | created it will have a default Name of *swtSwitch*. Name is not required and can be        |
+|                        |                   | removed if notneeded.                                                                      |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Binding                | Any text          | The HTML control can be bound to data coming from a service, for example a service that    |
 |                        |                   | goes to a content management system. Text that will be displayed in the field.             |

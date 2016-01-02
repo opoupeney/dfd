@@ -4,8 +4,8 @@ Slider
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-The slider component allows the user to slide a handle along a bar of values to set a value, for example it may slide between
-two values, for example 0 and 100.
+The slider control allows the user to slide a handle along a bar a range of values to set a value, for example it could
+slide between 0 and 100. When the user slides the handle and stops that is the value of the field.
 
 |
 

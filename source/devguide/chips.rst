@@ -4,7 +4,8 @@ Chips
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-Chips can be used for various types of entities, including free form text, predefined text, rules, or contacts. Chips may also contain icons.
+Chips can be used for various types of entities, including free form text, predefined text, rules, or contacts. Chips may
+also contain icons.
 
 |
 
@@ -21,8 +22,8 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | chpChips#         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *chpChips#* where #        |
-|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
-|                        |                   | will have a default Name of *chpChips2*. Name is not required and can be removed if not    |
+|                        |                   | corresponds to the order in which it was created. If it's the second chips control created |
+|                        |                   | it will have a default Name of *chpChips2*. Name is not required and can be removed if not |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | label                  | Any text          | This is the text that will appear under the icon, for example the fa-home icon could have  |

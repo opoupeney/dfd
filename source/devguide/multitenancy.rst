@@ -1,3 +1,5 @@
+.. _multitenancy-label:
+
 Understanding Multitenancy
 ==========================
 
@@ -18,4 +20,5 @@ In DreamFace, you can use the multitenancy to suit your infrastructure needs. Fo
 
 In most cases, an on-premise installation will use multitenancy to refer to multiple environments.
 
+|
 |

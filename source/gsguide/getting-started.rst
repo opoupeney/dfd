@@ -44,6 +44,7 @@ which shows how to create your First App.
    :maxdepth: 1
 
    ../gsguide/installation
+   ../gsguide/installation-old
 
 
 Building Your First App

@@ -6,7 +6,8 @@ Image
 
 
 The image graphical control is used to display images. An image is specified using a url. Images can be from external or
-internal sources. Internal sources can be imported using resources to add the image as a resource.
+internal sources. Internal sources can be imported using the Resources option in System Configuration & Settings in the
+DreamFace Studio to add an image as a resource.
 
 |
 
@@ -24,9 +25,8 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | imgImage#         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *imgImage1* where #        |
-|                        |                   | corresponds to the order in which it was created. The second button created will have a    |
-|                        |                   | default Name of *imgImage2*. Name is not required and can be removed if not needed.        |
-|                        |                   |                                                                                            |
+|                        |                   | corresponds to the order in which the control was created. The second image created will   |
+|                        |                   | have a default Name of *imgImage2*. Name is not required and can be removed if not needed. |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Source                 | Any text          | The source of the image.                                                                   |
 |                        |                   |                                                                                            |

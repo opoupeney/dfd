@@ -4,7 +4,7 @@ Select
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-The select component allows users to select from a list of values, for example Yyes* or *No*.
+The select component allows users to select from a list of values, for example Yes* or *No*.
 
 |
 
@@ -23,9 +23,9 @@ Properties
 +========================+===================+============================================================================================+
 | Name                   | selSelect#        | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *selSelect#* where #       |
-|                        |                   | corresponds to the order in which it was created. If it's the second select created it     |
-|                        |                   | will have a default Name of *selSelect2*. Name is not required and can be removed if not   |
-|                        |                   | needed.                                                                                    |
+|                        |                   | corresponds to the order in which the control was created. If it's the second select       |
+|                        |                   | created, it will have a default Name of *selSelect2*. Name is not required and can be      |
+|                        |                   | removed if not needed.                                                                     |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | label                  | Any text          | This is the text that will appear under the icon, for example the fa-home icon could have  |
 |                        |                   | the label Home as DreamFace uses as the default for this component.                        |
