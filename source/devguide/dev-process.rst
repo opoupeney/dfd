@@ -22,11 +22,22 @@ DreamFace supports an incremental development process.
 **Build and Deploy an Application**
 **Dockerize an Application
 
+**Top-Down or Bottom up Development**
 
-**Bottom-up development**
+DreamFace supports both top-down and bottom-up development.
 
-Although DreamFace allows both top-down and bottom-up development most developers prefer the bottom-up approach. In DreamFace, bottom-up
-development means starting with the data, then create the :term::`ÙI` to display the data, the layout and the application navigation.
+**Top-Down** development in DreamFace starts by defining the User Interface of the application. Top-Down development can be
+used for quick prototyping, by first defining application navigation with the Navigation Menu and the corresponding Pages linked to each
+menu item, then progressively adding the application View components, binding (or linking) them to either pre-defined
+or newly defined API Routes to access and visualize the data in the Views. These Views are then added to the Pages in a
+composition to perform an application funtionality like searching for a Client Name and displaying the corresponding client
+data.
+
+.. image:: ../images/diagrams/dfx-dev-topdown.png
+
+
+Most developers prefer the **Bottom-Up** approach to applcation development. In DreamFace, bottom-up development means starting
+with the data, then create the :term::`ÙI` to display the data, the layout and the application navigation.
 
 The bottom-up development process with DreamFace would look like this:
 
@@ -38,6 +49,8 @@ The bottom-up development process with DreamFace would look like this:
 * *Build and Deploy* the Application.
 * *Modify Application Configuration and Settings* properties to reflect desired behavior of the app.
 * *Dockerize* the application.
+
+.. image:: ../images/diagrams/dfx-dev-bottomup.png
 
 Once you have a Menu Item that displays a Page containing a composition of Views that may or may not be bound to API Routes,
 you can deploy and test the application.
