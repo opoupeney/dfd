@@ -1,21 +1,19 @@
-Cmlinechart
-===========
+Cummulative Linechart
+=====================
 
 .. image:: ../images/icons/icon_web.png
-:class: pull-right
+   :class: pull-right
 
 The pre-defined Line Charts graphical controls available in the View Editor are based on NDV3 library.
 
 |
 
-.. image:: ../images/gcs/dfx-linechart-designtime.png
+.. image:: ../images/gcs/dfx-cmlinechart-designtime.png
 
 |
 
 Properties
 ^^^^^^^^^^
-
-**Main Properties**
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -26,25 +24,27 @@ Properties
 |                        |                   | will have a default Name of *lineChart2*. Name is not required and can be removed if not   |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Label                  | *text*            |                                                                                            |
+| Binding                | $scope variable   | The data table can be bound to a value contained in a $scope variable.                     |
+|                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Label Visible          | *text*            | Text that will be displayed in the label of the field. Text can also be an expression.     |
+|Title                   | Any text          | Title of the table, this can either be text in quotes or an                                |
+|                        | Angular Expression| :ref:`angular-expression-label`.                                                           |
+|                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Label Visible          | *yes*, *no*       | Specifies if the label is visible or not.                                                  |
+| Display                | *true* or *false* | The value can be a literal **true** to display the component or **false** to hide it. This |
+|                        | Angular Expression| value can also be the result of an :ref:`angular-expression-label` that returns a boolean  |
+|                        |                   | value of the true or false, *true* meaning it will be visible, *false* meaning it will not |
+|                        |                   | be displayed.                                                                              |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltips               | Any text          | Tip to help the user. It will be displayed when mouse passes over this control. Tooltip    |
-|                        |                   | text can also be an expression.                                                            |
+
+|
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Type                   |                   |                                                                                            |
+| **Optionss**           | Possible Values   | Description                                                                                |
++========================+===================+============================================================================================+
+| X-Axis Label           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Labels for Data Points |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Inner Radius (Pie      |                   |                                                                                            |
-| Charts                 |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Legend Visible         |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Legend Position        |                   |                                                                                            |
+| Y-Axis Lable           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
@@ -59,10 +59,16 @@ Properties
 |                        | Predefined Cross- | (see :term:`Hexadecimal Colors`) or enter one of the Pre-defined cross browser colors.     |
 |                        | Browser Colors    | `140 cross browser colors <http://www.w3schools.com/cssref/css_colornames.asp>`_           |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
+| Class                  | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Width                  | number of pixels  | Then number of pixels of the width of the Chart The defautl is 300px                       |
+|                        |       n*px*       |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Height                 | number of pixels  | Then number of pixels of the height of the Chart The defautl is 250px                      |
+|                        |       n*px*       |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
@@ -76,5 +82,4 @@ Properties
 |                        |                   | Controller.                                                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-|
 |
