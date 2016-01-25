@@ -37,8 +37,7 @@ Key Concepts
 Installation
 ^^^^^^^^^^^^
 
-DreamFace is currently available on IBM Bluemix. If you haven't installed it yet, you'll need to before starting the next section
-which shows how to create your First App.
+DreamFace is currently available on IBM Bluemix. Just login to your BlueMix account and choose the DreamFace service.
 
 .. toctree::
    :maxdepth: 1
@@ -50,10 +49,11 @@ which shows how to create your First App.
 Building Your First App
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The Getting Started Tutorials will introduce you to important DreamFace concepts to get you started, as quickly as possible, on
-the right track to building your first DreamFace application. In the tutorials you will learn iterative development and best practices
-for building cloud applications with DreamFace with a focus on how to get the most benefit from the many buit-in features provided in
-the platform.
+The Getting Started Tutorials will take you through the first steps of exploring the Studio, building your first application
+and introduce you to important DreamFace concepts to get you started, as quickly as possible, on the right track to building
+your first DreamFace applications. In the tutorials you will learn iterative development and best practices for building
+web applications that are completely cloud-native and multitenant from the very first component to the full application.
+You will also learn how to get the most benefit from the many buit-in features provided in the platform.
 
 .. _gettingstarted-label:
 
@@ -63,6 +63,7 @@ Getting Started Tutorials Menu
 .. toctree::
    :maxdepth: 1
 
+   exploring-the-studio
    first-app
    cloud-tenant
    development-process

@@ -10,30 +10,40 @@ Development Process
 Incremental Development with DreamFace
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-DreamFace supports an incremental development process.
+DreamFace uses an incremental development process. It can either be Top-Down or Bottom up Development and includes the
+following steps. The order changes with top down or bottom up.
 
-**Creating an Application**
-**Creating Application Components**
-    **Create View Components**
-    **Create API Routes**
-    **Create Pages**
-    **Add Views to a Page**
-    **Add Page to Navigation Menu**
-**Build and Deploy an Application**
-**Dockerize an Application
+* **Creating an Application**
+* **Creating Application Components**
+* **Create View Components**
+* **Create API Routes**
+* **Bind an API Route to a View**
+* **Create a Page**
+* **Add Views to a Page**
+* **Create the Navigation Menu**
+* **Add Page to Navigation Menu**
+* **Build and Deploy the Application**
+* **Dockerize the Application**
 
-**Top-Down or Bottom up Development**
+|
+
+Top Down Development
+^^^^^^^^^^^^^^^^^^^^
 
 DreamFace supports both top-down and bottom-up development.
 
 **Top-Down** development in DreamFace starts by defining the User Interface of the application. Top-Down development can be
-used for quick prototyping, by first defining application navigation with the Navigation Menu and the corresponding Pages linked to each
-menu item, then progressively adding the application View components, binding (or linking) them to either pre-defined
-or newly defined API Routes to access and visualize the data in the Views. These Views are then added to the Pages in a
-composition to perform an application funtionality like searching for a Client Name and displaying the corresponding client
-data.
+used for quick prototyping, by first defining application navigation with the Navigation Menu and linking the corresponding
+application Pages to each menu item, then progressively creating application View components and binding (or linking) them to
+either pre-defined or newly defined API Routes to access and visualize the data in the Views. These Views are then added to
+the Pages in a composition to define the User Interface of the application. An example would be taking the the Client Name
+as input and calling an api route to get the corresponding client data and display it.
 
 .. image:: ../images/diagrams/dfx-dev-topdown.png
+
+
+Bottom Up Development
+^^^^^^^^^^^^^^^^^^^^^
 
 
 Most developers prefer the **Bottom-Up** approach to applcation development. In DreamFace, bottom-up development means starting
