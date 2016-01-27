@@ -9,36 +9,19 @@ single quotes, for example 'Button' or when a property requires a *true* or *fal
 Like javascript expressions, Angular expressions can contain any set of literal text, variables, operators, or expressions
 that evaluate to a single value. The value can be a number, a string, or a logical value (true or false).
 
-AngularJS expressions are written inside double braces are usually written inside {{ expression }}.
+AngularJS expressions are written inside double braces {{ expression }}.
 
 AngularJS expressions binds data to HTML the same way as the ng-bind directive.
 
 AngularJS will "output" data exactly where the expression is written.
 
-AngularJS expressions are much like JavaScript expressions: They can contain literals, operators, and variables.
+AngularJS expressions are like JavaScript expressions: They can contain literals, operators, and variables.
 
-Example {{ 5 + 5 }} or {{ firstName + " " + lastName }}
+Example {{ 7 + 3 }} or {{ firstName + " " + lastName }}
 
+AngularJS expressions do not support conditionals, loops, and exceptions, while JavaScript expressions do.
 
-There are two types of expressions:
-
-* expressions that assign a value to a variable
-* expressions that evaluate to a single value
-
-For example, the expression
-
-x = 3
-
-is an expression that assigns the value 3 to the variable x and the expression also evaluates to 3. This type of expression
-uses the operator '=' to assign a value. Javascript has many operators that can be used in expressions. A detailed list of
-javascript operators is provided below.
-
-
-The second type of expression evaluates to a single value, for example
-
-2 + 1
-
-evaluates to the value 3.
+AngularJS expressions support filters, while JavaScript expressions do not.
 
 
 JavaScript provides three different kinds of expressions:
@@ -56,29 +39,14 @@ then try the following expression:
 
 *We have 16 points; only 9 left to reach 25*
 
-|
 
-Conditional Expressions
-^^^^^^^^^^^^^^^^^^^^^^
 
-A conditional expression can have one of two values based on a condition. The syntax is
+Additional Resources
+^^^^^^^^^^^^^^^^^^^
 
-(condition) ? val1 : val2
+For more information on Angular Expressions consult the `Angular Documentation <https://docs.angularjs.org/guide/expression>`_
 
-If condition is true, the expression gets the value of val1, otherwise it is gets the value of val2. Conditional expressions
-can be used to test the value of a variable, for example:
-
-(temp > 100) ? "hot" : "cold"
-
-This expression tests the value of the variable temp. If it is greater than 100 the expression will evaluate to the value "hot"
-otherwise it will evaluate to "cold".
-
-|
-
-Operators
-^^^^^^^^
-
-Any Javascript operators can be used in expressions. See a Javascript reference for a full list of javascript operators.
+Angular Expression `Cheatsheet <https://docs.angularjs.org/guide/expression>`_
 
 |
 |
