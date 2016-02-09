@@ -3,6 +3,8 @@ Exploring the Studio
 
 |
 
+Quick Tour
+
 .. image:: ../images/getting-started/dfx-studio-firstpage1.png
 
 |
@@ -32,8 +34,8 @@ In the upper right section is the Icon Bar. The Icon Bar is a tool bar that goes
 contains icons for different operations that can be performed.
 
 
-Explorer Panel
-^^^^^^^^^^^^^^
+Explorer Side Nav Panel
+^^^^^^^^^^^^^^^^^^^^^^^
 
 Just below the Logo is the Explorer Panel.
 
@@ -41,12 +43,13 @@ Just below the Logo is the Explorer Panel.
 
 .. image:: ../images/getting-started/dfx-explorer1.png
 
-The Explorer contains a List of Applications and a Catalog of Shared components. The Explorer allows users to navigate
-through applications and their components as well as components shared by all applications. It has search capabilities and
-a menu for quick access to different editors in the studio without navigating through the different components.
+The Explorer contains a List of Applications and a Catalog of Shared components with tree controls to navigate through the
+hierarchy of applications and their components as well as components shared by all applications. It provides search capabilities
+on the components and a direct access menu for quick access to main application editors in the studio without having to
+navigating through the hierarchy ofcomponents.
 
-#. Application Tree and Shared Catalog - The Explorer panel contains a tree control with the list of applications and their elements
-#. Search Box - in this search box you can type the name of a component that you want to use, DreamFace will position you on it
+#. Application Tree and Shared Catalog - The Explorer panel contains a tree controls for navigation through application and shared components
+#. Search Box - the search box provides search capability on the application and shared components names.
 #. Direct Access Menu - a list of main functions that can be accessed directly without navigating the tree structure
 #. Left Panel Collapse icon - Clicking on this icon will collapse and expand the Left Pane
 

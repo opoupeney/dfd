@@ -29,11 +29,11 @@ applications :
 .. toctree::
    :maxdepth: 1
 
-   statictext
-   button
-   icon
-   image
-   html
+   webgc-statictext
+   webgc-button
+   webgc-icon
+   webgc-image
+   webgc-html
 
 |
 
@@ -46,14 +46,14 @@ description of the Input graphcical controls available in the View Editor for bu
 .. toctree::
    :maxdepth: 1
 
-   input
-   textarea
-   datepicker
-   select
-   slider
-   knob
-   chips
-   rating
+   webgc-input
+   webgc-textarea
+   webgc-datepicker
+   webgc-select
+   webgc-slider
+   webgc-knob
+   webgc-chips
+   webgc-rating
 
 |
 
@@ -65,7 +65,8 @@ available in the View Editor for building web applciations :
 .. toctree::
    :maxdepth: 1
 
-   iconbar
+   webgc-fab
+   webgc-iconbar
 
 |
 
@@ -78,9 +79,9 @@ selection graphcical controls available in the View Editor for building web appl
 .. toctree::
    :maxdepth: 1
 
-   radio
-   checkbox
-   switch
+   webgc-radio
+   webgc-checkbox
+   webgc-switch
 
 |
 
@@ -93,7 +94,7 @@ is a description of the Table graphcical controls available for building web app
 .. toctree::
    :maxdepth: 1
 
-   datatable
+   webgc-datatable
 
 |
 
@@ -106,13 +107,13 @@ in a graph format. Below is a description of the Charts available for building w
 .. toctree::
    :maxdepth: 1
 
-   barchart
-   hzbarchart
-   piechart
-   donutchart
-   linechart
-   cmlinechart
-   areachart
+   webgc-barchart
+   webgc-hzbarchart
+   webgc-piechart
+   webgc-donutchart
+   webgc-linechart
+   webgc-cmlinechart
+   webgc-areachart
 
 |
 
@@ -126,8 +127,8 @@ graphcical controls available for building web applications in the View Editor:
 .. toctree::
    :maxdepth: 1
 
-   panel
-   tabs
-   wizard
+   webgc-panel
+   webgc-tabs
+   webgc-wizard
 
 |

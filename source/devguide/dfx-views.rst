@@ -1,44 +1,45 @@
-Views
-=====
+Views and ViewCards
+===================
 
 
 
 DreamFace *Views* are visual components used to build the :term:UI` of your application. They are one of the fundamental
 components of a DreamFace application. Views can be used to collect user input and display data. A view might contain a
 form to fill in some information or might display a list of items coming from an API call. Views can be bound to API Routes
-and consume and disply API data.
+and consume and display API data.
 
-Views are arranged on a :term:`Page`, either separately or combined with other Views to create a composition or composite
-View.
+Views are arranged on a :term:`Page`, either separately or combined with other Views. The :term:`UI` of your application
+is madef from a composition of one or more Views arranged on a :term:`Page.
 
-In DreamFace the :term:`UI` of your application is madef from a composition of one or more Views arranged on a :term:`Page.
+Views are created in the View Editor have three main parts that need to be defined:
 
-Views have three main parts that need to be defined:
+The Design, the Script and the Styles:
 
-image of the menu bar icon displaying
+ which includes the layout and the graphical controls that will be displayed, the behavior which is defined the Script and the Styles which can be defined by setting properties
 
 **Design**
-The design of the View is done in the :term:`View Editor by dragging and dropping pre-defined :term:`Graphical Controls` on
-the :term:`Canvas`and defining their `term:`Properties.
+The design of the View is done in the :term:`View Editor` by dragging and dropping pre-defined :term:`Graphical Controls` on
+the :term:`Canvas`and defining their term:`Properties`.
 
-DreamFace Views support Single Page Applications at the View level by using ViewCards. Each View can have multiple definitions.
-Each definition is called a ViewCard. There is one default ViewCard which is necessary for any View.
+DreamFace Views support Single Page Applications (term:`SPA`) at the View level by using ViewCards. Each View can have
+multiple definitions. Each definition is called a ViewCard. There is one default ViewCard which is necessary for any View.
 
 At design time, the default ViewCard is displayed and each additional ViewCard is accessible for definition from tabs. The
 designer’s toolbar provides options to create or delete ViewCards with the exception of the default ViewCard which is required.
 Clicking on a Tab will display the content of the corresponding ViewCard and allow the developer to modify the definition by
 adding or removing graphical controls and defining their properties.
 
-At runtime, the default ViewCard is displayed when the View is rendered for the first time. Other ViewCards can be displayed
-programmatically in a dialog box (using the dfxDialog.showCard() function), in a left or right sidepanel or as a bottom sheet.
+At runtime, the default ViewCard is displayed when the View is rendered for the first time. The other ViewCards can be displayed
+programmatically either in a dialog box (using the dfxDialog.showCard() function), in a left or right sidepanel or as a bottom sheet.
 
 **Script**
 Each View has an associated script that is defined in the :term:`Script Editor. In DreamFace scripts are written in pure
-Javascript and Angular.js
+Javascript and Angular.js. The associated help provides templates for creating different types of scripts like controllers
+and functions.
 
 **Styles**
 Each View has associated styles which are defined directly in the properties of each graphical control on the View or in the
-Styles editor of the View
+Styles editor of the View.
 
 
 Name

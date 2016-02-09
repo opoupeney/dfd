@@ -39,6 +39,10 @@ then try the following expression:
 
 *We have 16 points; only 9 left to reach 25*
 
+literal will be in single quotes 'My Name is '
+
+1234 | number:2
+
 
 
 Additional Resources

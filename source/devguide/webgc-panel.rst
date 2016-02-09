@@ -4,10 +4,12 @@ Panel
 .. image:: ../images/icons/icon_web.png
    :class: pull-right
 
-A panel is one of the most important graphical controls because it defines the layout of the View or a portion of the View.
-It consists of a title and an area where the layout will be organized. The layout is based on Angular Material and Material
-Design layout definition of rows and columns. Each row can be independently defined with horizontal or vertical layouts and
-CSS styles and classes.
+A panel is one of the most important graphical controls in DreamFace because it defines the layout and default style of the
+ViewCards. Each ViewCard starts out with a default panel. A panel is a container and it can contain other panels. A DreamFace
+panel consists of a toolbar with a title and toolbar menu and an area where the the graphical controls that make up the UI
+are organized in a layout. The layout is based on the Angular Material and Material Design layout definition of rows and columns.
+Each row can be independently defined and can have one or more columns organized in horizontal or vertical layouts. Default
+CSS styles and classes can be defined for the panel.
 
 |
 
@@ -17,8 +19,6 @@ CSS styles and classes.
 
 Properties
 ^^^^^^^^^^
-
-**Main Properties**
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
