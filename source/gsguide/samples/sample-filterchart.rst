@@ -1,0 +1,5 @@
+Sample FilterChart
+==================
+
+	FilterChart / wFilterChart
+

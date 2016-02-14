@@ -1,0 +1,5 @@
+Sample AreaChart
+================
+
+
+	area / wAreaChart

@@ -67,6 +67,7 @@ available in the View Editor for building web applciations :
 
    webgc-fab
    webgc-iconbar
+   help-css-styles
 
 |
 
