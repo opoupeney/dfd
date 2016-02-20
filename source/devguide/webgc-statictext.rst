@@ -25,25 +25,36 @@ Properties
 |                        |                   | will have a default Name of *txtText12*. Name is not required and can be removed if not    |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Text                   | Any text          | Text that will be displayed in the field. It should be in quotes, otherwise it will be     |
+| Text                   | Any text          | Any text that will be displayed in the field. It should be in quotes, otherwise it will be |
 |                        |  *expression*     | treated as a variable.                                                                     |
 |                        |                   |                                                                                            |
-|                        |                   | **Text can also be an expression** which will be evaluated at runtime.                     |
+|                        |                   | **Text can also be an angular expression** which will be evaluated at runtime.             |
 |                        |                   |                                                                                            |
-|                        |                   | See more about how to define :ref:`expressions-label` here.                                |
+|                        |                   | See more about how to define :ref:`angular-expression-label` here.                         |
 |                        |                   |                                                                                            |
-|                        |                   | *Note* - Text needs to be in quotes otherwise it will be treated as a variable. If your    |
-|                        |                   | label doesn't appear in Preview mode, make sure the text is in quotes. For words that      |
-|                        |                   | contain an apostrophe, use double quotes. For example "It's a button" would evaluate to:   |
+|                        |                   | On the right hand side of the field you will see **...** indicating that help in defining  |
+|                        |                   | expression is available. Click on the *...** and a Expression View will be displayed,      |
+|                        |                   | incidicating defined scope variables and functions.                                        |
 |                        |                   |                                                                                            |
-|                        |                   | *It's a button* at runtime (in Preview Mode or when testing the application).              |
+|                        |                   | **Note** - If your label doesn't appear in Preview mode, make sure the text is in quotes.  |
+|                        |                   | If you have an angular expression that does not appear in Preview mode it means that their |
+|                        |                   | most likely an error in your angular expression. Take a look at the sample angular         |
+|                        |                   | expressions in the Samples Gallery. If your expression contains an apostrophe, use double  |
+|                        |                   | quotes. For example "It's a button" would evaluate to: *It's a button* at runtime or in    |
+|                        |                   | in Preview Mode when testing the View.                                                     |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
-|                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
+|                        | angular expression| can be a angular expression that evaulates to *true* or *false*, for example,              |
+|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to *false* because 5 is not less   |
+|                        |                   | than 2.                                                                                    |
 |                        |                   |                                                                                            |
-|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
+|                        |                   | See :ref:`angular-expression-label`  for more help.                                        |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. include:: test-embed.rst
 
 |
 
@@ -73,16 +84,10 @@ Properties
 
 |
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Events**             | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| On Click               | function name     | Enter the name of the function that will be executed when the user clicks on the Static    |
-|                        |                   | control. The function should be defined in the controller in the script tab of the View    |
-|                        |                   | Editor. Clicking on the ... opens a window to to select a function defined in the          |
-|                        |                   | Controller.                                                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. include:: webgc-props-events.rst
 
 |
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Add Directive**      | Possible Values   | Description                                                                                |
