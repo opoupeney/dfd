@@ -54,7 +54,7 @@ Properties
 
 |
 
-.. include:: test-embed.rst
+.. include:: webgc-props-styling.rst
 
 |
 
@@ -84,7 +84,7 @@ Properties
 
 |
 
-.. include:: webgc-props-events.rst
+.. include:: webgc-props-events-onclick.rst
 
 |
 

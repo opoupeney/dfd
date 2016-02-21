@@ -20,21 +20,25 @@ Glossary
         API Services are is a DreamFace component for defining a logical group of API Routes.
     API Routes
         API Routes are one of the main components of a DreamFace application. They define how to access backend data such as REST APIs, MongoDB Database, External Databases and SOAP services. With this definition DreamFace creates the request, accesses the metadata and data. You can then bind the API Route to the fields of a View to display the data in a DreamFace application.
+    API Route
+        DataQuery refers to one of the main components of a DreamFace application, a reusable query component which defines how to access backend data such as REST APIs, MongoDB Database, External Databases and SOAP services.
+        With this definition DreamFace creates the request for the query, accesses the metadata and data without coding. You can then bind the DataQuery to the fields of a DataWidgets to display the data in a DreamFace application.
     BlueMix
         BlueMix is the name of the IBM Cloud Platform with the goal helping software developers rapidly build, manage and run web and mobile applications by combining services to create applications.
     Bootstrap
         An open-source CSS library that provides templates for typography, forms, buttons, navigation and other interface components to make web applications responsive.
+    cloud-native
+        see :term:`native cloud application`
     container
         Virtual software container, for example Docker, packaging different software together in an independent component simplifying light weight application deployment in the cloud.
+    containerization
+        Containerization refers to the act of deploying an application in a virtual container that uses some underlying infrastructure resources such as the operating system but contains all other dependencies for the application to run.
     controller
         Controller refers to the angularJS controller which connects the view (UI) and the model (data) together. The default panel in a DreamFace widget has a controller which contains all of the scripting for the widget.
     cross-platform
-        This refers to applications that behave like native applications across different interfaces and devices. DreamFace uses Angular Material based on Material Design as the underlying technology to achieve cross-platform user experience.
+        This refers to applications that behave like native applications across different interfaces and devices. DreamFace uses Angular Material based on Material Design as the underlying technology to achieve cross-platform user experience. DreamFace applications can run on web or mobile devices.
     data binding
         Data binding is the concept of linking the user interface and applciaton data (model) through the the applcation controller in an MVC architecture.
-    API Route
-        DataQuery refers to one of the main components of a DreamFace application, a reusable query component which defines how to access backend data such as REST APIs, MongoDB Database, External Databases and SOAP services.
-        With this definition DreamFace creates the request for the query, accesses the metadata and data without coding. You can then bind the DataQuery to the fields of a DataWidgets to display the data in a DreamFace application.
     DFX
         DreamFace X-Platform (DFX) or just DreamFace, is a cloud application platform for developing desktop (web) and mobile applications.
     Docker
@@ -60,7 +64,9 @@ Glossary
     Material Design
         Material Design is a specification for a unified system of visual, motion, and interaction design that adapts across different devices and different screen sizes.
     multitenant
-        A multitenant applciation or multitenancy refers to a software architecture where one instance of a software application (ie. DreamFace) runs on one server and serves multiple tenants or clients where each client is a tenant.
+        A multitenant applciation refers to a software architecture where one instance of a software application (ie. a DreamFace application) runs on one server and serves multiple clients where each clients is isolated from the next.
+    multitenancy
+        Multitenancy refers to a software architecture where multiple independent instances of one or more applications. The tenants are logically isolated from each other but can share cloud infrastructure and resources.
     module
         A module is a component that performs an entity of work composed of collection of tasks, functions or features. In nodejs it refers to a collection of packages that perform specific tasks that can
         be installed using npm. They can be combined with other
@@ -70,12 +76,16 @@ Glossary
         Microservices is an evolution of the composite approach to application development. It involves designing software applications as small packages of independently deployable services. Using these self-contained components as building blocks, companies can get innovative services to market more quickly, easily and affordably.
     MVC
         Model View Controller (MVC) architecture.
+    native cloud application
+        A native cloud application (NCA) also referred to as cloud-native application, is a software application that is specifically built for cloud computing and virtualization environments. Native cloud applications are inherently multi-tenant and are designed, developed and deployed in to take full advantage of the functionality and services of a cloud computing, containerization, and virtualization infrastructures.
     Node
         NodeJS (commonly referred to as Node) is an asynchronous application server using javascript programming language.
     npm
         Node Package Manager (npm) is a tool that makes installing and managing Node modules easier, you can use it to install node programs, in development, it makes it easier to specify and link dependencies.rich-internet applications
     PaaS
         Platform as a Service (PaaS) can refer to many things, in our context it refers to a cloud computing application development platform for simplifying and accelerating the development, testing and deployment of cloud web and mobile applications. The developer builds and deploys the application directly into this layer. PaaS extends and abstracts the IaaS layer by removing the management of the individual virtual machine.
+    platform
+        Platform as it refers to DreamFace means an integrated application development platform which is used to build cloud-native web or mobile applications using a collection of visual and scripting editors available in the DreamFace Studio to build reusable visual or data access components and combine them to form a composite application. DreamFace is a Node.js module and follows all of the Node concepts.
     responsive
         As in responsive web design, this is a way to define a web application to provide an optimal user experience across multiple devices from desktop browsers to mobile phone and tablet browsers.
     REST
@@ -100,6 +110,8 @@ Glossary
         View is the name used for the UI component in DreamFace. It contains a layout and graphical controls which display text or create, modify or delete data.
     View Editor
         The View Editor in DreamFace is where developers can define the UI or visual layout of text and information of a view.
+    virtualization
+        Virtualizattion refers to the act of creating a virtual (rather than actual) version of something, ie. virtual machine (a virtual computer hardware platforms), operating systems, storage devices, and computer network resources.
     VM
         A virtual machine is a software computer that, like a physical computer, runs an operating system and applications. The virtual machine is comprised of a set of specification and configuration files and on the physical resources of a host machine.
     VPN

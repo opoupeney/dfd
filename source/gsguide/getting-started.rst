@@ -32,6 +32,7 @@ Key Concepts
    ../devguide/multitenancy
    ../devguide/microapps
    ../devguide/keyconcepts
+   ../devguide/dfx-philosophy
 
 
 Installation

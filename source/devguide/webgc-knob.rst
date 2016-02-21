@@ -66,7 +66,12 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Events**             | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| On Click               | function name     | Enter the name of the function that will be executed when the user clicks on the HTML      |
+| On Label               | function name     | Enter the name of the function that will be executed when the user clicks on the HTML      |
+|                        |                   | control. The function should be defined in the controller in the script tab of the View    |
+|                        |                   | Editor. Clicking on the ... opens a window to to select a function defined in the          |
+|                        |                   | Controller.                                                                                |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| On Change              | function name     | Enter the name of the function that will be executed when the user clicks on the HTML      |
 |                        |                   | control. The function should be defined in the controller in the script tab of the View    |
 |                        |                   | Editor. Clicking on the ... opens a window to to select a function defined in the          |
 |                        |                   | Controller.                                                                                |

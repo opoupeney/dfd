@@ -66,6 +66,13 @@ Properties
 
 |
 
+|
+
+.. include:: webgc-props-styling.rst
+
+|
+
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -81,7 +88,7 @@ Properties
 
 |
 
-.. include:: webgc-props-events.rst
+.. include:: webgc-props-events-onclick.rst
 
 |
 |

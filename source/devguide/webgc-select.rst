@@ -66,7 +66,7 @@ Properties
 
 |
 
-.. include:: webgc-props-events.rst
+.. include:: webgc-props-events-onclick.rst
 
 |
 |
