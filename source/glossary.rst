@@ -23,8 +23,8 @@ Glossary
     API Route
         DataQuery refers to one of the main components of a DreamFace application, a reusable query component which defines how to access backend data such as REST APIs, MongoDB Database, External Databases and SOAP services.
         With this definition DreamFace creates the request for the query, accesses the metadata and data without coding. You can then bind the DataQuery to the fields of a DataWidgets to display the data in a DreamFace application.
-    BlueMix
-        BlueMix is the name of the IBM Cloud Platform with the goal helping software developers rapidly build, manage and run web and mobile applications by combining services to create applications.
+    Bluemix
+        Bluemix is the name of the IBM Cloud Platform with the goal helping software developers rapidly build, manage and run web and mobile applications by combining services to create applications.
     Bootstrap
         An open-source CSS library that provides templates for typography, forms, buttons, navigation and other interface components to make web applications responsive.
     cloud-native

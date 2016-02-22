@@ -1,17 +1,18 @@
-Installation
-============
-
-DreamFace is currently available on IBM Bluemix.
-
 .. _bluemix-label:
 
-IBM BlueMix
-^^^^^^^^^^^
+Installation on IBM Bluemix
+===========================
 
-DreamFace is available as an service on BlueMix. To install DreamFace you can either start from the Interactive Clouds
+
+DreamFace is available as an service on IBM Bluemix. To install DreamFace you can either start from the Interactive Clouds
 `Download Page <http://interactive-clouds.com/developercommunity.html#download>`_ and click on the option 'Start using
 DreamFace as a Bluemix service:
 
+You will see the image below.
+
+.. image:: ./images/diagrams/dfx-ic-download.png
+
+Then click on Start Using DreamFace as a BlueMix Service outlined in red above.
 
 
 and follow the instructions. You'll be taken directly to the IBM Bluemix login / registration page. Once logged in you can

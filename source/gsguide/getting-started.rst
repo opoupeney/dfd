@@ -15,12 +15,8 @@ The Basics
 .. toctree::
     :maxdepth: 1
 
-    ../devguide/what-is-dreamface
-    ../devguide/who-is-dfx-for
-    ../devguide/prerequisites
-    ../devguide/dfx-platform-architecture
-    ../devguide/app-anatomy
-    ../devguide/dev-process
+    ../devguide/dfx-basics
+
 
 
 Key Concepts
@@ -29,10 +25,11 @@ Key Concepts
 .. toctree::
    :maxdepth: 1
 
-   ../devguide/multitenancy
+   ../devguide/dfx-platform-architecture
+   ../devguide/app-anatomy
+   ../devguide/dev-process../devguide/multitenancy
    ../devguide/microapps
    ../devguide/keyconcepts
-   ../devguide/dfx-philosophy
 
 
 Installation
@@ -44,7 +41,6 @@ DreamFace is currently available on IBM Bluemix. Just login to your BlueMix acco
    :maxdepth: 1
 
    ../gsguide/installation
-   ../gsguide/installation-old
 
 
 Building Your First App

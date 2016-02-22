@@ -1,78 +1,6 @@
 Understanding DreamFace
 =======================
 
-What is DreamFace?
-------------------
-DreamFace X-Platform (DFX) or just DreamFace as we will refer to it throughout this documentation is a :term:`cloud-native`
-development platform that empowers developers to consistently deliver well-architected, Enterprise grade, :term:`cross-platorm`,
-cloud-native applications, with Ease and Speed, resulting in an uncompromising personalized User Experience with the right
-data on the right device for the right user, with codeless integration of virtually any enterprise service, process, public
-or private API available.
-
-DreamFace accelerates development and leaves room for developer creativity in solving business problems by removing much of the heavy-lifting
-in writing application logic, connecting to multiple data sources and packaging applications. Developers focus their development on
-creating a compelling user experience with reduced coding required because a comprehensive integration of backend data services with
-codelss consumption or APIs.
-
-DreamFace is based on the technologies proven by the major internet application providers like facebook, twitter and google.
-
-DreamFace applications are modular, composite applications that are secure and build to scale in the cloud. They are inherently
-multi-tenant, open and extensible.
-
-
-Why did we create DreamFace?
-----------------------------
-
-For Developers
-^^^^^^^^^^^^^
-The success of social media applications on the internet has lead to a proliferation of new and robust open source technologies. It has
-also created expectations with end users for beautiful and intuitive user interfaces. At the same, IT departments and businesses have
-been opening up there back-end data and applications as services through the creation of pubic and private APIs. These new trends toward
-componentization and modularity have transformed application development. Developers no longer have to create everything from scratch
-in monolithic projects that take much too long and cost way too much. Application development today is an assembly of pieces coming from
-different libraries, languages, frameworks and technologies. DreamFace was build in this world, to leverage these new concepts
-put them in the hands of developers.
-
-For Businesses
-^^^^^^^^^^^^^^
-Businesses are in a difficult situation today because they want to take advantage of the flexibility offered by new open
-source technologies. They want the software and the APIs they use be open and extensible. They want to be able to customize
-the pieces and interface with existing applications, public and external data sources and legacy technology. There is an
-expectation of great benefit by using new components and technologies and at the same time there is not a lot of experience
-about how to put it all together. Businesses have real applications to build and real delerivables to provide, real budgets
-and real security needs to meet. They want to benefit from these new development methodologies and meet their commitments,
-but how to do it?
-
-That's where DreamFace steps in. DreamFace was built to provide any easy way to leverage these new open source technologies to :
-
-* **Create modern and beautiful User Interfaces**
-* **Integrete back-end data sources coming from any API**
-* **Interface with existing applications and legacy technology**
-* **Use containerization and virtualization to scale the applications in the cloud**
-
-Like many frameworks and platforms, DreamFace was created to help reduce the amount of work to build consistently good applications.
-There are  a lot of great developers in the world and many more will come with the new coding initiatives. The problem isn’t
-really knowing how to use HTML or CSS, or Angular or any other new technology that comes along. The problem is knowing all of
-the technologies necessary to build a really good application that works in the cloud and scales and that can evolve and
-to the ever changing business requirements of today's competetive business environment.
-
-The goal of DreamFace is to reduce the need to know every technology in depth by providing built-in best practices for error handling,
-API integration, security, version management, remote team development, build management and deployment and containerization to name a few.
-DreamFace provides and open and exetensible environment where the developer is empowered to use their skills to focus on
-the functionality and providing a great user experience without rebuilding the wheel every time.
-
-DreamFace can also leverage the experts in a project. For example, one developer could build the complex data queries that can be reused by
-the rest of the team. Being able to share reusable components allows a team to build a catalogue of shared components that they can leverage.
-
-**Some of the ways DreamFace helps to empower developers:**
-
-* A Software Development PaaS enabling developers to collaborate in the development of Web and Mobile apps
-* Built on Open Source technologies and Frameworks (NodeJS, AngularJS, Bootstrap, MongoDB, GITHub…)
-* Leverages all the capabilities and power of this selection of technologies
-* Allows all levels of developers to contribute on the same project, each using a preferred technique to do so
-* Designed to evolve architecturally but transparently to developers and user (such as adding a new open source framework, a new graphical component library, etc.)
-* Structures the way developers need to use these technologies by wrapping best practices around them.
-
 Below is a more in depth presentation of some of the key concepts of DreamFace.
 
 |
@@ -109,15 +37,27 @@ Application
 
 A DreamFace Application is a collection of :ref:`application-components-label` consisting of:
 
-* **Pages** - Pages are the highest UI concept through which a user interacts with the application. A page can be a mobile “screen” or a web “screen”. A page is:
+
+====================   ==========================================================================================================================================
+ **Component**         **Description**
+====================   ==========================================================================================================================================
+ **Navigation Menu**   Menu and Sub-Menus provide navigation through the application. Navigation starts with a Home Menu linked to the Home Page of the application.
+ **Pages**             Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns which makes up the user interface of the application
+ **Views**             Views (sometimes called Widgets) contain graphical controls like input fields and buttons, arranged in a layout of rows and columns which makes up the User Interface of the View
+ **API Services**      API Services provide access to the data by defining the different API Routes related to that service
+====================   ==========================================================================================================================================
+
+|
+
+* **Pages** - Pages are the highest UI concept through which a user interacts with the application. A page can be a mobile *screen* or a web *screen*. A page is:
 
    * created using a template to give a consistent look and feel throughout the applcation
    * composed of one or more Views
    * generally connected to other pages via navigational menus
 
-*	**Views** - Views, as the name implies, are graphical views made up of Graphical controls. Views are meant to be reusable across Pages. Views contains “cards” (a notion of multi-layering) allowing some very complex interface representations to be built easier.
-*	**API Services** - These are are endpoints that reference virtually any API end point that needs to be called in the application. API Services are organized under the notion of an “API Service Object” whichh allows them to be better classified and managed. They connect to the backend using “API Sources” (handlers that contains the type of the backend to call, the URL and the security credentials).
-*	**Global Resources**:
+* **Views** - Views, as the name implies, are graphical views made up of Graphical controls. Views are meant to be reusable across Pages. Views contains “cards” (a notion of multi-layering) allowing some very complex interface representations to be built easier.
+* **API Services** - These are are endpoints that reference virtually any API end point that needs to be called in the application. API Services are organized under the notion of an “API Service Object” whichh allows them to be better classified and managed. They connect to the backend using “API Sources” (handlers that contains the type of the backend to call, the URL and the security credentials).
+* **Global Resources**:
 
    * *JavaScript files* - can contain any JavaScript and make it available throughout your application
    * *CSS files* - any CSS that you wish to use across the application. Note that the current version ships with an Angular Material Design Global CSS model that already contains a very rich and wide set of classes that can be leveraged and used throughout.

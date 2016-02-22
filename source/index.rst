@@ -15,9 +15,10 @@ If you're a fan of Angular then you'll love the way DreamFace embraces its full 
 bells and whistles. Developers have complete control and best of all, your deployed application is a collection of open,
 standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when you need it and freedom when you don't.
 
-DreamFace is available on **IBM BlueMix**. Just login to your BlueMix account and search for DreamFace or click on the
-link on `Interactive Clouds Download page <http://www.interactive-clouds.com/developercommunity.html#download>`_. Then click on
-Start Using DreamFace as a BlueMix Service.
+DreamFace is available on **IBM BlueMix**. To get started, just login to your BlueMix account and search for DreamFace or
+go to download page at `Interactive Clouds Download page <http://www.interactive-clouds.com/developercommunity.html#download>`_
+and click on the option *Install DreamFace as an IBM Bluemix Service*. For detailed installation instructions see the *Getting
+Started Guide* below.
 
 To help you get started, `Interactive Clouds <http://www.interactive-clouds.com>`_ offers **Free DreamFace Support** for
 30 days. Ask any question and get your app up and running in no time. To request a free support, send an email to
@@ -28,7 +29,7 @@ support@interactive-clouds.com.
 Guide to DreamFace Documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The DreamFace documentation is divided in to a number of guides to take you from novice to DreamFace Expert as quickly as possible.
+The DreamFace documentation is divided into a series of guides created to take you from novice to DreamFace Expert as quickly as possible:
 
 * :ref:`getting-started-label` contains everything you need to get up and running and create your first DreamFace application.
 * :ref:`developer-guide-label` is a practical, hands-on guide for developers providing reference information and real-world examples.
