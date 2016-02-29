@@ -1,5 +1,7 @@
+.. _platform-architecture-label:
+
 Architecture of the DreamFace Platform
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+======================================
 
 DreamFace is an open-source, cloud-based, multitenant platform used to develop and deploy web and mobile applications. The
 underlying technology of DreamFace is based on :term:`MEAN Stack` (MongoDB, Expressjs, Angularjs and Nodejs) technologies.

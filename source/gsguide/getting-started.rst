@@ -5,9 +5,10 @@ Getting Started
 
 Get started now building your first DreamFace app!
 
-Follow the step-by-step tutorial below to Create your First App or find out more about DreamFace by checking out one of
-topics below. For a deeper dive visit the :ref:`developer-guide-label`, a hands on reference with examples of best practices
-for the most common use cases for developing with DreamFace.
+Create your First App or find out more about key DreamFace feature by checking out one of the step-by-step tutorials listed
+below. In the Samples and MiniApps section you'll be able to explore best practices for using DreamFace. For a deeper dive,
+visit the :ref:`developer-guide-label`, a hands on reference with examples of best practices for the most common use cases
+for developing with DreamFace.
 
 The Basics
 ^^^^^^^^^^
@@ -26,10 +27,12 @@ Key Concepts
    :maxdepth: 1
 
    ../devguide/dfx-platform-architecture
-   ../devguide/app-anatomy
-   ../devguide/dev-process../devguide/multitenancy
-   ../devguide/microapps
-   ../devguide/keyconcepts
+   ../devguide/dfx-keyconcepts
+   ../devguide/dfx-app-anatomy
+   ../devguide/dfx-dev-process
+   ../devguide/dfx-multitenancy
+
+
 
 
 Installation

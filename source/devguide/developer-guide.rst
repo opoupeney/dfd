@@ -14,13 +14,13 @@ Table of Contents
    :maxdepth: 1
 
     dfx-basics
+    dfx-platform
     dfx-platform-architecture
-    app-anatomy
-    app-architecture
-    multitenancy
-    dev-process
+    dfx-app-anatomy
+    dfx-multitenancy
+    dfx-dev-process
     dfx-views
-    graphical-controls
+    dfx-graphical-controls
     :ref:`webgcs-label`
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

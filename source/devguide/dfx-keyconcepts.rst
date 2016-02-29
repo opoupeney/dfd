@@ -1,7 +1,12 @@
-Understanding DreamFace
-=======================
+DreamFace Platform
+==================
 
-Below is a more in depth presentation of some of the key concepts of DreamFace.
+In this section we will breakdown the DreamFace Platform and it's organization and how it works.
+
+Before going in to the high level DreamFace Platform discussion, it's important to take a look at the underlying architecture
+of the platform. You can find it here: :ref:`platform-architecture-label`
+
+
 
 |
 
