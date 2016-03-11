@@ -1,1 +1,0 @@
-.. _developer-guide-label:
