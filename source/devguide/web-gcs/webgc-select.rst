@@ -1,15 +1,15 @@
 Select
 ======
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 The select component allows users to select from a list of values, for example Yes* or *No*.
 
 |
 
-.. image:: ../images/gcs/dfx-select-designtime.png
-.. image:: ../images/gcs/dfx-select-runtime2.png
+.. image:: ../../images/gcs/dfx-select-designtime.png
+.. image:: ../../images/gcs/dfx-select-runtime2.png
 
 |
 

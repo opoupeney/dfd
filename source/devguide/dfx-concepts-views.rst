@@ -1,8 +1,6 @@
 Views and ViewCards
 ===================
 
-
-
 DreamFace *Views* are visual components used to build the :term:UI` of your application. They are one of the fundamental
 components of a DreamFace application. Views can be used to collect user input and display data. A view might contain a
 form to fill in some information or might display a list of items coming from an API call. Views can be bound to API Routes
@@ -133,8 +131,6 @@ Properties
 
 |
 
-Views interface and Reusability
-===============================
 
 |
 |

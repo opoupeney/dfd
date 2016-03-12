@@ -1,7 +1,7 @@
 Rating
 ======
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 Rating controls allow users to rate or give an appreciation to something by selecting a number of icons from fixed number
@@ -9,7 +9,7 @@ of icons, often presented as stars.
 
 |
 
-.. image:: ../images/gcs/dfx-rating-designtime.png
+.. image:: ../../images/gcs/dfx-rating-designtime.png
 
 |
 

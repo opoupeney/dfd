@@ -1,72 +1,23 @@
 Creating My First App
 =====================
 
-* Creating a tenant
-* Exploring the Studio
-* Creating API Services
-* Creating Views
-* Creating Pages and Adding Views to a Page
-* Build and Compile the App
-* Deploy the App
+At this point you should already know how to navigate the DreamFace Studio and the View Editor. The goal of this tutorial
+is to create an mini application that presents data coming from an REST API Service.
 
-Creating Your First App
------------------------
-
+In the tutorial we'll create a small application to show the weather.
 Follow the steps below to create your first app on Bluemix:
 
-1. Exploring the Studio
-2. Creating API Services
-3. Creating Views
-4. Creating Pages and Adding Views to a Page
-5. Build and Compile the App
-6. Deploy the App
+1. Creating API Services
+2. Creating Views
+3. Creating Pages and Adding Views to a Page
+4. Build and Compile the App
+5. Deploy the App
 
 |
 
-**1. Exploring the Studio**
-
-**2. Creating API Services**
-
-**3. Creating Views**
-
-**4. Creating Pages and Adding Views to a Page**
-
-**5. Build and Compile the App**
-
-**6. Deploying the App**
+**Coming Soon**
 
 
+Return to the :ref:`gs-tutorials-menu-label`
 
-Getting Starting DreamFace Tutorial Series
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Welcome to the series on Getting Started with DreamFace for Web Applications.
-
-This course will cover all the fundamentals that you need to get started building business applications for the web with DreamFace. It is designed to teach you everything you need to know about how to use DreamFace as well as best practices on how build great applications.
-
-Each lesson builds on the previous one. To get the most from this course, view the tutorials in order.
-
-.. _gettingstarted-label:
-
-Getting Started Tutorials Menu
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. toctree::
-   :maxdepth: 1
-
-        first_app
-        cloud-tenant
-        development-process
-        application-architecture
-        creating-widgets
-        widget-editor
-        connecting-data
-        adding-resources
-        application-personalization
-        deploying
-        cloud-database
-        cloudapp-settings
-        registering-theme
-        registering-url
-
-|
 |

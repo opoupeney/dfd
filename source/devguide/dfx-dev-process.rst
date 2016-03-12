@@ -1,22 +1,31 @@
 Development Process
 ===================
 
-DreamFace development is an **iteration process**, starting after the creation of the application, adding components, testing
-and ending when the final version of application is deployed.
+DreamFace development is an **iterative process**, starting after the creation of the application.
 
 Once your application is created, you can start developing application components right away. Development consists of an
 iteration of creating and testing application components (menus, Views, Pages and API Services), setting application
 configuration parameters and building, deploying and testing your application as it is being created.
 
-Even though the development process is straight forward, many developers want to know What is the best way to deveop with
-DreamFace? Should I develop the Views or the data access components first? These are very common questions that
+A typical development cycle would be creating, modifying and testing ui or data access components, binding them together
+to visualize data, adding them to the application pages, creating the application navigation and building, deploying and
+testing the deployed application. Finally, when you are satified that the application has the right look and feel and
+functionality you can deploy the final version and dockerize it. Application configuration setting can be modified at any
+time.
+
+.. image:: ../images/diagrams/dfx-iterative-dev.png
+   :width: 400pt
+   :class: align-center
+
+Even though the development process is straight forward, many developers want to know *"What is the best way to develop
+with DreamFace?* *Should I develop the Views or the data access components first?* These are very common questions that
 usually come up right after creating your application and building a few samples Views. The answer may not be that
 satisying for those who are looking for a strict methodology, with DreamFace, it's up to the developer. DreamFace offers
 a lot of flexibility in the development process. We'll present two approaches here.
 
 DreamFace supports both top-down and bottom-up development.
 
-Top-down development focuses on creating the user interface first (Navigation Menu, Pages, Views) and then adding the data
+Top-down development focuses on creating the user interface first (Views and Pages) and then adding the data
 access once the interface is in place. This approach can be used for prototyping or building demo applications quickly but
 can also be a valid way to build applications. It allows the developer to verify the user interface with the application
 stakeholders more quickly.
@@ -26,8 +35,6 @@ are created and tested first, followed by the user interface components which ar
 
 Team development can combine the two approaches with one team developing the data access and another team focuing on the
 :term:`UI` design and development. Data can be bound to the Views when the needed data access component is ready.
-
-
 
 |
 

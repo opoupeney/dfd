@@ -1,14 +1,14 @@
 Input Field
 ===========
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 The Input Field graphical control specifies an input field where the user can enter data.
 
 |
 
-.. image:: ../images/gcs/dfx-input-designtime.png
+.. image:: ../../images/gcs/dfx-input-designtime.png
 
 |
 

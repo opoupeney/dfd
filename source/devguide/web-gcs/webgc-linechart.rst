@@ -1,14 +1,14 @@
 Linechart
 =========
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 The pre-defined Line Charts graphical controls available in the View Editor are based on NDV3 library.
 
 |
 
-.. image:: ../images/gcs/dfx-linechart-designtime.png
+.. image:: ../../images/gcs/dfx-linechart-designtime.png
 
 |
 

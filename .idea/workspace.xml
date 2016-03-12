@@ -2,21 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96c1632-325d-4bdf-834e-9e67cbe7155a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/dfx-platform.rst" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/source/devguide/prerequisites.rst" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/app-anatomy.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-app-anatomy.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/checkbox-mobile.rst" afterPath="$PROJECT_DIR$/source/devguide/mobilegc-checkbox.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/dev-process.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-dev-process.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/graphical-controls.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-graphical-controls.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/keyconcepts.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/microapps.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-microapps.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/multitenancy.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-multitenancy.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/diagrams/dfx-dev-bottomup.png" afterPath="$PROJECT_DIR$/source/images/diagrams/dfx-dev-bottomup.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/diagrams/dfx-dev-topdown.png" afterPath="$PROJECT_DIR$/source/images/diagrams/dfx-dev-topdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/gcs/webgc-treemenu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/dfx-technology.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/ref-graphical-controls.rst" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/devguide/dfx-basics-new.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/devguide/dfx-concepts-angular.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/devguide/dfx-concepts-nodejs.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/devguide/dfx-ref-graphicalcontrols.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/devguide/dfx-reference.rst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/diagrams/dfx-iterative-dev.png" afterPath="$PROJECT_DIR$/source/images/diagrams/dfx-iterative-dev.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/adding-resources.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/adding-resources.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/application-archtitecture.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/application-archtitecture.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/application-personalization.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/application-personalization.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/build-deploy.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/build-deploy.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/cloud-database.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/cloud-database.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/cloud-tenant.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/cloud-tenant.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/connecting-data.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/connecting-data.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/creating-api-services.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/creating-api-services.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/creating-views.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/creating-views.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/dev-process.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/dev-process.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/dev-resources.rst" afterPath="$PROJECT_DIR$/source/dev-resources.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/developer-guide.rst" afterPath="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-basics.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-basics.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-concepts-pubsub.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-concepts-pubsub.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-concepts-reusability.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-concepts-reusability.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-concepts-templates.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-concepts-templates.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-concepts-views.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-concepts-views.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-dev-process.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-dev-process.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-microapps.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-microapps.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/dfx-philosophy.rst" afterPath="$PROJECT_DIR$/source/devguide/dfx-philosophy.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/dfx-roadmap.rst" afterPath="$PROJECT_DIR$/source/dfx-roadmap.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/exploring-the-studio.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/exploring-the-studio.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/faq.rst" afterPath="$PROJECT_DIR$/source/faq.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/first-app.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/first-app.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/gc-mob.rst" afterPath="$PROJECT_DIR$/source/devguide/gc-mob.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/gcs-web.rst" afterPath="$PROJECT_DIR$/source/devguide/gcs-web.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/getting-started.rst" afterPath="$PROJECT_DIR$/source/gsguide/getting-started.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/glossary.rst" afterPath="$PROJECT_DIR$/source/glossary.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/gs-samples.rst" afterPath="$PROJECT_DIR$/source/gsguide/gs-samples.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/hello-world.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/hello-world.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/index.rst" afterPath="$PROJECT_DIR$/source/index.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/installation.rst" afterPath="$PROJECT_DIR$/source/gsguide/installation.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/gsguide/tutorials/view-editor.rst" afterPath="$PROJECT_DIR$/source/gsguide/tutorials/view-editor.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-areachart.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-areachart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-barchart.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-barchart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-button.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-button.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-checkbox.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-checkbox.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-cmlinechart.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-cmlinechart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datepicker.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datepicker.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-donutchart.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-donutchart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-fab.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-fab.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzbarchart.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzbarchart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-icon.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-icon.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-input.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-input.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-knob.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-knob.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-linechart.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-linechart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-panel.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-panel.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-piechart.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-piechart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-styling.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-styling.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-radio.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-radio.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-rating.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-rating.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-select.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-select.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-slider.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-slider.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-statictext.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-statictext.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-switch.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-switch.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-tabs.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-tabs.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-textarea.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-textarea.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dfd.iws" />
@@ -40,61 +99,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getting-started.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/gsguide/getting-started.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.4">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dfx-dev-process.rst" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-dev-process.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3416289">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dfx-multitenancy.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-multitenancy.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="23" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dfx-microapps.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-microapps.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dfx-keyconcepts.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="128" column="64" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfx-platform-architecture.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst">
+      <file leaf-file-name="dfx-basics.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-basics.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
+              <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -104,14 +123,34 @@
         <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+              <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gs-samples.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/gsguide/gs-samples.rst">
+      <file leaf-file-name="webgc-tabs.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-tabs.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webgc-textarea.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-textarea.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webgc-props-styling.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-styling.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -120,11 +159,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfx-app-anatomy.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-app-anatomy.rst">
+      <file leaf-file-name="webgc-treemenu.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              <caret line="8" column="7" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webgc-treemenu.png" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/images/gcs/webgc-treemenu.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webgc-wizard.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="what-is-dreamface.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/what-is-dreamface.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -143,57 +209,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/gsguide/gs-tutorials.rst" />
-        <option value="$PROJECT_DIR$/source/gsguide/gs-samples.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/angular-expression.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/test-embed.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-props-events.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-linechart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-areachart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-barchart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-checkbox.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-chips.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-cmlinechart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-datatable.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-datepicker.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-donutchart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-hzbarchart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-iconbar.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-image.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-piechart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-radio.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-rating.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-select.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-slider.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-switch.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-props-events-onchange.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-knob.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-wizard.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-statictext.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-button.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-icon.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-html.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-input.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/webgc-textarea.rst" />
-        <option value="$PROJECT_DIR$/source/gsguide/installation-old.rst" />
-        <option value="$PROJECT_DIR$/source/conf.py" />
-        <option value="$PROJECT_DIR$/source/gsguide/installation.rst" />
-        <option value="$PROJECT_DIR$/source/index.rst" />
-        <option value="$PROJECT_DIR$/source/glossary.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/who-is-dfx-for.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/prerequisites.rst" />
+        <option value="$PROJECT_DIR$/source/gsguide/tutorials/dev-process.rst" />
+        <option value="$PROJECT_DIR$/source/gsguide/tutorials/exploring-the-studio.rst" />
         <option value="$PROJECT_DIR$/source/devguide/dfx-philosophy.rst" />
-        <option value="$PROJECT_DIR$/source/prodguide/product-guide.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/keyconcepts.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/dfx-basics.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/dev-process.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/dfx-platform.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-concepts-templates.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-concepts-angular.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-views.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-concepts-nodejs.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-concepts-views.rst" />
         <option value="$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/dfx-app-anatomy.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-ref-graphicalcontrols.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-reference.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-concepts-pubsub.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-concepts-reusability.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-graphical-controls.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/gc-mob.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/gcs-web.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-basics.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-technology.rst" />
         <option value="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
-        <option value="$PROJECT_DIR$/source/gsguide/getting-started.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/dfx-dev-process.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-areachart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-barchart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-button.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-checkbox.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-cmlinechart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datepicker.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-donutchart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-fab.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzbarchart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-icon.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-input.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-knob.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-linechart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-panel.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-piechart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-radio.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-rating.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-select.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-slider.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-statictext.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-switch.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-tabs.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/dfx-basics-new.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-textarea.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-styling.rst" />
       </list>
     </option>
   </component>
@@ -205,10 +271,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="6" />
-    <option name="y" value="28" />
+    <option name="x" value="4" />
+    <option name="y" value="23" />
     <option name="width" value="1433" />
-    <option name="height" value="805" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -233,7 +299,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -280,24 +345,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="prodguide" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dfd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dfd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -320,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="diagrams" />
+              <option name="myItemId" value="getting-started" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -338,7 +385,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gsguide" />
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devguide" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,12 +443,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="devguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-gcs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -407,24 +503,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/images/devguide" />
       <recent name="$PROJECT_DIR$/source/images/diagrams" />
       <recent name="$PROJECT_DIR$/source/images" />
       <recent name="$PROJECT_DIR$/source/gsguide" />
       <recent name="$PROJECT_DIR$/source/devguide" />
-      <recent name="$PROJECT_DIR$/source/images/gcs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/images/gcs" />
+      <recent name="$PROJECT_DIR$/source/images/devguide" />
+      <recent name="$PROJECT_DIR$/source/devguide/mob-gcs" />
       <recent name="$PROJECT_DIR$/source/devguide" />
-      <recent name="$PROJECT_DIR$/source/images/diagrams" />
-      <recent name="$PROJECT_DIR$/source/gsguide/samples" />
-      <recent name="$PROJECT_DIR$/source/gsguide" />
-      <recent name="$PROJECT_DIR$/source/gsguide/tutorials" />
+      <recent name="$PROJECT_DIR$/source/devguide/web-gcs" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dfd/build/index.html">
-      <method />
-    </configuration>
     <configuration default="false" name="glossary.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/dfd/build/glossary.html">
       <method />
     </configuration>
@@ -466,14 +559,16 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/dfd/build/index.html">
+      <method />
+    </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.glossary.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.glossary.html" />
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.glossary.html" />
       </list>
     </recent_temporary>
   </component>
@@ -528,22 +623,22 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="28" width="1433" height="805" extended-state="0" />
+    <frame x="4" y="23" width="1433" height="810" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34265736" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33194444" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981132" sideWeight="0.48598132" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19617563" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19546743" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1970128" sideWeight="0.24403927" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32729805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -552,22 +647,22 @@
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34081346" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33288044" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32825485" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1970128" sideWeight="0.24680851" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1970128" sideWeight="0.24403927" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32880434" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289855" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981132" sideWeight="0.48598132" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1970128" sideWeight="0.7531915" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19262865" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -596,317 +691,31 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-piechart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="39" selection-start-line="66" selection-start-column="39" selection-end-line="66" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-props-events-onclick.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-rating.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="39" selection-start-line="76" selection-start-column="39" selection-end-line="76" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-select.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="39" selection-start-line="68" selection-start-column="39" selection-end-line="68" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-slider.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-switch.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-tabs.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-props-events-onchange.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-knob.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.96">
-          <caret line="63" column="1" selection-start-line="63" selection-start-column="1" selection-end-line="63" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-chips.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-wizard.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-statictext.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-button.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.16">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-icon.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.36">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-html.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.76">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-input.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-textarea.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-datepicker.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/what-is-dreamface.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/understanding-panels.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/help-menu-editor.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gsguide/installation-old.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gsguide/installnpm.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/microservices.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/webgc-radio.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gsguide/installation.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfx-ic-download.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/glossary.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/who-is-dfx-for.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="1" selection-start-line="3" selection-start-column="0" selection-end-line="22" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/prodguide/product-guide.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="48" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/dfx-philosophy.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-views.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/mobilegc-checkbox.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-graphical-controls.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="65" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/gcs-web.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/api-services.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/angular-expression.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-basics.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.444445">
-          <caret line="127" column="1" selection-start-line="127" selection-start-column="1" selection-end-line="127" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-templates.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="33" column="30" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-platform.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="32" />
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -914,31 +723,15 @@
     <entry file="file://$PROJECT_DIR$/source/devguide/dfx-app-anatomy.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          <caret line="71" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-dev-process.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/gsguide/gs-samples.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-microapps.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -946,25 +739,358 @@
     <entry file="file://$PROJECT_DIR$/source/devguide/dfx-multitenancy.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="23" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="23" />
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/gsguide/getting-started.rst">
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-pubsub.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.4">
-          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-dev-process.rst">
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-views.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3416289">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-reusability.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-graphical-controls.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.92">
+          <caret line="34" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/gc-mob.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.2">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-technology.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/gcs-web.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-60.92">
+          <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-areachart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-barchart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-button.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-checkbox.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-cmlinechart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-datepicker.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-donutchart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-fab.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzbarchart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-icon.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-input.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-knob.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-linechart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-panel.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-piechart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-events-onchange.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-radio.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-rating.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-select.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-slider.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-statictext.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-switch.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-tabs.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/what-is-dreamface.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="128" column="64" selection-start-line="128" selection-start-column="64" selection-end-line="128" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-basics.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="75" column="12" selection-start-line="75" selection-start-column="12" selection-end-line="75" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-textarea.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-styling.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="7" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/gcs/webgc-treemenu.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>

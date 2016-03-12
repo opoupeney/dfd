@@ -1,5 +1,7 @@
-Samples Gallery
-===============
+.. _samples-label:
+
+Exploring the Samples Gallery
+=============================
 
 Sample GCs
 ==========

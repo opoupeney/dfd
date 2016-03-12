@@ -8,12 +8,13 @@ We look forward to working with you to build the best enterprise desktop and mob
 Our goal is to provide a full-featured development platform that leverages best of breed technology and empowers developers to
 create well-architected, beautiful and secure applications that are open and extensible, and scale to the limits of the cloud.
 DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an
-unparelled, out of the box fearture set including Visual Development, codeless API integration, reusable and customizable components,
-team development and much more.
+unparelled, out of the box fearture set including visual development, codeless API integration, reusable and customizable
+components, build management, team development and much more.
 
-If you're a fan of Angular then you'll love the way DreamFace embraces its full functionality and extends it with built-in enterprise
-bells and whistles. Developers have complete control and best of all, your deployed application is a collection of open,
-standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when you need it and freedom when you don't.
+If you're a fan of Angular then you'll love the way DreamFace embraces its full functionality and extends it with built-in
+enterprise bells and whistles. Developers have complete control and best of all, your deployed application is a collection
+of open, standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just help when you need it and freedom when you
+don't.
 
 DreamFace is available on **IBM BlueMix**. To get started, just login to your BlueMix account and search for DreamFace or
 go to download page at `Interactive Clouds Download page <http://www.interactive-clouds.com/developercommunity.html#download>`_
@@ -29,11 +30,13 @@ support@interactive-clouds.com.
 Guide to DreamFace Documentation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The DreamFace documentation is divided into a series of guides created to take you from novice to DreamFace Expert as quickly as possible:
+The DreamFace documentation is divided into a series of guides created to take you from novice to expert in no time:
 
 * :ref:`getting-started-label` contains everything you need to get up and running and create your first DreamFace application.
 * :ref:`developer-guide-label` is a practical, hands-on guide for developers providing reference information and real-world examples.
 * :ref:`product-guide-label` provides general DreamFace product information such as product description, features and licensing.
 * :ref:`glossary-label` is a list of technical terms used in the documentation along with their definition and how they relate to DreamFace.
-
+* :ref:`faq-label` is a knowledge base of frequently asked questions. Have a look, maybe you'll see some you didn't think of yet.
 |
+
+

@@ -1,7 +1,7 @@
 Image
 =====
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 
@@ -11,7 +11,7 @@ DreamFace Studio to add an image as a resource.
 
 |
 
-.. image:: ../images/gcs/dfx-image-designtime.png
+.. image:: ../../images/gcs/dfx-image-designtime.png
 
 |
 

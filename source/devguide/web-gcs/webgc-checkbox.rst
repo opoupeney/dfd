@@ -1,7 +1,7 @@
 Checkbox
 ========
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 
@@ -10,7 +10,7 @@ reflecting a Boolean value.
 
 |
 
-.. image:: ../images/gcs/dfx-checkbox-designtime.png
+.. image:: ../../images/gcs/dfx-checkbox-designtime.png
 
 |
 

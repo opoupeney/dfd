@@ -1,6 +1,6 @@
 HTML
 ====
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 The HTML graphical control allows a developer to add any custom HTML. The contents of the HTML field is pure HTML. By
@@ -10,7 +10,7 @@ your own in the HTML control.
 
 |
 
-.. image:: ../images/gcs/dfx-html-designtime.png
+.. image:: ../../images/gcs/dfx-html-designtime.png
 
 |
 

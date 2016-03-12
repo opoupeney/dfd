@@ -1,7 +1,7 @@
 Barchart
 =========
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 
@@ -9,7 +9,7 @@ The pre-defined Charts graphical controls available in the Widget Editor are bas
 
 |
 
-.. image:: ../images/gcs/dfx-barchart-designtime.png
+.. image:: ../../images/gcs/dfx-barchart-designtime.png
 
 
 

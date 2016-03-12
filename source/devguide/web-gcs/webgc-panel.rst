@@ -1,7 +1,7 @@
 Panel
 =====
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 A panel is one of the most important graphical controls in DreamFace because it defines the layout and default style of the
@@ -13,7 +13,7 @@ CSS styles and classes can be defined for the panel.
 
 |
 
-.. image:: ../images/gcs/dfx-panel-designtime.png
+.. image:: ../../images/gcs/dfx-panel-designtime.png
 
 |
 

@@ -1,7 +1,7 @@
 Wizard
 ======
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
 :class: pull-right
 
 A panel is one of the most important graphical controls because it defines the layout of the View or a portion of the View.
@@ -11,7 +11,7 @@ CSS styles and classes.
 
 |
 
-.. image:: ../images/gcs/dfx-panel-designtime.png
+.. image:: ../../images/gcs/dfx-panel-designtime.png
 
 |
 

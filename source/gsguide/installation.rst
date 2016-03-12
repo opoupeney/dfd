@@ -10,7 +10,7 @@ DreamFace as a Bluemix service:
 
 You will see the image below.
 
-.. image:: ./images/diagrams/dfx-ic-download.png
+.. image:: ../images/diagrams/dfx-ic-download.png
 
 Then click on Start Using DreamFace as a BlueMix Service outlined in red above.
 
@@ -38,4 +38,7 @@ For instructions on how to install the DreamFace as a service on BlueMix, watch 
         height="385"></embed></object>
 
 |
+
+Return to the :ref:`getting-started-label`
+
 |

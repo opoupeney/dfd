@@ -1,3 +1,45 @@
+DreamFace MicroServices Architecture
+====================================
+
+Why DreamFace?
+^^^^^^^^^^^^^^
+
+The success of social media applications on the internet has lead to a proliferation of new and robust open source technologies.
+It has also created a lot of expectations with end users for beautiful and intuitive user interfaces. At the same, IT departments
+and businesses have been opening up there back-end data and applications as services through the creation of pubic and private APIs.
+These new trends toward componentization and modularity have transformed application development. Developers no longer have
+to create everything from scratch in monolithic projects that take too long and cost too much. Application development
+today is an assembly of pieces coming from different libraries, languages, frameworks and technologies and technology continues
+to evolve.
+
+DreamFace was build in this world, to leverage these new concepts, to assemble the pieces and make developers more productive.
+
+Businesses also want to benefit from these new development methodologies and meet their development commitments but they often don't
+have a lot of experience with cloud technologies. DreamFace helps businesses to take advantage of the flexibility offered
+by providing an integrated development environment with built-in and ready to use best practices for
+building and deploying complex applications. It is open and extensible allowing businesses to integrate extisting code and
+resources and to customize and extend their DreamFace development environment and their own applications. DreamFace was built
+to help developers and businesses reap the benefits of using new components and technologies to:
+
+* **Create modern and beautiful User Interfaces**
+* **Integrete back-end data sources coming from any API**
+* **Interface with existing applications and legacy technology**
+* **Use containerization and virtualization to scale the applications in the cloud**
+
+Like many frameworks and platforms, DreamFace was created to help reduce the amount of work to build consistently good applications.
+There are  a lot of great developers in the world and many more will come with the new coding initiatives. The problem isn’t
+really knowing how to use HTML or CSS, or Angular or any other new technology that comes along. The problem is knowing all of
+the technologies necessary to build a really good application that works and scales in the cloud and that can be easily modified to
+meet the ever changing business requirements.
+
+The goal of DreamFace has always been is to compliment developer skills by providing a modular, reusable model to automate repetitive
+tasks, reduce the workload of complex integration and the need to know every technology in depth. DreamFace enhances pure technology
+with ready-to-use built-in best practices for error handling, API integration, security, version management, remote team development,
+build management,deployment and containerization to name a few. DreamFace was created to make developers successful in delivering
+consistently great applcations with a beautiful user experience.
+
+|
+
 Composite Apps, MicroApps and MicroServices
 ===========================================
 
@@ -45,8 +87,8 @@ When developing an application architecture for the cloud, you deal with complex
 Additional benefits may include service reuse from other applications or more coarse-grained services. You can break up applications into hundreds of underlying services that have value when used by other applications. In this way, you’re not reinventing the wheel each time you build an application. Consider the example of a credit-check service that many applications use. Combine these into a single service and the application becomes much more efficient.
 
 
-DreamFace Applications and Data are Loosely Coupled
-===================================================
+Data are Loosely Coupled
+========================
 
 Applications that are tightly coupled with the data are not well suited for the complex distributed environment of the cloud.
 For an application to be able to scale, application architectures need to that separate processing and data into separate
@@ -65,8 +107,8 @@ enabling more security for the data and a wider range of connectivity options wi
 
 
 
-DreamFace Modular Application Architecture built to scale in the cloud
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Modular Composition of Reusable Components
+==========================================
 
 Extend considerations around how application components communicate to include overall performance as well. This includes
 understanding how the application will scale under an increasing load.
@@ -92,8 +134,8 @@ resources should be innate to the application as well.
 
 
 
-Security is built-in to each layer
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Application Security
+====================
 
 Often when building cloud applications, security is typically an afterthought. But for most businesses, deploying an application
 in the cloud, application and data security is very important and becomes a high priotity very quickly. DreamFace cloud

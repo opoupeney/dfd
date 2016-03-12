@@ -45,6 +45,8 @@ Glossary
         A technology for automating deployment of applications inside software containers.
     dp
         dp is an abbreviation of Density-independent pixels (pronounced “dips”) which are flexible units that scale to uniform dimensions on any screen. When developing a DreamFace application, use dp to display elements uniformly on screens with different densities. dp is a unit that is common across devices and the web page displays.
+    DreamFace X-Platform
+        DreamFace X-Platform (DFX) or simply DreamFace is the name given to the cloud-native, :term:`cross-platform` development platform from Interactive Clouds.
     DreamFace Studio
         The DreamFace Studio is a development studio which allows developers to design the :term:`UI` of an web or mobile app and the consumption and integration fo back-end services. It is composed of a View Editor, a Script Editor and an Editor, a way to define API Services and Routes and to set application settings and parameters.
     feature set

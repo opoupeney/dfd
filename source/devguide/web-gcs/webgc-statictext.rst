@@ -1,7 +1,7 @@
 Statictext
 ===========
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 Statictext controls display text that does not require user input. They often serve as labels for other controls or to indentify
@@ -9,7 +9,7 @@ areas of the View. They can also be used to display icons that add context to th
 
 |
 
-.. image:: ../images/gcs/dfx-statictext-designtime.png
+.. image:: ../../images/gcs/dfx-statictext-designtime.png
 
 |
 

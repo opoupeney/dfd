@@ -5,7 +5,7 @@ Exploring the Studio
 
 Quick Tour
 
-.. image:: ../images/getting-started/dfx-studio-firstpage1.png
+.. image:: ../getting-started/dfx-studio-firstpage1.png
 
 |
 
@@ -23,7 +23,8 @@ Let's explore each of these sections
 
 
 Logo, Version and Page Title
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 In the upper left corner of the page is the DreamFace logo and Version number. The version number indicates the version of
 DreamFace being used.
 
@@ -56,10 +57,16 @@ navigating through the hierarchy ofcomponents.
 |
 
 Landing Page & Workspace
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 
 Lower right section of the page contains the Landing Page and gives instructions on how to use the Studio, where to start
 with a top down or bottom up approach.
 
 |
+
+**Coming Soon**
+
+
+Return to the :ref:`gs-tutorials-menu-label`
+
 |

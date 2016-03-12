@@ -1,7 +1,7 @@
 Iconbar
 =======
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
 :class: pull-right
 
 An iconbar is a menu of icons. It has a top level menu that shows icons which is is a
@@ -10,7 +10,7 @@ Editor.
 
 |
 
-.. image:: ../images/gcs/dfx-icon-designtime.png
+.. image:: ../../images/gcs/dfx-icon-designtime.png
 
 |
 

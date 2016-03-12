@@ -4,7 +4,7 @@ What is DreamFace?
 DreamFace is an open-source, :term:`cloud-native` development platform for creating enterprise web and mobile applications.
 
 DreamFace X-Platform, (DFX) or just **DreamFace**, is part of an emerging category of :term:`cloud-native`, Rapid Application
-Development (RAD) Platforms built to empower :term:`Fullstack` developers to deliver consistently well-architected,
+Development (RAD) Platforms. It is built to empower :term:`Fullstack` developers to deliver consistently well-architected,
 Enterprise-grade, :term:`cloud-native`,  web and mobile applications with ease and speed. DreamFace simplifies the delivery of
 a new generation of cloud applications featuring uncompromising User Experiences and providing the right data on the right
 device by secure and code-less consumption of virtually any public or private API.
@@ -16,7 +16,7 @@ a comprehensive integration of backend services with codelss consumption or APIs
 
 DreamFace was created to ease development of two difficult and time consuming tasks:
 
-* **the User Interface** - industrialize and simplify the creation of beautiful, complex user interfaces for multiples screens
+* **User Interface** - industrialize and simplify the creation of beautiful, complex user interfaces for multiples screens
 * **Back-End Data Integration** - codeless and secure intregration of virtually any API or back-end data source
 
 DreamFace is built on the MEAN Stack, MongoDB, ExpressJS, Angularjs and Nodejs.
@@ -60,44 +60,6 @@ Developers don’t have to be experts in each individual language to put togethe
 
 |
 
-Why did we create DreamFace?
-============================
-
-The success of social media applications on the internet has lead to a proliferation of new and robust open source technologies.
-It has also created a lot of expectations with end users for beautiful and intuitive user interfaces. At the same, IT departments
-and businesses have been opening up there back-end data and applications as services through the creation of pubic and private APIs.
-These new trends toward componentization and modularity have transformed application development. Developers no longer have
-to create everything from scratch in monolithic projects that take too long and cost too much. Application development
-today is an assembly of pieces coming from different libraries, languages, frameworks and technologies and technology continues
-to evolve.
-
-DreamFace was build in this world, to leverage these new concepts, to assemble the pieces and make developers more productive.
-
-Businesses also want to benefit from these new development methodologies and meet their development commitments but they often don't
-have a lot of experience with cloud technologies. DreamFace helps businesses to take advantage of the flexibility offered
-by providing an integrated development environment with built-in and ready to use best practices for
-building and deploying complex applications. It is open and extensible allowing businesses to integrate extisting code and
-resources and to customize and extend their DreamFace development environment and their own applications. DreamFace was built
-to help developers and businesses reap the benefits of using new components and technologies to:
-
-* **Create modern and beautiful User Interfaces**
-* **Integrete back-end data sources coming from any API**
-* **Interface with existing applications and legacy technology**
-* **Use containerization and virtualization to scale the applications in the cloud**
-
-Like many frameworks and platforms, DreamFace was created to help reduce the amount of work to build consistently good applications.
-There are  a lot of great developers in the world and many more will come with the new coding initiatives. The problem isn’t
-really knowing how to use HTML or CSS, or Angular or any other new technology that comes along. The problem is knowing all of
-the technologies necessary to build a really good application that works and scales in the cloud and that can be easily modified to
-meet the ever changing business requirements.
-
-The goal of DreamFace has always been is to compliment developer skills by providing a modular, reusable model to automate repetitive
-tasks, reduce the workload of complex integration and the need to know every technology in depth. DreamFace enhances pure technology
-with ready-to-use built-in best practices for error handling, API integration, security, version management, remote team development,
-build management,deployment and containerization to name a few. DreamFace was created to make developers successful in delivering
-consistently great applcations with a beautiful user experience.
-
-|
 
 What you need to know
 =====================
@@ -127,4 +89,3 @@ Other technologies that are good to know :
 
 |
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

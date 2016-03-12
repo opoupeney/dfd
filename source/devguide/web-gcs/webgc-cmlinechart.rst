@@ -1,14 +1,14 @@
 Cummulative Linechart
 =====================
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 The pre-defined Line Charts graphical controls available in the View Editor are based on NDV3 library.
 
 |
 
-.. image:: ../images/gcs/dfx-cmlinechart-designtime.png
+.. image:: ../../images/gcs/dfx-cmlinechart-designtime.png
 
 |
 

@@ -1,7 +1,7 @@
 Fab
 ===
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 A Floating Action Buttion or **FAB** Menubar is a component included in Material Design guidelines that emphasizes the most
@@ -11,7 +11,7 @@ can open to the right, left, up or down in respect to the button.
 
 |
 
-.. image:: ../images/gcs/dfx-fab.png
+.. image:: ../../images/gcs/dfx-fab.png
 
 |
 

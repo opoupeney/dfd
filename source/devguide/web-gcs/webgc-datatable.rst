@@ -1,6 +1,6 @@
 Datatable
 =========
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 The datatable is used to present data coming from a static array or an API call. Each set of data corresponds to an iteration
@@ -11,7 +11,7 @@ multi-selection on rows for treatment as a single row or a group of rows.
 
 |
 
-.. image:: ../images/gcs/dfx-datatable-designtime.png
+.. image:: ../../images/gcs/dfx-datatable-designtime.png
 
 |
 Table columns have a value and can be rendered as one of the following pre-defined graphical controls:

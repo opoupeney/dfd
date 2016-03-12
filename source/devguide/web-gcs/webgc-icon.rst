@@ -2,7 +2,7 @@
 Icon
 ====
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 An icon is a graphical image that conveys a message, for example an image of a telephone might indicate that the View is
@@ -10,7 +10,7 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 |
 
-.. image:: ../images/gcs/dfx-icon-designtime.png
+.. image:: ../../images/gcs/dfx-icon-designtime.png
 
 |
 

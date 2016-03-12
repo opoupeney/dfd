@@ -1,7 +1,7 @@
 Chips
 =====
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 Chips can be used for various types of entities, including free form text, predefined text, rules, or contacts. Chips may
@@ -9,7 +9,7 @@ also contain icons.
 
 |
 
-.. image:: ../images/gcs/dfx-chips-designtime.png
+.. image:: ../../images/gcs/dfx-chips-designtime.png
 |
 
 Properties

@@ -1,7 +1,7 @@
 Knob
 ====
 
-.. image:: ../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
 The Knob is a circular control used to change and set a value by turning it in a clockwise (usually increases the value) or
@@ -9,7 +9,7 @@ counterclockwise (usually decresases the value) direction.
 
 |
 
-.. image:: ../images/gcs/dfx-knob-designtime.png
+.. image:: ../../images/gcs/dfx-knob-designtime.png
 
 
 |

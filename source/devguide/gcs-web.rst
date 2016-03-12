@@ -29,11 +29,11 @@ applications :
 .. toctree::
    :maxdepth: 1
 
-   webgc-statictext
-   webgc-button
-   webgc-icon
-   webgc-image
-   webgc-html
+   ./web-gcs/webgc-statictext
+   ./web-gcs/webgc-button
+   ./web-gcs/webgc-icon
+   ./web-gcs/webgc-image
+   ./web-gcs/webgc-html
 
 |
 
@@ -46,14 +46,14 @@ description of the Input graphcical controls available in the View Editor for bu
 .. toctree::
    :maxdepth: 1
 
-   webgc-input
-   webgc-textarea
-   webgc-datepicker
-   webgc-select
-   webgc-slider
-   webgc-knob
-   webgc-chips
-   webgc-rating
+   ./web-gcs/webgc-input
+   ./web-gcs/webgc-textarea
+   ./web-gcs/webgc-datepicker
+   ./web-gcs/webgc-select
+   ./web-gcs/webgc-slider
+   ./web-gcs/webgc-knob
+   ./web-gcs/webgc-chips
+   ./web-gcs/webgc-rating
 
 |
 
@@ -65,9 +65,10 @@ available in the View Editor for building web applciations :
 .. toctree::
    :maxdepth: 1
 
-   webgc-fab
-   webgc-iconbar
-   help-css-styles
+   ./web-gcs/webgc-fab
+   ./web-gcs/webgc-iconbar
+   ./web-gcs/webgc-treemenu
+   ./web-gcs/help-css-styles
 
 |
 
@@ -80,9 +81,9 @@ selection graphcical controls available in the View Editor for building web appl
 .. toctree::
    :maxdepth: 1
 
-   webgc-radio
-   webgc-checkbox
-   webgc-switch
+   ./web-gcs/webgc-radio
+   ./web-gcs/webgc-checkbox
+   ./web-gcs/webgc-switch
 
 |
 
@@ -95,7 +96,7 @@ is a description of the Table graphcical controls available for building web app
 .. toctree::
    :maxdepth: 1
 
-   webgc-datatable
+   ./web-gcs/webgc-datatable
 
 |
 
@@ -108,13 +109,13 @@ in a graph format. Below is a description of the Charts available for building w
 .. toctree::
    :maxdepth: 1
 
-   webgc-barchart
-   webgc-hzbarchart
-   webgc-piechart
-   webgc-donutchart
-   webgc-linechart
-   webgc-cmlinechart
-   webgc-areachart
+   ./web-gcs/webgc-barchart
+   ./web-gcs/webgc-hzbarchart
+   ./web-gcs/webgc-piechart
+   ./web-gcs/webgc-donutchart
+   ./web-gcs/webgc-linechart
+   ./web-gcs/webgc-cmlinechart
+   ./web-gcs/webgc-areachart
 
 |
 
@@ -128,8 +129,11 @@ graphcical controls available for building web applications in the View Editor:
 .. toctree::
    :maxdepth: 1
 
-   webgc-panel
-   webgc-tabs
-   webgc-wizard
+   ./web-gcs/webgc-panel
+   ./web-gcs/webgc-tabs
+   ./web-gcs/webgc-wizard
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
