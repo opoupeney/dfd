@@ -5,7 +5,7 @@ Exploring the Studio
 
 Quick Tour
 
-.. image:: ../getting-started/dfx-studio-firstpage1.png
+.. image:: ../getting-started/dfx-studio-landingpage1.png
 
 |
 

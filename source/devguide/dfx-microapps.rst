@@ -87,15 +87,15 @@ When developing an application architecture for the cloud, you deal with complex
 Additional benefits may include service reuse from other applications or more coarse-grained services. You can break up applications into hundreds of underlying services that have value when used by other applications. In this way, you’re not reinventing the wheel each time you build an application. Consider the example of a credit-check service that many applications use. Combine these into a single service and the application becomes much more efficient.
 
 
-Data are Loosely Coupled
-========================
+Loosely Coupled
+===============
 
 Applications that are tightly coupled with the data are not well suited for the complex distributed environment of the cloud.
 For an application to be able to scale, application architectures need to that separate processing and data into separate
 components.
 
 Data and processing are decoupled for the same reason that DreamFace applications are built from a collection of components
-and services. When data services are decoupled, you have the option to store store and process the data on any public or private
+and services. When data services are decoupled, you have the option to store and process the data on any public or private
 cloud instance. Data is a key asset for many enterprises and for security reasons they like to keep the data on local servers.
 Most enterprises have hybrid environments where applications are deployed in the cloud. When data and applications are
 decoupled they can be deployed on different hybrid environments which again brings agility to the application and allows

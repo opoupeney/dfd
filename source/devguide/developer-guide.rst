@@ -47,10 +47,14 @@ The Reference section describes how DreamFace implements the many built-in featu
 .. toctree::
    :maxdepth: 1
 
-   dfx-concepts-templates
+
+   ref-install-bluemix
+   ref-dfx-studio
    dfx-concepts-views
+   dfx-concepts-templates
    dfx-concepts-reusability
    ref-graphical-controls
+   ref-adding-developers
    dfx-concepts-pubsub
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

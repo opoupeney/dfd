@@ -27,7 +27,6 @@ For a detailed explanation of each View Editor's pre-defined graphical controls 
    :maxdepth: 1
 
    ../devguide/gcs-web
-   ../devguide/gc-mob
 
 |
 
