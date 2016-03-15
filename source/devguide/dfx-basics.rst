@@ -9,15 +9,14 @@ Enterprise-grade, :term:`cloud-native`,  web and mobile applications with ease a
 a new generation of cloud applications featuring uncompromising User Experiences and providing the right data on the right
 device by secure and code-less consumption of virtually any public or private API.
 
-DreamFace accelerates development and leaves room for developer creativity to solve complex business problems by removing much
-of the heavy-lifting in writing application logic, connecting to multiple data sources, providing security and packaging
-applications. Developers focus their development on creating a compelling user experience with reduced coding required thanks to
-a comprehensive integration of backend services with codelss consumption or APIs.
-
 DreamFace was created to ease development of two difficult and time consuming tasks:
 
-* **User Interface** - industrialize and simplify the creation of beautiful, complex user interfaces for multiples screens
-* **Back-End Data Integration** - codeless and secure intregration of virtually any API or back-end data source
+* **User Interface** - to industrialize and simplify the creation of beautiful, complex user interfaces for multiples screens
+* **Back-End Data Integration** - to integrate backend services via codeless and secure intregration of virtually any API or back-end data source
+
+DreamFace empowers developers with a powerful development studio offering editors for creating Views, API Services, Scripts,
+Pages Templates, Menus and Styling to name a few. Developers focus their development on creating a compelling user experience
+leveraging team skills and creating reusable components that can be used to assemble different applications.
 
 DreamFace is built on the MEAN Stack, MongoDB, ExpressJS, Angularjs and Nodejs.
 
@@ -27,14 +26,8 @@ DreamFace applications are:
 * :term:`cloud-native` and :term:`multi-tenant` right out of the box
 * multi-platform by nature, the underlying :term:`UI` is based on Angular Material
 * based on best of breed, open-source technologies that are the foundation of the internet applications today
-* are architected to scale to the limits of the cloud
-* open-source but also open and extensible
-
-DreamFace accelerates development with a visual Editor for creating rich user interfaces with drag and drop development.
-In the View Editor, pre-defined graphical controls are dragged on to an panel and properties and attributes are set,
-minimizing the coding required and allowing developers to focus on creating the user,experience. Developers can drop into code
-when the user interface requires specific customization and they have always have access to underlying assets
-of the application in the DreamFace Repository which contains a description of each component in JSON format.
+* are architected to scale
+* open-source, open and extensible
 
 |
 

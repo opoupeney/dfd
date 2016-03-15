@@ -176,10 +176,10 @@ of the “View Interface”. An easy programming model to allow the implementati
 The sum of all events handled by the View or Emitted by the View will become the “View Interface” allowing an easy and
 graphical wiring between Views in order to produce a more granular concerted experience
 
-   ?? >>show some example of pub/sub>>
+
 
 * Access a higher level context such as the ones for the host page or the applicaton
-   ?? <<show code that demonstrates that>>
+
 
    ** Cards**
    Cards are a very interesting concept that was added in DreamFace v3.0. The idea of Cards stemmed from the need to produce
@@ -208,7 +208,7 @@ DreamFace applications consume API services exclusively. All interactions with b
 as API calls, using the REST standard as a way to interact and standardize the consumption of services. DreamFace introduces
 many new concepts to ease the adaptation and the consumption of API’s for the purpose of building the User Interface.
 
-?? <<show an architectural diagram on how UI consumes API in DFX>>
+
 
 **API Source**
 “API Sources” are the construct to define a “backend API source” to be used later on to define services. An “API Source”
