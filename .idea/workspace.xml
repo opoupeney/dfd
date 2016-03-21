@@ -2,16 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96c1632-325d-4bdf-834e-9e67cbe7155a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio--1pg-tenantx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-explorerx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-iconbarx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-searchx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-statsx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-tenantx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-versionx.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-application.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-platform.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-shared-catalog.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-app-components.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-apisource.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-appuser-identity.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-appuser-roles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-appuser.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-build.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-collaboration.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-general.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-github.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-resources-css-create.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-resources-css-edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-resources-css-file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-resources-js-create.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-resources-js-edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-resources-js-file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-resources-js.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-roles-props.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-roles-rights.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-roles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-config-users-object.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-configuration.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-create-app-home2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-create-app.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-app-components.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-app-configuration.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-create-app.rst" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/source/devguide/ref-dfx-application.rst" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-applications.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/developer-guide.rst" afterPath="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/glossary.rst" afterPath="$PROJECT_DIR$/source/glossary.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -40,90 +59,93 @@
         <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="175" column="26" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
+              <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfx-studio-1pg-iconbarx.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-iconbarx.png">
+      <file leaf-file-name="ref-dfx-applications.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-applications.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.0">
+              <caret line="20" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="developer-guide.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.16">
+              <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ref-dfx-app-configuration.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-app-configuration.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41385767">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dfx-platform-architecture.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dfx-config-resources-js-create.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-config-resources-js-create.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfx-studio-1pg-search.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-search.png">
+      <file leaf-file-name="dfx-config-roles-props.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-config-roles-props.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="faq.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/faq.html">
+      <file leaf-file-name="glossary.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/glossary.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="38" column="237" selection-start-line="38" selection-start-column="237" selection-end-line="38" selection-end-column="237" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ref-graphical-controls.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/ref-graphical-controls.rst">
+      <file leaf-file-name="ref-dfx-create-app.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-create-app.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ref-dfx-platform.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-platform.rst">
+      <file leaf-file-name="ref-dfx-app-components.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-app-components.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
               <folding />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ref-dfx-application.rst" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-application.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11173184">
-              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ref-dfx-shared-catalog.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-shared-catalog.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dfx-keyconcepts.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dfx-studio-platform-cloud.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-studio-platform-cloud.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
           </provider>
         </entry>
       </file>
@@ -140,12 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/devguide/dfx-concepts-reusability.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/gc-mob.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/gcs-web.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-areachart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-barchart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-button.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-checkbox.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-cmlinechart.rst" />
@@ -182,15 +198,21 @@
         <option value="$PROJECT_DIR$/source/devguide/ref-install-bluemix.rst" />
         <option value="$PROJECT_DIR$/source/devguide/ref-exploring-the-studio.rst" />
         <option value="$PROJECT_DIR$/source/devguide/dfx-technology.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
         <option value="$PROJECT_DIR$/source/devguide/ref-adding-developers.rst" />
         <option value="$PROJECT_DIR$/source/devguide/dfx-basics.rst" />
         <option value="$PROJECT_DIR$/source/index.rst" />
         <option value="$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst" />
         <option value="$PROJECT_DIR$/source/devguide/ref-dfx-shared-catalog.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst" />
         <option value="$PROJECT_DIR$/source/devguide/ref-dfx-platform.rst" />
         <option value="$PROJECT_DIR$/source/devguide/ref-dfx-application.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-create-app.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-applications.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-create-app.rst" />
+        <option value="$PROJECT_DIR$/source/glossary.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-app-components.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-app-configuration.rst" />
       </list>
     </option>
   </component>
@@ -205,7 +227,7 @@
     <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1433" />
-    <option name="height" value="807" />
+    <option name="height" value="805" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -318,6 +340,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="gsguide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="devguide" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -365,6 +405,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="true" />
+    <property name="ToolWindowTerminal.ShowToolbar" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -488,27 +529,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1433" height="807" extended-state="6" />
-    <editor active="false" />
+    <frame x="4" y="23" width="1433" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21199442" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2117812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981132" sideWeight="0.48598132" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19546743" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19546743" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1970128" sideWeight="0.24403927" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289855" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289855" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32635984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32635984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -526,9 +567,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19262865" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -556,78 +597,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-templates.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/layout.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/understanding-panels.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-pubsub.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-reusability.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-concepts-views.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfx-multitenancy.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfx-iterative-dev.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfx-ic-download.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfx-dev-topdown.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfx-dev-bottomup.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfx-cloud-platform.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/images/diagrams/dfd-environments.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -719,31 +688,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/help-menu-editor.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-technology.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="222" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/images/getting-started/dfx-install-npm.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/images/getting-started/dfx-explorer1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/getting-started/dfx-studio-firstpage1.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -769,24 +719,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/ref-adding-developers.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="40" column="50" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/index.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -802,27 +738,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/ref-graphical-controls.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-shared-catalog.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -852,18 +771,161 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst">
+    <entry file="file://$PROJECT_DIR$/source/images/getting-started/dfx-studio-firstpage1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/gsguide/getting-started.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="175" column="26" selection-start-line="175" selection-start-column="26" selection-end-line="175" selection-end-column="26" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-application.rst">
+    <entry file="file://$PROJECT_DIR$/source/index.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11173184">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="30" selection-start-line="34" selection-start-column="2" selection-end-line="34" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/gc-mob.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/help-menu-editor.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-shared-catalog.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/microservices.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-connecting-to-data.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-multitenancy.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-technology.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="222" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="222" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-keyconcepts.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-applications.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="20" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-create-app.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/glossary.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="237" selection-start-line="38" selection-start-column="237" selection-end-line="38" selection-end-column="237" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-config-resources-js-create.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-config-roles-props.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/dfx-platform-architecture.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-app-components.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="43" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.16">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="179" column="15" selection-start-line="179" selection-start-column="15" selection-end-line="179" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-app-configuration.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41385767">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
           <folding />
         </state>
       </provider>

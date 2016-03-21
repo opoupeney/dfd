@@ -35,6 +35,8 @@ Glossary
         Containerization refers to the act of deploying an application in a virtual container that uses some underlying infrastructure resources such as the operating system but contains all other dependencies for the application to run.
     controller
         Controller refers to the angularJS controller which connects the view (UI) and the model (data) together. The default panel in a DreamFace widget has a controller which contains all of the scripting for the widget.
+    CSS
+        CSS stands for Cascading Style Sheets. CSS is a language that describes how HTML elements are formatted, their style and color and how they are displayed on a page. It can define how multiple web pages are displayed and layed out.
     cross-platform
         This refers to applications that behave like native applications across different interfaces and devices. DreamFace uses Angular Material based on Material Design as the underlying technology to achieve cross-platform user experience. DreamFace applications can run on web or mobile devices.
     data binding

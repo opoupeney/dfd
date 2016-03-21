@@ -8,8 +8,13 @@ to the node application (DFX) and contains both development and runtime environm
 
 |
 
-Sign In  Page
-=============
+Signing into the Studio
+^^^^^^^^^^^^^^^^^^^^^^^
+
+|
+
+Sign In Page
+------------
 
 When you enter the url for you DreamFace environment, you will arrive on the logn page.
 
@@ -23,9 +28,10 @@ When you enter the url for you DreamFace environment, you will arrive on the log
 Enter your Username and Password and click on the *Sign In* button. If you would like to stay Signed In, check the box *Stay Signed In*
 
 |
+|
 
-Landing Page
-============
+The Landing Page
+----------------
 
 After signing in the **Landing Page** is displayed. The landing page of the Studio presents four icons in the middle of the page.
 
@@ -45,7 +51,7 @@ Choose one of the options:
 |
 
 My Apps Page
-============
+------------
 
 Clicking on the MyApps Page icon takes you directly into the DreamFace Studio to the first page of Your Application Platform.
 
@@ -142,10 +148,10 @@ you are searching for and click on the search Icon. All components with that nam
 
 **Stats**
 
-By default, the platform displays application statistcs for each app and information about components shared across
-applications. The main part of the screen or canvas is where action results are displayed. For instance, Search, would be
-another action and it replaces the stats in the canvas when it displays the search results. If your application statistics
-have been replaced by another action, just click on the *Home* icon and they will be redisplayed.
+By default, the platform displays application statistcs for each app in the tenant as well as information about components
+shared across applications. The main part of the screen or canvas is where results are displayed after some action is done.
+For instance, when you search on a name, the results of the search are displayed in the canvas and replace the stats. To
+redisplay your application statistics, just click on the *Home* icon.
 
 |
 
@@ -174,7 +180,7 @@ The Application Explorer is presented with a TreeMenu control. The first level o
    :maxdepth: 1
 
    ../devguide/ref-dfx-platform
-   ../devguide/ref-dfx-application
+   ../devguide/ref-dfx-applications
    ../devguide/ref-dfx-shared-catalog
 
 

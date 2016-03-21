@@ -50,7 +50,7 @@ The Reference section describes how DreamFace implements the many built-in featu
 
    ref-install-bluemix
    ref-dfx-studio
-   dfx-concepts-views
+   ref-dfx-create-app
    dfx-concepts-templates
    dfx-concepts-reusability
    ref-graphical-controls
