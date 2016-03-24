@@ -1,59 +1,15 @@
-The DreamFace Studio
-==============================
+Exploring The Home Page
+=======================
 
 The DreamFace Studio is the place where DreamFace developers create magic.
 
 It is the complete development and deployment tool for creating, building and deploying DreamFace applications. It corresponds
 to the node application (DFX) and contains both development and runtime environments.
 
-|
 
-Signing into the Studio
-^^^^^^^^^^^^^^^^^^^^^^^
+Clicking on the MyApps Page icon takes you directly to the Home page of the DreamFace Studio, the first page of Your Application Platform.
 
-|
-
-Sign In Page
-------------
-
-When you enter the url for you DreamFace environment, you will arrive on the logn page.
-
-|
-
-.. figure:: ../images/devguide/dfx-login-page.png
-   :width: 600px
-
-   Figure : *DreamFace Login Page*
-
-Enter your Username and Password and click on the *Sign In* button. If you would like to stay Signed In, check the box *Stay Signed In*
-
-|
-|
-
-The Landing Page
-----------------
-
-After signing in the **Landing Page** is displayed. The landing page of the Studio presents four icons in the middle of the page.
-
-.. figure:: ../images/devguide/dfx-landing-page.png
-   :width: 600px
-
-   Figure : *DreamFace Landing Page*
-
-Choose one of the options:
-
-* **Getting Started** - Getting Started  is a Video Tutorial Series to help you get started building DreamFace Apps
-* **Samples Apps** - Sample Apps is a collection of applications that you can view, download from Github and use as examples.
-* **Documentation** - A full set of written documentation, with hands-on examples, Samples Gallery and video tutorials
-* **My Apps** - The applications that you are creating in DreamFace
-
-
-|
-
-My Apps Page
-------------
-
-Clicking on the MyApps Page icon takes you directly into the DreamFace Studio to the first page of Your Application Platform.
+Lets take a minute to explore it and see what's possible.
 
 |
 
@@ -164,26 +120,6 @@ The Stats give us a quick look at the application. In the example above the appl
 no API Services. The application called TestApp has 1 Page, 0 Views and 0 API Services
 
 |
-
-The Explorer
-^^^^^^^^^^^^
-
-The Application Explorer is presented with a TreeMenu control. The first level of the menu contains:
-
-|
-
-.. image:: ../images/devguide/dfx-studio-1pg-leftnav.png
-
-|
-
-.. toctree::
-   :maxdepth: 1
-
-   ../devguide/ref-dfx-platform
-   ../devguide/ref-dfx-applications
-   ../devguide/ref-dfx-shared-catalog
-
-
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

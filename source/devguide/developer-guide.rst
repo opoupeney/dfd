@@ -45,11 +45,13 @@ Developers Reference
 The Reference section describes how DreamFace implements the many built-in features.
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 4
 
 
    ref-install-bluemix
+   ref-dfx-signin
    ref-dfx-studio
+   ref-dfx-studio-explorer
    ref-dfx-create-app
    dfx-concepts-templates
    dfx-concepts-reusability

@@ -1,8 +1,151 @@
-.. _app-config-label:
+The Explorer
+============
+
+
+The Application Explorer is presented with a TreeMenu control. The first level of the menu contains:
+
+|
+
+.. figure:: ../images/devguide/dfx-studio-1pg-leftnav.png
+
+Platform, Applications, Shared Catalog Options
+
+|
+
+Platform
+--------
+
+**Platform** allows for global parameter settings across applications for Developers and Cloud settings.
+
+Under the Platform menu there are two options:
+
+|
+
+.. image:: ../images/devguide/dfx-studio-platform-menu.png
+
+|
+
+* **Developers** - Define all developers that have access to the platform.
+* **Cloud** - Defines parameters to connect your DreamFace application to Bluemix and create an public IP address and port to access it.
+
+|
+
+Developers
+^^^^^^^^^^
+
+Because developers can work on more than one application they to be added at the platform level.
+
+**Adding Developers**
+
+
+Adding developers to DreamFace is a straighforward task.
+
+Developers are created at the Platform level (above applications). This is normal since each developer can work on more than
+one application. All parameters set at the Platform level are global.
+
+From the Platform / Developers menu click on Developers.
+
+.. image:: ../images/devguide/dfx-studio-platform-menu.png
+
+|
+
+When adding developers for the first time after creating our app, there is already one existing developer which is *admin*,
+the application administrator. Admin is created when the application is created and is needed to create the other developers.
+
+|
+
+.. figure:: ../images/devguide/dfx-dev-admin.png
+
+   Figure : *admin is the only developer available at the beginning*
+|
+
+Lets create a developer called *Jack Russel*. Just fill in the fields. Login is the
+username that Jack will use to Sign In.
+
+.. figure:: ../images/devguide/dfx-dev-create-jrussel.png
+
+   Figure : *Creating developer Jack Russel*
+
+Now we can click on the Roles tab and set Jack's role to developer.
+
+|
+
+.. figure:: ../images/devguide/dfx-dev-role-jrussel.png
+
+   Figure : *Giving developer Jack Russel developer role*..
+
+When all fields have been filled in and Jack's role has been defined, click on Save to save the definition of our new developer.
+
+|
+
+.. figure:: ../images/devguide/dfx-dev-created-jrussel.png
+
+   Figure : *Developr Jack Russel has been created createde*
+
+Our new dveloper, Jack Russel, is ready to start. If you don't want Jack to be an admin just return to roles and uncheck
+the admin checkbox.
+
+|
+
+Cloud
+^^^^^
+
+This Cloud option is a way to connect your application to Bluemix.
+
+DreamFace is a Bluemix Service. When you are logged in to your Bluemix account and you select the DreamFace Service
+and you are logged in automatically through your Bluemix account credentials and you arrive directly in the DreamFace Studio
+on Bluemix.
+
+Another way do use DreamFace on Bluemix is to say, DreamFace is used to create applications. I want my application to be
+stored in my Bluemix environment.
+
+|
+
+.. image:: ../images/devguide/dfx-studio-platform-cloud.png
+
+Here you will login with your Bluemix account by clicking on the Login button. You will then select your organization and
+space (defined by Bluemix). You can then create an image of your application. An image is a virtual container that
+includes your application and all of the dependencies: DreamFace and its dependencies, and  NodeJS, AngularJS,
+the operating system, etc, everything your application needs on the virtual machine to run is packaged together in the image.
+Once the image on Bluemix you can select it and create a public url and port.
+
+|
+
+.. image:: ../images/devguide/dfx-studio-platform-cloud.png
+:width: 700px
+
+Here we have the dfx-a1 image which is to a DreamFace application. Click on the image of the application. Then you can define
+in which container you would like to install this image and run this application. You define the application name, public IP
+address, listening port, etc. When everything is defined you click on **Create** and your application will be reachable through
+that IP address and the port.
+
+|
+
+.. image:: ../images/devguide/dfx-bluemix-container-definition.png
+
+
+It's a simple proces: you go to your DreamFace environment, you login to Bluemix, you create your image, you publish it
+and its done and ready to use.
+
+
+*Other Cloud environments to come*
+
+Today there is only have one cloud platform available which is Bluemix. In the near future there will also be one for Docker.
+
+|
+
+Applications
+------------
+
+An application is defined by two main parts:
+
+* **Configuration** - The Configuration setting that determine the behavior of your application and how it interacts with other systems.
+* **Components** - The Components section of the Studio gives provides editors to create the differnt components of your application.
+
+|
 
 Configuration
 ^^^^^^^^^^^^^
-
 
 The Configuration menu allows us to set different Application Properties which determine application behavior internally
 how the application interacts will external systems.
@@ -18,7 +161,7 @@ options are discussed in more detail below. Clicking on any of the other menu op
 |
 
 General
--------
+,,,,,,,
 
 |
 
@@ -31,7 +174,7 @@ application.
 |
 
 Devops
-^^^^^^
+,,,,,,
 
 Under the Devops settings there are three categories of settings:
 
@@ -62,7 +205,8 @@ instance somewhere those application components can be imported to the local rep
 |
 
 API Sources
-^^^^^^^^^^^
+,,,,,,,,,,,
+
 API Source defines which data source to access, how it is accessed, with what authenitcation protocol and which
 developer credentials.
 
@@ -85,12 +229,30 @@ Click on the **+ API SOURCE** button to define a new API Source.
 
 The API Sources Provider Properties defines the following properties:
 
-*Name* - This is the your name for this new API Source. In the example above the *Name* is
+*Name* - The Name of the new API Source being created. In the example above the *Name* is
 
 |
 
+*API Provider* - The API Provider is the source of the API
+
+Available API Providers are:
+
+* REST
+* StrongLoop
+* Gmail
+* Calendar
+* Contacts
+* Drive
+* Facebook
+* Google+
+* Twitter
+
+
+
+
 Resources
-^^^^^^^^^
+,,,,,,,,,
+
 Under the Resources settings there are four categories of settings:
 
 * **Data Dictionarys** - A way to define JSON structures that can be reused.
@@ -165,7 +327,8 @@ As with Javascript and CSS files, they will be attached and accessible throughou
 |
 
 Users and Roles
-^^^^^^^^^^^^^^^
+,,,,,,,,,,,,,,,
+
 
 Application Users are the end users of the application and are different from developers. They need different access rights
 and roles. These users and roles can be defined here.
@@ -244,14 +407,16 @@ can be used as the Default role, in this case the default is the *guest* role.
 |
 
 Personalization
-^^^^^^^^^^^^^^^
+,,,,,,,,,,,,,,,
+
 Personalization is used to define restrictions, pre-defined values for graphical controls or access rights to some pages
 for each role. It will be available in a later release.
 
 |
 
 Deployment
-^^^^^^^^^^
+,,,,,,,,,,
+
 Once your application is finished and your are satisified with its functionality and behavior you can deploy it.
 
 |
@@ -285,4 +450,56 @@ For more details on the DreamFace architecture See :ref:`platform-architecture-l
 
 |
 
+Components
+^^^^^^^^^^
+
+
+Application Components include:
+
+* **Pages** a collection of Views layed out in a certain format.
+* **Views** components which define the user interface and data interaction by calling API Service Objects to get the data.
+* **API Service Objects** components that define the data access.
+
+which are the main components of a DreamFace application.
+
+|
+
+.. image:: ../images/devguide/dfx-app-components.png
+
+
+
+DreamFace applications can be developped in a Top Down ( Pages -> Views -> API Service Objects) or a Bottom Up (API Service
+Objects -> Views -> Pages) development process. Bottom Up is usually preferred by serious developers because it defines the
+data access first.
+
+In the Bottom Up approach the first thing to do is to connect DreamFace to the data and retrieve the data.
+
+Once the data access is defined, the Views can be created to define a user interface for that specific data.
+
+Once the Views exist, they can be added to Pages is a certain layout using a Page Template (header, footer, left /right
+nav, ...), to create the application.
+
+API Service Object
+,,,,,,,,,,,,,,,,,,
+
+The API Service and the way to access data is decomposed in several steps. This method to access the data is very powerful.
+
+The first step is to define the API Source.
+
+Views
+,,,,,
+
+
+
+Pages
+,,,,,
+
+
+
+
+Shared Catalog
+--------------
+
+
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
