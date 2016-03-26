@@ -12,6 +12,7 @@ Platform, Applications, Shared Catalog Options
 
 |
 
+
 Platform
 --------
 
@@ -207,13 +208,16 @@ instance somewhere those application components can be imported to the local rep
 API Sources
 ,,,,,,,,,,,
 
-API Source defines which data source to access, how it is accessed, with what authenitcation protocol and which
-developer credentials.
+Accessing backend APIs with DreamFace is done in a very powerful decoupled way. The first step is to define the source of
+of the API, where this API is coming from and which authentication protocol and developer credentials are needed to access
+it. The decoupling of the API Source from the API Service and Route definitions allows the developer to define API Source
+access once and reuse it for every API Service coming from that source thus saving time and eliminating the potential for
+error.
 
 In practical terms, it answers the questions:
 
-* Where is my data?
-* How do I access it?
+* Where is my data coming from?
+* How can I access it?
 * Which authentication protocol is required?
 * With which developer credentials?
 
@@ -247,8 +251,7 @@ Available API Providers are:
 * Google+
 * Twitter
 
-
-
+|
 
 Resources
 ,,,,,,,,,
