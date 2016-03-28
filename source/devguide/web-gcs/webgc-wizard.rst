@@ -2,7 +2,7 @@ Wizard
 ======
 
 .. image:: ../../images/icons/icon_web.png
-:class: pull-right
+   :class: pull-right
 
 A panel is one of the most important graphical controls because it defines the layout of the View or a portion of the View.
 It consists of a title and an area where the layout will be organized. The layout is based on Angular Material and Material

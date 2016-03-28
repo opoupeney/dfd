@@ -212,7 +212,7 @@ Accessing backend APIs with DreamFace is done in a very powerful decoupled way. 
 of the API, where this API is coming from and which authentication protocol and developer credentials are needed to access
 it. The decoupling of the API Source from the API Service and Route definitions allows the developer to define API Source
 access once and reuse it for every API Service coming from that source thus saving time and eliminating the potential for
-error.
+error. In this sense, the API Source is an alias for the source definition.
 
 In practical terms, it answers the questions:
 
@@ -251,6 +251,16 @@ Available API Providers are:
 * Google+
 * Twitter
 
+Once you choose the API Provider, an introspection takes place that determines if you will need authenication and to define
+developer credentials.
+
+Then you define your credentials and save. The API Source name can be used each time you want to access data coming from
+this source.
+
+If you change the environment from development to UAT you can use the same alias but now the API Source may access a
+differnent server. The use of the API Source alias gives a lot of flexibility in defining our services and keeping them
+independent from the source definition.
+
 |
 
 Resources
@@ -265,8 +275,24 @@ Under the Resources settings there are four categories of settings:
 
 **Data Dictionary**
 
-A way to define JSON structures that can be reused.
+The Data Dictionary offers a way to define JSON structures that can be reused. Here we can define a payload coming back
+from a REST service. This will allow the Studio to introspect the data and map it to fields automatically.
 
+|
+
+.. image:: ../images/devguide/dfx-studio-datadictionary.png
+
+|
+
+The Data Dictionary Editor will allow use to define the business object data structure.
+
+.. image:: ../images/devguide/dfx-studio-ddeditor.png
+
+It is also possible to create a business object that does not relate to an API. In this data structure you can put fields
+of totally unrelated or related data. By defining this object, I can then pass it between View that can consume it and use
+the definitions to get some data mappings automatically.
+
+From a javascript point of view it is a class with a name that can be used throughout the application.
 |
 
 **Javascript**
@@ -456,46 +482,104 @@ For more details on the DreamFace architecture See :ref:`platform-architecture-l
 Components
 ^^^^^^^^^^
 
-
 Application Components include:
 
-* **Pages** a collection of Views layed out in a certain format.
-* **Views** components which define the user interface and data interaction by calling API Service Objects to get the data.
-* **API Service Objects** components that define the data access.
-
-which are the main components of a DreamFace application.
+* **Pages** a composition of Views organized in a layout of on or more view cards.
+* **Views** reusable user interface components which consume APIs Services to interact with back-end data.
+* **API Service Objects** reusable components that define the data access.
 
 |
 
-.. image:: ../images/devguide/dfx-app-components.png
+.. image:: ../images/devguide/dfx-studio-1pg-leftnav.png
 
-
+These are the main components of a DreamFace application.
 
 DreamFace applications can be developped in a Top Down ( Pages -> Views -> API Service Objects) or a Bottom Up (API Service
-Objects -> Views -> Pages) development process. Bottom Up is usually preferred by serious developers because it defines the
-data access first.
+Objects -> Views -> Pages) development process. The Bottom Up approach is usually preferred by serious developers because
+it defines the data access first.
 
 In the Bottom Up approach the first thing to do is to connect DreamFace to the data and retrieve the data.
 
-Once the data access is defined, the Views can be created to define a user interface for that specific data.
+Once the data access is defined, the Views can be created and bound to the API Services to collect, display and update the
+specific data for that View.
 
-Once the Views exist, they can be added to Pages is a certain layout using a Page Template (header, footer, left /right
-nav, ...), to create the application.
+Once the Views exist, they can be added to Pages in a certain layout using a Page Template (header, footer, left /right
+nav, ...), to a page of the application. Cards and View Cards allow us to stay on the same page in a :ref:`SPA approach.
+
+|
 
 API Service Object
 ,,,,,,,,,,,,,,,,,,
 
-The API Service and the way to access data is decomposed in several steps. This method to access the data is very powerful.
+In DreamFace we build Views and Pages that can consume APIs.
 
-The first step is to define the API Source.
+Defining an API Service and the way to access data is decoupled into three parts:
+
+1. Define the API Source - this defines how to access the API and the authentication needed to access it.
+2. Define an API Service Object - this is a logical grouping of different API Services or endpoints into a logical object.
+3. Define the actual API Service - this is the definition of the API route or endpoint.
+
+This method to access the data is very powerful.
+
+The API Source, for example, *publicREST* is a reusablle definition of the API source that can be used each we define that
+type of API Service. This means that there is one place where we define access to this type API along with all of the
+authentication / credentials requried to access it.
+
+|
+
+.. image:: ../images/devguide/dfx-studio-apisSO-news.png
+
+An API Service Object is a way to group API Services together logically. Imagine that you want to build a News Service Object
+that groups together News coming from different sources like CNN News, NY Times, Yahoo News, etc. using the concept of API
+Service Object we can group the services together under the same logical API Service Object called NewsService.
+
+|
+
+.. image:: ../images/devguide/dfx-studio-apiservices-news.png
+
+Each one of the services defined in the logical object will be an API Service endpoint in DreamFace (in the Angular/Node
+sense) that you can later bind to a the user interface View to access and modify the data.
+
+The different API Services in the Service Object are methods.
+
+|
+
+
+
+
 
 Views
 ,,,,,
 
+A View is a user interface component. In the Angular sense a View is an Angular Module. In the View Editor in the script
+the View is the definition of the Angular Module for the current View. The module has a controller that is the main function
+of the View. All other functions and code defintions that define the behavior of the the View go inside this controller and
+are for this View only. These functions can do any kind of manipulation or validation for the View. It can call the backend
+for data, validate a form on the click of a Button, etc.
 
+Views are created in the View Editor.
+
+
+.. image:: ../images/devguide/dfx-studio-view-editor.png
+
+When the View is deployed it becomes an Angular Module.
+
+|
 
 Pages
 ,,,,,
+
+A Page is an assembly or composition of Views surrounded by a Page Template that determines how it will be presented.
+
+An application can have more than one page and also more than one page template.
+
+Pages are created in the Page Editor. Within the Page Editor is a Template Editor to define Page Templates.
+
+.. image:: ../images/devguide/dfx-studio-page-editor.png
+
+
+In the same sense that a View is nothing more than an Angular Module, a Page is a composition of Angular Modules (Views).
+All Views that are combined on a Page can share the Page scope to pass data from View to View.
 
 
 
@@ -503,6 +587,7 @@ Pages
 Shared Catalog
 --------------
 
+The Shared Catalog allows us to share components that are in the catalog across applications.
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

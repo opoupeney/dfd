@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96c1632-325d-4bdf-834e-9e67cbe7155a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-help-contactus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-help-documentation.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-help-getsupport.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-help-servicedesk.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-help-stackoverflow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-myapps-icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-helpmenu.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-iconbar-rt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-firstpage3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-firstpage3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-version.png" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-version.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-versionx.png" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-versionx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-apisSO-news.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-apiservices-news.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-datadictionary.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-ddeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-page-editor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-view-editor.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-explorerx.png" afterPath="$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-explorerx.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/ref-dfx-studio-explorer.rst" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-studio-explorer.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst" afterPath="$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dfd.iws" />
@@ -39,11 +36,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ref-dfx-studio.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ref-dfx-studio.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21933086">
-              <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -62,7 +59,7 @@
       <file leaf-file-name="indexold.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/indexold.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -72,7 +69,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -86,11 +83,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ref-dfx-studio-explorer.rst" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ref-dfx-studio-explorer.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio-explorer.rst">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5669145">
+              <caret line="526" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webgc-iconbar.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webgc-wizard.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -103,28 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dfx-studio-1pg-explorerx.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-explorerx.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="developer-guide.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/devguide/developer-guide.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ref-dfx-app-components.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-app-components.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzbarchart.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-icon.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-input.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-knob.rst" />
@@ -165,7 +164,6 @@
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-switch.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-tabs.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst" />
         <option value="$PROJECT_DIR$/source/devguide/dfx-basics-new.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-textarea.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-styling.rst" />
@@ -192,8 +190,10 @@
         <option value="$PROJECT_DIR$/source/ref-dfx-signin.rst" />
         <option value="$PROJECT_DIR$/source/devguide/ref-dfx-signin.rst" />
         <option value="$PROJECT_DIR$/source/devguide/developer-guide.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-studio-explorer.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst" />
         <option value="$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/ref-dfx-studio-explorer.rst" />
       </list>
     </option>
   </component>
@@ -233,8 +233,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -282,6 +282,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gcs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -497,27 +519,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1433" height="807" extended-state="6" />
-    <editor active="false" />
+    <frame x="4" y="23" width="1433" height="807" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21059972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21059972" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981132" sideWeight="0.48598132" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24504249" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1970128" sideWeight="0.24403927" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289855" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32635984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32635984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -535,9 +557,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19262865" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -565,14 +587,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-app-components.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-landing-page.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -820,7 +834,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="286" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -828,16 +841,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-leftnav.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-studio-1pg-explorerx.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
@@ -853,14 +860,6 @@
     <entry file="file://$PROJECT_DIR$/source/images/devguide/dfx-studio-firstpage.png">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio-explorer.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/indexold.html">
@@ -887,10 +886,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21933086">
-          <caret line="128" column="19" selection-start-line="128" selection-start-column="19" selection-end-line="128" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/ref-dfx-studio-explorer.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5669145">
+          <caret line="526" column="0" selection-start-line="513" selection-start-column="0" selection-end-line="526" selection-end-column="0" />
           <folding />
         </state>
       </provider>

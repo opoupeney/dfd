@@ -127,18 +127,17 @@ The Explorer
 ------------
 
 On the left side of the page underneath the platform name is the Explorer panel. The Explorer contains thre options: Platform,
-Applications and Shared Catalogue. It is organized in a tree structure for easily and intuitively navigating through applications,
-configuration settings and components. A platform can have one or more applications and each application has its own configuration
-and components. Shared components can be used across different applications.
+Applications and Shared Catalogue. It is organized in a tree structure for easily navigating through the different setting
+and components when creating your applications.
+
+|
 
 .. image:: ../images/devguide/dfx-studio-1pg-explorerx.png
 
-|
-
+A platform can have one or more applications and each application has its own configuration and components. Shared Catalogue
+contains components that can be used across different applications.
 
 .. image:: ../images/devguide/dfx-studio-1pg-leftnav.png
-
-|
 
 The Explorer can be collapsed to get more screen real estate by clicking on the
 
