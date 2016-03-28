@@ -32,6 +32,7 @@ Guide to DreamFace Documentation
 
 The DreamFace documentation is divided into a series of guides created to take you from novice to expert in no time:
 
+* :ref:`getting-started-label` contains everything you need to get up and running and create your first DreamFace application.
 * :ref:`developer-guide-label` is a practical, hands-on guide for developers providing reference information and real-world examples.
 * :ref:`product-guide-label` provides general DreamFace product information such as product description, features and licensing.
 * :ref:`glossary-label` is a list of technical terms used in the documentation along with their definition and how they relate to DreamFace.

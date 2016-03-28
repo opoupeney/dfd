@@ -204,12 +204,31 @@ NodeJS is an open source, cross-platform runtime environment for developing serv
 written in javascript making it possible to use one language across client and server development. It is based
 on Google's V8 engine.
 
-The following are just a few reasons Node.js is a great technology:
+The following are just a few reasons why we chose Node.js for our server technology:
 
-* JavaScript end-to-end: Since Node.js uses javascript for writing scripts it allows for javascript on the client and server.
-* Event-driven scalability: Node.js applies a unique logic to handling web requests. It uses an asynchronous model for processing. This allows Node.js webservers to scale in ways that traditional webservers can’t.
-* Extensibility: Node.js has a very active developer community adding new modules at lightning speed to extend Node.js functionality. Modules can have dependencies on other modules and node applications grow in a modular way.
-* Easy to use: Setting up Node.js and developing in it is easy. In just a few minutes you can install Node.js and have a working webserver.
+**Javascript end-to-end**
+
+Since Node.js uses javascript for writing scripts. This is important because it means only one language for front-end and
+backend development.
+
+
+**Non-blocking I/O**
+
+Event-driven scalability: Node.js applies a unique logic to handling web requests. It uses an asynchronous model for processing.
+This allows Node.js webservers to scale in ways that traditional webservers can’t. This is the reason for the high performance
+of node applications.
+
+**npm**
+
+The Node Package Manager provides extensibility. NPM is the largest module ecosystem and its growth is exponential. For anyone
+who knows npm, its value is undeniable. Node.js has a very active developer comumnity adding new modules all the time to
+extend Node.js functionality. Modules can have dependencies on other modules and node applications grow in a modular way.
+
+**Easy of use**
+
+Setting up Node.js and developing in it is easy. In just a few minutes you can install Node.js and have a working webserver.
+
+|
 
 DreamFace leverages the concepts of NodeJS to the fullest extent. DreamFace (DFX) is a node module. Other Node
 apps can use DreamFace to extend thier functionality. The same goes for DreamFace.

@@ -1,7 +1,7 @@
 .. _bluemix-label:
 
-Installation on IBM Bluemix
-===========================
+Getting DreamFace on IBM Bluemix
+================================
 
 Getting DreamFace on Bluemix is easy. You can either get it from the Interactive Clouds download page or by signing into Bluemix
 directly.
@@ -24,9 +24,9 @@ You will see the image below.
 and follow the instructions. You'll be taken directly to the DreamFace Page on Bluemix.
 
 
-.. figure:: ../images/diagrams/dfx-ic-download.png
+.. figure:: ../images/diagrams/dfx-bluemix-page.png
 
-   Figure : *DreamFace Page on Bluemix - if you haven't logged in, log in now and choose the desired option for DreamFace.*
+   Figure : *DreamFace Page on Bluemix - choose the desired option for DreamFace and click on Create.*
 
 
 Once logged in you can get DreamFace and start building your applications right away.
@@ -47,7 +47,7 @@ For instructions on how to install the DreamFace as a service on BlueMix, watch 
 .. raw:: html
 
         <object width="480" height="385"><param name="movie"
-        value="http://www.youtube.com/v/h5QxOAxH5zM&hl=en_US&fs=1&rel=0"></param><param
+        value="http://www.youtube.com/v/h5QxOAxH5zM=en_US&fs=1&rel=0"></param><param
         name="allowFullScreen" value="true"></param><param
         name="allowscriptaccess" value="always"></param><embed
         src="http://www.youtube.com/v/h5QxOAxH5zM&hl=en_US&fs=1&rel=0"

@@ -10,10 +10,10 @@ by visiting the :ref:`developer-guide-label`, a hands on reference with examples
 cases for developing with DreamFace.
 
 
-Quick Install
-^^^^^^^^^^^^^
-If you don’t have DreamFace yet, you’ll need to start with the quick install. DreamFace is currently available on IBM Bluemix.
-It only takes a few minutes to install and get up and running. Just login to your BlueMix account and choose the DreamFace service.
+Getting DreamFace
+^^^^^^^^^^^^^^^^^
+If you don’t have DreamFace yet, you’ll need to start there. DreamFace is currently available on IBM Bluemix.
+It only takes a few minutes to get up and running. Just login to your BlueMix account and choose the DreamFace service.
 
 :ref:`bluemix-label`
 
@@ -26,32 +26,17 @@ and introduces you to important DreamFace concepts to get you started, as quickl
 your first DreamFace applications. You will learn how to get the most benefit from the many buit-in features provided in
 the platform. It's recommended to view the tutorials in order.
 
-.. _gs-tutorials-menu-label:
+
+.. _new-label:
 
 **Welcome the Getting Started Tutorial Series!**
 
 .. toctree::
    :maxdepth: 1
 
-   ../gsguide/tutorials/exploring-the-studio
+   ../devguide/ref-dfx-studio
    ../gsguide/tutorials/hello-world
-   ../gsguide/tutorials/first-app
-   ../gsguide/tutorials/development-process
-   ../gsguide/tutorials/application-architecture
-   ../gsguide/tutorials/view-editor
-   ../gsguide/tutorials/creating-views
-   ../gsguide/tutorials/creating-api-services
    ../gsguide/tutorials/connecting-data
-   ../gsguide/tutorials/adding-resources
-   ../gsguide/tutorials/application-personalization
-   ../gsguide/tutorials/deploying
-   ../gsguide/tutorials/cloud-database
-   ../gsguide/tutorials/cloudapp-settings
-   ../gsguide/tutorials/creating-theme
-   ../gsguide/tutorials/registering-url
 
-
-Now that you know the basics, you can explore the Samples Gallery, to see real world examples and best practices for using
-DreamFace at :ref:`samples-label`
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
