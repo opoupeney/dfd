@@ -11,7 +11,7 @@ a description of how DreamFace integrates and leverages these open source, best 
 
 
 DreamFace and MongoDB
-=====================
+---------------------
 
 MongoDB is an open source, agile and highly scalable NoSQL database that is very well adapted to web and mobile application data constructs.
 
@@ -34,7 +34,7 @@ DreamFace leverages MongoDB in two ways:
 |
 
 As a Repository
----------------
+^^^^^^^^^^^^^^
 
 DreamFace uses MongoDB in a central role during application development as a :term:`repository` to store all DreamFace components in
 JSON format.
@@ -46,7 +46,7 @@ Studio or be modified manually by changing the source JSON.
 |
 
 As a Database
--------------
+^^^^^^^^^^^^
 
 DreamFace uses MongoDB as a local database during application development. It can be used to store real application data
 a data source for your application but very often it is used for Prototyping. For example, the local database can be used
@@ -63,7 +63,7 @@ from DreamFace.
 
 
 DreamFace and AngularJS
-=======================
+-----------------------
 
 Angular is a client-side development framework developed by Google for building mobile and desktop web applications. DreamFace
 fully integrates AngularJS v1.xx.
@@ -84,7 +84,7 @@ DreamFace recognized the value of AngularJS as a client-side framework early on 
 |
 
 Positioning
------------
+^^^^^^^^^^^
 
 =======   ==========================================================================================================================================
  **√**     Positioning
@@ -106,7 +106,7 @@ Positioning
 |
 
 Angular Architecture MV* (MVwhatever)
--------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 
 Angular architecture is based on a form of the Model View Controller Archtitecture.
@@ -128,7 +128,7 @@ Angular refreshes the appropriate binding points, which updates the view. (expla
 |
 
 DreamFace MVC Architecture
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In addition to the client side architecture provided by Angular, DreamFace also provides server side functionality for
 back-end data integration. DreamFace respects the separation of presentation logic from business logic and application state.
@@ -141,7 +141,7 @@ Taking into account server side functionality, DreamFace is a MVCVM or ModelView
 |
 
 AngularJS directives and extensibility of the Graphical Controls system
------------------------------------------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 DreamFace allows developers to extend pre-defined graphical conrols to enrich the development environment with their own
 custom graphical controls allowing developers to create a consistent look and feel across their applications. Image that
@@ -156,7 +156,7 @@ a cancel button they would use this standarized button.
 
 
 Angular Material
-----------------
+^^^^^^^^^^^^^^^
 
 Angular Material is an open source collection of User Interface components. It provides a set of reusable, well-tested,
 and accessible UI components (graphical controls like input fields, buttons, icons, menus, etc...) based on Material Design.
@@ -172,7 +172,7 @@ and mobile devices.
 
 
 How DreamFace Leverages Angular
--------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 DreamFace leverages Angular to provide the following benefits :
 
@@ -198,7 +198,7 @@ DreamFace leverages Angular to provide the following benefits :
 
 
 DreamFace and NodeJS
-====================
+--------------------
 
 NodeJS is an open source, cross-platform runtime environment for developing server-side web appplications. It is
 written in javascript making it possible to use one language across client and server development. It is based

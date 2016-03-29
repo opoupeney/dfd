@@ -2,7 +2,7 @@ DreamFace MicroServices Architecture
 ====================================
 
 Why DreamFace?
-^^^^^^^^^^^^^^
+--------------
 
 The success of social media applications on the internet has lead to a proliferation of new and robust open source technologies.
 It has also created a lot of expectations with end users for beautiful and intuitive user interfaces. At the same, IT departments
@@ -41,7 +41,7 @@ consistently great applcations with a beautiful user experience.
 |
 
 Composite Apps, MicroApps and MicroServices
-===========================================
+-------------------------------------------
 
 DreamFace applications are a composition of reusable components.
 
@@ -88,7 +88,7 @@ Additional benefits may include service reuse from other applications or more co
 
 
 Loosely Coupled
-===============
+---------------
 
 Applications that are tightly coupled with the data are not well suited for the complex distributed environment of the cloud.
 For an application to be able to scale, application architectures need to that separate processing and data into separate
@@ -108,7 +108,7 @@ enabling more security for the data and a wider range of connectivity options wi
 
 
 Modular Composition of Reusable Components
-==========================================
+------------------------------------------
 
 Extend considerations around how application components communicate to include overall performance as well. This includes
 understanding how the application will scale under an increasing load.
@@ -135,7 +135,7 @@ resources should be innate to the application as well.
 
 
 Application Security
-====================
+--------------------
 
 Often when building cloud applications, security is typically an afterthought. But for most businesses, deploying an application
 in the cloud, application and data security is very important and becomes a high priotity very quickly. DreamFace cloud
