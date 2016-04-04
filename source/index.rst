@@ -37,6 +37,7 @@ The DreamFace documentation is divided into a series of guides created to take y
 * :ref:`product-guide-label` provides general DreamFace product information such as product description, features and licensing.
 * :ref:`glossary-label` is a list of technical terms used in the documentation along with their definition and how they relate to DreamFace.
 * :ref:`faq-label` is a knowledge base of frequently asked questions. Have a look, maybe you'll see some you didn't think of yet.
+* :ref:`samples-label` is a documentation on sample applications demonstrating DreamFace features and components.
 |
 
 

@@ -1,4 +1,4 @@
-Input Samples
-=============
+Input Sample
+============
 
 Todo.
