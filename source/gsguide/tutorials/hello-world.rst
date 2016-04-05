@@ -30,7 +30,7 @@ In this tutorial you will learn:
         name="allowscriptaccess" value="always"></param><embed
         src="http://www.youtube.com/v/ZQX2iKfwOSA&hl=en_US&fs=1&rel=0"
         type="application/x-shockwave-flash" allowscriptaccess="always"
-        allowfullscreen="true" width="480"
+        allowfullscreen="true" width="570"
         height="385"></embed></object>
 
 

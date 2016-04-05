@@ -571,7 +571,7 @@ Pages
 
 A Page is an assembly or composition of Views surrounded by a Page Template that determines how it will be presented.
 
-An application can have more than one page and also more than one page template.
+An application can have more than one page and more than one page template.
 
 Pages are created in the Page Editor. Within the Page Editor is a Template Editor to define Page Templates.
 
