@@ -3,6 +3,11 @@ Exploring The Studio
 
 The DreamFace Studio is the place where DreamFace developers make magic.
 
+It is a complete platform for creating, building and deploying DreamFace applications. In the
+DreamFace application architecture it corresponds to the node application (DFX) and contains both development and runtime
+environments. For more information on the architecture see :ref:`platform-architecture-label`
+
+In the tutorial below you will learn how to navigate and find your way around the Studio.
 
 **Exploring the Studio Tutorial**
 
@@ -14,17 +19,11 @@ The DreamFace Studio is the place where DreamFace developers make magic.
         name="allowscriptaccess" value="always"></param><embed
         src="http://www.youtube.com/v/CejlR4SRXYU&hl=en_US&fs=1&rel=0"
         type="application/x-shockwave-flash" allowscriptaccess="always"
-        allowfullscreen="true" width="480"
+        allowfullscreen="true" width="570"
         height="385"></embed></object>
 
 
-Return to the :ref:`gettingstarted-label`
-
-
-It is a complete development and deployment platform for creating, building and deploying DreamFace applications. In the
-DreamFace application architecture it corresponds to the node application (DFX) and contains both development and runtime
-environments. For more information see :ref:`platform-architecture-label`
-
+Return to the :ref:`getting-started-label`
 
 |
 
