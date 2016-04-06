@@ -19,9 +19,9 @@ microservices
    :maxdepth: 1
 
    dfx-basics
-   dfx-microapps
-
-|
+   dfx-technology
+   dfx-keyconcepts
+   dfx-platform-architecture|
 
 Key Concepts
 ^^^^^^^^^^^^
@@ -31,8 +31,8 @@ Key Concepts presents a detailed breakdown of how DreamFace implements the conce
 .. toctree::
    :maxdepth: 1
 
-   dfx-platform-architecture
-   dfx-keyconcepts
+
+   dfx-microapps
    dfx-dev-process
    dfx-multitenancy
    dfx-technology

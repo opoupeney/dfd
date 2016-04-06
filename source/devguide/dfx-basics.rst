@@ -32,7 +32,7 @@ DreamFace applications are:
 |
 
 Who is DreamFace for?
-=====================
+---------------------
 
 **DreamFace is for Developers**
 
@@ -55,7 +55,7 @@ Developers don’t have to be experts in each individual language to put togethe
 
 
 What you need to know
-=====================
+---------------------
 
 DreamFace is a platform that empowers :term:`Full Stack`  and :term:`Mean Stack` developers.
 

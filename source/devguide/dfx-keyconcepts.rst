@@ -4,7 +4,7 @@ Understanding the DreamFace Platform
 You may be wondering why we call DreamFace a platform. In this section we'll breakdown the DreamFace Platform and explain
 why it's more than a framework. In Anatomy of an Application, we'll go into detail to describe the components that make up
 a DreamFace application. We'll finish with some important concepts that make DreamFace unique and add value for developers,
-like templates, reusability and full support of angularjs built into DreamFace.
+like templates, reusability and full support of Angularjs built into DreamFace.
 
 |
 
@@ -14,15 +14,33 @@ Platform vs Framework
 
 DreamFace is a Platform-as-a-Service (PaaS) which helps developers create and deploy Software-as-a-Service (SaaS) applications.
 That already qualifies DreamFace as a platform. In addition, DreamFace goes beyond a framework (code libraries, scripting
-language, APIs, ...) proposing several editors: a View Editor, a Scripting Editor, a Page Editor, an API Services definition
-with introspection of meta-data, a local database, a JSON repository for all components of an application, github integration,
-a compiler and build manager, automatic deployment to the cloud and many other enterprise bells and whistles. DreamFace goes
-far beyond scripting and libraries to provide a complete platform. As DreamFace is a Node module DreamFace can be used to
-enhance other modules and platforms.
+language, APIs, ...) proposing several enterprise features:
+
+
+* Build-in Editors
+
+  * a visual (drag-n-drop) View Editor
+  * a Scripting Editor for writing code with code assistants (scripting is in standard javascript / angular)
+  * a Page Editor
+  * a Page Template Editor
+  * an API Service Object / Services / Routes editor with with introspection of meta-data and pre / post treatment of APIs
+
+* a local database
+* a JSON repository containing the definition of all application components (allows for injecting from external sources like BPM)
+* Github integration for team development
+* Slack integration for team collaboration
+* a compiler and build manager
+* automatic deployment to the cloud
+* built-in on touch dockerization
+
+and many other enterprise bells and whistles.
+
+DreamFace goes far beyond scripting and libraries to provide a complete enterprise platform. As DreamFace is a Node module
+DreamFace can be used to enhance other modules and platforms.
 
 
 DreamFace Platform
-^^^^^^^^^^^^^^^^^^
+------------------
 DreamFace is a :term:`native cloud application`. The applications that you build with DreamFace are also :term:`cloud-native`
 applications. Support for :term:`multitenancy`,
 :term:`containerization`,
@@ -53,30 +71,31 @@ interface for dockerization of your application, deployment on Bluemix, etc.).
 Anatomy of a DreamFace App
 ==========================
 
-Application
-^^^^^^^^^^
-
-A DreamFace Application is a collection of :ref:`application-components-label` consisting of :
+A DreamFace application consists of Application Configuration Setting and a set of :ref:`application-components-label` consisting of :
 
 |
 
 ==============================  ===================================================================================================================================================================================
  **Component**                  **Description**
 ==============================  ===================================================================================================================================================================================
- **Pages**                      Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns to form the :term:`UI` of the Page.
+  **Pages**                     Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns to form the :term:`UI` of the Page.
  **Views**                      Views (sometimes called Widgets) are graphical views which contain graphical controls ike input fields, buttons and tables arranged in a layout of rows and columns. Views are reusable across Pages. Views contains “cards” (a notion of multi-layering, :term:`SPA`) allowing some very complex interface representations to be built easier.
- **API Services**               API Services provide access to the data by defining the different API Routes related to that service. These are are endpoints that reference virtually any API end point that needs to be called in the application. API Services are organized under the notion of an “API Service Object” whichh allows them to be better classified and managed. They connect to the backend using “API Sources” (handlers that contains the type of the backend to call, the URL and the security credentials).
+ **API Service Objects**        API Services provide access to the data by defining the different API Routes related to that service. These are are endpoints that reference virtually any API end point that needs to be called in the application. API Services are organized under the notion of an “API Service Object” whichh allows them to be better classified and managed. They connect to the backend using “API Sources” (handlers that contains the type of the backend to call, the URL and the security credentials).
  **Global Resources**           External resources such as javascript files, css files and other assets like images or icons which can be added to extend the DreamFace Platform.
- **Configuration & Settings**   A DreamFace application is highly and easily configurable. Each Application allows the developer to configure it appropriately for the type of users to access it, how to deploy, where to share code via Github, Global variables and DataTypes to be used, and how to deploy it (Docker or not), etc.
  **A Shared Catalog**           A special application that is created by default to allow the developers to reuse any application component across multiple applications within the same tenant. To share Application Components across tenants, use export/import through the Github interface in DreamFace
 ==============================  ===================================================================================================================================================================================
 
 .. _application-components-label:
 
+Application Configuration
+-------------------------
 
+
+API Source
+Deployment
 
 Application Components
-^^^^^^^^^^^^^^^^^^^^^
+----------------------
 
 .. image:: ../images/diagrams/dfd-app-anatomy.png
 
