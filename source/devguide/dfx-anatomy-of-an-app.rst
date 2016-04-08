@@ -1,126 +1,88 @@
-Understanding the DreamFace Platform
-====================================
-
-You may be wondering why we call DreamFace a platform. In this section we'll breakdown the DreamFace Platform and explain
-why it's more than a framework. In Anatomy of an Application, we'll go into detail to describe the components that make up
-a DreamFace application. We'll finish with some important concepts that make DreamFace unique and add value for developers,
-like templates, reusability and full support of Angularjs built into DreamFace.
-
-|
-
-
-Platform vs Framework
----------------------
-
-DreamFace is a Platform-as-a-Service (PaaS) which helps developers create and deploy Software-as-a-Service (SaaS) applications.
-That already qualifies DreamFace as a platform. In addition, DreamFace goes beyond a framework (code libraries, scripting
-language, APIs, ...) proposing several enterprise features:
-
-
-* Build-in Editors
-
-  * a visual (drag-n-drop) View Editor
-  * a Scripting Editor for writing code with code assistants (scripting is in standard javascript / angular)
-  * a Page Editor
-  * a Page Template Editor
-  * an API Service Object / Services / Routes editor with with introspection of meta-data and pre / post treatment of APIs
-
-* a local database
-* a JSON repository containing the definition of all application components (allows for injecting from external sources like BPM)
-* Github integration for team development
-* Slack integration for team collaboration
-* a compiler and build manager
-* automatic deployment to the cloud
-* built-in on touch dockerization
-
-and many other enterprise bells and whistles.
-
-DreamFace goes far beyond scripting and libraries to provide a complete enterprise platform. As DreamFace is a Node module
-DreamFace can be used to enhance other modules and platforms.
-
-
-DreamFace Platform
-------------------
-DreamFace is a :term:`native cloud application`. The applications that you build with DreamFace are also :term:`cloud-native`
-applications. Support for :term:`multitenancy`,
-:term:`containerization`,
-:term:`virtualization` and other fundamental
-cloud technologies is at the core of the product.
-
-When installed for the first time, a DreamFace :term:`platform` is available to create tenants (see :term:`multitenant` for
-the various purposes of application development:
-
-
-.. image:: ../images/diagrams/dfx-cloud-platform.png
-   :width: 700px
-
-* One DreamFace platform can create one or more tenants (such as Development, UAT or Production as seen in the diagram above)
-* One Tenant can be used to create one or more applications (Web or mobile)
-
-It is important to note that the creation of tenants under the same platform is an instantaneous action, using the same
-code base of the underlying installed DreamFace platform. Under the hood, DreamFace creates a JSON object that maps to
-the tenant in the Global JSON DataStore. The DreamFace Platform has some global attributes that can be used for all tenants
-under the Platform, such as the developers and their roles or the deployment features supported by the Platform (Docker
-interface for dockerization of your application, deployment on Bluemix, etc.).
-
-|
-
 .. _dfx-app-anatomy-label:
 
+Anatomy of a DreamFace Application
+==================================
 
-Anatomy of a DreamFace App
-==========================
+A DreamFace application consists of an :ref:`application-configuration-label` and a set of :ref:`application-components-label`.
 
-A DreamFace application consists of Application Configuration Setting and a set of :ref:`application-components-label` consisting of :
 
-|
+.. figure:: ../images/diagrams/DFX-App-Anatomy-V3.png
+   :width: 700px
 
-==============================  ===================================================================================================================================================================================
- **Component**                  **Description**
-==============================  ===================================================================================================================================================================================
-  **Pages**                     Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns to form the :term:`UI` of the Page.
- **Views**                      Views (sometimes called Widgets) are graphical views which contain graphical controls ike input fields, buttons and tables arranged in a layout of rows and columns. Views are reusable across Pages. Views contains “cards” (a notion of multi-layering, :term:`SPA`) allowing some very complex interface representations to be built easier.
- **API Service Objects**        API Services provide access to the data by defining the different API Routes related to that service. These are are endpoints that reference virtually any API end point that needs to be called in the application. API Services are organized under the notion of an “API Service Object” whichh allows them to be better classified and managed. They connect to the backend using “API Sources” (handlers that contains the type of the backend to call, the URL and the security credentials).
- **Global Resources**           External resources such as javascript files, css files and other assets like images or icons which can be added to extend the DreamFace Platform.
- **A Shared Catalog**           A special application that is created by default to allow the developers to reuse any application component across multiple applications within the same tenant. To share Application Components across tenants, use export/import through the Github interface in DreamFace
-==============================  ===================================================================================================================================================================================
+   *Figure - DreamFace Applications use Templates to define the look and feel of a Page. Pages are a composition of Views. Views
+   consume API Service Objects, a logical group of API Services, to expose data. API Services use API Sources to define their
+   access to APIs.*
 
-.. _application-components-label:
+
+
+.. _application-configuration-label:
 
 Application Configuration
 -------------------------
 
+The main Configuration Setting that need to be set to get started are :
 
-API Source
-Deployment
+==============================  ===================================================================================================================================================================================
+ **Setting**                     **Description**
+==============================  ===================================================================================================================================================================================
+ **API Sources**                An API Source is a reusable definition that defines how to access the backend API, including which authentication protocol and developer credentials are needed to access it.
+ **Resources**                  External resources such as javascript files, css files and other assets like images or icons which can be added to extend the DreamFace Platform and are available throughout the applicatio.
+ **Users**                      Templates define the layout and look and feel of a Page (header, footer, left nav, right nav, body, etc.).
+==============================  ===================================================================================================================================================================================
+
+
+See the Refenence Guide section :ref:`dfx-studio-explorer-label` for more detail on setting the Application Configuration.
+
+
+.. _application-components-label:
 
 Application Components
 ----------------------
 
-.. image:: ../images/diagrams/dfd-app-anatomy.png
-
-If we boil it down to just the basics we could say that a DreamFace application is a number of Views that are bound to Services
-organized on a page. Pages are Single Page Applications SPAs that switch out View Cards and use a variety of graphical
-controls to deliver the user interface to display and capture data.  A Single Page can provide a complete application or
-can be linked to other Pages through a Menu or Buttons. Putting
-that in perspective, applications also need navigation or application flow. In DreamFace the Navigation Menu manages the
-application flow defining which Page will be displayed when a menu item is clicked. For desktop applications, Pages contain
-a composition of Views, organized in a layout of rows and columns. One View might have client information and
-another may show sales for that client in a graph or a table view and a third view might show a map of where the client
-is located. This composition makes up the user
-interface of the Page. The data that is used in the Page comes from the API Routes which are bound or linked to the View.
+* DreamFace applications use Templates to define the look and feel of a Page.
+* Pages are a composition of Views that consume and are bound to API Services which are grouped together in API Service Objects.
+* API Services use API Sources to define API access.
 
 |
 
-Application Components
-----------------------
+The different components that make up a DreamFace application are :
 
-DreamFace applications are composed of Pages, containing a composition of Views that consume and are bound to API Service components.
+==============================  ===================================================================================================================================================================================
+ **Setting**                     **Description**
+==============================  ===================================================================================================================================================================================
+ **Templates**                  Templates define the layout and look and feel of a Page (header, footer, left nav, right nav, body, etc.).
+ **Pages**                      Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns to form the :term:`UI` of the Page.
+ **Views**                      Views (sometimes called Widgets) are graphical views which contain graphical controls ike input fields, buttons and tables arranged in a layout of rows and columns. Views are reusable across Pages. Views contains “cards” (a notion of multi-layering, :term:`SPA`) allowing some very complex interface representations to be built easier.
+ **API Service Objects**        API Service Objects provide access to the data by defining the different API Services and their Routes. These are are endpoints that reference virtually any API end point that needs to be called in the application. API Services are organized under the notion of an “API Service Object” whichh allows them to be better classified and managed. They connect to the backend using “API Sources” (handlers that contains the type of the backend to call, the URL and the security credentials).
+==============================  ===================================================================================================================================================================================
+
+|
+
+Page Templates
+^^^^^^^^^^^^^
+
+A Page Template is a developer/designer concept that defines the "look and feel" or model to be used for each page of the
+application.
+
+A “Page Template” is built, graphically, using a the *Page Editor*.
+
+.. image:: ../images/devguide/dfx-page-editor.png
+
+For example, you can build
+
+* a Single View Page Template
+* a Single View Page Template with a Left Navigation
+* Multiple View Page Template with a bottom navigation and a header
+
+The Header, the Body and the Left and Right Nav Panels can use Views to populate them. The Page Template will have
+“locked areas” (developers using the Template cannot alter these areas) and “unlocked areas” (developers can drop their
+views in theses areas while composing application pages). This mechanism ensures consistency in developing User Interfaces
+where only a few Templates may be needed to develop an entire application.
 
 |
 
 Pages
------
+^^^^^
 
 A Page is a DreamFace component used to display one or more Views in a layout of rows and columns. A Page defines the user interface for
 a part of the application, for example, a Page might display, update and delete Client data. Mobile applications do not use Pages as they
@@ -147,42 +109,20 @@ Pages have their own controller for:
 
 Pages uses Templates in order to respect a specific Look & Feel.
 
-
-**Page Templates**
-
-A Page Template is a developer/designer concept in which one can specify a “graphical look” or model to be used while
-developing pages.
-
-A “Page Template” is built, graphically, using a the *Page Editor*.
-
-.. image:: ../images/devguide/dfx-page-editor.png
-
-For example, you can build
-
-* a Single View Page Template
-* a Single View Page Template with a Left Navigation
-* Multiple View Page Template with a bottom navigation and a header
-
-The various sections of a page Template can use Views to populate them. The Page Template will have “locked areas” (developers
-using the Template cannot alter these areas) and “unlocked areas” (developers can drop their views in theses areas while
-composing application pages).  This mechanism ensures consistency in developing User Interfaces where only a few Templates
-may be needed to develop an entire application.
-
-
 |
 
 Views
------
+^^^^
 
 Views are the core component of the User Interface in DreamFace. Views are functional graphical areas, with an embedded
 logic (via the controller) as well as a REST based invocation interface. Views are deployed as :term:`Angular modules`.
 Views are usually assembled in Pages and communicate with each other via a natively supported :term:`pub/sub mechanism.
 
-Views are a composition of Graphical Controls like input fields, buttons, tables that are arranged in rows and columns
-in the View and are used to display and interact with data being exchanged with API Services. Outside of DreamFace, Views
-are sometimes referred to as widgets.
+    Views are a composition of Graphical Controls like input fields, buttons, tables that are arranged in rows and columns
+    in the View and are used to display and interact with data being exchanged with API Services. Outside of DreamFace, Views
+    are sometimes referred to as widgets.
 
-For a more information on available pre-defined GraphicalControls available in the View Editor for use in Views see :ref:`gcontrols-label`
+    For a more information on available pre-defined GraphicalControls available in the View Editor for use in Views see :ref:`gcontrols-label`
 
 
    .. image:: ../images/devguide/dfx-view-ineditor.png
@@ -218,8 +158,6 @@ even to become the default Card to occupy the whole real estate of a view.
 
 
 
-|
-
 API Integration
 ---------------
 
@@ -228,8 +166,9 @@ as API calls, using the REST standard as a way to interact and standardize the c
 many new concepts to ease the adaptation and the consumption of API’s for the purpose of building the User Interface.
 
 
+API Source
+^^^^^^^^^^
 
-**API Source**
 “API Sources” are the construct to define a “backend API source” to be used later on to define services. An “API Source”
 is the equivalent concept to a DataSource in the DataBase metaphor. An API Source defines:
 * Type of the API endpoint (REST, XML,WebService, DataBase, etc..)
@@ -242,12 +181,17 @@ DreamFace provides an added value to some of the providers in order to ease the 
 * Introspection of some of the backends (such as StrongLoop , Swagger, etc.) in order to allow an interactive consumption of such backend services
 * High Value add services: List of “specific usable providers” such as SalesForce API, NetSuite API, Weather.com, News API, Google API, etc. These providers’ services will be ready for consumption “out of the box”. DreamFace engineers and/or user community will be adding to this list in order to provide an exponential value to the whole user community
 
-**API Service Object**
+
+API Service Object
+^^^^^^^^^^^^^^^^^^
+
 API Service Object is a concept to gather “business related services” in a single object construct and this, regardless
 if the Services endpoint are provided from the same source or not.An example, an “API Service Obejct” called “News” can have services (aka methods) such as “getCNNNews” or “getYahooNews” as well as get “getAllNews”, irrespective if the news are using the same API Source or not. This association via the Service Ibejct will be enriched in the future to allow a “common behavior” at the Object level such as accessibility rules, caching rules, filtering rules, etc.
 <<schema to depict the concept of API Service Ibject>>
 
-**API Services**
+API Services
+^^^^^^^^^^^^
+
 An API Service is a concept that maps to a specific end point API. An API Service is one interaction with the backend.
 The basic concepts to retain on API Services in DreamFace are
 -	An API Service Object is made of one or more API Servcie(s)
@@ -266,11 +210,9 @@ define the access to back-end API Services. DreamFace provides a number of ready
 Social Media you have predefined API Routes for facebook, twitter and other popular Social Media APIs.
 
 For a more on API Services and API Routes see :ref:`apiservices-label`
-
 |
 
+
+
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
-
-
-
 

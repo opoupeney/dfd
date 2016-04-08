@@ -1,3 +1,5 @@
+.. _dfx-studio-explorer-label:
+
 The Explorer
 ============
 
@@ -587,7 +589,12 @@ All Views that are combined on a Page can share the Page scope to pass data from
 Shared Catalog
 --------------
 
-The Shared Catalog allows us to share components that are in the catalog across applications.
+The Shared Catalog is a special application that is created by default to allow the developers to reuse any application
+component across multiple applications within the same tenant.
+
+It is also possible to share Application Components across tenants by using export/import features through the Github
+interface in DreamFace.
+
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

@@ -2,13 +2,22 @@ Underlying Technology
 =====================
 
 DreamFace is based on :term:`MeanStack` technologies (MongoDB, ExpressJS, NodeJS and AngularJS). In the sections below is
-a description of how DreamFace integrates and leverages these open source, best of breed technologies.
+a description of how DreamFace integrates and leverages these open source, best of breed technologies:
+
+
+* :ref:`dfx-mongodb-label`
+* :ref:`dfx-angularjs-label`
+* :ref:`dfx-nodejs-label`
 
 |
 
 .. image:: ../images/logos/mongodb-logo.png
    :width: 300px
+   :class: pull-right
 
+|
+
+.. _dfx-mongodb-label:
 
 DreamFace and MongoDB
 ---------------------
@@ -56,11 +65,14 @@ you decide to use the database in DreamFace, it is replaced during compilation a
 from DreamFace.
 
 |
-|
 
 .. image:: ../images/logos/angularjs-logo.png
    :width: 300px
+   :class: pull-right
 
+|
+
+.. _dfx-angularjs-label:
 
 DreamFace and AngularJS
 -----------------------
@@ -195,10 +207,17 @@ DreamFace leverages Angular to provide the following benefits :
 
 .. image:: ../images/logos/nodejs-logo.png
    :width: 300px
+   :class: pull-right
 
+|
+
+.. _dfx-nodejs-label:
 
 DreamFace and NodeJS
 --------------------
+
+|
+
 
 NodeJS is an open source, cross-platform runtime environment for developing server-side web appplications. It is
 written in javascript making it possible to use one language across client and server development. It is based

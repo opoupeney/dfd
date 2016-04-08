@@ -4,43 +4,48 @@ DreamFace Developer's Guide
 ===========================
 
 The Developer's Guide is a practical reference to DreamFace. It is meant to be a hands on reference that gives some background
-on the underlying concepts of developing modular cloud applications today and goes into detail on how to use DreamFace to
-create enterprise desktop and mobile applications providing examples for best practices and the most common use cases.
+on the underlying concepts of developing modular cloud applications today. It goes into detail on how to use DreamFace to
+create enterprise web and mobile applications providing examples for best practices and the most common use cases.
 
+|
 
-Understanding The Basics
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-Understanding the Basics starts with What is DreamFace and continues through a discussion of DreamFace as a composite applications and
-microservices
-
+The Basics
+----------
 
 .. toctree::
    :maxdepth: 1
 
    dfx-basics
    dfx-technology
-   dfx-keyconcepts
-   dfx-platform-architecture|
+   dfx-platform
 
-Key Concepts
-^^^^^^^^^^^^
+|
 
-Key Concepts presents a detailed breakdown of how DreamFace implements the concepts presented above.
+How to Start with DreamFace?
+----------------------------
 
 .. toctree::
    :maxdepth: 1
 
-
-   dfx-microapps
+   dfx-anatomy-of-an-app
    dfx-dev-process
+
+|
+
+Key Concepts
+------------
+
+.. toctree::
+   :maxdepth: 1
+
+   dfx-platform-architecture
    dfx-multitenancy
-   dfx-technology
+   dfx-microapps
 
 |
 
 Developers Reference
-^^^^^^^^^^^^^^^^^^^^
+--------------------
 
 The Reference section describes how DreamFace implements the many built-in features.
 

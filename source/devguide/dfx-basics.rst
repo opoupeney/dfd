@@ -82,3 +82,10 @@ Other technologies that are good to know :
 
 |
 
+Supported Platforms
+-------------------
+
+For development, the latest version of Chrome is recommended.
+For end-user applications supported platforms: Tested on IE 11+, Chrome, Safari, Firefox, Android 4.2+ and iOS 8+.
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

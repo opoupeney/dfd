@@ -8,7 +8,7 @@ Glossary
 .. glossary::
     :sorted:
 
-    Angular
+    AngularJS
         AngularJS (commonly referred to as "Angular") is an open-source front-end javascript framework for extending  and adding interactivity to HTML to meet the challenges of single page applications (SPA). It was created and is maintained by Google and a community of developers. The goal of Angular is to simplify the development and the testing of the user interface of SPA applications by providing a framework for client-side model–view–controller (MVC) architecture, as well as other components commonly used in rich Internet applications. Angular is used intensly in DreamFace to do the data binding between the view (user interface) and the model (application data).
     Angular Expression
         An expression is any valid set of literals, variables, operators, and expressions that evaluates to a single value. The value may be a number, a string, or a logical value.
