@@ -32,7 +32,7 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | icon                   | favicon           | Click on the **...** to the right of the field to select one of the favicons from the list.|
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-icons.png                                              |
+|                        |                   |        .. image:: ../../images/gcs/dfx-icons.png                                           |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
 |                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
@@ -46,20 +46,9 @@ Properties
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Styling Attributes** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Width                  | number in pixels  | This number represents the width of the slider in pixels. The default value is 500.        |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+-------------------------------------------------------------------------------------------+|
-| Style                  | CSS syles         | By clicking on the **...** on the right h                                                  |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
-|                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. include:: webgc-props-styling-slider.rst
 
 |
 

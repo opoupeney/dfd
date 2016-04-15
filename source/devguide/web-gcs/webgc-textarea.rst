@@ -36,7 +36,7 @@ Properties
 | Content                | Any HTML text     | The content can be edited to enter any HTML text manually in a contextual script editor.   |
 |                        |                   | The new content will be displayed as soon as it is saved.                                  |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-html-editor.png                                        |
+|                        |                   |        .. image:: ../../images/gcs/dfx-html-editor.png                                     |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
 |                        |                   |                                                                                            |
@@ -48,7 +48,7 @@ Properties
 |
 |
 
-.. include:: webgc-props-styling.rst
+.. include:: webgc-props-styling-slider.rst
 
 |
 

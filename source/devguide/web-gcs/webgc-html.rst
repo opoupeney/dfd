@@ -35,7 +35,7 @@ Properties
 | Content                | Any HTML text     | The content can be edited to enter any HTML text manually in a contextual script editor.   |
 |                        |                   | The new content will be displayed as soon as it is saved.                                  |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-html-editor.png                                        |
+|                        |                   |        .. image:: ../../images/gcs/dfx-html-editor.png                                     |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
 |                        |                   |                                                                                            |
@@ -46,24 +46,7 @@ Properties
 
 |
 
-|
-
-.. include:: webgc-props-styling.rst
-
-|
-
-
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Styling Attributes** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
-|                        |                   | *color:red; background-color:lightgray*.                                                   |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
-|                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. include:: webgc-props-styling-slider.rst
 
 |
 

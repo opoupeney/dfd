@@ -1,7 +1,7 @@
 .. _app-config-label:
 
-Configuration
-^^^^^^^^^^^^^
+Application Configuration
+-------------------------
 
 
 The Configuration menu allows us to set different Application Properties which determine application behavior internally

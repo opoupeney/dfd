@@ -4,6 +4,9 @@ Styling Attributes
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
+| Width                  | number in pixels  | This number represents the width of the slider in pixels. The default value is 500.        |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
 |                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
 |                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |

@@ -15,14 +15,14 @@ the various purposes of application development:
 * One DreamFace platform can create one or more tenants (such as Development, UAT or Production as seen in the diagram above)
 * One Tenant can be used to create one or more applications (Web or mobile)
 
-In **BlueMix**, you arrive directly in your cloud tenant and start developing there rightaway. A BlueMix tenant has an id
-and can be used to create one or more applications.
+In **Bluemix**, you arrive directly in your cloud tenant in the DreamFace Studio. You can start developing there rightaway.
+A BlueMix tenant has a Tenant ID and can be used to create one or more applications.
 
 It is important to note that the creation of tenants under the same platform is an instantaneous action, using the same
 code base of the underlying installed DreamFace platform. Under the hood, DreamFace creates a JSON object that maps to
 the tenant in the Global JSON DataStore. The DreamFace Platform has some global attributes that can be used for all tenants
-under the Platform, such as the developers and their roles or the deployment features supported by the Platform (Docker
-interface for dockerization of your application, deployment on Bluemix, etc.).
+under the Platform, such as the creation od Developers and their roles or the deployment features supported by the Platform
+(deployment on Bluemix, Docker interface for dockerization of your application, etc...).
 
 |
 

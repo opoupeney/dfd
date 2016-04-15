@@ -57,11 +57,11 @@ Properties
 | Static                 | Menu Editor       | Static means that the definition and contents of the menu/iconbar are static and once      |
 |                        |                   | defined will remain the unchanged until they are manually changed again. The menu/iconbar  |
 |                        |                   | can be defined by clicking on                                                              |
-|                        |                   |        .. image:: ../images/gcs/dfx-menu-edit-button.png                                   |
+|                        |                   |        .. image:: ../../images/gcs/dfx-menu-edit-button.png                                |
 |                        |                   | to bring the menu editor to assist in defining the menu/iconbar.                           |
 |                        |                   |                                                                                            |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-help-menu-editor.png                                   |
+|                        |                   |        .. image:: ../../images/gcs/dfx-help-menu-editor.png                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -76,7 +76,7 @@ Properties
 |                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
 |                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-help-css-styles.png                                           |
+|                        |                   |        .. image:: ../../images/gcs/dfx-help-css-styles.png                                 |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Menu Style             | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

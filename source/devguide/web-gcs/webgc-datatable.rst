@@ -82,7 +82,7 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Column                 | column to define  | Click on the down arrow to choose the column for which you would like to define properties.|
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-dt-gcrenderer-col.png                                  |
+|                        |                   |        .. image:: ../../images/gcs/dfx-dt-gcrenderer-col.png                               |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 |   Header               | text              | The header of the column. This is a text defining the column header like *ID*, *Name*, etc.|
@@ -94,14 +94,14 @@ Properties
 |                        | HTML,             | After selecting the Renderer you can click on the the three **...** as seen in the image   |
 |                        | Image,            | below:                                                                                     |
 |                        | Rating            |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-dt-gcrenderer2.png                                     |
+|                        |                   |        .. image:: ../../images/gcs/dfx-dt-gcrenderer2.png                                  |
 |                        |                   |                                                                                            |
 |                        |                   | This will bring open the Properities window that corresponds to the graphical control      |
 |                        |                   | selected for this column of the table. For example, if you selected a Statictext, you would|
 |                        |                   | see this at the top of the properties window, indicating that you are defining properties  |
 |                        |                   | for a Statictext component for the datatable dtblDatatable1 column called ID.              |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-dt-gcrendererID.png                                    |
+|                        |                   |        .. image:: ../../images/gcs/dfx-dt-gcrendererID.png                                 |
 |                        |                   |                                                                                            |
 |                        |                   | Define the properties of the column. When finished, to return to the definition of the     |
 |                        |                   | just click on the name of the Datatable, in the example above, you would click on          |
@@ -114,9 +114,9 @@ Properties
 |                        |                   | Clicking on the arrow icon next to the column header will toggle the the value between     |
 |                        |                   | *true* and *false* and change the icon accordingly.                                        |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-dt-ascending.png                                       |
+|                        |                   |        .. image:: ../../images/gcs/dfx-dt-ascending.png                                    |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-dt-descending.png                                      |
+|                        |                   |        .. image:: ../../images/gcs/dfx-dt-descending.png                                   |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |

@@ -33,7 +33,7 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | icon                   | favicon           | Click on the **...** to the right of the field to select one of the favicons from the list.|
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-icons.png                                              |
+|                        |                   |        .. image:: ../../images/gcs/dfx-icons.png                                           |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
 |                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
@@ -63,7 +63,7 @@ Properties
 |                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
 |                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-icon-css.png                                           |
+|                        |                   |        .. image:: ../../images/gcs/dfx-icon-css.png                                           |
 +------------------------+-------------------+-------------------------------------------------------------------------------------------+|
 | Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
