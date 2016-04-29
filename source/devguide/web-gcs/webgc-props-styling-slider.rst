@@ -13,7 +13,7 @@ Styling Attributes
 |                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
 |                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-icon-css.png                                        |
+|                        |                   |        .. image:: ../../images/gcs/dfx-styles-editor.png                                   |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Classes                | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

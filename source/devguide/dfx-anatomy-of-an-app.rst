@@ -5,13 +5,21 @@ Anatomy of a DreamFace Application
 
 A DreamFace application consists of an :ref:`application-configuration-label` and a set of :ref:`application-components-label`.
 
+The Application Configuration contains a number of parameters that define application behavior during development and at runtime.
+
+The main application components are Pages, Views and API Service Objects.
+
+* Pages are a composition of Views layed out on a Page Template.
+* Views consume API Services to display, create and modify data.
+* API Services are grouped together logically in API Service Objects and use API Sources to define how to access different APIs.
+
 
 .. figure:: ../images/diagrams/DFX-App-Anatomy-V3.png
    :width: 700px
 
-   *Figure - DreamFace Applications use Templates to define the look and feel of a Page. Pages are a composition of Views. Views
-   consume API Service Objects, a logical group of API Services, to expose data. API Services use API Sources to define their
-   access to APIs.*
+   *Figure - DreamFace Applications consist of Pages layed out on Page Templates which define the look and feel of the page.
+   Pages are a composition of Views. Views consume API Services to access and manipulate data. API Services are grouped
+   together in a logical group called API Service Objects and use API Sources to define how to access APIs.*
 
 |
 
@@ -25,14 +33,12 @@ Application Configuration
 The main Configuration Settings to get started are listed below:
 
 
-
-
 ======================  ==================================================================================================================================================================================
  **Setting**            **Description**
 ======================  ==================================================================================================================================================================================
  **API Sources**        An API Source is a reusable definition that defines how to access the backend API, including which authentication protocol and developer credentials are needed to access it.
  **Resources**          External resources such as javascript files, css files and other assets like images or icons which can be added to extend the DreamFace Platform and are available throughout the application.
- **Users**              Templates define the layout and look and feel of a Page (header, footer, left nav, right nav, body, etc.).
+ **Users**              Users are defined by properties and roles. Properties define the information that makes up a user object and roles define the role of the user for role based access to application functionality.
 ======================  ==================================================================================================================================================================================
 
 
@@ -57,8 +63,7 @@ The different components that make up a DreamFace application are :
 ==============================  ===================================================================================================================================================================================
  **Setting**                     **Description**
 ==============================  ===================================================================================================================================================================================
- **Templates**                  Templates define the layout and look and feel of a Page (header, footer, left nav, right nav, body, etc.).
- **Pages**                      Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns to form the :term:`UI` of the Page.
+ **Pages**                      Applications can have several Pages, each Page is composed of a number of Views arranged in a layout of rows and columns to form the :term:`UI` of the Page. Page are displayed using Page Templates which define the layout and look and feel of a Page (header, footer, left nav, right nav, body, etc.).
  **Views**                      Views (sometimes called Widgets) are graphical views which contain graphical controls ike input fields, buttons and tables arranged in a layout of rows and columns. Views are reusable across Pages. Views contains “cards” (a notion of multi-layering, :term:`SPA`) allowing some very complex interface representations to be built easier.
  **API Service Objects**        API Service Objects provide access to the data by defining the different API Services and their Routes. These are are endpoints that reference virtually any API end point that needs to be called in the application. API Services are organized under the notion of an “API Service Object” whichh allows them to be better classified and managed. They connect to the backend using “API Sources” (handlers that contains the type of the backend to call, the URL and the security credentials).
 ==============================  ===================================================================================================================================================================================
@@ -117,7 +122,7 @@ Pages uses Templates in order to respect a specific Look & Feel.
 |
 
 Views
-^^^^
+^^^^^
 
 Views are the core component of the User Interface in DreamFace. Views are functional graphical areas, with an embedded
 logic (via the controller) as well as a REST based invocation interface. Views are deployed as :term:`Angular modules`.
@@ -143,7 +148,7 @@ graphical wiring between Views in order to produce a more granular concerted exp
 * Access a higher level context such as the ones for the host page or the applicaton
 
 
-** Cards**
+**Cards**
 
 Cards are a very interesting concept that was added in DreamFace v3.0. The idea of Cards stemmed from the need to produce
 MicroServices where a concerted set of Views are needed as part of the “UI module” in a “Single Page UI Design” :term:`SPA`.

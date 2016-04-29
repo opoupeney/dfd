@@ -13,8 +13,20 @@ areas of the View. They can also be used to display icons that add context to th
 
 |
 
-Properties
-^^^^^^^^^^
+The Statictext control properties can be set for the following categories of properties:
+
+* :ref:`webgc-statictext_main-label`
+* :ref:`webgc-statictext_styling-label`
+* :ref:`webgc-statictext_tooltip-label`
+* :ref:`webgc-statictext_events-label`
+* :ref:`webgc-statictext_extended-label`
+
+|
+
+.. _webgc-statictext_main-label:
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -60,9 +72,16 @@ Properties
 
 |
 
+.. _webgc-statictext_styling-label:
+
 .. include:: webgc-props-styling.rst
 
 |
+
+.. _webgc-statictext_tooltip-label:
+
+Tooltip Properties
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Tooltip Properties** | Possible Values   | Description                                                                                |
@@ -76,7 +95,16 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-statictext_events-label:
+
+.. include:: webgc-props-events.rst
+
+|
+
+.. _webgc-statictext_extended-label:
+
+Extended Directive
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Extended Directive** | Possible Values   | Description                                                                                |

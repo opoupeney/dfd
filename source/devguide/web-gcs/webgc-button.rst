@@ -15,6 +15,18 @@ indicate the action to be performed when the button is clicked.
 |
 
 
+The Button control properties can be set for the following categories of properties:
+
+* :ref:`webgc-button-main-label`
+* :ref:`webgc-button-menu-label`
+* :ref:`webgc-button-styling-label`
+* :ref:`webgc-button-events-label`
+
+
+|
+
+.. _webgc-button-main-label:
+
 Main Properties
 ---------------
 
@@ -36,7 +48,7 @@ Main Properties
 |                        | *expression*      | performed when the button is clicked. For example, the label might be *Cancel*, *OK*,      |
 |                        |                   | *DEPLOY TO CLOUD*, or *ADD COMMENT*.                                                       |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-button-label.png                                       |
+|                        |                   |        .. image:: ../../images/gcs/dfx-button-label.png                                    |
 |                        |                   |                                                                                            |
 |                        |                   | **Labels can also be expressions** that are evaluated at runtime.                          |
 |                        |                   |                                                                                            |
@@ -69,6 +81,7 @@ Main Properties
 
 |
 
+.. _webgc-button-menu-label:
 
 Menu Items
 ----------
@@ -86,11 +99,15 @@ Menu Items
 
 |
 
+.. _webgc-button-styling-label:
+
 .. include:: webgc-props-styling.rst
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-button-events-label:
+
+.. include:: webgc-props-events.rst
 
 |
 |

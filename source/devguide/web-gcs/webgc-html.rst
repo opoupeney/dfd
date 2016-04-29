@@ -50,7 +50,7 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. include:: webgc-props-events.rst
 
 |
 |

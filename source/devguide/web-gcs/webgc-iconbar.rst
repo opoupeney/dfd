@@ -4,9 +4,8 @@ Iconbar
 .. image:: ../../images/icons/icon_web.png
    :class: pull-right
 
-An iconbar is a menu of icons. It has a top level menu that shows icons which is is a
-menu item. Menu items can have sub menu items. The iconbar menu is defined in the Menu
-Editor.
+An iconbar is a menu of icons. It has a top level menu that shows icons which is is a menu item. Menu items can have sub
+menu items. The iconbar menu is defined in the Menu Editor.
 
 |
 

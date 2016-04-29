@@ -34,6 +34,7 @@ applications :
    ./web-gcs/webgc-icon
    ./web-gcs/webgc-image
    ./web-gcs/webgc-html
+   ./web-gcs/webgc-carousel
 
 |
 
