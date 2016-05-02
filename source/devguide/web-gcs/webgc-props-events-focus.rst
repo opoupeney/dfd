@@ -1,12 +1,12 @@
 Events
 ------
 
-Events allow developers to perform actions when the given event is triggered user interaction on a control in the View.
-They are used in combination with functions, and the function are executed when the the event occurs (for example, when a
-user clicks a button).
+Events allow developers to perform actions when the event is triggered by a user interaction on a control in the View.
+Events are used in combination with functions. The function is executed when the the event occurs (for example, when a
+user clicks a button, when the mouse moves over the control, ..).
 
 .. figure:: ../../images/gcs/dfx-events-focus.png
-   :width: 450px
+   :width: 400px
 
    *Each of the events takes a function name that will be executed when the user invokes the event.*
 

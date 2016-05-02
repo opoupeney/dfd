@@ -11,11 +11,21 @@ reflecting a Boolean value. Only one radio control can be selected at a time.
 
 .. image:: ../../images/gcs/dfx-radio-designtime.png
 
+|
+
+The Radio control properties can be set for the following property categories:
+
+* :ref:`webgc-radio-main-label`
+* :ref:`webgc-radio-styling-label`
+* :ref:`webgc-radio-events-label`
 
 |
 
-Properties
-^^^^^^^^^^
+.. _webgc-radio-main-label:
+
+
+Main Properties
+---------------
 
 |
 
@@ -42,6 +52,12 @@ Properties
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-radio-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -62,7 +78,9 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-radio-events-label:
+
+.. include:: webgc-props-events-onchange.rst
 
 |
 |

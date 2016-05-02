@@ -21,6 +21,20 @@ See for more on Angular Material Panel Layouts see `Angular Material Layouts and
 
 |
 
+The Panel control properties can be set for the following property categories:
+
+* :ref:`webgc-panel-main-label`
+* :ref:`webgc-panel-repeatable-label`
+* :ref:`webgc-panel-styling-label`
+* :ref:`webgc-panel-toolbar-label`
+* :ref:`webgc-panel-layout-label`
+* :ref:`webgc-panel-events-label`
+
+
+|
+
+.. _webgc-panel-main-label:
+
 Main Properties
 ---------------
 
@@ -46,8 +60,11 @@ Main Properties
 
 |
 
+.. _webgc-panel-repeatable-label:
+
 Repeatable Panel
 ----------------
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Repeatable**         | Possible Values   | Description                                                                                |
@@ -59,16 +76,20 @@ Repeatable Panel
 
 |
 
-|
+.. _webgc-panel-styling-label:
+
 
 .. include:: webgc-props-styling.rst
 
 |
 
+.. _webgc-panel-toolbar-label:
 
 .. include:: webgc-props-toolbar.rst
 
 |
+
+.. _webgc-panel-layout-label:
 
 Layout Properties
 -----------------
@@ -99,3 +120,8 @@ Layout Properties
 
 |
 
+.. _webgc-panel-events-label:
+
+.. include:: webgc-props-events-focus.rst
+
+|

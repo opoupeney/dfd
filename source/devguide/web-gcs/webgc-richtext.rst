@@ -89,6 +89,13 @@ Properties
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-richtext-events-label:
+
+.. include:: webgc-props-events-onchange.rst
+
+
 
 |
 |

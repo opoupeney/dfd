@@ -14,15 +14,26 @@ You can use tabstrip controls that you generate in this way as a basis for furth
 Features
 
 
-
 |
 
 .. image:: ../../images/gcs/dfx-panel-designtime.png
 
 |
 
-Properties
-^^^^^^^^^^
+The Wizard control properties can be set for the following property categories:
+
+* :ref:`webgc-wizard-main-label`
+* :ref:`webgc-wizard-repeatable-label`
+* :ref:`webgc-wizard-styling-label`
+* :ref:`webgc-wizard-layout-label`
+* :ref:`webgc-wizard-events-label`
+
+|
+
+.. _webgc-wizard-main-label:
+
+Main Properties
+---------------
 
 **Main Properties**
 
@@ -56,6 +67,11 @@ Properties
 
 |
 
+.. _webgc-wizard-repeatable-label:
+
+Repeatable
+----------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Repeatable**         | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -66,10 +82,16 @@ Properties
 
 |
 
+.. _webgc-wizard-styling-label:
+
 .. include:: webgc-props-styling.rst
 
 |
 
+.. _webgc-wizard-layout-label:
+
+Layout Properties
+-----------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Layout Properties**  | Possible Values   | Description                                                                                |
@@ -95,9 +117,12 @@ Properties
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-
 |
 
+.. _webgc-wizard-events-label:
+
+Events
+------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Events**             | Possible Values   | Description                                                                                |

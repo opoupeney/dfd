@@ -15,8 +15,21 @@ CSS styles and classes.
 
 |
 
-Properties
-^^^^^^^^^^
+The Tabs control properties can be set for the following property categories:
+
+* :ref:`webgc-tabs-main-label`
+* :ref:`webgc-tabs-repeatable-label`
+* :ref:`webgc-tabs-styling-label`
+* :ref:`webgc-tabs-layout-label`
+* :ref:`webgc-tabs-events-label`
+
+|
+
+.. _webgc-tabs-main-label:
+
+
+Main Properties
+---------------
 
 **Main Properties**
 
@@ -50,6 +63,11 @@ Properties
 
 |
 
+.. _webgc-tabs-repeatable-label:
+
+Repeatable
+----------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Repeatable**         | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -60,9 +78,16 @@ Properties
 
 |
 
+.. _webgc-tabs-styling-label:
+
 .. include:: webgc-props-styling.rst
 
 |
+
+.. _webgc-tabs-layout-label:
+
+Layout Properties
+-----------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Layout Properties**  | Possible Values   | Description                                                                                |
@@ -87,6 +112,15 @@ Properties
 | Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-tabs-events-label:
+
+.. include:: webgc-props-events.rst
+
+|
+
 
 
 |

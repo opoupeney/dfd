@@ -11,11 +11,20 @@ counterclockwise (usually decresases the value) direction.
 
 .. image:: ../../images/gcs/dfx-knob-designtime.png
 
+|
+
+The Knob control properties can be set for the following property categories:
+
+* :ref:`webgc-knob-main-label`
+* :ref:`webgc-knob-styling-label`
+* :ref:`webgc-knob-events-label`
 
 |
 
-Properties
-^^^^^^^^^^
+.. _webgc-knob-main-label:
+
+Main Properties
+---------------
 
 |
 
@@ -42,6 +51,13 @@ Properties
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-knob-styling-label:
+
+Styling Attributes
+------------------
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -61,7 +77,13 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
 |
+
+.. _webgc-knob-events-label:
+
+Events
+------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Events**             | Possible Values   | Description                                                                                |

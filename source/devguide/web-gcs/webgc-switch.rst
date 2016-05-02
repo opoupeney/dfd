@@ -17,8 +17,19 @@ Switch On
 
 |
 
-Properties
-^^^^^^^^^^
+The Switch control properties can be set for the following property categories:
+
+* :ref:`webgc-switch-main-label`
+* :ref:`webgc-switch-styling-label`
+* :ref:`webgc-switch-events-label`
+
+|
+
+.. _webgc-switch-main-label:
+
+
+Main Properties
+---------------
 
 |
 
@@ -58,6 +69,10 @@ Properties
 
 |
 
+.. _webgc-switch-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -72,7 +87,11 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+|
+
+.. _webgc-switch-events-label:
+
+.. include:: webgc-props-events-onchange.rst
 
 |
 |

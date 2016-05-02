@@ -15,8 +15,19 @@ can open to the right, left, up or down in respect to the button.
 
 |
 
-Properties
-^^^^^^^^^^
+The Treemenu control properties can be set for the following property categories:
+
+* :ref:`webgc-treemenu-main-label`
+* :ref:`webgc-treemenu-menu-label`
+* :ref:`webgc-treemenu-styling-label`
+* :ref:`webgc-treemenu-events-label`
+
+|
+
+.. _webgc-treemenu-main-label:
+
+Main Properties
+---------------
 
 |
 
@@ -51,6 +62,12 @@ Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+
+.. _webgc-treemenu-menu-label:
+
+Menu Items
+----------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Menu Items**         | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -66,6 +83,11 @@ Properties
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+
+.. _webgc-treemenu-styling-label:
+
+Syling Attributes
+-----------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -91,6 +113,15 @@ Properties
 | Dynamic Class          | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-treemenu-events-label:
+
+.. include:: webgc-props-events.rst
+
+|
+
 
 |
 |

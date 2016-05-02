@@ -12,13 +12,25 @@ The pre-defined Line Charts graphical controls available in the View Editor are 
 
 |
 
-Properties
-^^^^^^^^^^
+The Horizontal Barchart control properties can be set for the following property categories:
+
+* :ref:`webgc-donutchart-main-label`
+* :ref:`webgc-donutchart-options-label`
+* :ref:`webgc-donutchart-styling-label`
+* :ref:`webgc-donutchart-events-label`
+
+|
+
+.. _webgc-donutchart-main-label:
+
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Name                   | donutChart#        | Name is a reference to the component's DOM element. It can be used to dynamically access   |
+| Name                   | donutChart#       | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *linneChart#* where #      |
 |                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
 |                        |                   | will have a default Name of *lineChart2*. Name is not required and can be removed if not   |
@@ -39,6 +51,11 @@ Properties
 
 |
 
+.. _webgc-donutchart-options-label:
+
+Options
+-------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Optionss**           | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -48,6 +65,11 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-donutchart-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -73,7 +95,10 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-donutchart-events-label:
+
+.. include:: webgc-props-events-state.rst
+
 
 |
 |

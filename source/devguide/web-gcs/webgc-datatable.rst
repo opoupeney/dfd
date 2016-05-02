@@ -24,7 +24,7 @@ Table columns have a value and can be rendered as one of the following pre-defin
 
 |
 
-.. image:: ../images/gcs/dfx-datatable-designtime-gcs.png
+.. image:: ../../images/gcs/dfx-datatable-designtime-gcs.png
 
 |
 
@@ -136,7 +136,13 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+|
+
+.. _webgc-datatable-events-label:
+
+.. include:: webgc-props-events-focus.rst
+
+
 
 |
 |

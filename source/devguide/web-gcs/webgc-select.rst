@@ -13,8 +13,18 @@ The select component allows users to select from a list of values, for example Y
 
 |
 
-Properties
-^^^^^^^^^^
+The Select control properties can be set for the following property categories:
+
+* :ref:`webgc-select-main-label`
+* :ref:`webgc-select-styling-label`
+* :ref:`webgc-select-events-label`
+
+|
+
+.. _webgc-select-main-label:
+
+Main Properties
+---------------
 
 |
 
@@ -46,6 +56,12 @@ Properties
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-select-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -66,7 +82,11 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+|
+
+.. _webgc-select-events-label:
+
+.. include:: webgc-props-events-onchange.rst
 
 |
 |

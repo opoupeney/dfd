@@ -11,10 +11,21 @@ The pre-defined Charts graphical controls available in the Widget Editor are bas
 
 .. image:: ../../images/gcs/dfx-barchart-designtime.png
 
+|
 
+The Barchart control properties can be set for the following property categories:
 
-Properties
-^^^^^^^^^^
+* :ref:`webgc-barchart-main-label`
+* :ref:`webgc-barchart-options-label`
+* :ref:`webgc-barchart-styling-label`
+* :ref:`webgc-barchart-events-label`
+
+|
+
+.. _webgc-barchart-main-label:
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -40,8 +51,13 @@ Properties
 
 |
 
+.. _webgc-barchart-options-label:
+
+Options
+-------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Optionss**           | Possible Values   | Description                                                                                |
+| **Options**            | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
 | X-Axis Label           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -49,6 +65,11 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-barchart-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -74,7 +95,9 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-barchart-events-label:
+
+.. include:: webgc-props-events-state.rst
 
 |
 |

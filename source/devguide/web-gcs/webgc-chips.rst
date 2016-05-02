@@ -11,10 +11,22 @@ also contain icons.
 |
 
 .. image:: ../../images/gcs/dfx-chips-designtime.png
+
 |
 
-Properties
-^^^^^^^^^^
+The Chips control properties can be set for the following property categories:
+
+* :ref:`webgc-chips-main-label`
+* :ref:`webgc-chips-styling-label`
+* :ref:`webgc-chips-events-label`
+
+|
+
+.. _webgc-chips-main-label:
+
+
+Main Properties
+---------------
 
 |
 
@@ -41,9 +53,16 @@ Properties
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-chips-styling-label:
+
+
 .. include:: webgc-props-styling-slider.rst
 
 |
+
+.. _webgc-chips-events-label:
 
 Events
 ------

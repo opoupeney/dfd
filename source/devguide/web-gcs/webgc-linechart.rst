@@ -12,10 +12,20 @@ The pre-defined Line Charts graphical controls available in the View Editor are 
 
 |
 
-Properties
-^^^^^^^^^^
+The Linechart control properties can be set for the following property categories:
 
-**Main Properties**
+* :ref:`webgc-linechart-main-label`
+* :ref:`webgc-linechart-options-label`
+* :ref:`webgc-linechart-styling-label`
+* :ref:`webgc-linechart-events-label`
+
+|
+
+.. _webgc-linechart-main-label:
+
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -49,6 +59,26 @@ Properties
 
 |
 
+.. _webgc-linechart-options-label:
+
+Options
+-------
+
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| **Optionss**           | Possible Values   | Description                                                                                |
++========================+===================+============================================================================================+
+| X-Axis Label           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Y-Axis Lable           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-linechart-styling-label:
+
+Styling Attributes
+------------------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -67,7 +97,10 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-linechart-events-label:
+
+.. include:: webgc-props-events-state.rst
+
 
 |
 |

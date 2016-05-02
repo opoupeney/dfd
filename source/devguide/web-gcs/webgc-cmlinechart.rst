@@ -12,8 +12,21 @@ The pre-defined Line Charts graphical controls available in the View Editor are 
 
 |
 
-Properties
-^^^^^^^^^^
+|
+
+The Cummulative Linechart control properties can be set for the following property categories:
+
+* :ref:`webgc-cmlinechart-main-label`
+* :ref:`webgc-cmlinechart-options-label`
+* :ref:`webgc-cmlinechart-styling-label`
+* :ref:`webgc-cmlinechart-events-label`
+
+|
+
+.. _webgc-cmlinechart-main-label:
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -39,6 +52,11 @@ Properties
 
 |
 
+.. _webgc-cmlinechart-options-label:
+
+Options
+-------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Optionss**           | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -48,6 +66,11 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-cmlinechart-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -73,7 +96,10 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-cmlinechart-events-label:
+
+.. include:: webgc-props-events-state.rst
+
 
 |
 |

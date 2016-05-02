@@ -14,14 +14,12 @@ A Carousel is a graphical component that lets you scroll easily through images, 
 
 |
 
-
-The Button control properties can be set for the following categories of properties:
+The Carousel control properties can be set for the following property categories:
 
 * :ref:`webgc-carousel-main-label`
 * :ref:`webgc-carousel_options-label`
 * :ref:`webgc-carousel-styling-label`
 * :ref:`webgc-carousel-events-label`
-
 
 |
 
@@ -111,7 +109,7 @@ Styling Attributes
 
 .. _webgc-carousel-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: webgc-props-events-focus.rst
 
 |
 |

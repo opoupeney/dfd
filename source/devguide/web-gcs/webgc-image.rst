@@ -15,10 +15,18 @@ DreamFace Studio to add an image as a resource.
 
 |
 
-Properties
-^^^^^^^^^^
+The Image control properties can be set for the following property categories:
+
+* :ref:`webgc-image-main-label`
+* :ref:`webgc-image-styling-label`
+* :ref:`webgc-image-events-label`
 
 |
+
+.. _webgc-image-main-label:
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -38,6 +46,12 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+|
+
+.. _webgc-image-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -59,7 +73,12 @@ Properties
 
 |
 
+.. _webgc-image-events-label:
+
 .. include:: webgc-props-events.rst
+
+|
+
 
 |
 |

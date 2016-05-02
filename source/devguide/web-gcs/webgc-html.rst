@@ -14,8 +14,21 @@ your own in the HTML control.
 
 |
 
-Properties
-^^^^^^^^^^
+The HTML control properties can be set for the following property categories:
+
+* :ref:`webgc-html-main-label`
+* :ref:`webgc-html-styling-label`
+* :ref:`webgc-html-events-label`
+
+|
+
+|
+
+.. _webgc-html-main-label:
+
+
+Main Properties
+---------------
 
 |
 
@@ -46,11 +59,17 @@ Properties
 
 |
 
+.. _webgc-html-styling-label:
+
 .. include:: webgc-props-styling-slider.rst
 
 |
 
+.. _webgc-html-events-label:
+
 .. include:: webgc-props-events.rst
+
+|
 
 |
 |

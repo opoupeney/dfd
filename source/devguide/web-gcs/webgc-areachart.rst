@@ -12,8 +12,21 @@ The Area Chart control provides a pre-defined areachart. available in the View E
 
 |
 
-Properties
-^^^^^^^^^^
+The Areachart control properties can be set for the following property categories:
+
+* :ref:`webgc-areachart-main-label`
+* :ref:`webgc-areachart-options-label`
+* :ref:`webgc-areachart-styling-label`
+* :ref:`webgc-areachart-events-label`
+
+|
+
+.. _webgc-areachart-main-label:
+
+Main Properties
+---------------
+
+|
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -39,8 +52,13 @@ Properties
 
 |
 
+.. _webgc-areachart-options-label:
+
+Options
+-------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Optionss**           | Possible Values   | Description                                                                                |
+| **Options**            | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
 | X-Axis Label           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -48,6 +66,11 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-areachart-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -73,7 +96,9 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-areachart-events-label:
+
+.. include:: webgc-props-events-state.rst
 
 |
-|
+

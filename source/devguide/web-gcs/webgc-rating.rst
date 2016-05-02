@@ -13,8 +13,18 @@ of icons, often presented as stars.
 
 |
 
-Properties
-^^^^^^^^^^
+The Rating control properties can be set for the following property categories:
+
+* :ref:`webgc-rating-main-label`
+* :ref:`webgc-rating-styling-label`
+* :ref:`webgc-rating-events-label`
+
+|
+
+.. _webgc-rating-main-label:
+
+Main Properties
+---------------
 
 |
 
@@ -54,6 +64,9 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-rating-styling-label:
+
 Styling Attributes
 ------------------
 
@@ -77,7 +90,9 @@ Styling Attributes
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+.. _webgc-rating-events-label:
+
+.. include:: webgc-props-events-onchange.rst
 
 |
 |

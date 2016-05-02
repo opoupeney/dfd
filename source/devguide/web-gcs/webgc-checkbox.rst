@@ -14,8 +14,18 @@ reflecting a Boolean value.
 
 |
 
-Properties
-^^^^^^^^^^
+The Checkbox control properties can be set for the following property categories:
+
+* :ref:`webgc-checkbox-main-label`
+* :ref:`webgc-checkbox-styling-label`
+* :ref:`webgc-checkbox-events-label`
+
+|
+
+.. _webgc-checkbox-main-label:
+
+Main Properties
+---------------
 
 |
 
@@ -47,6 +57,12 @@ Properties
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-checkbox-styling-label:
+
+Styling Attributes
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -67,7 +83,11 @@ Properties
 
 |
 
-.. include:: webgc-props-events-onclick.rst
+|
+
+.. _webgc-checkbox-events-label:
+
+.. include:: webgc-props-events-onchange.rst
 
 |
 |
