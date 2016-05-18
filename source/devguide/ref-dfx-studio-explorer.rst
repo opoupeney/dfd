@@ -509,6 +509,43 @@ Once the Views exist, they can be added to Pages in a certain layout using a Pag
 nav, ...), to a page of the application. Cards and View Cards allow us to stay on the same page in a :ref:`SPA approach.
 
 |
+|
+
+Pages
+,,,,,
+
+A Page is an assembly or composition of Views surrounded by a Page Template that determines how it will be presented.
+
+An application can have more than one page and more than one page template.
+
+Pages are created in the Page Editor. Within the Page Editor is a Template Editor to define Page Templates.
+
+.. image:: ../images/devguide/dfx-studio-page-editor.png
+
+
+In the same sense that a View is nothing more than an Angular Module, a Page is a composition of Angular Modules (Views).
+All Views that are combined on a Page can share the Page scope to pass data from View to View.
+
+|
+
+
+Views
+,,,,,
+
+A View is a user interface component. In the Angular sense a View is an Angular Module. In the View Editor in the script
+the View is the definition of the Angular Module for the current View. The module has a controller that is the main function
+of the View. All other functions and code defintions that define the behavior of the the View go inside this controller and
+are for this View only. These functions can do any kind of manipulation or validation for the View. It can call the backend
+for data, validate a form on the click of a Button, etc.
+
+Views are created in the View Editor.
+
+
+.. image:: ../images/devguide/dfx-studio-view-editor.png
+
+When the View is deployed it becomes an Angular Module.
+
+|
 
 API Service Object
 ,,,,,,,,,,,,,,,,,,
@@ -543,45 +580,6 @@ Each one of the services defined in the logical object will be an API Service en
 sense) that you can later bind to a the user interface View to access and modify the data.
 
 The different API Services in the Service Object are methods.
-
-|
-
-
-
-
-
-Views
-,,,,,
-
-A View is a user interface component. In the Angular sense a View is an Angular Module. In the View Editor in the script
-the View is the definition of the Angular Module for the current View. The module has a controller that is the main function
-of the View. All other functions and code defintions that define the behavior of the the View go inside this controller and
-are for this View only. These functions can do any kind of manipulation or validation for the View. It can call the backend
-for data, validate a form on the click of a Button, etc.
-
-Views are created in the View Editor.
-
-
-.. image:: ../images/devguide/dfx-studio-view-editor.png
-
-When the View is deployed it becomes an Angular Module.
-
-|
-
-Pages
-,,,,,
-
-A Page is an assembly or composition of Views surrounded by a Page Template that determines how it will be presented.
-
-An application can have more than one page and more than one page template.
-
-Pages are created in the Page Editor. Within the Page Editor is a Template Editor to define Page Templates.
-
-.. image:: ../images/devguide/dfx-studio-page-editor.png
-
-
-In the same sense that a View is nothing more than an Angular Module, a Page is a composition of Angular Modules (Views).
-All Views that are combined on a Page can share the Page scope to pass data from View to View.
 
 
 

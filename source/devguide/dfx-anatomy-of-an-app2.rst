@@ -9,18 +9,17 @@ The Application Configuration contains a number of parameters that define applic
 
 The main application components are Pages, Views and API Service Objects.
 
-* Pages are a composition of Views layed out on a Page Template. Pages templates can be defined for Web, Tablet or Mobile pages.
-* Views consume API Services to display, create and modify data. Views can be defined for Web, Tablet or Mobile interfaces.
-* API Services are grouped together logically in API Service Objects and use API Sources to define how to access different APIs.
+* Pages are a composition of Views layed out on a Page Template. Page template can be defined for web, tablet and mobile interfaces.
+* Views consume API Services to display, create and modify data. Views are defined for web, tablet and mobile interfaces.
+* API Services are grouped together logically in API Service Objects and use API Sources to define how to access different APIs. API Services can be used across web, tablet and mobile interfacs.
 
 
 .. figure:: ../images/diagrams/DFX-App-Anatomy-V3.png
    :width: 700px
 
-   *Figure - DreamFace Applications consist of Pages layed out on Page Templates which define the look and feel of the page
-   Web, Tablet or Mobile applications. Pages are a composition of Views created specifically for Web, Tablet or Mobile interfaces.
-   Views consume API Services to access and manipulate data. API Services can be used by Web, Tablet or Mobile applications.
-   API Services are grouped together in logical groups called API Service Objects and use API Sources to define how to access APIs.*
+   *Figure - DreamFace Applications consist of Pages layed out on Page Templates which define the look and feel of the page.
+   Pages are a composition of Views. Views consume API Services to access and manipulate data. API Services are grouped
+   together in a logical group called API Service Objects and use API Sources to define how to access APIs.*
 
 |
 
@@ -71,17 +70,30 @@ The different components that make up a DreamFace application are :
 
 |
 
+Pages and Views are used to define the application interface. These components can be defined for web, tablet and mobile
+interfaces. API Service Objects are used in Views and the same API Service can be used by all interfaces. In the example
+below APP1 and APP2 show that Pages and Views are defined for the specific devices but the API Service Object is independent
+from the device.
+
+.. image:: ../images/devguide/dfx-app-component-hierarchy.png
+
+|
+
 Page Templates
 ^^^^^^^^^^^^^^
 
 A Page Template is a developer/designer concept that defines the "look and feel" or model to be used for each page of the
 application.
 
-A “Page Template” is defined graphically using the DreamFace *Page Editor*.
+A “Page Template” is defined graphically using the DreamFace *Page Editor*. Each interface (web, tablet and mobile) has its
+own Page Editor, its own Default Category and its own *Home Page* specific to that interface.
 
 .. image:: ../images/devguide/dfx-page-editor.png
 
-The *Page Editor* can be used to build
+Web Page Editor
+,,,,,,,,,,,,,,,
+
+The Web *Page Editor* can be used to build
 
 * a Single View Page Template containing
 * a Single View Page Template with a Left Navigation and / or Right Navigation
@@ -91,6 +103,22 @@ The Header, the Body and the Left and Right navigation panels can be populated w
 “locked areas” where developers using the Template are not alloz alter these areas) and “unlocked areas” (developers can drop their
 views in theses areas while composing application pages). This mechanism ensures consistency in developing User Interfaces
 where only a few Templates may be needed to develop an entire application.
+
+
+Tablet Page Editor
+,,,,,,,,,,,,,,,,,,
+
+The Tablet *Page Editor* can be used to build
+
+* a Single View Page Template containing
+
+
+Mobile Page Editor
+,,,,,,,,,,,,,,,,,,
+
+The Mobile *Page Editor* can be used to build
+
+* a Single View Page Template containing
 
 |
 

@@ -1,7 +1,7 @@
 Signing In to The DreamFace Studio
 ==================================
 
-The DreamFace Studio is the place where DreamFace developers create the magic.
+The DreamFace Studio is the place where DreamFace developers create magic.
 
 It is the complete development and deployment tool for creating, building and deploying DreamFace applications. You need
 to sign in either directly from Bluemix or by entering the url of your environment and signing in from a login page.

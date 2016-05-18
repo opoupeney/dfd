@@ -27,7 +27,7 @@ How to Start with DreamFace?
 .. toctree::
    :maxdepth: 1
 
-   dfx-anatomy-of-an-app
+   dfx-anatomy-of-an-app2
    dfx-dev-process
 
 |

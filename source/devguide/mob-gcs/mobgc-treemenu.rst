@@ -1,7 +1,7 @@
 Treemenu
 ========
 
-.. image:: ../../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_mobile.png
    :class: pull-right
 
 A Treemenu can have a static or dynamic representation

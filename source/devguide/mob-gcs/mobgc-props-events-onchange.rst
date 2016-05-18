@@ -1,6 +1,5 @@
 Events
 ------
-
 Events allow developers to perform actions when the event is triggered on a control in the View.
 Events are used in combination with functions. The function is executed when the the event occurs (for example, when a
 user clicks a button, when the mouse moves over the control, ..).
@@ -18,11 +17,14 @@ providing the current list of functions that are available to be used from the V
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 | **Events**       | Possible Values | Description                                                                                        |
 +==================+=================+====================================================================================================+
-| On Click:        | *function name* | The function is executed when the user clicks on this graphical control.                           |
+| On Click:        | *function name* | The function is executed when the user clicks on the control triggering the On Click event.        |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Double Click: | *Function Name* | The function is executed when the user double clicks on this graphical control.                    |
+| On Double Click: | *Function Name* | The function is executed when the user double clicks on the control triggering the On Double Click |
+|                  |                 | event.                                                                                             |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Key Press:    | *Function Name* | The function is executed when the user presses a key while focus is on this graphical control.     |
+| On Change:       | *Function Name* | The function is executed when                                                                      |
++------------------+-----------------+----------------------------------------------------------------------------------------------------+
+| On Key Press:    | *Function Name* | The function is executed when the user presses a key while focus is on the control.                |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 | On Key Down:     | *Function Name* | The function is executed when the user holds the key down (on the keyboard).                       |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+

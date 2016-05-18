@@ -1,30 +1,22 @@
-Treemenu
-========
+Fab
+===
 
-.. image:: ../../images/icons/icon_web.png
+.. image:: ../../images/icons/icon_mobile.png
    :class: pull-right
 
-A Treemenu can have a static or dynamic representation
+A Floating Action Buttion or **FAB** Menubar is a component included in Material Design guidelines that emphasizes the most
+important action on the current screen usually on a mobile application. It is used to attract the users attention and perform
+the primary action or the most intuitive action. The FAB Menubar opens a menu or an iconbar when the FAB is clicked on. It
+can open to the right, left, up or down in respect to the button.
 
 |
 
-.. image:: ../../images/gcs/webgc-treemenu.png
+.. image:: ../../images/gcs/dfx-fab.png
 
 |
 
-The Treemenu control properties can be set for the following property categories:
-
-* :ref:`webgc-treemenu-main-label`
-* :ref:`webgc-treemenu-menu-label`
-* :ref:`webgc-treemenu-styling-label`
-* :ref:`webgc-treemenu-events-label`
-
-|
-
-.. _webgc-treemenu-main-label:
-
-Main Properties
----------------
+Properties
+^^^^^^^^^^
 
 |
 
@@ -59,19 +51,13 @@ Main Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-
-.. _webgc-treemenu-menu-label:
-
-Menu Items
-----------
-
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Menu Items**         | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
 | Static                 | Menu Editor       | Static means that the definition and contents of the menu/iconbar are static and once      |
 |                        |                   | defined will remain the unchanged until they are manually changed again. The menu/iconbar  |
 |                        |                   | can be defined by clicking on                                                              |
-|                        |                   |        .. image:: ../images/gcs/dfx-menu-edit-button.png                                   |
+|                        |                   |        .. image:: ../../images/gcs/dfx-menu-edit-button.png                                |
 |                        |                   | to bring the menu editor to assist in defining the menu/iconbar.                           |
 |                        |                   |                                                                                            |
 |                        |                   |                                                                                            |
@@ -80,11 +66,6 @@ Menu Items
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-
-.. _webgc-treemenu-styling-label:
-
-Syling Attributes
------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -113,22 +94,11 @@ Syling Attributes
 
 |
 
-.. _webgc-treemenu-events-label:
+.. _webgc-fab-events-label:
 
-.. include:: webgc-props-events.rst
-
-|
+.. include:: webgc-props-events-focus.rst
 
 
-**How to create a treemenu**
-
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
-| **Step Descriptions**                                                                           | Screen                                                |
-+=================================================================================================+=======================================================+
-| Drag and drop Treemenu GC to the working area, click on GC and then                             | .. figure:: ../../images/gcs/dfx-help-css-styles.png  |
-| open Menu editor in popup by cliking Edit button in Property Panel.                             |     :width: 150px                                     |
-| You’ll see default item: ‘Home’                                                                 |     :height: 75px                                     |
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
 
 |
 |
