@@ -1,16 +1,15 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Datepicker
 ==========
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 The datepicker is a standard input field tied to an interactive overlay calendar component that assists the user in entering a valid
 date for a date field. The user can select and validate a date from a overlay calendar and that value will be copied to the field.
 
 |
 
-.. image:: ../../images/gcs/dfx-datepicker-designtime.png
-.. image:: ../../images/gcs/dfx-datepicker-runtime.png
+.. image:: ../../images/gcs/mob/mobgc-datepicker.png
 
 |
 

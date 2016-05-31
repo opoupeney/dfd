@@ -1,15 +1,15 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Switch
 ======
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 The switch graphical component allows the users to set a swich between two values, for example to *on* or *off*, *left* or *right*.
 
 |
 Switch Off
 
-.. image:: ../../images/gcs/dfx-switch-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-switch.png
 
 Switch On
 

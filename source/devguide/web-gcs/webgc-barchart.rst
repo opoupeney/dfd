@@ -1,15 +1,15 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 Barchart
 =========
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 
 The pre-defined Charts graphical controls available in the Widget Editor are based on NDV3 library
 
 |
 
-.. image:: ../../images/gcs/dfx-barchart-designtime.png
+.. image:: ../../images/gcs/web/webgc-barchart.png
 
 |
 

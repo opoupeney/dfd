@@ -1,8 +1,8 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 Textarea
 ========
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 The Textarea graphical control is a multi-line text input control. A *Textarea* can contain an unlimited number of characters,
 and text renders in a fixed-width font. allows a developer to add any custom HTML. The contents of the HTML field is pure HTML. By
@@ -16,11 +16,9 @@ A text area can hold an unlimited number of characters, and the text renders in 
 
 The size of a text area can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.
 
-
-
 |
 
-.. image:: ../../images/gcs/dfx-html-designtime.png
+.. image:: ../../images/gcs/web/webgc-textarea.png
 
 |
 

@@ -1,16 +1,15 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
 
 Button
 ======
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 A button communicates an action to be performed when the user clicks on it. It consists of a label, an icon or both that
 indicate the action to be performed when the button is clicked.
 
 |
 
-.. image:: ../../images/gcs/dfx-button-designtime.png
+.. image:: ../../images/gcs/web/webgc-button.png
 
 |
 

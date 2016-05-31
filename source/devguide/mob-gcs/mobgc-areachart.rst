@@ -1,14 +1,14 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Areachart
 =========
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 The Area Chart control provides a pre-defined areachart. available in the View Editor are based on NDV3 library.
 
 |
 
-.. image:: ../../images/gcs/dfx-areachart-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-areachart.png
 
 |
 

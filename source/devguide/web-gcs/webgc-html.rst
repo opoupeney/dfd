@@ -1,7 +1,8 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 HTML
 ====
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 The HTML graphical control allows a developer to add any custom HTML. The contents of the HTML field is pure HTML. By
 default the control contains a Lorem Ipsum text. This contect can be edited to include any HTML content. For example,
@@ -10,7 +11,7 @@ your own in the HTML control.
 
 |
 
-.. image:: ../../images/gcs/dfx-html-designtime.png
+.. image:: ../../images/gcs/web/webgc-html.png
 
 |
 

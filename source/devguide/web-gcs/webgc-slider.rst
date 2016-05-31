@@ -1,15 +1,15 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 Slider
 ======
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 The slider control allows the user to slide a handle along a bar a range of values to set a value, for example it could
 slide between 0 and 100. When the user slides the handle and stops that is the value of the field.
 
 |
 
-.. image:: ../../images/gcs/dfx-slider-designtime.png
+.. image:: ../../images/gcs/web/webgc-slider.png
 
 |
 

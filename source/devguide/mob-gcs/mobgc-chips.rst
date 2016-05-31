@@ -1,16 +1,15 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
 
 Chips
 =====
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 Chips can be used for various types of entities, including free form text, predefined text, rules, or contacts. Chips may
 also contain icons.
 
 |
 
-.. image:: ../../images/gcs/dfx-chips-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-chips.png
 
 |
 

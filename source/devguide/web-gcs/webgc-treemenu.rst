@@ -1,14 +1,14 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 Treemenu
 ========
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 A Treemenu can have a static or dynamic representation
 
 |
 
-.. image:: ../../images/gcs/webgc-treemenu.png
+.. image:: ../../images/gcs/web/webgc-treemenu.png
 
 |
 

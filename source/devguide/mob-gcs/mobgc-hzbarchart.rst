@@ -1,14 +1,14 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Horizontal Barchart
 ===================
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 The pre-defined Line Charts graphical controls available in the View Editor are based on NDV3 library.
 
 |
 
-.. image:: ../../images/gcs/dfx-hzbarchart-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-hzbarchart.png
 
 |
 

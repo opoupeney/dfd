@@ -1,15 +1,19 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 Iconbar
 =======
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 An iconbar is a menu of icons. It has a top level menu that shows icons which is is a menu item. Menu items can have sub
 menu items. The iconbar menu is defined in the Menu Editor.
 
 |
 
-.. image:: ../../images/gcs/dfx-icon-designtime.png
+.. image:: ../../images/gcs/web/webgc-iconbar.png
+
+and with sample icons:
+
+.. image:: ../../images/gcs/web/webgc-iconbar-example.png
 
 |
 

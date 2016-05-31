@@ -1,15 +1,15 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Radio
 =====
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 The Radio control allows the end-user to toggle an option on or off by checking the box associated with a label, usually
 reflecting a Boolean value. Only one radio control can be selected at a time.
 
 |
 
-.. image:: ../../images/gcs/dfx-radio-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-radio.png
 
 |
 

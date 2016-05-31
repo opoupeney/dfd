@@ -1,16 +1,14 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
 
 Carousel
 ========
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 A Carousel is a graphical component that lets you scroll easily through images, for example in slideshow.
 
 |
 
-.. image:: ../../images/gcs/dfx-carousel.png
-   :width: 500px
+.. image:: ../../images/gcs/mob/mobgc-carousel.png
 
 |
 

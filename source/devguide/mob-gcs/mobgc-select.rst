@@ -1,14 +1,14 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Select
 ======
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 The select component allows users to select from a list of values, for example Yes* or *No*.
 
 |
 
-.. image:: ../../images/gcs/dfx-select-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-select.png
 .. image:: ../../images/gcs/dfx-select-runtime2.png
 
 |

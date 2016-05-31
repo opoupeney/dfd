@@ -1,8 +1,8 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Fab
 ===
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 A Floating Action Buttion or **FAB** Menubar is a component included in Material Design guidelines that emphasizes the most
 important action on the current screen usually on a mobile application. It is used to attract the users attention and perform
@@ -11,7 +11,7 @@ can open to the right, left, up or down in respect to the button.
 
 |
 
-.. image:: ../../images/gcs/dfx-fab.png
+.. image:: ../../images/gcs/mob/mobgc-fab.png
 
 |
 

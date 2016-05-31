@@ -1,12 +1,10 @@
+.. image:: ../images/icons/badge_mobile.png
+   :class: pull-right
+
 .. _mobgcs-label:
 
 Mobile Application Graphical Controls
 =====================================
-
-
-DreamFace uses Angular Material to define the look and feel of mobile application graphical controls.
-
-|
 
 DreamFace uses Angular Material to define the look and feel of mob application graphical controls.
 
@@ -40,6 +38,7 @@ applications :
    ./mob-gcs/mobgc-image
    ./mob-gcs/mobgc-html
    ./mob-gcs/mobgc-carousel
+   ./mob-gcs/mobgc-treeview
 
 |
 
@@ -51,6 +50,7 @@ description of the Input graphcical controls available in the View Editor for bu
 
 .. toctree::
    :maxdepth: 1
+
    ./mob-gcs/mobgc-input
    ./mob-gcs/mobgc-textarea
    ./mob-gcs/mobgc-datepicker
@@ -59,6 +59,8 @@ description of the Input graphcical controls available in the View Editor for bu
    ./mob-gcs/mobgc-knob
    ./mob-gcs/mobgc-chips
    ./mob-gcs/mobgc-rating
+   ./mob-gcs/mobgc-richtext
+   ./mob-gcs/mobgc-progressbar
 
 |
 
@@ -73,7 +75,7 @@ available in the View Editor for building mobile applciations :
    ./mob-gcs/mobgc-fab
    ./mob-gcs/mobgc-iconbar
    ./mob-gcs/mobgc-treemenu
-   ./mob-gcs/help-css-styles
+   ./mob-gcs/mobgc-hzmenu
 
 |
 

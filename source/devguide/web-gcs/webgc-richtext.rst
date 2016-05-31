@@ -1,8 +1,8 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 Richtext
 ========
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 A richtext control is like a   is one of the most important graphical controls in DreamFace because it defines the layout and default style of the
 ViewCards. Each ViewCard starts out with a default panel. A panel is a container and it can contain other panels. A DreamFace
@@ -22,7 +22,7 @@ To support a rich text, the .NET Framework provides the RichTextBox control that
 
 |
 
-.. image:: ../../images/gcs/dfx-richtext.png
+.. image:: ../../images/gcs/web/webgc-richtext.png
 
 |
 

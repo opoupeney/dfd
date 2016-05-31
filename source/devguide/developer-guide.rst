@@ -50,7 +50,7 @@ Developers Reference
 The Reference section describes how DreamFace implements the many built-in features.
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
 
 
    ref-install-bluemix

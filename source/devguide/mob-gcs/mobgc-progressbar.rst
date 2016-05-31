@@ -1,14 +1,14 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Progress Bar
 ============
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 A progress bar is a graphical control containing a graphical bar used to show the progress of a task or process, such as a download, file transfer, ...
 
 |
 
-.. image:: ../../images/gcs/dfx-progressbar.png
+.. image:: ../../images/gcs/mob/mobgc-progressbar.png
 
 |
 

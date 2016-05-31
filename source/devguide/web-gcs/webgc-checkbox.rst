@@ -1,16 +1,15 @@
-Checkbox
-========
-
-.. image:: ../../images/icons/icon_web.png
+.. image:: ../../images/icons/badge_web.png
    :class: pull-right
 
+Checkbox
+========
 
 The CheckBox allows the end-user to toggle an option on or off by checking the box associated with a label, usually
 reflecting a Boolean value.
 
 |
 
-.. image:: ../../images/gcs/dfx-checkbox-designtime.png
+.. image:: ../../images/gcs/web/webgc-checkbox.png
 
 |
 

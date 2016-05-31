@@ -1,9 +1,8 @@
-Image
-=====
-
-.. image:: ../../images/icons/icon_web.png
+.. image:: ../../images/icons/badge_web.png
    :class: pull-right
 
+Image
+=====
 
 The image graphical control is used to display images. An image is specified using a url. Images can be from external or
 internal sources. Internal sources can be imported using the Resources option in System Configuration & Settings in the
@@ -11,7 +10,7 @@ DreamFace Studio to add an image as a resource.
 
 |
 
-.. image:: ../../images/gcs/dfx-image-designtime.png
+.. image:: ../../images/gcs/web/webgc-image.png
 
 |
 

@@ -1,3 +1,6 @@
+.. image:: ../images/icons/badge_web.png
+   :class: pull-right
+
 .. _webgcs-label:
 
 Web Application Graphical Controls
@@ -35,6 +38,7 @@ applications :
    ./web-gcs/webgc-image
    ./web-gcs/webgc-html
    ./web-gcs/webgc-carousel
+   ./web-gcs/webgc-treeview
 
 |
 
@@ -55,6 +59,8 @@ description of the Input graphcical controls available in the View Editor for bu
    ./web-gcs/webgc-knob
    ./web-gcs/webgc-chips
    ./web-gcs/webgc-rating
+   ./web-gcs/webgc-richtext
+   ./web-gcs/webgc-progressbar
 
 |
 
@@ -69,7 +75,7 @@ available in the View Editor for building web applciations :
    ./web-gcs/webgc-fab
    ./web-gcs/webgc-iconbar
    ./web-gcs/webgc-treemenu
-   ./web-gcs/help-css-styles
+   ./web-gcs/webgc-hzmenu
 
 |
 

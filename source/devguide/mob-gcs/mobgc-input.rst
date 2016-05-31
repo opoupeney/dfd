@@ -1,14 +1,14 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Input Field
 ===========
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 The Input Field graphical control specifies an input field where the user can enter data.
 
 |
 
-.. image:: ../../images/gcs/dfx-input-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-input.png
 
 |
 

@@ -1,8 +1,8 @@
+.. image:: ../../images/icons/badge_web.png
+   :class: pull-right
+
 Panel
 =====
-
-.. image:: ../../images/icons/icon_web.png
-   :class: pull-right
 
 A panel is one of the most important graphical controls in DreamFace because it defines the layout and default style of the
 ViewCards. Each ViewCard starts out with a default panel containing a Title, a Toolbar Menu and one row with one column.
@@ -17,7 +17,7 @@ See for more on Angular Material Panel Layouts see `Angular Material Layouts and
 
 |
 
-.. image:: ../../images/gcs/dfx-panel-designtime.png
+.. image:: ../../images/gcs/web/webgc-panel.png
 
 |
 

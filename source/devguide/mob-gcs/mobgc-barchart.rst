@@ -1,15 +1,15 @@
-Barchart
-=========
-
-.. image:: ../../images/icons/icon_mobile.png
+.. image:: ../../images/icons/badge_mobile.png
    :class: pull-right
 
+
+Barchart
+=========
 
 The pre-defined Charts graphical controls available in the Widget Editor are based on NDV3 library
 
 |
 
-.. image:: ../../images/gcs/dfx-barchart-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-barchart.png
 
 |
 

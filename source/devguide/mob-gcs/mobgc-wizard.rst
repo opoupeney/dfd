@@ -1,8 +1,8 @@
+.. image:: ../../images/icons/badge_mobile.png
+   :class: pull-right
+
 Wizard
 ======
-
-.. image:: ../../images/icons/icon_mobile.png
-   :class: pull-right
 
 A wizard control is a multi-step form.  one of the most important graphical controls because it defines the layout of the View or a portion of the View.
 It consists of a title and an area where the layout will be organized. The layout is based on Angular Material and Material
@@ -16,7 +16,7 @@ Features
 
 |
 
-.. image:: ../../images/gcs/dfx-panel-designtime.png
+.. image:: ../../images/gcs/mob/mobgc-wizard.png
 
 |
 
