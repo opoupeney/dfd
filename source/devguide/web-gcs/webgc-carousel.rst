@@ -4,7 +4,8 @@
 Carousel
 ========
 
-A Carousel is a graphical component that lets you scroll easily through images, for example in slideshow.
+A Carousel is a graphical component that lets you scroll easily through a set of images.
+
 
 |
 

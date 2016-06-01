@@ -4,7 +4,7 @@
 Image
 =====
 
-The image graphical control is used to display images. An image is specified using a url. Images can be from external or
+The image control is used to display images. An image is specified with a url. Images can be from external or
 internal sources. Internal sources can be imported using the Resources option in System Configuration & Settings in the
 DreamFace Studio to add an image as a resource.
 
@@ -16,13 +16,13 @@ DreamFace Studio to add an image as a resource.
 
 The Image control properties can be set for the following property categories:
 
-* :ref:`webgc-image-main-label`
-* :ref:`webgc-image-styling-label`
-* :ref:`webgc-image-events-label`
+* :ref:`mobgc-image-main-label`
+* :ref:`mobgc-image-styling-label`
+* :ref:`mobgc-image-events-label`
 
 |
 
-.. _webgc-image-main-label:
+.. _mobgc-image-main-label:
 
 Main Properties
 ---------------
@@ -47,7 +47,7 @@ Main Properties
 |
 |
 
-.. _webgc-image-styling-label:
+.. _mobgc-image-styling-label:
 
 Styling Attributes
 ------------------
@@ -72,9 +72,9 @@ Styling Attributes
 
 |
 
-.. _webgc-image-events-label:
+.. _mobgc-image-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 

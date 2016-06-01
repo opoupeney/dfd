@@ -1,3 +1,4 @@
+
 .. image:: ../../images/icons/badge_mobile.png
    :class: pull-right
 
@@ -15,13 +16,13 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 The Icon control properties can be set for the following property categories:
 
-* :ref:`webgc-icon-main-label`
-* :ref:`webgc-icon-styling-label`
-* :ref:`webgc-icon-events-label`
+* :ref:`mobgc-icon-main-label`
+* :ref:`mobgc-icon-styling-label`
+* :ref:`mobgc-icon-events-label`
 
 |
 
-.. _webgc-icon-main-label:
+.. _mobgc-icon-main-label:
 
 
 Main Properties
@@ -59,16 +60,16 @@ Main Properties
 
 |
 
-.. _webgc-icon-styling-label:
+.. _mobgc-icon-styling-label:
 
 
-.. include:: webgc-props-styling.rst
+.. include:: mobgc-props-styling.rst
 
 |
 
-.. _webgc-icon-events-label:
+.. _mobgc-icon-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 |

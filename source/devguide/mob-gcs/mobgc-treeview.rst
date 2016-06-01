@@ -4,7 +4,13 @@
 Treeview
 ========
 
-A Treemenu can have a static or dynamic representation
+A treeview is a graphical control that presents information in a hierarchical view. Each item (often referred to
+as a branch or a node) can have a number of subitems. The subitems or "children" are often visualized by indentation
+in a list showing that they are sub-categories or items of the parent node. Items can be expanded to show subitems and
+collapsed to hide subitems.
+
+An example of a Treeview that most people are familiar with is file directories with folders, sub-folers and individual
+files allowing users to organize and easily find files.
 
 |
 
@@ -14,14 +20,14 @@ A Treemenu can have a static or dynamic representation
 
 The Treemenu control properties can be set for the following property categories:
 
-* :ref:`webgc-treemenu-main-label`
-* :ref:`webgc-treemenu-menu-label`
-* :ref:`webgc-treemenu-styling-label`
-* :ref:`webgc-treemenu-events-label`
+* :ref:`mobgc-treeview-main-label`
+* :ref:`mobgc-treeview-menu-label`
+* :ref:`mobgc-treeview-styling-label`
+* :ref:`mobgc-treeview-events-label`
 
 |
 
-.. _webgc-treemenu-main-label:
+.. _mobgc-treeview-main-label:
 
 Main Properties
 ---------------
@@ -60,7 +66,7 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 
-.. _webgc-treemenu-menu-label:
+.. _mobgc-treeview-menu-label:
 
 Menu Items
 ----------
@@ -81,9 +87,9 @@ Menu Items
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 
-.. _webgc-treemenu-styling-label:
+.. _mobgc-treeview-styling-label:
 
-Syling Attributes
+Styling Attributes
 -----------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -113,9 +119,9 @@ Syling Attributes
 
 |
 
-.. _webgc-treemenu-events-label:
+.. _mobgc-treeview-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 
@@ -125,10 +131,10 @@ Syling Attributes
 +-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
 | **Step Descriptions**                                                                           | Screen                                                |
 +=================================================================================================+=======================================================+
-| Drag and drop Treemenu GC to the working area, click on GC and then                             | .. figure:: ../../images/gcs/dfx-help-css-styles.png  |
+| Drag and drop Treeview GC to the working area, click on GC and then                             | .. figure:: ../../images/gcs/dfx-help-css-styles.png  |
 | open Menu editor in popup by cliking Edit button in Property Panel.                             |     :width: 150px                                     |
-    | You’ll see default item: ‘Home’                                                                 |     :height: 75px                                     |
-    +-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
+| You’ll see default item: ‘Home’                                                                 |     :height: 75px                                     |
++-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
 
-    |
-    |
+|
+|

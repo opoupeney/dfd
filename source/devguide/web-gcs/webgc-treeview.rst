@@ -4,7 +4,15 @@
 Treeview
 ========
 
-A Treemenu can have a static or dynamic representation
+A treeview is a graphical control that presents information in a hierarchical view. Each item (often referred to
+as a branch or a node) can have a number of subitems. The subitems or "children" are often visualized by indentation
+in a list showing that they are sub-categories or items of the parent node. Items can be expanded to show subitems and
+collapsed to hide subitems.
+
+An example of a Treeview that most people are familiar with is file directories with folders, sub-folers and individual
+files allowing users to organize and easily find files.
+
+
 
 |
 
@@ -12,16 +20,16 @@ A Treemenu can have a static or dynamic representation
 
 |
 
-The Treemenu control properties can be set for the following property categories:
+The Treeview control properties can be set for the following property categories:
 
-* :ref:`webgc-treemenu-main-label`
-* :ref:`webgc-treemenu-menu-label`
-* :ref:`webgc-treemenu-styling-label`
-* :ref:`webgc-treemenu-events-label`
+* :ref:`webgc-treeview-main-label`
+* :ref:`webgc-treeview-menu-label`
+* :ref:`webgc-treeview-styling-label`
+* :ref:`webgc-treeview-events-label`
 
 |
 
-.. _webgc-treemenu-main-label:
+.. _webgc-treeview-main-label:
 
 Main Properties
 ---------------
@@ -60,7 +68,7 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 
-.. _webgc-treemenu-menu-label:
+.. _webgc-treeview-menu-label:
 
 Menu Items
 ----------
@@ -81,9 +89,9 @@ Menu Items
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 
-.. _webgc-treemenu-styling-label:
+.. _webgc-treeview-styling-label:
 
-Syling Attributes
+Styling Attributes
 -----------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -113,7 +121,7 @@ Syling Attributes
 
 |
 
-.. _webgc-treemenu-events-label:
+.. _webgc-treeview-events-label:
 
 .. include:: webgc-props-events.rst
 

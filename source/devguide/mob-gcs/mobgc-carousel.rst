@@ -4,7 +4,7 @@
 Carousel
 ========
 
-A Carousel is a graphical component that lets you scroll easily through images, for example in slideshow.
+A Carousel is a graphical component that lets you scroll easily through a set of images.
 
 |
 
@@ -14,14 +14,14 @@ A Carousel is a graphical component that lets you scroll easily through images, 
 
 The Carousel control properties can be set for the following property categories:
 
-* :ref:`webgc-carousel-main-label`
-* :ref:`webgc-carousel_options-label`
-* :ref:`webgc-carousel-styling-label`
-* :ref:`webgc-carousel-events-label`
+* :ref:`mobgc-carousel-main-label`
+* :ref:`mobgc-carousel_options-label`
+* :ref:`mobgc-carousel-styling-label`
+* :ref:`mobgc-carousel-events-label`
 
 |
 
-.. _webgc-carousel-main-label:
+.. _mobgc-carousel-main-label:
 
 Main Properties
 ---------------
@@ -51,7 +51,7 @@ Main Properties
 
 |
 
-.. _webgc-carousel_options-label:
+.. _mobgc-carousel_options-label:
 
 Options Items
 ----------
@@ -69,7 +69,7 @@ Options Items
 
 |
 
-.. _webgc-carousel-styling-label:
+.. _mobgc-carousel-styling-label:
 
 
 Styling Attributes
@@ -105,9 +105,9 @@ Styling Attributes
 
 |
 
-.. _webgc-carousel-events-label:
+.. _mobgc-carousel-events-label:
 
-.. include:: webgc-props-events-focus.rst
+.. include:: mobgc-props-events-focus.rst
 
 |
 |

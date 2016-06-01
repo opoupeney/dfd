@@ -16,15 +16,15 @@ indicate the action to be performed when the button is clicked.
 
 The Button control properties can be set for the following categories of properties:
 
-* :ref:`webgc-button-main-label`
-* :ref:`webgc-button-menu-label`
-* :ref:`webgc-button-styling-label`
-* :ref:`webgc-button-events-label`
+* :ref:`mobgc-button-main-label`
+* :ref:`mobgc-button-menu-label`
+* :ref:`mobgc-button-styling-label`
+* :ref:`mobgc-button-events-label`
 
 
 |
 
-.. _webgc-button-main-label:
+.. _mobgc-button-main-label:
 
 Main Properties
 ---------------
@@ -80,7 +80,7 @@ Main Properties
 
 |
 
-.. _webgc-button-menu-label:
+.. _mobgc-button-menu-label:
 
 Menu Items
 ----------
@@ -98,15 +98,15 @@ Menu Items
 
 |
 
-.. _webgc-button-styling-label:
+.. _mobgc-button-styling-label:
 
-.. include:: webgc-props-styling.rst
+.. include:: mobgc-props-styling.rst
 
 |
 
-.. _webgc-button-events-label:
+.. _mobgc-button-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 |

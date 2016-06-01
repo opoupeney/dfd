@@ -4,7 +4,7 @@
 Image
 =====
 
-The image graphical control is used to display images. An image is specified using a url. Images can be from external or
+The image control is used to display images. An image is specified with a url. Images can be from external or
 internal sources. Internal sources can be imported using the Resources option in System Configuration & Settings in the
 DreamFace Studio to add an image as a resource.
 

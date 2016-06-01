@@ -4,8 +4,8 @@
 Statictext
 ===========
 
-Statictext controls display text that does not require user input. They often serve as labels for other controls or to indentify
-areas of the View. They can also be used to display icons that add context to the user interface.
+Statictext controls display text that read-only and does not require user input. They often serve as labels for other controls
+or to indentify areas of the View. They can also be used to add context to the user interface.
 
 |
 
@@ -15,15 +15,15 @@ areas of the View. They can also be used to display icons that add context to th
 
 The Statictext control properties can be set for the following categories of properties:
 
-* :ref:`webgc-statictext_main-label`
-* :ref:`webgc-statictext_styling-label`
-* :ref:`webgc-statictext_tooltip-label`
-* :ref:`webgc-statictext_events-label`
-* :ref:`webgc-statictext_extended-label`
+* :ref:`mobgc-statictext_main-label`
+* :ref:`mobgc-statictext_styling-label`
+* :ref:`mobgc-statictext_tooltip-label`
+* :ref:`mobgc-statictext_events-label`
+* :ref:`mobgc-statictext_extended-label`
 
 |
 
-.. _webgc-statictext_main-label:
+.. _mobgc-statictext_main-label:
 
 Main Properties
 ---------------
@@ -72,13 +72,13 @@ Main Properties
 
 |
 
-.. _webgc-statictext_styling-label:
+.. _mobgc-statictext_styling-label:
 
-.. include:: webgc-props-styling.rst
+.. include:: mobgc-props-styling.rst
 
 |
 
-.. _webgc-statictext_tooltip-label:
+.. _mobgc-statictext_tooltip-label:
 
 Tooltip Properties
 ------------------
@@ -95,13 +95,13 @@ Tooltip Properties
 
 |
 
-.. _webgc-statictext_events-label:
+.. _mobgc-statictext_events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 
-.. _webgc-statictext_extended-label:
+.. _mobgc-statictext_extended-label:
 
 Extended Directive
 ------------------

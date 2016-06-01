@@ -4,8 +4,8 @@
 HTML
 ====
 
-The HTML graphical control allows a developer to add any custom HTML. The contents of the HTML field is pure HTML. By
-default the control contains a Lorem Ipsum text. This contect can be edited to include any HTML content. For example,
+The HTML graphical control allows a developer to add any custom HTML The contents of the HTML field is pure HTML. By
+default the control contains a Lorem Ipsum text. This content can be edited to include any HTML content. For example,
 if you find that one of the pre-defined graphical controls does not have the functionality that you need, you can add
 your own in the HTML control.
 

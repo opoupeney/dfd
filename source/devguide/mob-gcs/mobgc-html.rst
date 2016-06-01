@@ -4,7 +4,7 @@
 HTML
 ====
 
-The HTML graphical control allows a developer to add any custom HTML. The contents of the HTML field is pure HTML. By
+The HTML graphical control allows a developer to add any custom HTML The contents of the HTML field is pure HTML. By
 default the control contains a Lorem Ipsum text. This contect can be edited to include any HTML content. For example,
 if you find that one of the pre-defined graphical controls does not have the functionality that you need, you can add
 your own in the HTML control.
@@ -17,15 +17,15 @@ your own in the HTML control.
 
 The HTML control properties can be set for the following property categories:
 
-* :ref:`webgc-html-main-label`
-* :ref:`webgc-html-styling-label`
-* :ref:`webgc-html-events-label`
+* :ref:`mobgc-html-main-label`
+* :ref:`mobgc-html-styling-label`
+* :ref:`mobgc-html-events-label`
 
 |
 
 |
 
-.. _webgc-html-main-label:
+.. _mobgc-html-main-label:
 
 
 Main Properties
@@ -60,15 +60,15 @@ Main Properties
 
 |
 
-.. _webgc-html-styling-label:
+.. _mobgc-html-styling-label:
 
-.. include:: webgc-props-styling-slider.rst
+.. include:: mobgc-props-styling-slider.rst
 
 |
 
-.. _webgc-html-events-label:
+.. _mobgc-html-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 

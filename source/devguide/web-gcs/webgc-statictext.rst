@@ -4,8 +4,9 @@
 Statictext
 ===========
 
-Statictext controls display text that does not require user input. They often serve as labels for other controls or to indentify
-areas of the View. They can also be used to display icons that add context to the user interface.
+Statictext controls display text that read-only and does not require user input. They often serve as labels for other controls
+or to indentify areas of the View. They can also be used to add context to the user interface.
+
 
 |
 
@@ -109,9 +110,9 @@ Extended Directive
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Extended Directive** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-|  Add Directive         | function name     | Angular allows developers to create custom directives This allows developers to add extended directives to customize the default behavior of the |
-|                        |                   |                                                                                            |
-|                        |                   | control.and add functionality. When you click on *Add Directive* the following fields are  |
+|  Add Directive         | function name     | Angular allows developers to create custom directives. Developers can add extended         |
+|                        |                   | directives to customize the default behavior of the Statictext control                     |
+|                        |                   | and add functionality. When you click on *Add Directive* the following fields are          |
 |                        |                   | shown, the first one takes the custom directive name and the second one the function where |
 |                        |                   | the custom directive is defined.                                                           |
 |                        |                   |                                                                                            |
