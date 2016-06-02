@@ -9,19 +9,18 @@ The select component allows users to select from a list of values, for example Y
 |
 
 .. image:: ../../images/gcs/mob/mobgc-select.png
-.. image:: ../../images/gcs/dfx-select-runtime2.png
 
 |
 
 The Select control properties can be set for the following property categories:
 
-* :ref:`webgc-select-main-label`
-* :ref:`webgc-select-styling-label`
-* :ref:`webgc-select-events-label`
+* :ref:`mobgc-select-main-label`
+* :ref:`mobgc-select-styling-label`
+* :ref:`mobgc-select-events-label`
 
 |
 
-.. _webgc-select-main-label:
+.. _mobgc-select-main-label:
 
 Main Properties
 ---------------
@@ -58,7 +57,7 @@ Main Properties
 
 |
 
-.. _webgc-select-styling-label:
+.. _mobgc-select-styling-label:
 
 Styling Attributes
 ------------------
@@ -84,9 +83,9 @@ Styling Attributes
 
 |
 
-.. _webgc-select-events-label:
+.. _mobgc-select-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 |

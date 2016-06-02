@@ -14,14 +14,14 @@ The pre-defined Line Charts graphical controls available in the View Editor are 
 
 The Linechart control properties can be set for the following property categories:
 
-* :ref:`webgc-linechart-main-label`
-* :ref:`webgc-linechart-options-label`
-* :ref:`webgc-linechart-styling-label`
-* :ref:`webgc-linechart-events-label`
+* :ref:`mobgc-linechart-main-label`
+* :ref:`mobgc-linechart-options-label`
+* :ref:`mobgc-linechart-styling-label`
+* :ref:`mobgc-linechart-events-label`
 
 |
 
-.. _webgc-linechart-main-label:
+.. _mobgc-linechart-main-label:
 
 
 Main Properties
@@ -59,7 +59,7 @@ Main Properties
 
 |
 
-.. _webgc-linechart-options-label:
+.. _mobgc-linechart-options-label:
 
 Options
 -------
@@ -74,7 +74,7 @@ Options
 
 |
 
-.. _webgc-linechart-styling-label:
+.. _mobgc-linechart-styling-label:
 
 Styling Attributes
 ------------------
@@ -97,9 +97,9 @@ Styling Attributes
 
 |
 
-.. _webgc-linechart-events-label:
+.. _mobgc-linechart-events-label:
 
-.. include:: webgc-props-events-state.rst
+.. include:: mobgc-props-events-state.rst
 
 
 |

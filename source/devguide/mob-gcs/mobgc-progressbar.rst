@@ -14,13 +14,13 @@ A progress bar is a graphical control containing a graphical bar used to show th
 
 The Progressbar control properties can be set for the following property categories:
 
-* :ref:`webgc-progressbar-main-label`
-* :ref:`webgc-progressbar-styling-label`
-* :ref:`webgc-progressbar-events-label`
+* :ref:`mobgc-progressbar-main-label`
+* :ref:`mobgc-progressbar-styling-label`
+* :ref:`mobgc-progressbar-events-label`
 
 |
 
-.. _webgc-progressbar-main-label:
+.. _mobgc-progressbar-main-label:
 
 Main Properties
 ---------------
@@ -56,15 +56,15 @@ Main Properties
 
 |
 
-.. _webgc-progressbar-styling-label:
+.. _mobgc-progressbar-styling-label:
 
-.. include:: webgc-props-styling-slider.rst
+.. include:: mobgc-props-styling-slider.rst
 
 |
 
-.. _webgc-progressbar-events-label:
+.. _mobgc-progressbar-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 |

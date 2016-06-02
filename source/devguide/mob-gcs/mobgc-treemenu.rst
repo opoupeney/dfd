@@ -14,14 +14,14 @@ A Treemenu can have a static or dynamic representation
 
 The Treemenu control properties can be set for the following property categories:
 
-* :ref:`webgc-treemenu-main-label`
-* :ref:`webgc-treemenu-menu-label`
-* :ref:`webgc-treemenu-styling-label`
-* :ref:`webgc-treemenu-events-label`
+* :ref:`mobgc-treemenu-main-label`
+* :ref:`mobgc-treemenu-menu-label`
+* :ref:`mobgc-treemenu-styling-label`
+* :ref:`mobgc-treemenu-events-label`
 
 |
 
-.. _webgc-treemenu-main-label:
+.. _mobgc-treemenu-main-label:
 
 Main Properties
 ---------------
@@ -60,7 +60,7 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 
-.. _webgc-treemenu-menu-label:
+.. _mobgc-treemenu-menu-label:
 
 Menu Items
 ----------
@@ -81,7 +81,7 @@ Menu Items
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 
-.. _webgc-treemenu-styling-label:
+.. _mobgc-treemenu-styling-label:
 
 Syling Attributes
 -----------------
@@ -113,9 +113,9 @@ Syling Attributes
 
 |
 
-.. _webgc-treemenu-events-label:
+.. _mobgc-treemenu-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 

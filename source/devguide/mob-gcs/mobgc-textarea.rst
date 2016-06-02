@@ -26,14 +26,14 @@ The size of a text area can be specified by the cols and rows attributes, or eve
 
 The Textarea Field control properties can be set for the following property categories:
 
-* :ref:`webgc-textarea-main-label`
-* :ref:`webgc-textarea-validation-label`
-* :ref:`webgc-textarea-styling-label`
-* :ref:`webgc-textarea-events-label`
+* :ref:`mobgc-textarea-main-label`
+* :ref:`mobgc-textarea-validation-label`
+* :ref:`mobgc-textarea-styling-label`
+* :ref:`mobgc-textarea-events-label`
 
 |
 
-.. _webgc-textarea-main-label:
+.. _mobgc-textarea-main-label:
 
 Main Properties
 ---------------
@@ -69,7 +69,7 @@ Main Properties
 
 |
 
-.. _webgc-textarea-validation-label:
+.. _mobgc-textarea-validation-label:
 
 Validation Properties
 ---------------------
@@ -78,15 +78,15 @@ Validation Properties go here.
 
 |
 
-.. _webgc-textarea-styling-label:
+.. _mobgc-textarea-styling-label:
 
-.. include:: webgc-props-styling-slider.rst
+.. include:: mobgc-props-styling-slider.rst
 
 |
 
-.. _webgc-textarea-events-label:
+.. _mobgc-textarea-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 
 |

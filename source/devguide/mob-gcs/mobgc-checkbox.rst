@@ -15,13 +15,13 @@ reflecting a Boolean value.
 
 The Checkbox control properties can be set for the following property categories:
 
-* :ref:`webgc-checkbox-main-label`
-* :ref:`webgc-checkbox-styling-label`
-* :ref:`webgc-checkbox-events-label`
+* :ref:`mobgc-checkbox-main-label`
+* :ref:`mobgc-checkbox-styling-label`
+* :ref:`mobgc-checkbox-events-label`
 
 |
 
-.. _webgc-checkbox-main-label:
+.. _mobgc-checkbox-main-label:
 
 Main Properties
 ---------------
@@ -58,7 +58,7 @@ Main Properties
 
 |
 
-.. _webgc-checkbox-styling-label:
+.. _mobgc-checkbox-styling-label:
 
 Styling Attributes
 ------------------
@@ -84,9 +84,9 @@ Styling Attributes
 
 |
 
-.. _webgc-checkbox-events-label:
+.. _mobgc-checkbox-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 ||

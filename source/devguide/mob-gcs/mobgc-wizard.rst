@@ -22,20 +22,18 @@ Features
 
 The Wizard control properties can be set for the following property categories:
 
-* :ref:`webgc-wizard-main-label`
-* :ref:`webgc-wizard-repeatable-label`
-* :ref:`webgc-wizard-styling-label`
-* :ref:`webgc-wizard-layout-label`
-* :ref:`webgc-wizard-events-label`
+* :ref:`mobgc-wizard-main-label`
+* :ref:`mobgc-wizard-repeatable-label`
+* :ref:`mobgc-wizard-styling-label`
+* :ref:`mobgc-wizard-layout-label`
+* :ref:`mobgc-wizard-events-label`
 
 |
 
-.. _webgc-wizard-main-label:
+.. _mobgc-wizard-main-label:
 
 Main Properties
 ---------------
-
-**Main Properties**
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -67,7 +65,7 @@ Main Properties
 
 |
 
-.. _webgc-wizard-repeatable-label:
+.. _mobgc-wizard-repeatable-label:
 
 Repeatable
 ----------
@@ -82,13 +80,13 @@ Repeatable
 
 |
 
-.. _webgc-wizard-styling-label:
+.. _mobgc-wizard-styling-label:
 
-.. include:: webgc-props-styling.rst
+.. include:: mobgc-props-styling.rst
 
 |
 
-.. _webgc-wizard-layout-label:
+.. _mobgc-wizard-layout-label:
 
 Layout Properties
 -----------------
@@ -119,7 +117,7 @@ Layout Properties
 
 |
 
-.. _webgc-wizard-events-label:
+.. _mobgc-wizard-events-label:
 
 Events
 ------

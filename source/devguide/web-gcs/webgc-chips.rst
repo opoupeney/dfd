@@ -43,7 +43,7 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | icon                   | favicon           | Click on the **...** to the right of the field to select one of the favicons from the list.|
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-icons.png                                              |
+|                        |                   |        .. image:: ../../images/gcs/dfx-icons.png                                              |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
 |                        |                   |                                                                                            |

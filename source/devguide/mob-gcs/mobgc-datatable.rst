@@ -25,14 +25,23 @@ Table columns have a value and can be rendered as one of the following pre-defin
 
 |
 
-.. image:: ../../images/gcs/dfx-datatable-designtime-gcs.png
+.. image:: ../../images/gcs/mob/mobgc-datatable2.png
 
 |
 
-Properties
-^^^^^^^^^^
+The Datatable control properties can be set for the following property categories:
+
+* :ref:`mobgc-datatable-main-label`
+* :ref:`mobgc-datatable-columns-label`
+* :ref:`mobgc-datatable-styling-label`
+* :ref:`mobgc-datatable-events-label`
 
 |
+
+.. _mobgc-datatable-main-label:
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -71,6 +80,12 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _mobgc-datatable-columns-label:
+
+Columns
+-------
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Columns**            | Possible Values   | Description                                                                                |
@@ -122,6 +137,11 @@ Properties
 
 |
 
+.. _mobgc-datatable-styling-label:
+
+Styling Attributes
+------------------
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -139,9 +159,9 @@ Properties
 
 |
 
-.. _webgc-datatable-events-label:
+.. _mobgc-datatable-events-label:
 
-.. include:: webgc-props-events-focus.rst
+.. include:: mobgc-props-events-focus.rst
 
 
 

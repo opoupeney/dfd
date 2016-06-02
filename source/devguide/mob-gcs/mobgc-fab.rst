@@ -94,9 +94,9 @@ Properties
 
 |
 
-.. _webgc-fab-events-label:
+.. _mobgc-fab-events-label:
 
-.. include:: webgc-props-events-focus.rst
+.. include:: mobgc-props-events-focus.rst
 
 
 

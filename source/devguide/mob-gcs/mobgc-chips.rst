@@ -15,13 +15,13 @@ also contain icons.
 
 The Chips control properties can be set for the following property categories:
 
-* :ref:`webgc-chips-main-label`
-* :ref:`webgc-chips-styling-label`
-* :ref:`webgc-chips-events-label`
+* :ref:`mobgc-chips-main-label`
+* :ref:`mobgc-chips-styling-label`
+* :ref:`mobgc-chips-events-label`
 
 |
 
-.. _webgc-chips-main-label:
+.. _mobgc-chips-main-label:
 
 
 Main Properties
@@ -43,7 +43,7 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | icon                   | favicon           | Click on the **...** to the right of the field to select one of the favicons from the list.|
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../images/gcs/dfx-icons.png                                              |
+|                        |                   |        .. image:: ../../images/gcs/dfx-icons.png                                           |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
 |                        |                   |                                                                                            |
@@ -54,14 +54,14 @@ Main Properties
 
 |
 
-.. _webgc-chips-styling-label:
+.. _mobgc-chips-styling-label:
 
 
-.. include:: webgc-props-styling-slider.rst
+.. include:: mobgc-props-styling-slider.rst
 
 |
 
-.. _webgc-chips-events-label:
+.. _mobgc-chips-events-label:
 
 Events
 ------

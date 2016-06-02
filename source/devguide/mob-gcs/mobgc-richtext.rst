@@ -26,8 +26,19 @@ To support a rich text, the .NET Framework provides the RichTextBox control that
 
 |
 
-Properties
-^^^^^^^^^^
+The Richtext control properties can be set for the following property categories:
+
+* :ref:`mobgc-richtext-main-label`
+* :ref:`mobgc-richtext-styling-label`
+* :ref:`mobgc-richtext-layout-label`
+* :ref:`webgc-richtext-events-label`
+
+|
+
+.. _mobgc-richtext-main-label:
+
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -60,10 +71,16 @@ Properties
 
 |
 
-.. include:: webgc-props-styling.rst
+.. _mobgc-richtext-styling-label:
+
+.. include:: mobgc-props-styling.rst
 
 |
 
+.. _mobgc-richtext-layout-label:
+
+Layout Properties
+-----------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Layout Properties**  | Possible Values   | Description                                                                                |
@@ -91,7 +108,7 @@ Properties
 
 |
 
-.. _webgc-richtext-events-label:
+.. _mobgc-richtext-events-label:
 
 .. include:: webgc-props-events-onchange.rst
 

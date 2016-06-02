@@ -27,12 +27,19 @@ Table columns have a value and can be rendered as one of the following pre-defin
 
 .. image:: ../../images/gcs/web/webgc-datatable-gcs.png
 
+The Datatable control properties can be set for the following property categories:
+
+* :ref:`webgc-datatable-main-label`
+* :ref:`webgc-datatable-columns-label`
+* :ref:`webgc-datatable-styling-label`
+* :ref:`webgc-datatable-events-label`
+
 |
 
-Properties
-^^^^^^^^^^
+.. _webgc-datatable-main-label:
 
-|
+Main Properties
+---------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -71,6 +78,11 @@ Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-datatable-columns-label:
+
+Columns
+-------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Columns**            | Possible Values   | Description                                                                                |
@@ -122,6 +134,12 @@ Properties
 
 |
 
+.. _webgc-datatable-styling-label:
+
+Styling Attributes
+------------------
+|
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -134,8 +152,6 @@ Properties
 | Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-
-|
 
 |
 

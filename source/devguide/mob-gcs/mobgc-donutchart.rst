@@ -15,14 +15,14 @@ The pre-defined Line Charts graphical controls available in the View Editor are 
 
 The Horizontal Barchart control properties can be set for the following property categories:
 
-* :ref:`webgc-donutchart-main-label`
-* :ref:`webgc-donutchart-options-label`
-* :ref:`webgc-donutchart-styling-label`
-* :ref:`webgc-donutchart-events-label`
+* :ref:`mobgc-donutchart-main-label`
+* :ref:`mobgc-donutchart-options-label`
+* :ref:`mobgc-donutchart-styling-label`
+* :ref:`mobgc-donutchart-events-label`
 
 |
 
-.. _webgc-donutchart-main-label:
+.. _mobgc-donutchart-main-label:
 
 
 Main Properties
@@ -52,7 +52,7 @@ Main Properties
 
 |
 
-.. _webgc-donutchart-options-label:
+.. _mobgc-donutchart-options-label:
 
 Options
 -------
@@ -67,7 +67,7 @@ Options
 
 |
 
-.. _webgc-donutchart-styling-label:
+.. _mobgc-donutchart-styling-label:
 
 Styling Attributes
 ------------------
@@ -96,9 +96,9 @@ Styling Attributes
 
 |
 
-.. _webgc-donutchart-events-label:
+.. _mobgc-donutchart-events-label:
 
-.. include:: webgc-props-events-state.rst
+.. include:: mobgc-props-events-state.rst
 
 
 |

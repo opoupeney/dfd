@@ -13,13 +13,13 @@ The pre-defined Charts graphical controls available in the Widget Editor are bas
 
 The Linechart control properties can be set for the following property categories:
 
-* :ref:`webgc-piechart-main-label`
-* :ref:`webgc-piechart-styling-label`
-* :ref:`webgc-piechart-events-label`
+* :ref:`mobgc-piechart-main-label`
+* :ref:`mobgc-piechart-styling-label`
+* :ref:`mobgc-piechart-events-label`
 
 |
 
-.. _webgc-piechart-main-label:
+.. _mobgc-piechart-main-label:
 
 
 Main Properties
@@ -57,7 +57,7 @@ Main Properties
 
 |
 
-.. _webgc-piechart-styling-label:
+.. _mobgc-piechart-styling-label:
 
 Styling Attributes
 ------------------
@@ -80,9 +80,9 @@ Styling Attributes
 
 |
 
-.. _webgc-piechart-events-label:
+.. _mobgc-piechart-events-label:
 
-.. include:: webgc-props-events-state.rst
+.. include:: mobgc-props-events-state.rst
 
 
 |

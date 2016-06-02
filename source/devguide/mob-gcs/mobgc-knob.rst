@@ -15,13 +15,13 @@ counterclockwise (usually decresases the value) direction.
 
 The Knob control properties can be set for the following property categories:
 
-* :ref:`webgc-knob-main-label`
-* :ref:`webgc-knob-styling-label`
-* :ref:`webgc-knob-events-label`
+* :ref:`mobgc-knob-main-label`
+* :ref:`mobgc-knob-styling-label`
+* :ref:`mobgc-knob-events-label`
 
 |
 
-.. _webgc-knob-main-label:
+.. _mobgc-knob-main-label:
 
 Main Properties
 ---------------
@@ -53,7 +53,7 @@ Main Properties
 
 |
 
-.. _webgc-knob-styling-label:
+.. _mobgc-knob-styling-label:
 
 Styling Attributes
 ------------------
@@ -80,7 +80,7 @@ Styling Attributes
 
 |
 
-.. _webgc-knob-events-label:
+.. _mobgc-knob-events-label:
 
 Events
 ------

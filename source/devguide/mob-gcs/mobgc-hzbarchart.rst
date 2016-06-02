@@ -14,14 +14,14 @@ The pre-defined Line Charts graphical controls available in the View Editor are 
 
 The Horizontal Barchart control properties can be set for the following property categories:
 
-* :ref:`webgc-hzbarchart-main-label`
-* :ref:`webgc-hzbarchart-options-label`
-* :ref:`webgc-hzbarchart-styling-label`
-* :ref:`webgc-hzbarchart-events-label`
+* :ref:`mobgc-hzbarchart-main-label`
+* :ref:`mobgc-hzbarchart-options-label`
+* :ref:`mobgc-hzbarchart-styling-label`
+* :ref:`mobgc-hzbarchart-events-label`
 
 |
 
-.. _webgc-hzbarchart-main-label:
+.. _mobgc-hzbarchart-main-label:
 
 
 Main Properties
@@ -51,7 +51,7 @@ Main Properties
 
 |
 
-.. _webgc-hzbarchart-options-label:
+.. _mobgc-hzbarchart-options-label:
 
 Options
 -------
@@ -67,7 +67,7 @@ Options
 
 |
 
-.. _webgc-hzbarchart-styling-label:
+.. _mobgc-hzbarchart-styling-label:
 
 Styling Attributes
 ------------------
@@ -96,9 +96,9 @@ Styling Attributes
 
 |
 
-.. _webgc-hzbarchart-events-label:
+.. _mobgc-hzbarchart-events-label:
 
-.. include:: webgc-props-events-state.rst
+.. include:: mobgc-props-events-state.rst
 
 
 |

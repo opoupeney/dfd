@@ -16,14 +16,14 @@ The Input Field graphical control specifies an input field where the user can en
 
 The Input Field control properties can be set for the following property categories:
 
-* :ref:`webgc-input-main-label`
-* :ref:`webgc-input-validation-label`
-* :ref:`webgc-input-styling-label`
-* :ref:`webgc-input-events-label`
+* :ref:`mobgc-input-main-label`
+* :ref:`mobgc-input-validation-label`
+* :ref:`mobgc-input-styling-label`
+* :ref:`mobgc-input-events-label`
 
 |
 
-.. _webgc-input-main-label:
+.. _mobgc-input-main-label:
 
 
 Main Properties
@@ -61,7 +61,7 @@ Main Properties
 
 |
 
-.. _webgc-input-validation-label:
+.. _mobgc-input-validation-label:
 
 Validation Properties
 ---------------------
@@ -70,15 +70,15 @@ Validation Properties go here
 
 |
 
-.. _webgc-input-styling-label:
+.. _mobgc-input-styling-label:
 
-.. include:: webgc-props-styling-slider.rst
+.. include:: mobgc-props-styling-slider.rst
 
 |
 
-.. _webgc-input-events-label:
+.. _mobgc-input-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 |

@@ -15,13 +15,13 @@ slide between 0 and 100. When the user slides the handle and stops that is the v
 
 The Slider control properties can be set for the following property categories:
 
-* :ref:`webgc-slider-main-label`
-* :ref:`webgc-slider-styling-label`
-* :ref:`webgc-slider-events-label`
+* :ref:`mobgc-slider-main-label`
+* :ref:`mobgc-slider-styling-label`
+* :ref:`mobgc-slider-events-label`
 
 |
 
-.. _webgc-slider-main-label:
+.. _mobgc-slider-main-label:
 
 Main Properties
 ---------------
@@ -60,16 +60,16 @@ Main Properties
 
 |
 
-.. _webgc-slider-styling-label:
+.. _mobgc-slider-styling-label:
 
-.. include:: webgc-props-styling-slider.rst
+.. include:: mobgc-props-styling-slider.rst
 
 |
 |
 
-.. _webgc-slider-events-label:
+.. _mobgc-slider-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 |

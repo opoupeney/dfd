@@ -2,21 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c96c1632-325d-4bdf-834e-9e67cbe7155a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/images/gcs/web/dfx-button-label.png" afterPath="$PROJECT_DIR$/source/images/gcs/dfx-button-label.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/images/gcs/web/dfx-icon-css.png" afterPath="$PROJECT_DIR$/source/images/gcs/dfx-icon-css.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/source/images/gcs/web/dfx-icons.png" afterPath="$PROJECT_DIR$/source/images/gcs/dfx-icons.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-button.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-button.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-carousel.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-carousel.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-html.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-html.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-icon.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-icon.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-image.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-image.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-statictext.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-statictext.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treeview.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treeview.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-carousel.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-carousel.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-statictext.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-statictext.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-treeview.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-treeview.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/gcs/mob/mobgc-datatable2.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/what-is-dreamface.rst" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/gcs/mob/mobgc-areachart.png" afterPath="$PROJECT_DIR$/source/images/gcs/mob/mobgc-areachart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/gcs/mob/mobgc-cmlinechart.png" afterPath="$PROJECT_DIR$/source/images/gcs/mob/mobgc-cmlinechart.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-barchart.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-barchart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-checkbox.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-checkbox.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-chips.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-chips.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-cmlinechart.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-cmlinechart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datatable.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datatable.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datepicker.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datepicker.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-donutchart.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-donutchart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-fab.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-fab.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-hzbarchart.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-hzbarchart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-input.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-input.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-knob.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-knob.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-linechart.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-linechart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-panel.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-panel.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-piechart.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-piechart.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-progressbar.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-progressbar.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-radio.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-radio.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-rating.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-rating.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-richtext.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-richtext.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-select.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-select.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-slider.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-slider.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-switch.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-switch.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-tabs.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-tabs.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-textarea.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-textarea.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treemenu.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treemenu.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-wizard.rst" afterPath="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-wizard.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-richtext.rst" afterPath="$PROJECT_DIR$/source/devguide/web-gcs/webgc-richtext.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dfd.iws" />
@@ -40,75 +57,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="mobgc-button.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-button.rst">
+      <file leaf-file-name="webgc-richtext.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-richtext.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
+              <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobgc-image.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-image.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobgc-icon.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-icon.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.8">
-              <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobgc-html.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-html.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="97" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="97" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobgc-carousel.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-carousel.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dfx-icon-css.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/images/gcs/dfx-icon-css.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobgc-input.rst" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-input.rst">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5514706">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobgc-treemenu.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treemenu.rst">
+      <file leaf-file-name="webgc-rating.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-rating.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -117,23 +77,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webgc-treeview.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-treeview.rst">
+      <file leaf-file-name="mobgc-rating.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-rating.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="93" column="2" selection-start-line="93" selection-start-column="2" selection-end-line="93" selection-end-column="2" />
+              <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mobgc-treeview.rst" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treeview.rst">
+      <file leaf-file-name="mobgc-richtext.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-richtext.rst">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
+              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobgc-switch.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-switch.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobgc-datatable.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datatable.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webgc-datatable.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17827868">
+              <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobgc-cmlinechart.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/images/gcs/mob/mobgc-cmlinechart.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobgc-wizard.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-wizard.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="15" selection-start-line="22" selection-start-column="0" selection-end-line="35" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mobgc-barchart.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/images/gcs/mob/mobgc-barchart.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -150,36 +164,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treemenu.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-areachart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-checkbox.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-hzbarchart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-iconbar.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-tabs.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-wizard.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-barchart.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-hzmenu.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-button.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-icon.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-textarea.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-input.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datepicker.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-select.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-slider.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-progressbar.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-richtext.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-rating.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-knob.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-fab.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/gcs-web.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzmenu.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-radio.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-checkbox.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-switch.rst" />
-        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-barchart.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzbarchart.rst" />
         <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-piechart.rst" />
@@ -201,6 +187,34 @@
         <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-image.rst" />
         <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-html.rst" />
         <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-carousel.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-input.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-barchart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-checkbox.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-cmlinechart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datepicker.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-donutchart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-fab.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-hzbarchart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-knob.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-linechart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-panel.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-piechart.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-progressbar.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-radio.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-rating.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-slider.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-tabs.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-textarea.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treemenu.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-select.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-chips.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-richtext.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-richtext.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-switch.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-wizard.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datatable.rst" />
+        <option value="$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst" />
       </list>
     </option>
   </component>
@@ -240,6 +254,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -309,32 +324,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dfd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dfd" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -428,13 +417,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dfd" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="build" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,10 +472,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source/images/gcs/mob" />
       <recent name="$PROJECT_DIR$/source/images/gcs" />
       <recent name="$PROJECT_DIR$/source/images/gcs/web" />
       <recent name="$PROJECT_DIR$/source/devguide/web-gcs" />
-      <recent name="$PROJECT_DIR$/source/images/gcs/mob" />
       <recent name="$PROJECT_DIR$/source/images/icons" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -592,26 +598,26 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="810" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20555556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20473538" sideWeight="0.49753347" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32496512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981132" sideWeight="0.48598132" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21212122" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3997195" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1970128" sideWeight="0.24403927" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880434" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20555556" sideWeight="0.5024665" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289855" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32496512" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -629,9 +635,9 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24504249" sideWeight="0.7559607" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39884394" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -659,242 +665,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-fab.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-iconbar.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-treemenu.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/gcs-web.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="21" selection-start-line="77" selection-start-column="21" selection-end-line="77" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzmenu.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-radio.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="31" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-checkbox.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-switch.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-radio.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-datatable.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-datatable-gcs.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-switch-off.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-richtext.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/dfx-cmlinechart-designtime.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/dfx-donutchart-designtime.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/dfx-menu-edit-button.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-linechart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-barchart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-barchart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="37" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-hzbarchart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-piechart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-donutchart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-linechart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-cmlinechart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-areachart.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/web/webgc-panel.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-panel.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-tabs.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-wizard.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-props-styling.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-html.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-image.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-statictext.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-statictext.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="117" column="139" selection-start-line="117" selection-start-column="139" selection-end-line="117" selection-end-column="139" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-icon.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/images/gcs/dfx-button-label.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -904,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -912,20 +681,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-          <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/dfx-icons.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-treemenu.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="134" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -937,18 +699,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treeview.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="113" column="8" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="8" />
-          <folding />
-        </state>
+    <entry file="file://$PROJECT_DIR$/source/images/gcs/dfx-icon-css.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treemenu.rst">
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-barchart.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-18.545454">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -956,31 +715,7 @@
     <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-button.rst">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-icon.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.8">
-          <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-image.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-html.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="97" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="97" />
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -993,15 +728,323 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/images/gcs/dfx-icon-css.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-cmlinechart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2545457">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datepicker.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.163636">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-donutchart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.890909">
+          <caret line="100" column="18" selection-start-line="100" selection-start-column="13" selection-end-line="100" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-fab.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.3636365">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-html.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="97" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="97" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-hzbarchart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7090907">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-hzmenu.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-icon.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3272728">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-iconbar.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="1" selection-start-line="61" selection-start-column="1" selection-end-line="61" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-image.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="76" column="16" selection-start-line="76" selection-start-column="16" selection-end-line="76" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-input.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5514706">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-knob.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2363636">
+          <caret line="83" column="0" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-linechart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.163636">
+          <caret line="101" column="18" selection-start-line="101" selection-start-column="13" selection-end-line="101" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-panel.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.2545457">
+          <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-piechart.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.163636">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="13" selection-end-line="84" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-progressbar.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4363637">
+          <caret line="66" column="18" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-radio.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8">
+          <caret line="85" column="1" selection-start-line="85" selection-start-column="1" selection-end-line="85" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-slider.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7090907">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-statictext.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-tabs.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.4363637">
+          <caret line="124" column="0" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-textarea.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2545455">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treemenu.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7818182">
+          <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-treeview.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-select.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/gcs/mob/mobgc-richtext.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/gcs/mob/mobgc-select.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-select.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-checkbox.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="2" selection-start-line="91" selection-start-column="2" selection-end-line="91" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/gcs/dfx-icons.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-chips.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="127" selection-start-line="45" selection-start-column="127" selection-end-line="45" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-chips.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-radio.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-rating.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="1" selection-start-line="97" selection-start-column="1" selection-end-line="97" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-richtext.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="115" column="0" selection-start-line="115" selection-start-column="0" selection-end-line="115" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-rating.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-richtext.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-switch.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/gcs/mob/mobgc-cmlinechart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/images/gcs/mob/mobgc-barchart.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-wizard.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="15" selection-start-line="22" selection-start-column="0" selection-end-line="35" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/mob-gcs/mobgc-datatable.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/devguide/web-gcs/webgc-datatable.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17827868">
+          <caret line="139" column="18" selection-start-line="139" selection-start-column="18" selection-end-line="139" selection-end-column="18" />
           <folding />
         </state>
       </provider>

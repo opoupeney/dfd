@@ -15,13 +15,13 @@ reflecting a Boolean value. Only one radio control can be selected at a time.
 
 The Radio control properties can be set for the following property categories:
 
-* :ref:`webgc-radio-main-label`
-* :ref:`webgc-radio-styling-label`
-* :ref:`webgc-radio-events-label`
+* :ref:`mobgc-radio-main-label`
+* :ref:`mobgc-radio-styling-label`
+* :ref:`mobgc-radio-events-label`
 
 |
 
-.. _webgc-radio-main-label:
+.. _mobgc-radio-main-label:
 
 
 Main Properties
@@ -54,7 +54,7 @@ Main Properties
 
 |
 
-.. _webgc-radio-styling-label:
+.. _mobgc-radio-styling-label:
 
 Styling Attributes
 ------------------
@@ -78,9 +78,9 @@ Styling Attributes
 
 |
 
-.. _webgc-radio-events-label:
+.. _mobgc-radio-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 |

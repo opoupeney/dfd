@@ -7,25 +7,22 @@ Switch
 The switch graphical component allows the users to set a swich between two values, for example to *on* or *off*, *left* or *right*.
 
 |
-Switch Off
+
+Switch
 
 .. image:: ../../images/gcs/mob/mobgc-switch.png
-
-Switch On
-
-.. image:: ../../images/gcs/dfx-switch-designtime2.png
 
 |
 
 The Switch control properties can be set for the following property categories:
 
-* :ref:`webgc-switch-main-label`
-* :ref:`webgc-switch-styling-label`
-* :ref:`webgc-switch-events-label`
+* :ref:`mobgc-switch-main-label`
+* :ref:`mobgc-switch-styling-label`
+* :ref:`mobgc-switch-events-label`
 
 |
 
-.. _webgc-switch-main-label:
+.. _mobgc-switch-main-label:
 
 
 Main Properties
@@ -69,7 +66,7 @@ Main Properties
 
 |
 
-.. _webgc-switch-styling-label:
+.. _mobgc-switch-styling-label:
 
 Styling Attributes
 ------------------
@@ -89,9 +86,9 @@ Styling Attributes
 
 |
 
-.. _webgc-switch-events-label:
+.. _mobgc-switch-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 |

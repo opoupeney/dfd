@@ -15,14 +15,14 @@ The pre-defined Charts graphical controls available in the Widget Editor are bas
 
 The Barchart control properties can be set for the following property categories:
 
-* :ref:`webgc-barchart-main-label`
-* :ref:`webgc-barchart-options-label`
-* :ref:`webgc-barchart-styling-label`
-* :ref:`webgc-barchart-events-label`
+* :ref:`mobgc-barchart-main-label`
+* :ref:`mobgc-barchart-options-label`
+* :ref:`mobgc-barchart-styling-label`
+* :ref:`mobgc-barchart-events-label`
 
 |
 
-.. _webgc-barchart-main-label:
+.. _mobgc-barchart-main-label:
 
 Main Properties
 ---------------
@@ -51,7 +51,7 @@ Main Properties
 
 |
 
-.. _webgc-barchart-options-label:
+.. _mobgc-barchart-options-label:
 
 Options
 -------
@@ -66,7 +66,7 @@ Options
 
 |
 
-.. _webgc-barchart-styling-label:
+.. _mobgc-barchart-styling-label:
 
 Styling Attributes
 ------------------
@@ -95,9 +95,9 @@ Styling Attributes
 
 |
 
-.. _webgc-barchart-events-label:
+.. _mobgc-barchart-events-label:
 
-.. include:: webgc-props-events-state.rst
+.. include:: mobgc-props-events-state.rst
 
 |
 |

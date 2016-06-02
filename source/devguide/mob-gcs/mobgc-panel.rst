@@ -23,17 +23,17 @@ See for more on Angular Material Panel Layouts see `Angular Material Layouts and
 
 The Panel control properties can be set for the following property categories:
 
-* :ref:`webgc-panel-main-label`
-* :ref:`webgc-panel-repeatable-label`
-* :ref:`webgc-panel-styling-label`
-* :ref:`webgc-panel-toolbar-label`
-* :ref:`webgc-panel-layout-label`
-* :ref:`webgc-panel-events-label`
+* :ref:`mobgc-panel-main-label`
+* :ref:`mobgc-panel-repeatable-label`
+* :ref:`mobgc-panel-styling-label`
+* :ref:`mobgc-panel-toolbar-label`
+* :ref:`mobgc-panel-layout-label`
+* :ref:`mobgc-panel-events-label`
 
 
 |
 
-.. _webgc-panel-main-label:
+.. _mobgc-panel-main-label:
 
 Main Properties
 ---------------
@@ -60,7 +60,7 @@ Main Properties
 
 |
 
-.. _webgc-panel-repeatable-label:
+.. _mobgc-panel-repeatable-label:
 
 Repeatable Panel
 ----------------
@@ -76,20 +76,20 @@ Repeatable Panel
 
 |
 
-.. _webgc-panel-styling-label:
+.. _mobgc-panel-styling-label:
 
 
-.. include:: webgc-props-styling.rst
-
-|
-
-.. _webgc-panel-toolbar-label:
-
-.. include:: webgc-props-toolbar.rst
+.. include:: mobgc-props-styling.rst
 
 |
 
-.. _webgc-panel-layout-label:
+.. _mobgc-panel-toolbar-label:
+
+.. include:: mobgc-props-toolbar.rst
+
+|
+
+.. _mobgc-panel-layout-label:
 
 Layout Properties
 -----------------
@@ -120,8 +120,8 @@ Layout Properties
 
 |
 
-.. _webgc-panel-events-label:
+.. _mobgc-panel-events-label:
 
-.. include:: webgc-props-events-focus.rst
+.. include:: mobgc-props-events-focus.rst
 
 |

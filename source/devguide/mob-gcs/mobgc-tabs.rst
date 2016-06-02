@@ -2,7 +2,7 @@
    :class: pull-right
 
 Tabs
-=====
+====
 
 A panel is one of the most important graphical controls because it defines the layout of the View or a portion of the View.
 It consists of a title and an area where the layout will be organized. The layout is based on Angular Material and Material
@@ -17,15 +17,15 @@ CSS styles and classes.
 
 The Tabs control properties can be set for the following property categories:
 
-* :ref:`webgc-tabs-main-label`
-* :ref:`webgc-tabs-repeatable-label`
-* :ref:`webgc-tabs-styling-label`
-* :ref:`webgc-tabs-layout-label`
-* :ref:`webgc-tabs-events-label`
+* :ref:`mobgc-tabs-main-label`
+* :ref:`mobgc-tabs-repeatable-label`
+* :ref:`mobgc-tabs-styling-label`
+* :ref:`mobgc-tabs-layout-label`
+* :ref:`mobgc-tabs-events-label`
 
 |
 
-.. _webgc-tabs-main-label:
+.. _mobgc-tabs-main-label:
 
 
 Main Properties
@@ -63,7 +63,7 @@ Main Properties
 
 |
 
-.. _webgc-tabs-repeatable-label:
+.. _mobgc-tabs-repeatable-label:
 
 Repeatable
 ----------
@@ -78,13 +78,13 @@ Repeatable
 
 |
 
-.. _webgc-tabs-styling-label:
+.. _mobgc-tabs-styling-label:
 
-.. include:: webgc-props-styling.rst
+.. include:: mobgc-props-styling.rst
 
 |
 
-.. _webgc-tabs-layout-label:
+.. _mobgc-tabs-layout-label:
 
 Layout Properties
 -----------------
@@ -115,9 +115,9 @@ Layout Properties
 
 |
 
-.. _webgc-tabs-events-label:
+.. _mobgc-tabs-events-label:
 
-.. include:: webgc-props-events.rst
+.. include:: mobgc-props-events.rst
 
 |
 

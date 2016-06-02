@@ -16,13 +16,13 @@ date for a date field. The user can select and validate a date from a overlay ca
 
 The Date Picker control properties can be set for the following property categories:
 
-* :ref:`webgc-datepicker-main-label`
-* :ref:`webgc-datepicker-styling-label`
-* :ref:`webgc-datepicker-events-label`
+* :ref:`mobgc-datepicker-main-label`
+* :ref:`mobgc-datepicker-styling-label`
+* :ref:`mobgc-datepicker-events-label`
 
 |
 
-.. _webgc-datepicker-main-label:
+.. _mobgc-datepicker-main-label:
 
 Main Properties
 ---------------
@@ -67,7 +67,7 @@ Main Properties
 
 |
 
-.. _webgc-datepicker-styling-label:
+.. _mobgc-datepicker-styling-label:
 
 Styling Attributes
 ------------------
@@ -92,9 +92,9 @@ Styling Attributes
 
 |
 
-.. _webgc-datepicker-events-label:
+.. _mobgc-datepicker-events-label:
 
-.. include:: webgc-props-events-onchange.rst
+.. include:: mobgc-props-events-onchange.rst
 
 |
 |
