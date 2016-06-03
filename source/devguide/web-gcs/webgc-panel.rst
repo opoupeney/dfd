@@ -30,7 +30,6 @@ The Panel control properties can be set for the following property categories:
 * :ref:`webgc-panel-layout-label`
 * :ref:`webgc-panel-events-label`
 
-
 |
 
 .. _webgc-panel-main-label:
@@ -123,5 +122,7 @@ Layout Properties
 .. _webgc-panel-events-label:
 
 .. include:: webgc-props-events-focus.rst
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
 |

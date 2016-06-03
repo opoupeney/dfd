@@ -5,7 +5,7 @@ Checkbox
 ========
 
 The CheckBox allows the end-user to toggle an option on or off by checking the box associated with a label, usually
-reflecting a Boolean value.
+reflecting a Boolean value, zero or more options can be checked.
 
 |
 
@@ -88,5 +88,6 @@ Styling Attributes
 
 .. include:: mobgc-props-events-onchange.rst
 
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |
-||

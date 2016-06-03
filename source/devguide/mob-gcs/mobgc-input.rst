@@ -4,7 +4,7 @@
 Input Field
 ===========
 
-The Input Field graphical control specifies an input field where the user can enter data.
+The Input graphical control is a single-line input field where users can enter data.
 
 |
 
@@ -80,5 +80,6 @@ Validation Properties go here
 
 .. include:: mobgc-props-events-onchange.rst
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |

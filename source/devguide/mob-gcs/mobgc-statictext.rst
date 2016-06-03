@@ -113,5 +113,6 @@ Extended Directive
 |                        |                   | and add functionality. When you click on *Add Directive*                                   |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |

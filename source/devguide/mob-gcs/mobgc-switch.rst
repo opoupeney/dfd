@@ -1,3 +1,4 @@
+
 .. image:: ../../images/icons/badge_mobile.png
    :class: pull-right
 
@@ -66,6 +67,10 @@ Main Properties
 
 |
 
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
+
+
 .. _mobgc-switch-styling-label:
 
 Styling Attributes
@@ -90,6 +95,8 @@ Styling Attributes
 
 .. include:: mobgc-props-events-onchange.rst
 
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |
-|
+
 

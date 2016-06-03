@@ -122,5 +122,6 @@ Extended Directive
 |                        |                   | Clicking on *Add Directive* will add another set of fields to attach another directive.    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |

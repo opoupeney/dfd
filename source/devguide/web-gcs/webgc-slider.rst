@@ -4,8 +4,8 @@
 Slider
 ======
 
-The slider control allows the user to slide a handle along a bar a range of values to set a value, for example it could
-slide between 0 and 100. When the user slides the handle and stops that is the value of the field.
+The slider is a horizontal bar control used to change and set a value by sliding a handle along a range of values,
+for example it could slide between 0 and 100. When the user slides the handle and stops that is the value of the field.
 
 |
 
@@ -71,5 +71,6 @@ Main Properties
 
 .. include:: webgc-props-events-onchange.rst
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |

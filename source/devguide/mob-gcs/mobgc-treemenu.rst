@@ -122,13 +122,14 @@ Syling Attributes
 
 **How to create a treemenu**
 
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
-| **Step Descriptions**                                                                           | Screen                                                |
-+=================================================================================================+=======================================================+
-| Drag and drop Treemenu GC to the working area, click on GC and then                             | .. figure:: ../../images/gcs/dfx-help-css-styles.png  |
-| open Menu editor in popup by cliking Edit button in Property Panel.                             |     :width: 150px                                     |
-| You’ll see default item: ‘Home’                                                                 |     :height: 75px                                     |
-+-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
++--------------------------------------------------------------------------------------+-------------------------------------------------------+
+| **Step Descriptions**                                                                | Screen                                                |
++======================================================================================+=======================================================+
+| Drag and drop Treemenu GC to the working area, click on GC and then                  | .. figure:: ../../images/gcs/dfx-help-css-styles.png  |
+| open Menu editor in popup by cliking Edit button in Property Panel.                  |     :width: 150px                                     |
+| You’ll see default item: ‘Home’                                                      |     :height: 75px                                     |
++--------------------------------------------------------------------------------------+-------------------------------------------------------+
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |

@@ -4,21 +4,11 @@
 Richtext
 ========
 
-A richtext control is like a   is one of the most important graphical controls in DreamFace because it defines the layout and default style of the
-ViewCards. Each ViewCard starts out with a default panel. A panel is a container and it can contain other panels. A DreamFace
-panel consists of a toolbar with a title and toolbar menu and an area where the the graphical controls that make up the UI
-are organized in a layout. The layout is based on the Angular Material and Material Design layout definition of rows and columns.
-Each row can be independently defined and can have one or more columns organized in horizontal or vertical layouts. Default
-CSS styles and classes can be defined for the panel.
+A richtext control provides a number of properties you can be used to apply formatting to any portion of text within the
+control in a view at runtime of your application.
 
-Text is considered rich if it can display various characters or paragraphs in different styles and features that make it more attractive than a regular ASCII text. Such a text can have some of its sections in different colors. Its paragraphs can have customized attributes or arranged independent of each other.
-
-
-Although you can create a complete rich but static text, the common use of a rich text is to let the user process most of the formatting.
-
-Creating a Rich Text Control
-To support a rich text, the .NET Framework provides the RichTextBox control that is implement from the RichTextBox class. Like TextBox, the RichTextBox class is based on TextBoxBase. Therefore, to have right text in an application, from the Common Controls section of the Toolbox, click RichTextBox and click the form.
-
+To change the formatting of text, selecct the part of the text to format and assign the desired formatting.
+Using formatting, you can make text bold or italic, change the color, font and many other styles.
 
 |
 
@@ -112,7 +102,6 @@ Layout Properties
 
 .. include:: webgc-props-events-onchange.rst
 
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
-
-|
 |

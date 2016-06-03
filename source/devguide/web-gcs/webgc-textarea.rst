@@ -4,17 +4,8 @@
 Textarea
 ========
 
-The Textarea graphical control is a multi-line text input control. A *Textarea* can contain an unlimited number of characters,
-and text renders in a fixed-width font. allows a developer to add any custom HTML. The contents of the HTML field is pure HTML. By
-default the control contains a Lorem Ipsum text. This contect can be edited to include any HTML content. For example,
-if you find that one of the pre-defined graphical controls does not have the functionality that you need, you can add
-your own in the HTML control.
-
-The <textarea> tag defines a multi-line text input control.
-
-A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).
-
-The size of a text area can be specified by the cols and rows attributes, or even better; through CSS' height and width properties.
+The Textarea graphical control is a multi-line text input control. It can display an icon, can be set to required and can
+have a maximum length set.
 
 |
 
@@ -86,7 +77,7 @@ Validation Properties go here.
 
 .. include:: webgc-props-events-onchange.rst
 
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
-|
 |
 

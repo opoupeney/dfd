@@ -101,6 +101,6 @@ Styling Attributes
 
 .. include:: webgc-props-events-state.rst
 
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
-|
 |

@@ -4,15 +4,7 @@
 Wizard
 ======
 
-A wizard control is a multi-step form.  one of the most important graphical controls because it defines the layout of the View or a portion of the View.
-It consists of a title and an area where the layout will be organized. The layout is based on Angular Material and Material
-Design layout definition of rows and columns. Each row can be independently defined with horizontal or vertical layouts and
-CSS styles and classes.
-
-The tabstrip control wizard allows you to create and implement tabstrip controls quickly and easily. The generated dialog logic uses backend scrolling.
-You can use tabstrip controls that you generate in this way as a basis for further refinement in your application.
-Features
-
+A wizard control is a multi-step form.
 
 |
 
@@ -140,5 +132,7 @@ Events
 |                        |                   | Editor. Clicking on the ... opens a window to to select a function defined in the          |
 |                        |                   | Controller.                                                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
 |

@@ -4,7 +4,8 @@
 Progress Bar
 ============
 
-A progress bar is a graphical control containing a graphical bar used to show the progress of a task or process, such as a download, file transfer, ...
+A progressbar is a graphical control containing a graphical bar used to show the progress of a task or process, such as a
+download or file transfer.
 
 |
 
@@ -64,7 +65,9 @@ Main Properties
 
 .. _mobgc-progressbar-events-label:
 
-.. include:: mobgc-props-events-onchange.rst
+.. include::
+-props-events-onchange.rst
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |

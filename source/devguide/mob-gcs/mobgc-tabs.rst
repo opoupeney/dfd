@@ -4,10 +4,8 @@
 Tabs
 ====
 
-A panel is one of the most important graphical controls because it defines the layout of the View or a portion of the View.
-It consists of a title and an area where the layout will be organized. The layout is based on Angular Material and Material
-Design layout definition of rows and columns. Each row can be independently defined with horizontal or vertical layouts and
-CSS styles and classes.
+Tabs are control that helps to organize and navigate multiple panels in a single view. Tabs can be used for
+switching between items in the view.
 
 |
 
@@ -119,9 +117,6 @@ Layout Properties
 
 .. include:: mobgc-props-events.rst
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
-
-
-|
 |

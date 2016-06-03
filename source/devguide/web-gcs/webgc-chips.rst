@@ -4,7 +4,7 @@
 Chips
 =====
 
-Chips can be used for various types of entities, including free form text, predefined text, rules, or contacts. Chips may
+Chips can be used for building lists of strings or entities, including free form text, predefined text, rules, or contacts. Chips may
 also contain icons.
 
 |
@@ -80,5 +80,6 @@ Events
 |                        |                   | Controller.                                                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-|
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
 |
