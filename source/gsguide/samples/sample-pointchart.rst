@@ -1,4 +1,0 @@
-Sample PointChart
-=================
-
-	point / wPointChart

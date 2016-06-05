@@ -1,5 +1,8 @@
+Introduction
+============
+
 What is DreamFace?
-==================
+------------------
 
 DreamFace is an open-source, :term:`cloud-native` development platform for creating enterprise web and mobile applications.
 
@@ -60,10 +63,10 @@ What you need to know
 DreamFace is a platform that empowers :term:`Full Stack`  and :term:`Mean Stack` developers.
 
 Developers can focus thier efforts on building a great user experience with the rapid application development features in
-the DreamFace Studio and take advantage of the application infrastructure, packaging and deployment that DreamFace supplies
+the DreamFace Studio and take advantage of the application infrastructure, packaging and deployment that DreamFace provides
 out of the box.
 
-To get the maximum benefit from DreamFace developers should have a working knowledge of the following technologies :
+To get the maximum benefit from DreamFace, developers should have a working knowledge of the following technologies :
 
 * Standard Web Technologies (HTML5, CSS3, Javascript)
 * Angular.js
@@ -85,7 +88,42 @@ Other technologies that are good to know :
 Supported Platforms
 -------------------
 
-For development, the latest version of Chrome is recommended.
-For end-user applications supported platforms: Tested on IE 11+, Chrome, Safari, Firefox, Android 4.2+ and iOS 8+.
+|
+
++---------------------------+----------------------------------------------------------------------------------------------+
+| **Browser Support**       |                                                                                              |
++===========================+==============================================================================================+
+| For Development           | The latest version of Chrome is recommended.                                                 |
++---------------------------+-------------------+--------------------------------------------------------------------------+
+| For end-user applications | Supported platforms:                                                                         |
+|                           | Tested on IE 11+, Chrome, Safari, Firefox, Android 4.2+ and iOS 8+                           |
++---------------------------+----------------------------------------------------------------------------------------------+
+
+|
+
++---------------------------+----------------------------------------------------------------------------------------------+
+| **Mobile Phone Support**  |                                                                                              |
++===========================+==============================================================================================+
+| For Development           | Development is done in the DreamFace Studio with Preview mode offering simulation for        |
+|                           | main mobile phone categories for IOS (iPhone 5, 6 and 6s) and Android (Samsung).             |
++---------------------------+-------------------+--------------------------------------------------------------------------+
+| For end-user applications | DreamFace mobile applications support Ios and Android operating systems and can be built for |
+|                           | a number of smartphones. DreamFace uses Phonegap Build for this.                             |
++---------------------------+----------------------------------------------------------------------------------------------+
+
+
+|
+
++---------------------------+----------------------------------------------------------------------------------------------+
+| **Cloud Platform Support**|                                                                                              |
++===========================+==============================================================================================+
+| For Development           | DreamFace Studio is available for development on IBM Bluemix.                                |
++---------------------------+-------------------+--------------------------------------------------------------------------+
+| For Deployment            | DreamFace applications are cloud agnostic and have been tested on the following platforms:   |
+|                           |                                                                                              |
+|                           |  * IBM Bluemix                                                                               |
+|                           |  * Amazon Web Services                                                                       |
++---------------------------+----------------------------------------------------------------------------------------------+
+
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

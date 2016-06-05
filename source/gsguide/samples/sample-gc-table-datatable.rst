@@ -1,5 +1,0 @@
-Sample Tables
-==============
-
-sampleDatatables
-

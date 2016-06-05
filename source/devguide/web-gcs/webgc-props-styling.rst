@@ -19,24 +19,14 @@ Styling Attributes
 |                        |                   | Expression is verified.                                                                    |
 |                        |                   |                                                                                            |
 |                        |                   | Consider the following CSS class:                                                          |
+|                        |                   | ::                                                                                         |
 |                        |                   |                                                                                            |
 |                        |                   |     .RedMessage {                                                                          |
 |                        |                   |         color: red                                                                         |
 |                        |                   |        }                                                                                   |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
-|                        |                   | Consider the following CSS class:                                                          |
 |                        |                   |                                                                                            |
-|                        |                   |                                                                                            |
-|                        |                   |            RedMessage {                                                                    |
+|                        |                   | Consider the following CSS class:                                                          |
+|                        |                   | ::                                                                                         |
 |                        |                   |                                                                                            |
 |                        |                   |            .RedMessage {                                                                   |
 |                        |                   |                   color: red                                                               |

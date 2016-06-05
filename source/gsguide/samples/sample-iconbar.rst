@@ -1,2 +1,2 @@
-Sample IconBarChart
-===================
+Sample IconBars
+===============

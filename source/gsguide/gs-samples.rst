@@ -4,7 +4,7 @@ Exploring the Samples Gallery
 =============================
 
 Sample GCs
-==========
+----------
 
 Basic
 ^^^^^
@@ -14,11 +14,13 @@ These samples show Best Use Cases for the Basic graphical controls :
 .. toctree::
    :maxdepth: 1
 
-   ../gsguide/samples/sample-gc-basic-statictext
-   ../gsguide/samples/sample-gc-basic-buttons
-   ../gsguide/samples/sample-gc-basic-icons
-   ../gsguide/samples/sample-gc-basic-images
-   ../gsguide/samples/sample-gc-basic-htmls
+   ../gsguide/samples/sample-statictext
+   ../gsguide/samples/sample-buttons
+   ../gsguide/samples/sample-icons
+   ../gsguide/samples/sample-images
+   ../gsguide/samples/sample-htmls
+   ../gsguide/samples/sample-carousels
+   ../gsguide/samples/sample-treeviews
 
 Input
 ^^^^^
@@ -28,14 +30,16 @@ Samples showing best practices for simple graphical controls are associated with
 .. toctree::
    :maxdepth: 1
 
-   ../gsguide/samples/sample-gc-input-input
-   ../gsguide/samples/sample-gc-input-textarea
-   ../gsguide/samples/sample-gc-input-datepicker
-   ../gsguide/samples/sample-gc-input-select
-   ../gsguide/samples/sample-gc-input-slider
-   ../gsguide/samples/sample-gc-input-knob
-   ../gsguide/samples/sample-gc-input-chips
-   ../gsguide/samples/sample-gc-input-rating
+   ../gsguide/samples/sample-input
+   ../gsguide/samples/sample-textarea
+   ../gsguide/samples/sample-datepicker
+   ../gsguide/samples/sample-select
+   ../gsguide/samples/sample-slider
+   ../gsguide/samples/sample-knob
+   ../gsguide/samples/sample-chips
+   ../gsguide/samples/sample-rating
+   ../gsguide/samples/sample-richtexts
+   ../gsguide/samples/sample-progressbars
 
 
 Menu
@@ -46,10 +50,10 @@ Samples showing best practices for Menu controls are graphical controls that are
 .. toctree::
    :maxdepth: 1
 
-   ../gsguide/samples/sample-gc-menu-fab
-   ../gsguide/samples/sample-gc-menu-iconbar
-
-|
+   ../gsguide/samples/sample-fab
+   ../gsguide/samples/sample-iconbar
+   ../gsguide/samples/sample-treemenu
+   ../gsguide/samples/sample-hzmenu
 
 
 Selection
@@ -60,15 +64,15 @@ Sample Best practices for selection graphical controls :
 .. toctree::
    :maxdepth: 1
 
-   ../gsguide/samples/sample-gc-selection-radio
-   ../gsguide/samples/sample-gc-selection-checkbox
-   ../gsguide/samples/sample-gc-selection-switch
+   ../gsguide/samples/sample-radio
+   ../gsguide/samples/sample-checkbox
+   ../gsguide/samples/sample-switch
 
 |
 
 
 Sample Tables
-^^^^^^^^^^^^
+^^^^^^^^^^^^^
 
 Table controls are used to present and manage the presentation of information in table format of rows and columns. Below
 is a description of the Table graphcical controls available for building web applications in the View Editor:
@@ -76,7 +80,7 @@ is a description of the Table graphcical controls available for building web app
 .. toctree::
    :maxdepth: 1
 
-   ../gsguide/samples/sample-gc-table-datatable
+   ../gsguide/samples/sample-datatable
 
 |
 
@@ -93,12 +97,8 @@ Sample Charts
    ../gsguide/samples/sample-linechart
    ../gsguide/samples/sample-cmlinechart
    ../gsguide/samples/sample-areachart
-   ../gsguide/samples/sample-filterchart
-   ../gsguide/samples/sample-pointchart
 
 |
-|
-
 
 Layout
 ^^^^^^
@@ -110,9 +110,9 @@ graphcical controls available for building web applications in the View Editor:
 .. toctree::
    :maxdepth: 1
 
-   ../gsguide/samples/sample-gc-layout-panel
-   ../gsguide/samples/sample-gc-layout-tabs
-   ../gsguide/samples/sample-gc-layout-wizard
+   ../gsguide/samples/sample-panel
+   ../gsguide/samples/sample-tabs
+   ../gsguide/samples/sample-wizard
 
 |
 
@@ -270,8 +270,6 @@ wFormsValidation
 		- The usage of the $setpristine() function and the copy of angular objects to enable a coherent reset functionality
 		- The button is using the main Form validation. It can use the “panel form” as well if we want to be more precise (so each panel can have its own form, controller, etc. and can be used as a separate scope)
 
-
 |
-
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

@@ -6,6 +6,10 @@ Treemenu
 
 A Treemenu can have a static or dynamic representation
 
+supports inline node editing, drag-n-drop, dynamical loading, and more.
+
+Clicking on the symbol expands the menu whereas clicking on the symbol collapses and hides the submenu. ... where the "menu_id" is the ID you defined in the menu's top 
+
 |
 
 .. image:: ../../images/gcs/web/webgc-treemenu.png
@@ -71,11 +75,11 @@ Menu Items
 | Static                 | Menu Editor       | Static means that the definition and contents of the menu/iconbar are static and once      |
 |                        |                   | defined will remain the unchanged until they are manually changed again. The menu/iconbar  |
 |                        |                   | can be defined by clicking on                                                              |
-|                        |                   |        .. image:: ../images/gcs/dfx-menu-edit-button.png                                   |
+|                        |                   | .. image:: ../images/gcs/dfx-menu-edit-button.png                                          |
+|                        |                   |    :class: center                                                                          |
 |                        |                   | to bring the menu editor to assist in defining the menu/iconbar.                           |
 |                        |                   |                                                                                            |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-help-menu-editor.png                                |
+|                        |                   | .. image:: ../../images/gcs/dfx-help-menu-editor.png                                       |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

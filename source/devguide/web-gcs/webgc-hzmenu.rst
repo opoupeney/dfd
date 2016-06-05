@@ -71,7 +71,7 @@ Menu Items
 | Static                 | Menu Editor       | Static means that the definition and contents of the menu/iconbar are static and once      |
 |                        |                   | defined will remain the unchanged until they are manually changed again. The menu/iconbar  |
 |                        |                   | can be defined by clicking on                                                              |
-|                        |                   |        .. image:: ../images/gcs/dfx-menu-edit-button.png                                   |
+|                        |                   |        .. image:: ../../images/gcs/dfx-menu-edit-button.png                                |
 |                        |                   | to bring the menu editor to assist in defining the menu/iconbar.                           |
 |                        |                   |                                                                                            |
 |                        |                   |                                                                                            |
@@ -83,7 +83,7 @@ Menu Items
 
 .. _webgc-hzmenu-styling-label:
 
-Syling Attributes
+Styling Attributes
 -----------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

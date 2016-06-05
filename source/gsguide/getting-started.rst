@@ -15,7 +15,7 @@ Getting DreamFace
 If you don’t have DreamFace yet, you’ll need to start there. DreamFace is currently available on IBM Bluemix.
 It only takes a few minutes to get up and running. Just login to your BlueMix account and choose the DreamFace service.
 
-:ref:`bluemix-label`
+:ref:`bluemix2-label`
 
 
 Start Building Your First App

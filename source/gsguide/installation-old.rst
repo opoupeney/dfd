@@ -3,8 +3,6 @@ Installation Old
 
 Today DreamFace is available in three environments :
 
-.. _bluemix-label:
-
 IBM BlueMix
 ^^^^^^^^^^^
 

@@ -4,8 +4,7 @@
 Carousel
 ========
 
-A Carousel is a graphical component that lets you scroll easily through a set of images.
-
+A Carousel is a graphical component that lets you scroll easily through a set of images or slides.
 
 |
 
@@ -56,7 +55,7 @@ Main Properties
 .. _webgc-carousel_options-label:
 
 Options Items
-----------
+-------------
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -114,3 +113,4 @@ Styling Attributes
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
 |
+

@@ -2,4 +2,4 @@ Sample AreaChart
 ================
 
 
-	area / wAreaChart
+SampleAreaChart

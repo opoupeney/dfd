@@ -5,14 +5,12 @@ Treeview
 ========
 
 A treeview is a graphical control that presents information in a hierarchical view. Each item (often referred to
-as a branch or a node) can have a number of subitems. The subitems or "children" are often visualized by indentation
-in a list showing that they are sub-categories or items of the parent node. Items can be expanded to show subitems and
+as a branch or a node) can have a number of subitems or children. The subitems or children are often visualized by indentation
+in a list showing that they are sub-categories of the parent node. Items can be expanded to show subitems and
 collapsed to hide subitems.
 
 An example of a Treeview that most people are familiar with is file directories with folders, sub-folers and individual
 files allowing users to organize and easily find files.
-
-
 
 |
 
@@ -77,7 +75,7 @@ Menu Items
 | **Menu Items**         | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
 | Static                 | Menu Editor       | Static means that the definition and contents of the menu/iconbar are static and once      |
-|                        |                   | defined will remain the unchanged until they are manually changed again. The menu/iconbar  |
+|                        |                   | defined will remain the unchanged until they are manually changed again. The menu  |
 |                        |                   | can be defined by clicking on                                                              |
 |                        |                   |        .. image:: ../images/gcs/dfx-menu-edit-button.png                                   |
 |                        |                   | to bring the menu editor to assist in defining the menu/iconbar.                           |
@@ -92,7 +90,7 @@ Menu Items
 .. _webgc-treeview-styling-label:
 
 Styling Attributes
------------------
+------------------
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -128,7 +126,82 @@ Styling Attributes
 |
 
 
-**How to create a treemenu**
+How to create a treeview
+------------------------
+
+The TreeView Graphical Control can be bound to a JSON.  The JSON can have a repetitive child property:
+
+Ex: a directory structure
+[{
+    "name": "’default’",
+    "children": [{
+        "name": "’products’",
+        "children": [
+            { "name": "’Printers’",
+  "children": [
+    { “name”: “‘Canon’” },
+    { “name”: “‘HP’” },
+    { “name”: “‘Samsung’” }
+] },
+            { "name": "’Scanners’",
+ "children": [] }
+        ]
+    }]
+}]
+
+TreeView can be static/dynamic. Dynamic representation has higher priority then static.
+Static representation
+Static representation can be build with popup dialog window like GC Iconbar/Fab/Treemenu. In popup window we can set labels for each item. Labels are expressions.
+Dynamic representation
+It can work with json object of different structure. Need to put three parameters into TreeView items section fields of Property Panel:
+Dynamic - it is name of scope array;
+Repeatable Property - name of repeatable scope array property;
+Label - name of property that will be TreeView item label.
+
+Example:
+
+$scope.treeview = [{
+    "asd": "'default ' + symbol",
+    "quantity": "'045'",
+    "url": "http://google.com.ua",
+    "qwe": [
+      {
+        "asd": "'products'",
+        "qwe": [
+          {
+            "asd": "'Printers'",
+            "qwe": []
+          }
+        ]
+      }
+    ]
+  }]
+
+To bind it to GC TreeView we need set in Property Panel:
+Dynamic - treeview;
+Repeatable Property - qwe;
+Label - asd.
+
+GC TreeView has special 3 styling properties:
+Icon if Opened ( expression, default: ‘fa-minus’ ) - it is icon for item which is “opened/expanded” (when children are displayed);
+Icon if Closed ( expression, default: ‘fa-plus’ ) - it is icon for item which is “closed/collapsed” (when children are hided);
+Icon color ( css color value ) - it is icons color.
+Icons can be changed in popup window or as a scope variable.
+For example, for “opened” in popup window select ‘fa-folder-open’ and for “closed” - ‘fa-folder’, Icon color - green.
+
+Those icons are clickable and can only expande/collapse item children.
+
+To Each GC TreeView item we can connect events from Property Panel.
+
+For example we have simple function in scope:
+
+$scope.clickedItem = function(item) {
+	console.log(item);
+};
+And we put into ‘On Double click’ field: selectNode($dfx_item).
+As a result in console we will see our doubleClicked item ( an object with all his properties  ).
+
+
 
 +----------------------------------------------------------------------------------------+-------------------------------------------------------+
 | **Step Descriptions**                                                                  | Screen                                                |
