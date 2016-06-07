@@ -4,8 +4,11 @@
 Horizontalmenu
 ==============
 
-An iconbar is a menu of icons. It has a top level menu that shows icons which is is a menu item. Menu items can have sub
-menu items. The iconbar menu is defined in the Menu Editor.
+A Horizontalmenu (sometimes referred to as Navigation Bar) is a menu that is displayed horizontally usually across the
+top of a page. Each menu item can have an icon and any number of submenus. A Horizontalmenu can either have a static or
+dynamic representation. The static menu is created in the Menu editor and the dynamic menu is defined in the script for
+the view.
+
 
 |
 

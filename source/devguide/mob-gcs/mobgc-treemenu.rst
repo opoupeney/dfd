@@ -4,7 +4,11 @@
 Treemenu
 ========
 
-A Treemenu can have a static or dynamic representation
+The TreeMenu graphical control presents a menu as a list of links in a hierarchical tree format of menus and submenus. The
+subitems are indentated showing that they are sub-categories of the parent node. These submenus can be expanded or collapsed
+to show sub menus by the user with icons (usually '+' and '-' or other icons) that indicate if a branch is expanded or collapsed.
+
+A Treemenu can have a static or dynamic representation.
 
 |
 

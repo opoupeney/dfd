@@ -4,7 +4,10 @@
 Horizontalmenu
 ==============
 
-A Horizontalmenu can have a static or dynamic representation.
+A Horizontalmenu (sometimes referred to as Navigation Bar) is a menu that is displayed horizontally usually across the
+top of a page. Each menu item can have an icon and any number of submenus. A Horizontalmenu can either have a static or
+dynamic representation. The static menu is created in the Menu editor and the dynamic menu is defined in the script for
+the view.
 
 |
 
