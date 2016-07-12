@@ -7,7 +7,7 @@ What is DreamFace?
 DreamFace is an open-source, :term:`cloud-native` development platform for creating enterprise web and mobile applications.
 
 DreamFace X-Platform, (DFX) or just **DreamFace**, is part of an emerging category of :term:`cloud-native`, Rapid Application
-Development (RAD) Platforms. It is built to empower :term:`Fullstack` developers to deliver consistently well-architected,
+Development (RAD) Platforms. It is built to empower :term:`Full-Stack` developers to deliver consistently well-architected,
 Enterprise-grade, :term:`cloud-native`,  web and mobile applications with ease and speed. DreamFace simplifies the delivery of
 a new generation of cloud applications featuring uncompromising User Experiences and providing the right data on the right
 device by secure and code-less consumption of virtually any public or private API.
@@ -39,7 +39,7 @@ Who is DreamFace for?
 
 **DreamFace is for Developers**
 
-DreamFace was built to empower :term:`Full Stack` developers by leveraging best of breed technologies like Angularjs, Nodejs
+DreamFace was built to empower :term:`Full-Stack` developers by leveraging best of breed technologies like Angularjs, Nodejs
 and MongoDB, technologies that were the backbone of the internets most demanding applications. DreamFace embraces these
 new technologies, providing an open and extensible platform with built-in best practices for building cloud-native web and
 mobile applications. Multi-tenancy, API integration and enterprise-scale features are built-in and ready to use to help
@@ -57,10 +57,10 @@ Developers don’t have to be experts in each individual language to put togethe
 |
 
 
-What you need to know
----------------------
+Pre-Requisites - What you need to know
+--------------------------------------
 
-DreamFace is a platform that empowers :term:`Full Stack`  and :term:`Mean Stack` developers.
+DreamFace is a platform that empowers :term:`MEAN Stack` developers.
 
 Developers can focus thier efforts on building a great user experience with the rapid application development features in
 the DreamFace Studio and take advantage of the application infrastructure, packaging and deployment that DreamFace provides

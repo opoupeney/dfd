@@ -159,6 +159,83 @@ Styling Attributes
 
 .. include:: webgc-props-events-focus.rst
 
+
+Example
+-------
+
+Datatable Filtering and Selection
+
+Datatables work with scope data. The data must be array of objects. Objects can be created in scope or taken from API Service Objects.
+We can create a function to call an API SO from Code Assistant -> API Services. Then we can add the name of the array to
+Datatable “Binding” property. Next is to build table columns according to array structure.
+
+Sample of scope Datatable array:
+
+$scope.data = [
+{
+   "landscape": "Forest",
+   "id": 154,
+   "country": "Costa Rica",
+   "photo": "https://www.travelexcellence.com/images/movil/La_Paz_Waterfall.jpg"
+},
+{
+   "landscape": "Mountains",
+   "id": 225,
+   "country": "Indonesia",
+   "photo": "http://images.kuoni.co.uk/73/indonesia-34834203-1451484722-ImageGalleryLightbox.jpg"
+},
+{
+   "landscape": "Sea",
+   "id": 324,
+   "country": "Vietnam",
+   "photo": "https://www.travcoa.com/sites/default/files/styles/flexslider_full/public/tours/images/imperialvietnam-halong-bay-14214576.jpg?itok=O-q1yr5_"
+},
+{
+   "landscape": "River",
+   "id": 270,
+   "country": "USA",
+   "photo": "http://www.parasholidays.in/blog/wp-content/uploads/2014/05/holiday-tour-packages-for-usa.jpg"
+},
+{
+   "landscape": "Volcano",
+   "id": 115,
+   "country": "New Zealand",
+   "photo": "http://clickker.in/wp-content/uploads/2016/03/new-zealand-fy-8-1-Copy.jpg" }
+];
+
+Datatable have new property Filter ( boolean ) which is a checkbox in Property Panel, which adds a Filter to the Datatable
+when the property is checked. The Filter works only in Preview mode. It filters table rows in all the properties of each row.
+
+The selection in the Datatable can be bound to scope. We can create an array of numbers in scope and put the name of that
+array into the “Selection Binding” field. Each array number is the Datatable row index. So if we create that array:
+$scope.selectedData = [ $scope.data[1], $scope.data[3] ];
+it means to select (make table row checkboxes checked) second and third rows.
+
+After we can create our own scope functions and manipulate with Datatable data. Example of such function is:
+
+$scope.chooseRows = function() {
+	$scope.selectedData = [ $scope.data[0], $scope.data[2], $scope.data[4] ];
+     	$scope.dataArray = [];
+      	$scope.newData = [];
+      	var newSlide = { src: '' };
+      	for (var i=0; i<$scope.selectedData.length; i++) {
+          $scope.newData.push({ src: $scope.selectedData[i].photo });
+            }
+      	$scope.dataArray = $scope.newData;
+};
+
+Here we selected first and third table rows and created new array newData with images urls:
+$scope.newData = [
+	{ "src": "https://www.travelexcellence.com/images/movil/La_Paz_Waterfall.jpg" },
+	{ "src": "https://www.travcoa.com/sites/default/files/styles/flexslider_full/public/tours/images/imperialvietnam-halong-bay-14214576.jpg?itok=O-q1yr5_" },
+	{ “src”: “http://clickker.in/wp-content/uploads/2016/03/new-zealand-fy-8-1-Copy.jpg” }
+];
+
+That array have structure which is good for GC Carousel. So we can create Carousel and put dataArray to “Dynamic” Carousel
+property. Also we need some element to call our chooseRows() function.
+
+
+
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
 |

@@ -56,7 +56,48 @@ When you are logged in you will be taken directly to the DreamFace Page on Bluem
 
 From there you can choose a plan and start using DreamFace.
 
-Interactive Clouds provides a a free version of DreamFace for one developer for evaluation and testing purposes.
+Summary of the DreamFace Plans
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| **Plan**               | **Cost**          | **Description**                                                                            |
++========================+===================+============================================================================================+
+| Free                   | $49.00 USD/Month  | * One Tenant for One Developer                                                             |
+|                        |                   | * Complete Access to Documentation, Tutorial, Samples Gallery and Forums                   |
+|                        |                   | * 30-day free support on support portal upon request                                       |
+|                        |                   | * Support: support@interactive-clouds.com                                                  |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Basic                  | $49.00 USD/Month  | * One Tenant for One Developer                                                             |
+|                        |                   | * Complete Access to Documentation, Tutorial, Samples Gallery and Forums                   |
+|                        |                   | * Email, Chat and Phone-based Technical Support + Support Portal                           |
+|                        |                   | * Support Response Time within 48 hours                                                    |
+|                        |                   | * 5 Tickets per Month                                                                      |
+|                        |                   | * 1 Support Contact                                                                        |
+|                        |                   | * Support: support@interactive-clouds.com                                                  |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Professional           | $249.00 USD/Month | * One Tenant for Five Developers                                                           |
+|                        |                   | * Complete Access to Documentation, Tutorial, Samples Gallery and Forums                   |
+|                        |                   | * Email, Chat and Phone-based Technical Support + Support Portal                           |
+|                        |                   | * Support Response Time within 24 hours                                                    |
+|                        |                   | * 20 Tickets per Month                                                                     |
+|                        |                   | * 1 Support Contact                                                                        |
+|                        |                   | * Support: support@interactive-clouds.com                                                  |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Enterprise             | $799.00 USD/Month | * One Tenant for Fifteen Developers                                                        |
+|                        |                   | * Complete Access to Documentation, Tutorial, Samples Gallery and Forums                   |
+|                        |                   | * Email, Chat and Phone-based Technical Support + Support Portal                           |
+|                        |                   | * Support Response Time within 8 hours                                                     |
+|                        |                   | * 40 Tickets per Month                                                                     |
+|                        |                   | * 3 Support Contacts                                                                       |
+|                        |                   | * Support: support@interactive-clouds.com                                                  |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+Interactive Clouds provides a **Free** version of DreamFace for one developer for evaluation and testing purposes. You can
+get started with this version.
 
 .. image:: ../images/devguide/bluemix-createplan.png
    :width: 200px
@@ -100,7 +141,9 @@ cloud immediately.
 From Bluemix
 ------------
 
-Login to your BlueMix account and choose the DreamFace Service from the catalog.
+Login to your BlueMix account and search for the DreamFace Service from the catalog.
+
+|
 
 .. figure:: ../images/devguide/bluemix-catalog.png
    :width: 600px

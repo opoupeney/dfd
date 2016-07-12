@@ -14,7 +14,7 @@ navigation and building, deploying and testing the deployed application. Finally
 has the right look and feel and functionality you can deploy the final version and dockerize it. Application configuration
 setting can be modified at any time.
 
-.. image:: ../images/diagrams/dfx-iterative-dev-v2.png
+.. image:: ../images/diagrams/dfx-iterative-dev-v3.png
    :width: 600px
    :class: align-center
 

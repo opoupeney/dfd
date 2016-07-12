@@ -21,7 +21,7 @@ A typical architecture for the DreamFace Cloud Platform would have 3 node applic
 * one to host the compiler environment, typically **app_comp.js** which has a dependency on DFC
 * one to host the deployment environment, typically **app_dep.js** has a dependency on DFX
 
-.. image:: ../images/diagrams/dfd-environments.png
+.. image:: ../images/diagrams/dfd-environments-v2.png
 
 The DreamFace Generator (DFG) is a node module that can be installed globally and is used during the installation to generate the
 environment used to create the 3 node apps: **app_dev.js**, **app_comp.js** and **app_dep.js** required by DreamFace.

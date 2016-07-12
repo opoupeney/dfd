@@ -29,6 +29,8 @@ The Panel control properties can be set for the following property categories:
 * :ref:`webgc-panel-toolbar-label`
 * :ref:`webgc-panel-layout-label`
 * :ref:`webgc-panel-events-label`
+* :ref:`webgc-panel-removing-rows-label`
+* :ref:`webgc-panel-editing-features-label`
 
 |
 
@@ -122,6 +124,52 @@ Layout Properties
 .. _webgc-panel-events-label:
 
 .. include:: webgc-props-events-focus.rst
+
+.. _webgc-panel-removing-rows-label:
+
+Removing Rows and Columns in a Panel
+------------------------------------
+
+To remove a row or column just select the row or column on the panel. In the properties panel click on **-** to remove the
+row or column. The graphical control elements that are present in the row being removed will be appended after the last
+component in the nearest row (??? above, below) and the nearest columnn (??? left, right) when removing
+the column.  The components that are present in the row or column being removed are preserved and the underlying row or
+column is removed.
+
+|
+
+.. _webgc-panel-editing-features-label:
+
+Editing Features
+----------------
+
+The Copy, Duplicate and Copy-Paste editing features work for any component. With copy-paste you can copy from any panel
+to any other panel. Copy-Paste also works with nested components and from one card to another card.
+
+|
+
++---------------+---------------+--------------------------------------------------------------------------------------------+
+|  **Icon**     | **Feature**   | Description                                                                                |
++===============+===============+============================================================================================+
+| .. image::    | **Cut**       | Copies and removes the component and stores it in a buffer waiting to be pasted.           |
+|  ../../images |               |                                                                                            |
+|  /copy.png    |               |                                                                                            |
++---------------+---------------+--------------------------------------------------------------------------------------------+
+| .. image::    | **Duplicate** | Duplicate makes a copy of the current component and adds it to the current row or column   |
+|   ../../images|               | of the panel.                                                                              |
+|  /copy.png    |               |                                                                                            |
++---------------+---------------+--------------------------------------------------------------------------------------------+
+| .. image::    | **Copy**      | The first click on the Copy/Paste icon copies the current component into the buffer.       |
+|   ../../images|               | Clicking a second time will paste the component in the buffer to the current row of column |
+|   /copy.png   |               | of the current panel.                                                                      |
++---------------+---------------+--------------------------------------------------------------------------------------------+
+| .. image::    | **Undo**      | Clicking on the undo icon button (??? put an image) successively removes the changes made  |
+|  ../../images |               | in the View Editor one by one from most recent until the last save.                        |
+|  /copy.png    |               |                                                                                            |
++---------------+---------------+--------------------------------------------------------------------------------------------+
+
+
+|
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
