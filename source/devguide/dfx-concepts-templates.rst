@@ -1,3 +1,5 @@
+.. _dfx-templates-label:
+
 Templates
 =========
 

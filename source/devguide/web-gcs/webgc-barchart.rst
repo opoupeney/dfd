@@ -1,9 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ..images/badges/badge_web.png
    :class: pull-right
 
 Barchart
 =========
 
+.. image:: ../../images/icons/chart_barchart.png
+    :width: 50px
+    :height: 50px
 
 The pre-defined Charts graphical controls available in the Widget Editor are based on NDV3 library
 
@@ -13,9 +16,32 @@ The pre-defined Charts graphical controls available in the Widget Editor are bas
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Areachart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Barchart control properties can be set for the following property categories:
 
 * :ref:`webgc-barchart-main-label`
+* :ref:`webgc-barchart-render-label`
 * :ref:`webgc-barchart-options-label`
 * :ref:`webgc-barchart-styling-label`
 * :ref:`webgc-barchart-events-label`
@@ -63,6 +89,15 @@ Options
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Y-Axis Lable           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-barchart-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

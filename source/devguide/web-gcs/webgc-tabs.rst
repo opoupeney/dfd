@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Tabs
-=====
+====
+
+.. image:: ../../images/icons/layout_tabs.png
+    :width: 50px
+    :height: 50px
+
 
 Tabs are control that helps to organize and navigate multiple panels in a single view. Tabs can be used for
 switching between items in the view.
@@ -13,10 +18,32 @@ switching between items in the view.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Tabs Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Tabs control properties can be set for the following property categories:
 
 * :ref:`webgc-tabs-main-label`
 * :ref:`webgc-tabs-repeatable-label`
+* :ref:`webgc-tabs-render-label`
 * :ref:`webgc-tabs-styling-label`
 * :ref:`webgc-tabs-layout-label`
 * :ref:`webgc-tabs-events-label`
@@ -73,6 +100,14 @@ Repeatable
 |                        | Angular Expression|                                                                                            |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-tabs-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

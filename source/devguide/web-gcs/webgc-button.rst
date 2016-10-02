@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Button
 ======
+
+.. image:: ../../images/icons/basic_button.png
+    :width: 50px
+    :height: 50px
 
 A button communicates an action to be performed when the user clicks on it. It consists of a label, an icon or both that
 indicate the action to be performed when the button is clicked.
@@ -13,11 +17,30 @@ indicate the action to be performed when the button is clicked.
 
 |
 
+Features
+--------
+* Buttons can be styled with CSS (plain, classes or dynamic classes or angular material classes)
+* Buttons can have a full set of actions associated with different events (click, mouse over, mouse enter, ...)
+* Buttons can be visible or invisible, enabled or disabled.
+* Buttons can have different shapes rectangular or fab and can have menu attached
+
+|
+
+See it in Action
+----------------
+
+Try the sample buttons  :ref:`sample-buttons-label`
+
+|
+
+Reference
+---------
 
 The Button control properties can be set for the following categories of properties:
 
 * :ref:`webgc-button-main-label`
 * :ref:`webgc-button-menu-label`
+* :ref:`webgc-button-render-label`
 * :ref:`webgc-button-styling-label`
 * :ref:`webgc-button-events-label`
 
@@ -27,7 +50,7 @@ The Button control properties can be set for the following categories of propert
 .. _webgc-button-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^^
 
 |
 
@@ -80,10 +103,20 @@ Main Properties
 
 |
 
+
+.. _webgc-button-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
+|
+
 .. _webgc-button-menu-label:
 
 Menu Items
-----------
+^^^^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

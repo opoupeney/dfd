@@ -1,4 +1,4 @@
-.. image:: ../images/icons/badge_web.png
+.. image:: ../images/badges/badge_web.png
    :class: pull-right
 
 .. _webgcs-label:
@@ -8,18 +8,30 @@ Web Application Graphical Controls
 
 DreamFace uses Angular Material to define the look and feel of web application graphical controls.
 
-When creating your application you specify if it is a web or mobile application. Web applications will automatically
-have access to the View Editor containing the pre-defined graphical controls for building web apps. The pre-defined
-graphical controls are divided into several categories of similar functionality:
+Once the view is created you have access to the View Editor containing the pre-defined graphical controls for building
+web apps. The pre-defined graphical controls are grouped into categories with similar functionality:
 
-* **Basic** - Basic controls are simple graphical controls that do not require user input.
-* **Input** - Input controls are simple graphical controls that are usually associated with only one input field and value.
-* **Menu** - Menu controls are graphical controls that are used to create menus.
-* **Selection** - Selection controls are graphical controls that are used to selection items from a list.
-* **Table** - Table controls are used to present and manage the presentation of information in table format.
-* **Chart** - Charts controls are different types of pre-defined charts used to present data in a graph format.
-* **Layout** - Layout controls are containers for other graphical controls, organized in rows and columns.
+|
 
+.. image:: ../images/gcs/web/wgc-categories.png
+    :class: pull-right
+    :width: 80px
+    :height: 380px
+    :scale: 85
+
+|
+|
+|
+
+* **Basic** - Basic Controls are simple graphical controls that do not require user input.
+* **Input** - Input Controls are simple graphical controls that are usually associated with only one input field and value.
+* **Menu** - Menu Controls are graphical controls that are used to create menus.
+* **Selection** - Selection Controls are graphical controls that are used to selection items from a list.
+* **Table** - Table Controls are used to present and manage the presentation of information in table format.
+* **Chart** - Charts Controls are different types of pre-defined charts used to present data in a graph format.
+* **Layout** - Layout Controls are containers for other graphical controls, organized in rows and columns.
+
+|
 |
 
 Basic
@@ -60,6 +72,7 @@ description of the Input graphcical controls available in the View Editor for bu
    ./web-gcs/webgc-chips
    ./web-gcs/webgc-rating
    ./web-gcs/webgc-richtext
+   ./web-gcs/webgc-json
    ./web-gcs/webgc-progressbar
 
 |
@@ -91,6 +104,7 @@ selection graphcical controls available in the View Editor for building web appl
    ./web-gcs/webgc-radio
    ./web-gcs/webgc-checkbox
    ./web-gcs/webgc-switch
+   ./web-gcs/webgc-list
 
 |
 

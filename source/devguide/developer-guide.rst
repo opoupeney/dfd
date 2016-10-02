@@ -47,13 +47,7 @@ Key Concepts
 Developers Reference
 --------------------
 
-The Reference section describes how DreamFace implements the many built-in features.
 
-.. toctree::
-   :maxdepth: 3
-
-
-   ref-install-bluemix
    ref-dfx-signin
    ref-dfx-studio
    ref-dfx-studio-explorer

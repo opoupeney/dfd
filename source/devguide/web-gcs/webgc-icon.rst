@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Icon
 ====
+
+.. image:: ../../images/icons/basic_icon.png
+    :width: 50px
+    :height: 50px
 
 An icon is a graphical image that conveys a message, for example an image of a telephone might indicate that the View is
 about telephone numbers, a house might mean to fill in your home address in a form.
@@ -13,9 +17,32 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try Sample Icons <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleIcons>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Icon control properties can be set for the following property categories:
 
 * :ref:`webgc-icon-main-label`
+* :ref:`webgc-icon-render-label`
 * :ref:`webgc-icon-styling-label`
 * :ref:`webgc-icon-events-label`
 
@@ -56,6 +83,14 @@ Main Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-icon-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Treemenu
 ========
+
+.. image:: ../../images/icons/menu_treemenu.png
+    :width: 50px
+    :height: 50px
+
 
 The TreeMenu graphical control presents a menu as a list of links in a hierarchical tree format of menus and submenus. The
 subitems are indentated showing that they are sub-categories of the parent node. These submenus can be expanded or collapsed
@@ -16,10 +21,32 @@ A Treemenu can have a static or dynamic representation.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Treemenu Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Treemenu control properties can be set for the following property categories:
 
 * :ref:`webgc-treemenu-main-label`
 * :ref:`webgc-treemenu-menu-label`
+* :ref:`webgc-treemenu-render-label`
 * :ref:`webgc-treemenu-styling-label`
 * :ref:`webgc-treemenu-events-label`
 
@@ -84,6 +111,16 @@ Menu Items
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-treemenu-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
+|
 
 .. _webgc-treemenu-styling-label:
 

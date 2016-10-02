@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Cummulative Linechart
 =====================
+
+.. image:: ../../images/icons/chart_cmlinechart.png
+    :width: 50px
+    :height: 50px
 
 The pre-defined Line Charts graphical controls available in the View Editor are based on NDV3 library.
 
@@ -12,10 +16,34 @@ The pre-defined Line Charts graphical controls available in the View Editor are 
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Areachart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Cummulative Linechart control properties can be set for the following property categories:
 
 * :ref:`webgc-cmlinechart-main-label`
 * :ref:`webgc-cmlinechart-options-label`
+* :ref:`webgc-cmlinechart-render-label`
 * :ref:`webgc-cmlinechart-styling-label`
 * :ref:`webgc-cmlinechart-events-label`
 
@@ -62,6 +90,16 @@ Options
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Y-Axis Lable           | Any text          | Title of the table, this can either be text in quotes or an :ref:`angular-expression-label`|
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-cmlinechart-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
 
 |
 

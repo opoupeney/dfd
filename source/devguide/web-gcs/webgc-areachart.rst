@@ -1,4 +1,4 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Areachart
@@ -6,16 +6,41 @@ Areachart
 
 The Area Chart control provides a pre-defined areachart. available in the View Editor are based on NDV3 library.
 
-|
+
+.. image:: ../../images/icons/chart_areachart.png
+    :width: 50px
+    :height: 50px
+
 
 .. image:: ../../images/gcs/web/webgc-areachart.png
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Areachart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Areachart control properties can be set for the following property categories:
 
 * :ref:`webgc-areachart-main-label`
 * :ref:`webgc-areachart-options-label`
+* :ref:`webgc-areachart-render-label`
 * :ref:`webgc-areachart-styling-label`
 * :ref:`webgc-areachart-events-label`
 
@@ -51,6 +76,16 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+|
+
+.. _webgc-areachart-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
 
 .. _webgc-areachart-options-label:
 

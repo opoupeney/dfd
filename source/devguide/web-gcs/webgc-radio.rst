@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
-   :class: pull-right
+.. image:: ../../images/badges/badge_web.png
+    :class: pull-right
 
 Radio
 =====
+
+.. image:: ../../images/icons/selection_radio.png
+    :width: 50px
+    :height: 50px
+
 
 The Radio control allows the end-user to toggle an option on or off by checking the box associated with a label, usually
 reflecting a Boolean value. Only one radio control can be selected at a time.
@@ -13,9 +18,30 @@ reflecting a Boolean value. Only one radio control can be selected at a time.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Radio Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Radio control properties can be set for the following property categories:
 
 * :ref:`webgc-radio-main-label`
+* :ref:`webgc-radio-render-label`
 * :ref:`webgc-radio-styling-label`
 * :ref:`webgc-radio-events-label`
 
@@ -51,6 +77,14 @@ Main Properties
 | Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-radio-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

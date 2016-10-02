@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Horizontalmenu
 ==============
+
+.. image:: ../../images/icons/menu_horizontalmenu.png
+    :width: 50px
+    :height: 50px
 
 A Horizontalmenu (sometimes referred to as Navigation Bar) is a menu that is displayed horizontally usually across the
 top of a page. Each menu item can have an icon and any number of submenus. A Horizontalmenu can either have a static or
@@ -15,10 +19,33 @@ the view.
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Horizontal Menu Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Horizontalmenu control properties can be set for the following property categories:
 
 * :ref:`webgc-hzmenu-main-label`
 * :ref:`webgc-hzmenu-menu-label`
+* :ref:`webgc-hzmenu-render-label`
 * :ref:`webgc-hzmenu-styling-label`
 * :ref:`webgc-hzmenu-events-label`
 
@@ -82,7 +109,16 @@ Menu Items
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
 
+.. _webgc-hzmenu-render-label:^
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
+|
 
 .. _webgc-hzmenu-styling-label:
 

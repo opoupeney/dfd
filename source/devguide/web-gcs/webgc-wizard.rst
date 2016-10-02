@@ -1,9 +1,13 @@
-
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Wizard
 ======
+
+.. image:: ../../images/icons/layout_wizard.png
+    :width: 50px
+    :height: 50px
+
 
 A wizard control is a multi-step form.
 
@@ -13,10 +17,32 @@ A wizard control is a multi-step form.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Wizard Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Wizard control properties can be set for the following property categories:
 
 * :ref:`webgc-wizard-main-label`
 * :ref:`webgc-wizard-repeatable-label`
+* :ref:`webgc-wizard-render-label`
 * :ref:`webgc-wizard-styling-label`
 * :ref:`webgc-wizard-layout-label`
 * :ref:`webgc-wizard-events-label`
@@ -72,6 +98,15 @@ Repeatable
 |                        | Angular Expression|                                                                                            |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-wizard-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

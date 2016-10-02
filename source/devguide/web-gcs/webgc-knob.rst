@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Knob
 ====
+
+.. image:: ../../images/icons/input_knob.png
+    :width: 50px
+    :height: 50px
+
 
 The Knob is a circular control used to change and set a value by turning it in a clockwise (usually increases the value) or
 counterclockwise (usually decresases the value) direction.
@@ -13,9 +18,30 @@ counterclockwise (usually decresases the value) direction.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Knob Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Knob control properties can be set for the following property categories:
 
 * :ref:`webgc-knob-main-label`
+* :ref:`webgc-knob-render-label`
 * :ref:`webgc-knob-styling-label`
 * :ref:`webgc-knob-events-label`
 
@@ -50,6 +76,14 @@ Main Properties
 | Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-knob-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

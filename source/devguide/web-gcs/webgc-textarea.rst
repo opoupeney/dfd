@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Textarea
 ========
+
+.. image:: ../../images/icons/input_textarea.png
+    :width: 50px
+    :height: 50px
+
 
 The Textarea graphical control is a multi-line text input control. It can display an icon, can be set to required and can
 have a maximum length set.
@@ -13,10 +18,31 @@ have a maximum length set.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Textarea Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Textarea Field control properties can be set for the following property categories:
 
 * :ref:`webgc-textarea-main-label`
 * :ref:`webgc-textarea-validation-label`
+* :ref:`webgc-textarea-render-label`
 * :ref:`webgc-textarea-styling-label`
 * :ref:`webgc-textarea-events-label`
 
@@ -64,6 +90,16 @@ Validation Properties
 ---------------------
 
 Validation Properties go here.
+
+|
+
+.. _webgc-textarea-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
 
 |
 

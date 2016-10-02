@@ -1,12 +1,18 @@
-.. image:: ../../images/icons/badge_web.png
-   :class: pull-right
+.. image:: ../../images/badges/badge_web.png
+    :class: pull-right
 
 Switch
 ======
 
+.. image:: ../../images/icons/selection_switch.png
+    :width: 50px
+    :height: 50px
+
+
 The switch graphical component allows the users to set a swich between two values, for example to *on* or *off*, *left* or *right*.
 
 |
+
 Switch Off
 
 .. image:: ../../images/gcs/web/webgc-switch-off.png
@@ -17,9 +23,31 @@ Switch On
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Switch Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Switch control properties can be set for the following property categories:
 
 * :ref:`webgc-switch-main-label`
+* :ref:`webgc-switch-render-label`
 * :ref:`webgc-switch-styling-label`
 * :ref:`webgc-switch-events-label`
 
@@ -66,6 +94,15 @@ Main Properties
 | Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-switch-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

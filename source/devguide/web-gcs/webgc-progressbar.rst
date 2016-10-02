@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Progress Bar
 ============
+
+.. image:: ../../images/icons/input_progressbar.png
+    :width: 50px
+    :height: 50px
+
 
 A progressbar is a graphical control containing a graphical bar used to show the progress of a task or process, such as a
 download or file transfer.
@@ -13,9 +18,30 @@ download or file transfer.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Progressbar Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Progressbar control properties can be set for the following property categories:
 
 * :ref:`webgc-progressbar-main-label`
+* :ref:`webgc-progressbar-render-label`
 * :ref:`webgc-progressbar-styling-label`
 * :ref:`webgc-progressbar-events-label`
 
@@ -54,6 +80,13 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-progressbar-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

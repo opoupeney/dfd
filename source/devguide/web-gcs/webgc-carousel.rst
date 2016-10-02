@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Carousel
 ========
+
+.. image:: ../../images/icons/basic_carousel.png
+    :width: 50px
+    :height: 50px
 
 A Carousel is a graphical component that lets you scroll easily through a set of images or slides.
 
@@ -13,11 +17,36 @@ A Carousel is a graphical component that lets you scroll easily through a set of
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try Sample Carousel controls <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleCarousels>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
+
 The Carousel control properties can be set for the following property categories:
 
 * :ref:`webgc-carousel-quickstart-label`
 * :ref:`webgc-carousel-main-label`
 * :ref:`webgc-carousel_options-label`
+* :ref:`webgc-carousel-render-label`
 * :ref:`webgc-carousel-styling-label`
 * :ref:`webgc-carousel-events-label`
 * :ref:`webgc-tips-label`
@@ -168,6 +197,15 @@ Options Items
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Dynamic                | Name              | This field takes the name of a Dynamic Menu                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-carousel-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

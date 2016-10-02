@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Rating
 ======
+
+.. image:: ../../images/icons/input_rating.png
+    :width: 50px
+    :height: 50px
+
 
 Rating controls allow users to rate or give an appreciation to something by selecting a number of icons from fixed number
 of icons, often presented as stars.
@@ -13,9 +18,31 @@ of icons, often presented as stars.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Rating Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Rating control properties can be set for the following property categories:
 
 * :ref:`webgc-rating-main-label`
+* :ref:`webgc-rating-render-label`
 * :ref:`webgc-rating-styling-label`
 * :ref:`webgc-rating-events-label`
 
@@ -62,6 +89,14 @@ Main Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-rating-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

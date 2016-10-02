@@ -246,6 +246,7 @@ extend Node.js functionality. Modules can have dependencies on other modules and
 **Easy of use**
 
 Setting up Node.js and developing in it is easy. In just a few minutes you can install Node.js and have a working webserver.
+Node.js also understands and easily consumes JSON making it easy to use JSON across your application.
 
 |
 

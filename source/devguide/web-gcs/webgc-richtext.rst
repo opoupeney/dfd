@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Richtext
 ========
+
+.. image:: ../../images/icons/input_richtext.png
+    :width: 50px
+    :height: 50px
+
 
 A richtext control provides a number of properties you can be used to apply formatting to any portion of text within the
 control in a view at runtime of your application.
@@ -16,9 +21,31 @@ Using formatting, you can make text bold or italic, change the color, font and m
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Richtzxt Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Richtext control properties can be set for the following property categories:
 
 * :ref:`webgc-richtext-main-label`
+* :ref:`webgc-richtext-render-label`
 * :ref:`webgc-richtext-styling-label`
 * :ref:`webgc-richtext-layout-label`
 * :ref:`webgc-richtext-events-label`
@@ -57,6 +84,14 @@ Main Properties
 |                        | Angular Expression|                                                                                            |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-richtext-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

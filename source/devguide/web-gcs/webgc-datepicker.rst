@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Datepicker
 ==========
+
+.. image:: ../../images/icons/input_datepicker.png
+    :width: 50px
+    :height: 50px
 
 The datepicker is a standard input field tied to an interactive overlay calendar component that assists the user in entering a valid
 date for a date field. The user can select and validate a date from a overlay calendar and that value will be copied to the field.
@@ -13,10 +17,32 @@ date for a date field. The user can select and validate a date from a overlay ca
    :width: 400px
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Areachart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
 
 The Date Picker control properties can be set for the following property categories:
 
 * :ref:`webgc-datepicker-main-label`
+* :ref:`webgc-datepicker-render-label`
 * :ref:`webgc-datepicker-styling-label`
 * :ref:`webgc-datepicker-events-label`
 
@@ -64,6 +90,16 @@ Main Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-datepicker-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
 
 |
 

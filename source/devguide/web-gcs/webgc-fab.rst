@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Fab
 ===
+
+.. image:: ../../images/icons/menu_fab.png
+    :width: 50px
+    :height: 50px
+
 
 A Floating Action Button or **FAB** Menubar is a component included in Material Design guidelines that emphasizes the most
 important action on the current screen usually on a mobile application. It is used to attract the users attention and perform
@@ -19,10 +24,37 @@ When opened:
 
 |
 
-Properties
-^^^^^^^^^^
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
 
 |
+
+See it in Action
+----------------
+
+* `Try some Areachart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+The Fab control ????? properties can be set for the following property categories:
+
+* :ref:`webgc-fab-main-label`
+* :ref:`webgc-fab-menu-label`
+* :ref:`webgc-fab-render-label`
+* :ref:`webgc-fab-styling-label`
+* :ref:`webgc-fab-events-label`
+
+|
+
+.. _webgc-fab-main-label:
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -55,6 +87,10 @@ Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+
+.. _webgc-fab-menu-label:
+
+
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Menu Items**         | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
@@ -70,6 +106,15 @@ Properties
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+.. _webgc-fab-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the Rendering Section
+
+
+.. _webgc-fab-stying-label:
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

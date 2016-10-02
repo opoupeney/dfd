@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 HTML
 ====
+
+.. image:: ../../images/icons/basic_html.png
+    :width: 50px
+    :height: 50px
 
 The HTML graphical control allows a developer to add any custom HTML The contents of the HTML field is pure HTML. By
 default the control contains a Lorem Ipsum text. This content can be edited to include any HTML content. For example,
@@ -15,9 +19,32 @@ your own in the HTML control.
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try Sample HTML controls <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleHTML>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The HTML control properties can be set for the following property categories:
 
 * :ref:`webgc-html-main-label`
+* :ref:`webgc-html-render-label`
 * :ref:`webgc-html-styling-label`
 * :ref:`webgc-html-events-label`
 
@@ -57,6 +84,14 @@ Main Properties
 | Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-html-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

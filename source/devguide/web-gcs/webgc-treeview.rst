@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Treeview
 ========
+
+.. image:: ../../images/icons/basic_treeview.png
+    :width: 50px
+    :height: 50px
+
 
 A treeview is a graphical control that presents information in a hierarchical view. Each item (often referred to
 as a branch or a node) can have a number of subitems or children. The subitems or children are often visualized by indentation
@@ -18,10 +23,32 @@ files allowing users to organize and easily find files.
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try Sample Treeview controls <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleTreeviews>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Treeview control properties can be set for the following property categories:
 
 * :ref:`webgc-treeview-main-label`
 * :ref:`webgc-treeview-menu-label`
+* :ref:`webgc-treeview-render-label`
 * :ref:`webgc-treeview-styling-label`
 * :ref:`webgc-treeview-events-label`
 
@@ -68,6 +95,9 @@ Main Properties
 
 .. _webgc-treeview-menu-label:
 
+Rendering
+^^^^^^^^^
+
 Menu Items
 ----------
 
@@ -86,6 +116,13 @@ Menu Items
 | Dynamic                | NA                |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
+
+.. _webgc-treeview-render-label:
+
+This is the rendering section.
+
+|
 
 .. _webgc-treeview-styling-label:
 

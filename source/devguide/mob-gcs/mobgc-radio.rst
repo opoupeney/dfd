@@ -1,5 +1,6 @@
-.. image:: ../../images/icons/badge_mobile.png
-   :class: pull-right
+
+.. image:: ../../images/badges/badge_mobile.png
+    :class: pull-right
 
 Radio
 =====

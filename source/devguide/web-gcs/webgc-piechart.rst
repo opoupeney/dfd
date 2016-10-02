@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Piechart
 ========
+
+.. image:: ../../images/icons/chart_piechart.png
+    :width: 50px
+    :height: 50px
+
 
 The pre-defined Charts graphical controls available in the Widget Editor are based on NDV3 library.
 |
@@ -11,9 +16,33 @@ The pre-defined Charts graphical controls available in the Widget Editor are bas
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Pie Chart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Linechart control properties can be set for the following property categories:
 
 * :ref:`webgc-piechart-main-label`
+* :ref:`webgc-piechart-render-label`
 * :ref:`webgc-piechart-styling-label`
 * :ref:`webgc-piechart-events-label`
 
@@ -54,6 +83,14 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Legend Position        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-piechart-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

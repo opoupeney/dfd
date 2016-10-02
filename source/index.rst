@@ -9,7 +9,7 @@ Our goal is to provide a full-featured development platform that leverages best 
 create well-architected, beautiful and secure applications that are open and extensible, and scale to the limits of the cloud.
 DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an
 unparelled, out of the box fearture set including visual development, codeless API integration, reusable and customizable
-components, build management, team development and much more.
+components, build management, cloud deployment, containerization, load balancing, team development and much more.
 
 If you're a fan of Angular then you'll love the way DreamFace embraces its full functionality and extends it with built-in
 enterprise bells and whistles. Developers have complete control and best of all, your deployed application is a collection

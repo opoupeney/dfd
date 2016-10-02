@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Input Field
 ===========
+
+.. image:: ../../images/icons/input_input.png
+    :width: 50px
+    :height: 50px
+
 
 The Input graphical control is a single-line input field where users can enter data.
 
@@ -12,10 +17,33 @@ The Input graphical control is a single-line input field where users can enter d
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Input Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Input Field control properties can be set for the following property categories:
 
 * :ref:`webgc-input-main-label`
 * :ref:`webgc-input-validation-label`
+* :ref:`webgc-input-render-label`
 * :ref:`webgc-input-styling-label`
 * :ref:`webgc-input-events-label`
 
@@ -64,7 +92,16 @@ Main Properties
 Validation Properties
 ---------------------
 
-Validation Properties go here
+Validation Properties go^
+
+|
+
+.. _webgc-input-render-label:^
+
+Rendering
+^^^^^^^^
+
+This is the rendering section.
 
 |
 

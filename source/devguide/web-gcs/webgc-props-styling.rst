@@ -13,7 +13,7 @@ Styling Attributes
 |                        |                   |        .. image:: ../../images/gcs/dfx-styles-editor.png                                   |
 |                        |                   |           :width: 450px                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
+| Class                  | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified.                                                                    |

@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Select
 ======
+
+.. image:: ../../images/icons/input_select.png
+    :width: 50px
+    :height: 50px
+
 
 The select component allows users to select from a list of values, for example Yes* or *No*.
 
@@ -13,9 +18,31 @@ The select component allows users to select from a list of values, for example Y
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Select Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Select control properties can be set for the following property categories:
 
 * :ref:`webgc-select-main-label`
+* :ref:`webgc-select-render-label`
 * :ref:`webgc-select-styling-label`
 * :ref:`webgc-select-events-label`
 
@@ -55,6 +82,16 @@ Main Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-select-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
 
 |
 

@@ -1,4 +1,4 @@
-.. image:: ../../images/icons/badge_mobile.png
+.. image:: ../../images/badges/badge_mobile.png
    :class: pull-right
 
 Linechart

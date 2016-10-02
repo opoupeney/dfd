@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Datatable
 =========
+
+.. image:: ../../images/icons/table_datatable.png
+    :width: 50px
+    :height: 50px
 
 The datatable is used to present data coming from a static array or an API call. Each set of data corresponds to an iteration
 of the array (or API call) and is presented in a row of the table.
@@ -15,6 +19,29 @@ multi-selection on rows for treatment as a single row or a group of rows.
 .. image:: ../../images/gcs/web/webgc-datatable.png
 
 |
+
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Areachart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 Table columns have a value and can be rendered as one of the following pre-defined graphical controls:
 
 * **Statictext**
@@ -31,6 +58,7 @@ The Datatable control properties can be set for the following property categorie
 
 * :ref:`webgc-datatable-main-label`
 * :ref:`webgc-datatable-columns-label`
+* :ref:`webgc-datatable-render-label`
 * :ref:`webgc-datatable-styling-label`
 * :ref:`webgc-datatable-events-label`
 
@@ -131,6 +159,15 @@ Columns
 |                        |                   |                                                                                            |
 |                        |                   |        .. image:: ../../images/gcs/dfx-dt-descending.png                                   |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-datatable-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

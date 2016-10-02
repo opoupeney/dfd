@@ -1,8 +1,13 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Slider
 ======
+
+.. image:: ../../images/icons/input_slider.png
+    :width: 50px
+    :height: 50px
+
 
 The slider is a horizontal bar control used to change and set a value by sliding a handle along a range of values,
 for example it could slide between 0 and 100. When the user slides the handle and stops that is the value of the field.
@@ -13,9 +18,31 @@ for example it could slide between 0 and 100. When the user slides the handle an
 
 |
 
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Slider Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
 The Slider control properties can be set for the following property categories:
 
 * :ref:`webgc-slider-main-label`
+* :ref:`webgc-slider-render-label`
 * :ref:`webgc-slider-styling-label`
 * :ref:`webgc-slider-events-label`
 
@@ -57,6 +84,13 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-slider-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
 

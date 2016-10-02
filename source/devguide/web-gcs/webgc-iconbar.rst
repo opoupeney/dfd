@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Iconbar
 =======
+
+ .. image:: ../../images/icons/menu_iconbar.png
+    :width: 50px
+    :height: 50px
 
 An iconbar is a menu of icons. It has a top level menu that shows icons which is is a menu item. Menu items can have sub
 menu items. The iconbar menu is defined in the Menu Editor.
@@ -17,10 +21,36 @@ and with sample icons:
 
 |
 
-Properties
-^^^^^^^^^^
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
 
 |
+
+See it in Action
+----------------
+
+* `Try some Iconbar Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+The Icon control properties can be set for the following property categories:
+
+* :ref:`webgc-iconbar-main-label`
+* :ref:`webgc-iconbar-render-label`
+* :ref:`webgc-iconbar-styling-label`
+* :ref:`webgc-iconbar-events-label`
+
+|
+
+.. _webgc-iconbar-main-label:
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -36,8 +66,18 @@ Properties
 |                        |                   |                                                                                            |
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+|
+
+.. _webgc-iconbar-render-label:^
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
 
 |
+
+.. _webgc-iconbar-styling-label:
 
 Styling Attributes
 ------------------
@@ -60,6 +100,8 @@ Styling Attributes
 | Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
 |                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+.. _webgc-iconbar-events-label:
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

@@ -1,8 +1,12 @@
-.. image:: ../../images/icons/badge_web.png
+.. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
 Image
 =====
+
+.. image:: ../../images/icons/basic_image.png
+    :width: 50px
+    :height: 50px
 
 The image control is used to display images. An image is specified with a url. Images can be from external or
 internal sources. Internal sources can be imported using the Resources option in System Configuration & Settings in the
@@ -14,9 +18,32 @@ DreamFace Studio to add an image as a resource.
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try Sample Images <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleImages>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
 The Image control properties can be set for the following property categories:
 
 * :ref:`webgc-image-main-label`
+* :ref:`webgc-image-render-label`
 * :ref:`webgc-image-styling-label`
 * :ref:`webgc-image-events-label`
 
@@ -45,6 +72,14 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |
+
+.. _webgc-image-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
 |
 
 .. _webgc-image-styling-label:

@@ -1,11 +1,20 @@
-.. image:: ../../images/icons/badge_web.png
-   :class: pull-right
+.. image:: ../../images/badges/badge_web.png
+    :class: pull-right
 
 Chips
 =====
 
-Chips can be used for building lists of strings or entities, including free form text, predefined text, rules, or contacts. Chips may
-also contain icons.
+.. image:: ../..images/output_fxVqVt.gif
+
+|
+
+.. image:: ../../images/icons/input_chips.png
+    :width: 50px
+    :height: 50px
+
+
+Chips can be used for building lists of strings or entities, including free form text, predefined text, rules, or contacts.
+Chips may also contain icons.
 
 |
 
@@ -13,9 +22,34 @@ also contain icons.
 
 |
 
+|
+
+Features
+--------
+* Feature 1
+* Feature 2
+* Feature 3
+* Feature 4
+
+|
+
+See it in Action
+----------------
+
+* `Try some Areachart Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
+* Download Samples from Github
+
+|
+
+Reference
+---------
+
+
+
 The Chips control properties can be set for the following property categories:
 
 * :ref:`webgc-chips-main-label`
+* :ref:`webgc-chips-render-label`
 * :ref:`webgc-chips-styling-label`
 * :ref:`webgc-chips-events-label`
 
@@ -51,6 +85,16 @@ Main Properties
 | Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+|
+
+.. _webgc-chips-render-label:
+
+Rendering
+^^^^^^^^^
+
+This is the rendering section.
+
 
 |
 
