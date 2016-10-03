@@ -37,6 +37,6 @@ the platform. It's recommended to view the tutorials in order.
    ../devguide/ref-dfx-studio
    ../gsguide/tutorials/hello-world
    ../gsguide/tutorials/connecting-data
-
+   ../devguide/samples/sample-buttons
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

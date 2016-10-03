@@ -47,15 +47,18 @@ Key Concepts
 Developers Reference
 --------------------
 
+.. toctree::
+    :maxdepth: 1
 
-   ref-dfx-signin
-   ref-dfx-studio
-   ref-dfx-studio-explorer
-   ref-dfx-create-app
-   dfx-concepts-templates
-   dfx-concepts-reusability
-   ref-graphical-controls
-   ref-adding-developers
-   dfx-concepts-pubsub
+    ref-dfx-signin
+    ref-dfx-studio
+    ref-dfx-studio-explorer
+    ref-dfx-create-app
+    dfx-concepts-templates
+    dfx-concepts-reusability
+    ref-graphical-controls
+    ref-adding-developers
+    dfx-concepts-pubsub
+
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

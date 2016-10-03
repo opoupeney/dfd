@@ -29,7 +29,12 @@ Features
 See it in Action
 ----------------
 
-Try the sample buttons  :ref:`sample-buttons-label`
+Try the Sample Buttons
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-buttons
 
 |
 

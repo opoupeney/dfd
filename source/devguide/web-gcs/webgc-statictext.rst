@@ -30,8 +30,12 @@ Features
 See it in Action
 ----------------
 
-* `Try Sample Text controls <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleTexts>`_
-* Download Samples from Github
+Try the Sample Statictext controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-statictext
 
 |
 
