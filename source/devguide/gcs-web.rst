@@ -66,7 +66,6 @@ description of the Input graphcical controls available in the View Editor for bu
    ./web-gcs/webgc-input
    ./web-gcs/webgc-textarea
    ./web-gcs/webgc-datepicker
-   ./web-gcs/webgc-select
    ./web-gcs/webgc-slider
    ./web-gcs/webgc-knob
    ./web-gcs/webgc-chips

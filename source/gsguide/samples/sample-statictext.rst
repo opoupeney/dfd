@@ -8,32 +8,29 @@ repository you will be able to use the samples in your applications.
 * `Try Sample Staticexts <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleTexts>`_
 * Download Samples from Github
 
+|
+
 Sample Categories - different kinds of Statictext controls are provided as examples:
+
+|
 
 Basics
 ------
 
-Basic Statictext samples show different labels, icons and colors. They have no event actions and therefore do nothing when clicked, etc.
+Basic Statictext samples show different labels with sample border styles.
 
 .. image:: ../../images/devguide/samples/sample-text-basics.png
 
-The sample basic buttons include:
-
-* a button with a label
-* a button with an icon
-* a button with a label and an icon on the right
-* a button with a label and an icon on the left.
-
 |
-
 
 
 Styles
 ------
 
-Styles samples show examples of a color, shape and label changes (the first three buttons). The fab button with a
-heart icon applies a dynamic class property to change the color of a heart when clicked. The last button in this category
-has a drop-down menu which is activated by clicking on the arrow on the right hand side
+Styles samples show examples of a color, shape and label changes, the first style has simple CSS styles set with the field
+helpl in the properties. The second sample uses a CSS Class defined in the Styles editor and the third example uses
+a Dynamic Class that is defined in the Stles Editor as well as a functin that is invoked by the Click event. When the text
+is clicked the text toggles to red color and when clicked again it toggles back. The function is defined in the Script Editor.
 
 .. image:: ../../images/devguide/samples/sample-text-styles.png
 
@@ -41,6 +38,8 @@ has a drop-down menu which is activated by clicking on the arrow on the right ha
 
 Bindings
 ----------------
+
+Binding samples show simple bindings using Sccope variables.
 
 .. image:: ../../images/devguide/samples/sample-text-bindings.png
 
@@ -50,10 +49,9 @@ Bindings
 Events
 ------
 
-Also there are examples of the background and icon color change.
+The sample events show how to show text or hide it on mouse-enter, mouse-leave and click events.
 
 .. image:: ../../images/devguide/samples/sample-text-events.png
 
-|
 |
 

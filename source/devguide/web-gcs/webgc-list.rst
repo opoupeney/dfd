@@ -1,8 +1,8 @@
 .. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
-Select
-======
+List
+====
 
 .. image:: ../../images/icons/input_select.png
     :width: 50px

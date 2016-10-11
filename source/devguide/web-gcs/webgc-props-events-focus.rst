@@ -8,7 +8,9 @@ user clicks a button, when the mouse moves over the control, ..).
 .. figure:: ../../images/gcs/dfx-events-focus.png
    :width: 400px
 
-   *Each of the events takes a function name that will be executed when the user invokes the event.*
+   Each of the events takes a function name that will be executed when the user invokes the event. In the example above
+   the function named *myFunction* will be executed on the *On Double Click* event.
+
 
 Functions called in a View are defined in the view controller in the script of the View. Clicking on the ... opens a window
 providing the current list of functions that are available to be used from the View.

@@ -9,8 +9,11 @@ repository you will be able to use the samples in your applications.
 * `Try Sample Buttons <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleButtons>`_
 * Download Samples from Github
 
+|
 
 Sample Categories - different kinds of Buttons are provided as examples:
+
+|
 
 Basics
 ------
@@ -88,5 +91,5 @@ Also there are examples of the background and icon color change.
 .. image:: ../../images/devguide/samples/sample-buttons-events.png
 
 |
-|
+
 

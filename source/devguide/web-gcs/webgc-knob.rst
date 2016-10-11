@@ -1,3 +1,4 @@
+
 .. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
@@ -112,26 +113,10 @@ Styling Attributes
 
 |
 
-|
-
 .. _webgc-knob-events-label:
 
-Events
-------
+.. include:: webgc-props-events-knob.rst
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Events**             | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| On Label               | function name     | Enter the name of the function that will be executed when the user clicks on the HTML      |
-|                        |                   | control. The function should be defined in the controller in the script tab of the View    |
-|                        |                   | Editor. Clicking on the ... opens a window to to select a function defined in the          |
-|                        |                   | Controller.                                                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| On Change              | function name     | Enter the name of the function that will be executed when the user clicks on the HTML      |
-|                        |                   | control. The function should be defined in the controller in the script tab of the View    |
-|                        |                   | Editor. Clicking on the ... opens a window to to select a function defined in the          |
-|                        |                   | Controller.                                                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

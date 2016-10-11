@@ -39,6 +39,7 @@ See it in Action
 Reference
 ---------
 
+
 The Date Picker control properties can be set for the following property categories:
 
 * :ref:`webgc-datepicker-main-label`

@@ -48,6 +48,7 @@ The Icon control properties can be set for the following property categories:
 * :ref:`webgc-iconbar-styling-label`
 * :ref:`webgc-iconbar-events-label`
 
+
 |
 
 .. _webgc-iconbar-main-label:
@@ -102,6 +103,8 @@ Styling Attributes
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 .. _webgc-iconbar-events-label:
+
+.. include:: webgc-props-events.rst
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

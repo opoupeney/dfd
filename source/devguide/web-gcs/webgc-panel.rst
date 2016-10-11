@@ -38,8 +38,12 @@ Features
 See it in Action
 ----------------
 
-* `Try some Panel Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
-* Download Samples from Github
+Try the Sample Panel controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-panel
 
 |
 

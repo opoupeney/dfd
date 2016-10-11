@@ -42,6 +42,15 @@ See it in Action
 Reference
 ---------
 
+
+The Date Picker control properties can be set for the following property categories:
+
+* :ref:`webgc-datatable-main-label`
+* :ref:`webgc-datatable-render-label`
+* :ref:`webgc-datatable-styling-label`
+* :ref:`webgc-datatable-events-label`
+
+
 Table columns have a value and can be rendered as one of the following pre-defined graphical controls:
 
 * **Statictext**

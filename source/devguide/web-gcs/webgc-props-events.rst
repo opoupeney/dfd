@@ -8,7 +8,8 @@ user clicks a button, when the mouse moves over the control, ..).
 .. figure:: ../../images/gcs/dfx-events.png
    :width: 400px
 
-   *Each of the events takes a function name that will be executed when the user invokes the event.*
+   Each of the events takes a function name that will be executed when the user invokes the event. In the example above
+   the function named *myFunction* will be executed on the *On Double Click* event.
 
 Functions called in a View are defined in the view controller in the script of the View. Clicking on the ... opens a window
 providing the current list of functions that are available to be used from the View.
@@ -18,11 +19,11 @@ providing the current list of functions that are available to be used from the V
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 | **Events**       | Possible Values | Description                                                                                        |
 +==================+=================+====================================================================================================+
-| On Click:        | *function name* | The function is executed when the user clicks on this graphical control.                           |
+| On Click:        | *function name* | The function is executed when the user clicks on the control.                                      |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Double Click: | *Function Name* | The function is executed when the user double clicks on this graphical control.                    |
+| On Double Click: | *Function Name* | The function is executed when the user double clicks on the control.                               |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Key Press:    | *Function Name* | The function is executed when the user presses a key while focus is on this graphical control.     |
+| On Key Press:    | *Function Name* | The function is executed when the user presses a key while focus is on the control.                |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 | On Key Down:     | *Function Name* | The function is executed when the user holds the key down (on the keyboard).                       |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+

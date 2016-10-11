@@ -1,10 +1,11 @@
 Events
 ------
+
 Events allow developers to perform actions when the event is triggered on a control in the View.
 Events are used in combination with functions. The function is executed when the the event occurs (for example, when a
 user clicks a button, when the mouse moves over the control, ..).
 
-.. figure:: ../../images/gcs/dfx-events-onchange.png
+.. figure:: ../../images/gcs/dfx-events-knob.png
    :width: 400px
 
    Each of the events takes a function name that will be executed when the user invokes the event. In the example above
@@ -18,12 +19,11 @@ providing the current list of functions that are available to be used from the V
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 | **Events**       | Possible Values | Description                                                                                        |
 +==================+=================+====================================================================================================+
-| On Click:        | *function name* | The function is executed when the user clicks on the control triggering the On Click event.        |
+| On Label Click:  | *function name* | The function is executed when the user clicks on the label of the control.                         |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Double Click: | *Function Name* | The function is executed when the user double clicks on the control triggering the On Double Click |
-|                  |                 | event.                                                                                             |
+| On Click:        | *function name* | The function is executed when the user clicks on the control.                                      |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Change:       | *Function Name* | The function is executed when                                                                      |
+| On Double Click: | *Function Name* | The function is executed when the user double clicks on the control.                               |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 | On Key Press:    | *Function Name* | The function is executed when the user presses a key while focus is on the control.                |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+

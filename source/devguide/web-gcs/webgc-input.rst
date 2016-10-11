@@ -31,8 +31,12 @@ Features
 See it in Action
 ----------------
 
-* `Try some Input Samples <http://dfbluemixsrv02.market-interactive-clouds.com/studio/widget/web/Samples/welcome1/index.html>`_
-* Download Samples from Github
+Try the Sample Iconss
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-input
 
 |
 
