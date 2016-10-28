@@ -44,13 +44,13 @@ applications :
 .. toctree::
    :maxdepth: 1
 
-   ./web-gcs/webgc-statictext
-   ./web-gcs/webgc-button
-   ./web-gcs/webgc-icon
-   ./web-gcs/webgc-image
-   ./web-gcs/webgc-html
-   ./web-gcs/webgc-carousel
-   ./web-gcs/webgc-treeview
+   ./web-gcs/webgc-basic-statictext
+   ./web-gcs/webgc-basic-button
+   ./web-gcs/webgc-basic-icon
+   ./web-gcs/webgc-basic-image
+   ./web-gcs/webgc-basic-html
+   ./web-gcs/webgc-basic-carousel
+   ./web-gcs/webgc-basic-treeview
 
 |
 
@@ -63,16 +63,17 @@ description of the Input graphcical controls available in the View Editor for bu
 .. toctree::
    :maxdepth: 1
 
-   ./web-gcs/webgc-input
-   ./web-gcs/webgc-textarea
-   ./web-gcs/webgc-datepicker
-   ./web-gcs/webgc-slider
-   ./web-gcs/webgc-knob
-   ./web-gcs/webgc-chips
-   ./web-gcs/webgc-rating
-   ./web-gcs/webgc-richtext
-   ./web-gcs/webgc-json
-   ./web-gcs/webgc-progressbar
+   ./web-gcs/webgc-input-input
+   ./web-gcs/webgc-input-textarea
+   ./web-gcs/webgc-input-datepicker
+   ./web-gcs/webgc-input-select
+   ./web-gcs/webgc-input-slider
+   ./web-gcs/webgc-input-knob
+   ./web-gcs/webgc-input-chips
+   ./web-gcs/webgc-input-rating
+   ./web-gcs/webgc-input-richtext
+   ./web-gcs/webgc-input-json
+   ./web-gcs/webgc-input-progressbar
 
 |
 
@@ -84,10 +85,10 @@ available in the View Editor for building web applciations :
 .. toctree::
    :maxdepth: 1
 
-   ./web-gcs/webgc-fab
-   ./web-gcs/webgc-iconbar
-   ./web-gcs/webgc-treemenu
-   ./web-gcs/webgc-hzmenu
+   ./web-gcs/webgc-menu-fab
+   ./web-gcs/webgc-menu-iconbar
+   ./web-gcs/webgc-menu-treemenu
+   ./web-gcs/webgc-menu-hzmenu
 
 |
 
@@ -100,10 +101,10 @@ selection graphcical controls available in the View Editor for building web appl
 .. toctree::
    :maxdepth: 1
 
-   ./web-gcs/webgc-radio
-   ./web-gcs/webgc-checkbox
-   ./web-gcs/webgc-switch
-   ./web-gcs/webgc-list
+   ./web-gcs/webgc-select-radio
+   ./web-gcs/webgc-select-checkbox
+   ./web-gcs/webgc-select-switch
+   ./web-gcs/webgc-select-list
 
 |
 
@@ -116,7 +117,7 @@ is a description of the Table graphcical controls available for building web app
 .. toctree::
    :maxdepth: 1
 
-   ./web-gcs/webgc-datatable
+   ./web-gcs/webgc-table-datatable
 
 |
 
@@ -129,13 +130,13 @@ in a graph format. Below is a description of the Charts available for building w
 .. toctree::
    :maxdepth: 1
 
-   ./web-gcs/webgc-barchart
-   ./web-gcs/webgc-hzbarchart
-   ./web-gcs/webgc-piechart
-   ./web-gcs/webgc-donutchart
-   ./web-gcs/webgc-linechart
-   ./web-gcs/webgc-cmlinechart
-   ./web-gcs/webgc-areachart
+   ./web-gcs/webgc-chart-barchart
+   ./web-gcs/webgc-chart-hzbarchart
+   ./web-gcs/webgc-chart-piechart
+   ./web-gcs/webgc-chart-donutchart
+   ./web-gcs/webgc-chart-linechart
+   ./web-gcs/webgc-chart-cmlinechart
+   ./web-gcs/webgc-chart-areachart
 
 |
 
@@ -149,9 +150,9 @@ graphcical controls available for building web applications in the View Editor:
 .. toctree::
    :maxdepth: 1
 
-   ./web-gcs/webgc-panel
-   ./web-gcs/webgc-tabs
-   ./web-gcs/webgc-wizard
+   ./web-gcs/webgc-layout-panel
+   ./web-gcs/webgc-layout-tabs
+   ./web-gcs/webgc-layout-wizard
 
 |
 

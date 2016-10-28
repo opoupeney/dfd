@@ -17,11 +17,11 @@ of open, standards-based assets (HTML, CSS, JSON ...) so no vendor lock-in, just
 don't.
 
 DreamFace is available on **IBM BlueMix**. To get started, just login to your BlueMix account and search for DreamFace or
-go to download page at `Interactive Clouds <http://www.interactive-clouds.com/developercommunity.html#download>`_
+go to download page at `Interactive Clouds <https://interactive-clouds.com//developercommunity.html#download>`_
 and click on the option *Install DreamFace as an IBM Bluemix Service*. For detailed instructions go to  *Getting
 Started Guide* below.
 
-To help you get started, `Interactive Clouds <http://www.interactive-clouds.com>`_ offers **Free DreamFace Support** for
+To help you get started, `Interactive Clouds <https://interactive-clouds.com/>`_ offers **Free DreamFace Support** for
 30 days. Ask any question and get your app up and running in no time. To request a free support, send an email to
 support@interactive-clouds.com.
 

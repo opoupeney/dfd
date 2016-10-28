@@ -24,6 +24,7 @@ For a detailed explanation of each View Editor's pre-defined graphical controls 
 .. toctree::
    :maxdepth: 1
 
+   ../devguide/styling-gcs
    ../devguide/gcs-web
    ../devguide/gcs-mob
 

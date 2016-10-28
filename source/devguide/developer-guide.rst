@@ -55,7 +55,6 @@ Developers Reference
     ref-dfx-studio-explorer
     ref-dfx-create-app
     dfx-concepts-templates
-    dfx-concepts-reusability
     ref-graphical-controls
     ref-adding-developers
     dfx-concepts-pubsub
