@@ -4,10 +4,6 @@
 Chips
 =====
 
-.. image:: ../..images/output_fxVqVt.gif
-
-|
-
 .. image:: ../../images/icons/input_chips.png
     :width: 50px
     :height: 50px
@@ -65,7 +61,7 @@ The Chips control properties can be set for the following property categories:
 
 
 Main Properties
----------------
+^^^^^^^^^^^^^^^
 
 |
 

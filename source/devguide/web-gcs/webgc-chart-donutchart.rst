@@ -50,7 +50,7 @@ The Horizontal Barchart control properties can be set for the following property
 
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -79,7 +79,7 @@ Main Properties
 .. _webgc-donutchart-options-label:
 
 Options
--------
+^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Optionss**           | Possible Values   | Description                                                                                |
@@ -103,7 +103,7 @@ This is the rendering section.
 .. _webgc-donutchart-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

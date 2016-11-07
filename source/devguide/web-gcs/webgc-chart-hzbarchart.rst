@@ -52,7 +52,7 @@ The Horizontal Barchart control properties can be set for the following property
 
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -81,7 +81,7 @@ Main Properties
 .. _webgc-hzbarchart-options-label:
 
 Options
--------
+^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -105,7 +105,7 @@ This is the rendering section.
 .. _webgc-hzbarchart-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

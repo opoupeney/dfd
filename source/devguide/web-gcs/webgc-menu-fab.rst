@@ -63,7 +63,7 @@ The Fab control properties can be set for the following property categories:
 .. _webgc-fab-main-label:
 
 FAB Main Properties
-^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -100,7 +100,7 @@ FAB Main Properties
 .. _webgc-fab-menu-label:
 
 FAB Menu
-^^^^^^^
+^^^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

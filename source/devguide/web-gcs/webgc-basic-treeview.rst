@@ -61,7 +61,7 @@ The Treeview control properties can be set for the following property categories
 .. _webgc-treeview-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -96,14 +96,12 @@ Main Properties
 |                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
+|
 
 .. _webgc-treeview-menu-label:
 
-Rendering
-^^^^^^^^^
-
 Menu Items
-----------
+^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Menu Items**         | Possible Values   | Description                                                                                |
@@ -125,7 +123,7 @@ Menu Items
 .. _webgc-treeview-render-label:
 
 Rendering
----------
+^^^^^^^^
 
 This is the rendering section.
 
@@ -134,7 +132,7 @@ This is the rendering section.
 .. _webgc-treeview-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
@@ -171,7 +169,7 @@ Styling Attributes
 
 
 How to create a treeview
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^
 
 The TreeView Graphical Control can be bound to a JSON.  The JSON can have a repetitive child property:
 

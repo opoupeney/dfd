@@ -75,7 +75,7 @@ The Datatable control properties can be set for the following property categorie
 .. _webgc-datatable-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -118,7 +118,7 @@ Main Properties
 .. _webgc-datatable-columns-label:
 
 Columns
--------
+^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Columns**            | Possible Values   | Description                                                                                |
@@ -182,7 +182,8 @@ This is the rendering section.
 .. _webgc-datatable-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
+
 |
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

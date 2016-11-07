@@ -56,7 +56,7 @@ The Progressbar control properties can be set for the following property categor
 .. _webgc-progressbar-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |

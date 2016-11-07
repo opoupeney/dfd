@@ -60,7 +60,7 @@ The Richtext control properties can be set for the following property categories
 .. _webgc-richtext-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -110,7 +110,7 @@ This is the rendering section.
 .. _webgc-richtext-layout-label:
 
 Layout Properties
------------------
+^^^^^^^^^^^^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

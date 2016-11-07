@@ -58,7 +58,7 @@ The Date Picker control properties can be set for the following property categor
 .. _webgc-datepicker-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -113,7 +113,7 @@ This is the rendering section.
 .. _webgc-datepicker-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

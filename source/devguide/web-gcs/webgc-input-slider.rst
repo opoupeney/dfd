@@ -57,7 +57,7 @@ The Slider control properties can be set for the following property categories:
 .. _webgc-slider-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^^
 
 |
 

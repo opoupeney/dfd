@@ -60,7 +60,7 @@ The Tabs control properties can be set for the following property categories:
 
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 **Main Properties**
 
@@ -97,7 +97,7 @@ Main Properties
 .. _webgc-tabs-repeatable-label:
 
 Repeatable
-----------
+^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Repeatable**         | Possible Values   | Description                                                                                |
@@ -126,7 +126,7 @@ This is the rendering section.
 .. _webgc-tabs-layout-label:
 
 Layout Properties
------------------
+^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Layout Properties**  | Possible Values   | Description                                                                                |

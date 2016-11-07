@@ -52,7 +52,7 @@ The Checkbox control properties can be set for the following property categories
 .. _webgc-checkbox-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -137,7 +137,7 @@ This is the rendering section.
 .. _webgc-checkbox-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

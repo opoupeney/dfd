@@ -57,7 +57,7 @@ The Input Field control properties can be set for the following property categor
 
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -94,7 +94,7 @@ Main Properties
 .. _webgc-input-validation-label:
 
 Validation Properties
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Validation Properties
 

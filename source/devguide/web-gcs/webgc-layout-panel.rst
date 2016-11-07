@@ -67,7 +67,7 @@ The Panel control properties can be set for the following property categories:
 .. _webgc-panel-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -100,7 +100,7 @@ Main Properties
 .. _webgc-panel-repeatable-label:
 
 Repeatable Panel
-----------------
+^^^^^^^^^^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -137,7 +137,7 @@ This is the rendering section.
 .. _webgc-panel-layout-label:
 
 Layout Properties
------------------
+^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Layout Properties**  | Possible Values   | Description                                                                                |
@@ -172,7 +172,7 @@ Layout Properties
 .. _webgc-panel-removing-rows-label:
 
 Removing Rows and Columns in a Panel
-------------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 To remove a row or column just select the row or column on the panel. In the properties panel click on **-** to remove the
 row or column. The graphical control elements that are present in the row being removed will be appended after the last
@@ -185,7 +185,7 @@ column is removed.
 .. _webgc-panel-editing-features-label:
 
 Editing Features
-----------------
+^^^^^^^^^^^^^^^
 
 The Copy, Duplicate and Copy-Paste editing features work for any component. With copy-paste you can copy from any panel
 to any other panel. Copy-Paste also works with nested components and from one card to another card.

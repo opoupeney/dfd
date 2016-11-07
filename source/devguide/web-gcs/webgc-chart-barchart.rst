@@ -51,7 +51,7 @@ The Barchart control properties can be set for the following property categories
 .. _webgc-barchart-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -80,7 +80,7 @@ Main Properties
 .. _webgc-barchart-options-label:
 
 Options
--------
+^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Options**            | Possible Values   | Description                                                                                |
@@ -104,7 +104,7 @@ This is the rendering section.
 .. _webgc-barchart-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

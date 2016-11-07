@@ -52,7 +52,7 @@ The Cummulative Linechart control properties can be set for the following proper
 .. _webgc-cmlinechart-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -81,7 +81,7 @@ Main Properties
 .. _webgc-cmlinechart-options-label:
 
 Options
--------
+^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Optionss**           | Possible Values   | Description                                                                                |
@@ -106,7 +106,7 @@ This is the rendering section.
 .. _webgc-cmlinechart-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

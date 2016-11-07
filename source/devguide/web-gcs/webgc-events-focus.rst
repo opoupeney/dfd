@@ -1,5 +1,5 @@
 Events
-------
+^^^^^^
 
 Events allow developers to perform actions when the event is triggered by a user interaction on a control in the View.
 Events are used in combination with functions. The function is executed when the the event occurs (for example, when a

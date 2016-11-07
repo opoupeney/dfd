@@ -17,10 +17,16 @@ DreamFace provides three options for Styling Graphical Controls:
 Defining Styles
 ^^^^^^^^^^^^^^^
 
-The first option in Styling Attributes is Style. You can enter a CSS style directly like color:red or click on the three
-dots to the left and open a Styles Help Editor and choose the styles you want to be applied.
+The first option in Styling Attributes is Style. You can enter a CSS style directly like **color:red** or click on the three dots to the right
 
-.. image:: ../images/gcs/dfx-styles-editor.png
+.. image:: ../images/gcs/dfx-style.png
+
+|
+
+and open a CSS Styles help and let the help guide you to enter the styles. As you enter the CSS styles you will see them
+take effect directly on the *Sample Text* at the top as in the example below for **Color - red**
+
+.. image:: ../images/gcs/dfx-help-css-styles.png
 
 |
 

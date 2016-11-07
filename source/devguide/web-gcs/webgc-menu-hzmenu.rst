@@ -61,7 +61,7 @@ The Horizontalmenu control properties can be set for the following property cate
 .. _webgc-hzmenu-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -100,7 +100,7 @@ Main Properties
 .. _webgc-hzmenu-menu-label:
 
 Menu Items
-----------
+^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Menu Items**         | Possible Values   | Description                                                                                |
@@ -130,7 +130,7 @@ This is the rendering section.
 .. _webgc-hzmenu-styling-label:
 
 Styling Attributes
------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

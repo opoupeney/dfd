@@ -57,7 +57,7 @@ The Knob control properties can be set for the following property categories:
 .. _webgc-knob-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -97,7 +97,7 @@ This is the rendering section.
 .. _webgc-knob-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

@@ -57,7 +57,7 @@ The Rating control properties can be set for the following property categories:
 .. _webgc-rating-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -109,7 +109,7 @@ This is the rendering section.
 .. _webgc-rating-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

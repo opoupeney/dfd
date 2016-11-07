@@ -1,3 +1,4 @@
+^
 .. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
@@ -52,7 +53,7 @@ The Input Field control properties can be set for the following property categor
 
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -89,7 +90,7 @@ Main Properties
 .. _webgc-json-validation-label:
 
 Validation Properties
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Validation Properties go here
 

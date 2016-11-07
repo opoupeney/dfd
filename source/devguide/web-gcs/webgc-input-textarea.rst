@@ -57,7 +57,7 @@ The Textarea Field control properties can be set for the following property cate
 .. _webgc-textarea-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -93,7 +93,7 @@ Main Properties
 .. _webgc-textarea-validation-label:
 
 Validation Properties
----------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Validation Properties go here.
 

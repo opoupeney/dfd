@@ -56,7 +56,7 @@ The Wizard control properties can be set for the following property categories:
 .. _webgc-wizard-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 **Main Properties**
 
@@ -93,7 +93,7 @@ Main Properties
 .. _webgc-wizard-repeatable-label:
 
 Repeatable
-----------
+^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Repeatable**         | Possible Values   | Description                                                                                |
@@ -123,7 +123,7 @@ This is the rendering section.
 .. _webgc-wizard-layout-label:
 
 Layout Properties
------------------
+^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Layout Properties**  | Possible Values   | Description                                                                                |

@@ -60,7 +60,7 @@ The Treemenu control properties can be set for the following property categories
 .. _webgc-treemenu-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -99,7 +99,7 @@ Main Properties
 .. _webgc-treemenu-menu-label:
 
 Menu Items
-----------
+^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Menu Items**         | Possible Values   | Description                                                                                |
@@ -130,7 +130,7 @@ This is the rendering section.
 .. _webgc-treemenu-styling-label:
 
 Syling Attributes
------------------
+^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

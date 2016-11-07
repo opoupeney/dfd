@@ -52,7 +52,7 @@ The Linechart control properties can be set for the following property categorie
 
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
@@ -89,7 +89,7 @@ Main Properties
 .. _webgc-linechart-options-label:
 
 Options
--------
+^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Optionss**           | Possible Values   | Description                                                                                |
@@ -113,7 +113,7 @@ This is the rendering section.
 .. _webgc-linechart-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

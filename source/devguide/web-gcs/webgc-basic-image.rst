@@ -56,7 +56,7 @@ The Image control properties can be set for the following property categories:
 .. _webgc-image-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -89,7 +89,7 @@ This is the rendering section.
 .. _webgc-image-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

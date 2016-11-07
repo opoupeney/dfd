@@ -61,7 +61,7 @@ The Carousel control properties can be set for the following property categories
 .. _webgc-carousel-quickstart-label:
 
 Carousel Quickstart
--------------------
+^^^^^^^^^^^^^^^^^^
 
 In summary the Carousel has 5 properties itself and each slide (or Carousel option) has 5 properties:
 
@@ -87,7 +87,7 @@ A Slide Editor is avaiable to define the Slides and Slide options, to add or rem
 
 
 Example
-^^^^^^
+'''''''
 
 Default static representation (pre-defined by default in the Slide Editor): ::
 
@@ -154,7 +154,7 @@ This way of using scope variables and functions in the Carousel options (slides)
 .. _webgc-carousel-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -188,7 +188,7 @@ Main Properties
 .. _webgc-carousel_options-label:
 
 Options Items
--------------
+^^^^^^^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -217,7 +217,7 @@ This is the rendering section.
 
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

@@ -3,11 +3,11 @@
 DreamFace Getting Started Guide
 ===============================
 
-Welcome to the *Getting Started with DreamFace* documentation.
+Welcome to the **Getting Started Guide**.
 
-Start building your first app right away or get some background into DreamFace concepts and find out whats under the hood
-by visiting the :ref:`developer-guide-label`, a hands on reference with examples of best practices for the most common use
-cases for developing with DreamFace.
+You can start building your first app right away or get some background into DreamFace concepts and find out whats under
+the hood by visiting the :ref:`developer-guide-label`, a hands on reference with examples of best practices for the most
+common use cases for developing with DreamFace.
 
 
 Getting DreamFace

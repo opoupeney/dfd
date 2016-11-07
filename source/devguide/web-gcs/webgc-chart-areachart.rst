@@ -49,7 +49,7 @@ The Areachart control properties can be set for the following property categorie
 .. _webgc-areachart-main-label:
 
 Main Properties
----------------
+^^^^^^^^^^^^^^
 
 |
 
@@ -90,7 +90,7 @@ This is the rendering section.
 .. _webgc-areachart-options-label:
 
 Options
--------
+^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Options**            | Possible Values   | Description                                                                                |
@@ -105,7 +105,7 @@ Options
 .. _webgc-areachart-styling-label:
 
 Styling Attributes
-------------------
+^^^^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |

@@ -2,7 +2,7 @@ Select
 ======
 
 .. image:: ../../images/badges/badge_web.png
-:class: pull-right
+   :class: pull-right
 
 The select component allows users to select from a list of values, for example Yes* or *No*.
 
@@ -20,20 +20,18 @@ Reference
 ---------
 
 
-The Richtext control properties can be set for the following property categories:
+The **select** control properties can be set for the following property categories:
 
 * :ref:`webgc-select-main-label`
-* :ref:`webgc-select-render-label`
 * :ref:`webgc-select-styling-label`
-* :ref:`webgc-select-layout-label`
 * :ref:`webgc-select-events-label`
 
 
-.. _webgc-richtext-main-label:
+.. _webgc-select-main-label:
 
 
 Main Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 |
 
@@ -66,7 +64,7 @@ Main Properties
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-.. _webgc-statictext-styling-label:
+.. _webgc-select-styling-label:
 
 Styling
 ^^^^^^^

@@ -5,8 +5,9 @@ Welcome to the DreamFace Documentation
 ======================================
 
 We look forward to working with you to build the best enterprise desktop and mobile applications in the cloud today.
-Our goal is to provide a full-featured development platform that leverages best of breed technology and empowers developers to
+Our goal is to provide a full-featured development platform that leverages best of breed technologies and empowers developers to
 create well-architected, beautiful and secure applications that are open and extensible, and scale to the limits of the cloud.
+
 DreamFace helps developers focus on providing a great user experience by simplifying tedious and repetitive tasks and providing an
 unparelled, out of the box fearture set including visual development, codeless API integration, reusable and customizable
 components, build management, cloud deployment, containerization, load balancing, team development and much more.
@@ -28,7 +29,7 @@ support@interactive-clouds.com.
 |
 
 Guide to DreamFace Documentation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+================================
 
 The DreamFace documentation is divided into a series of guides created to take you from novice to expert in no time:
 
