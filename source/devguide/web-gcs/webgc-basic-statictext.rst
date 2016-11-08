@@ -45,7 +45,6 @@ Reference
 The Statictext control can be set for the following categories of properties:
 
 * :ref:`webgc-text-main-label`
-* :ref:`webgc-text-render-label`
 * :ref:`webgc-text-styling-label`
 * :ref:`webgc-text-tooltip-label`
 * :ref:`webgc-text-events-label`
@@ -104,15 +103,6 @@ Main Properties
 
 |
 
-.. _webgc-text-render-label:
-
-Rendering
-^^^^^^^^
-
-This is the rendering section.
-
-|
-
 .. _webgc-text-styling-label:
 
 .. include:: webgc-styling.rst
@@ -134,6 +124,17 @@ Tooltip Properties
 |                        | Bottom, Right     | position where the tooltip will be displayed relative to the text.                         |
 |                        |                   |                                                                                            |
 |                        |                   |   .. image:: ../../images/gcs/web/wgc-statictext-tooltip-direction.png                     |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
+|                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
+|                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |
+|                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
+|                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
+|                        |                   |                                                                                            |
+|                        |                   |        .. image:: ../../images/gcs/dfx-styles-editor.png                                   |
+|                        |                   |           :width: 450px                                                                    |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Class                  | CSS class         | Name of CSS class to use for the component.                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 |

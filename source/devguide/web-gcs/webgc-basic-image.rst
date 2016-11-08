@@ -22,10 +22,9 @@ DreamFace Studio to add an image as a resource.
 
 Features
 --------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
+* Point to any image url or extend DreamFace by adding the image as a resource.
+*
+
 
 |
 
