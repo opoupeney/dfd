@@ -44,8 +44,7 @@ Reference
 The Button control properties can be set for the following categories of properties:
 
 * :ref:`webgc-button-main-label`
-* :ref:`webgc-button-menu-label`
-* :ref:`webgc-button-render-label`
+* :ref:`webgc-button-wait-label`
 * :ref:`webgc-button-styling-label`
 * :ref:`webgc-button-events-label`
 
@@ -92,6 +91,10 @@ Main Properties
 | icon position          | *left* or *right* | *left* to display on the left and *right* to display on the right side of the button.      |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Menu Items             | Item Editor       | The value can either be a literal *true* to display the field or *false* to hide it, or it |
+|                        |                   |                                                                                            |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
 |                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
 |                        |                   |                                                                                            |
@@ -107,12 +110,28 @@ Main Properties
 |
 
 
-.. _webgc-button-render-label:
+.. _webgc-button-wait-label:
 
-Rendering
-^^^^^^^^^
+Wait Properties
+^^^^^^^^^^^^^^
 
-This is the rendering section.
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| **Menu Items**         | Possible Values   | Description                                                                                |
++========================+===================+============================================================================================+
+| Binding                | Editor            | Beside the Static menu property is a **Edit** link to the Menu Editor. You define the Menu |
+|                        |                   | in the Menu Editor. Once you are satisfied you save the menu that has been defined.        |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Auto-Disabled          | Name              | This field takes the name of a Dynamic Menu                                                |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Icon                   | Name              | This field takes the name of a Dynamic Menu                                                |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Icon Style             | Name              | This field takes the name of a Dynamic Menu                                                |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Icon Class             | Name              | This field takes the name of a Dynamic Menu                                                |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+
+
 
 |
 
@@ -136,7 +155,7 @@ Menu Items
 
 .. _webgc-button-styling-label:
 
-.. include:: webgc-styling.rst
+.. include:: webgc-styling-button.rst
 
 |
 

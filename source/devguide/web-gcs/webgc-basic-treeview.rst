@@ -51,8 +51,7 @@ Reference
 The Treeview control properties can be set for the following property categories:
 
 * :ref:`webgc-treeview-main-label`
-* :ref:`webgc-treeview-menu-label`
-* :ref:`webgc-treeview-render-label`
+* :ref:`webgc-treeview-edit-label`
 * :ref:`webgc-treeview-styling-label`
 * :ref:`webgc-treeview-events-label`
 
@@ -76,7 +75,7 @@ Main Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Name                   | trvTreeView#      | Name is a reference to the component's DOM element. It can be used to dynamically access   |
 |                        |                   | and set component properties. DreamFace gives a default name of *trvTreeView#* where #     |
-|                        |                   | corresponds to the order in which the control was created. The second statictext created   |
+|                        |                   | corresponds to the order in which the control was created. The second treeview created     |
 |                        |                   | will have a default Name of *trvTreeView2*. Name is not required and can be removed if not |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -94,8 +93,8 @@ Main Properties
 |                        |                   |                                                                                            |
 |                        |                   | See :ref:`angular-expression-label`  for more help.                                        |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| TreeView Items         | template name     | Name of the template to be used as the basis of the current Statictext control.            |
-|                        |                   | For more information on how to use Templates see :ref:`dfx-templates-label`                |
+| TreeView Items         | Treeview Items    | Clicking on .. image:: ../../images/gcs/web/wgc-edit-option.png will open the Treeview     |
+|                        |                   | Items editor (see :ref:`webgc-treeview-edit-label` below.                                  |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Selected Items         | template name     | Name of the template to be used as the basis of the current Statictext control.            |
 |                        |                   | For more information on how to use Templates see :ref:`dfx-templates-label`                |
@@ -103,59 +102,60 @@ Main Properties
 
 |
 
+.. _webgc-treeview-edit-label:
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Name                   | fbFAB#            | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                   | and set component properties. DreamFace gives a default name of *fbFAB#* where #           |
-|                        |                   | corresponds to the order in which the control was created. The second FAB control created  |
-|                        |                   | will have a default Name of *fbFAB2*. Name is not required and can be removed if not       |
-|                        |                   | needed.                                                                                    |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Direction              | *right* or *left* | The direction of the associated menu or iconbar when the FAB is clicked. Choose one of the |
-|                        | *up* or *down*    | proposed values *Right*, *Left*, *Up* or *Down*.                                           |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Animation Mode         | *Fling* or *Scale*| The value can either *Fling* or *Scale*. Fling means ... Scale means ...                   |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Menu Icon              | `Name of the      | The value can either be a literal *true* to display the field or *false* to hide it. It can|
-|                        | favicon`          | also be a angular expression that evaulates to *true* or *false*, for example,             |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
-|                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
-|                        |                   |                                                                                            |
-|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Disabled               | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
-|                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
-|                        |                   |                                                                                            |
-|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+Treeview Items Editor
+^^^^^^^^^^^^^^^^^^^^
+
+The Treeview Items editor is reached by clicking on the edit option in the Main Propertiex
+
+.. image:: ../../images/gcs/web/wgc-treeview-edit.png
+
+The Treeview Items Editor is a visual editor that  helps the developer to quickly create treeview items and organize them
+in the correct hierarchy or structure.
+
+.. image:: ../../images/gcs/web/wgc-treeview-editor.png
+
+You can create Static or Dynamic treeviews.
 
 |
 
-.. _webgc-treeview-menu-label:
+Static Options
+''''''''''''''
 
-Menu Items
-^^^^^^^^^^
+The static treeview is created by adding items and giving them a hierarchy using the action icons in the *Treeview structure* section.
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Menu Items**         | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Static                 | Menu Editor       | Static means that the definition and contents of the menu/iconbar are static and once      |
-|                        |                   | defined will remain the unchanged until they are manually changed again. The menu  |
-|                        |                   | can be defined by clicking on                                                              |
-|                        |                   |        .. image:: ../images/gcs/dfx-menu-edit-button.png                                   |
-|                        |                   | to bring the menu editor to assist in defining the menu/iconbar.                           |
-|                        |                   |                                                                                            |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-help-menu-editor.png                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic                | NA                |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+**Treeview Structure**
+
+|
+
+.. image:: ../../images/gcs/web/wgc-treeview-editor-structure-icons.png
+
+|
+
+* To create a new item just click on the **+** sign and edit the label.
+* To remove an item click on the **-** sign and the item will be removed.
+* To move an item up in the list, click on the up arrow action icon.
+* To move an item down in the list, click on the down arrow action icon.
+* To indent an item making it a sub category of the previous item click on the indent icon.
+* To unindent an item brining it up a level in the hierarchy click on the unindent action icon.
+
+|
+
+**Treeview Item Properties**
+
+.. image:: ../../images/gcs/web/wgc-treeview-editor-properties.png
+
+Treeview item properties are set in the Treeview Properies section. Ther you can define the label for each treeview item.
+Item labels are Angular expressions and can thus use any allowed angular expression. Click on the *...** and a Expression
+Editor will be displayed. See :ref:`angular-expression-label` for more help. Text that is not surrounded by quotes will
+be interpreted as a variable.
+
+
+Dynamic Options
+'''''''''''''''
+
+Dynamic treeviews gets its content from a variable source.
 
 |
 
@@ -169,19 +169,28 @@ Styling Attributes
 +========================+===================+============================================================================================+
 | Flex Width             | Value 1 to 100    | Slider that sets the width of the treeview.                                                |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/treeview-flexwidth.png                                  |
+|                        |                   |        .. image:: ../../images/gcs/web/wgc-treeview-flexwidth.png                          |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon if Opened         | Icon name         | Name of icon to be displayed when tree menu is opened, for example 'fa-minus'.             |
+| Icon if Opened         | Icon name         | Name of icon to be displayed when tree menu is opened, for example 'fa-minus.              |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/treeview-closed-icon.png                                |
+|                        |                   |        .. image:: ../../images/gcs/web/wgc-treeview-opened-icon.png                        |
+|                        |                   |                                                                                            |
+|                        |                   | Which would look like row 2 in this example, incating that the tree list is expanded or    |
+|                        |                   | opened.                                                                                    |
+|                        |                   |        .. image:: ../../images/gcs/web/webgc-treeview.png                                  |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Icon if Closed         | Icon name         | Name of icon to be displayed when tree menu is opened, for example 'fa-plus'.              |
 |                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-help-css-styles.png                                 |
+|                        |                   |        .. image::  ../../images/gcs/web/wgc-treeview-closed-icon.png                       |
+|                        |                   |                                                                                            |
+|                        |                   | Which would look like row 1 in this example, incating that the tree list is contracted or  |
+|                        |                   | closed.                                                                                    |
+|                        |                   |        .. image:: ../../images/gcs/web/webgc-treeview.png                                  |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Closed            | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Color             | CSS class         | Name of CSS class to use for the component.                                                |
+| Icon Color             | CSS color         | This can either be a hex value or one of the *Color Names Supported by All Browsers*       |
+|                        |                   | for example:  #d64626 or **orange** would change the the Treeview icon to the color Orange.|
+|                        |                   |                                                                                            |
+|                        |                   |        .. image:: ../../images/gcs/web/wgc-treeview-orange-icon.png                        |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
 |                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |

@@ -204,15 +204,6 @@ Options Items
 
 |
 
-.. _webgc-carousel-render-label:
-
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-|
-
 .. _webgc-carousel-styling-label:
 
 
@@ -222,7 +213,7 @@ Styling Attributes
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Styling Attributes** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Width                  | number in %       | Width is defined with a slider. This number defines the width of the carousel within the   |
+| Flex Width             | number in %       | Width is defined with a slider. This number defines the width of the carousel within the   |
 |                        |                   | row of the panel in %. The default is 100%.                                                |
 |                        |                   |                                                                                            |
 |                        |                   | **Note**                                                                                   |
