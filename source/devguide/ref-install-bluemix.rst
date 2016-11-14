@@ -7,7 +7,7 @@ DreamFace is available as a service on IBM Bluemix.
 
 Getting DreamFace on Bluemix is easy. You can either get it :ref:`IC-install-label`  or :ref:`Bluemix-install-label` directly.
 
-For instructions on how to install the DreamFace as a service on BlueMix, watch the tutorial below :
+For instructions on how to install the DreamFace as a service on BlueMix, you can watch the tutorial below :
 
 |
 
@@ -62,7 +62,7 @@ Summary of the DreamFace Plans
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Plan**               | **Cost**          | **Description**                                                                            |
 +========================+===================+============================================================================================+
-| Free                   | $49.00 USD/Month  | * One Tenant for One Developer                                                             |
+| Free                   | Free trial        | * One Tenant for One Developer                                                             |
 |                        |                   | * Complete Access to Documentation, Tutorial, Samples Gallery and Forums                   |
 |                        |                   | * 30-day free support on support portal upon request                                       |
 |                        |                   | * Support: support@interactive-clouds.com                                                  |
@@ -193,8 +193,8 @@ You will be taken directly to the DreamFace Landing Page where you can start dev
 
 |
 
-DreamFace will automatically create a unique cloud tenant for DreamFace and you can start building applications in the
-cloud immediately.
+DreamFace will automatically create a unique cloud tenant for you DreamFace Platform and you can start building
+applications in the cloud immediately. All of your applications can be created and deployed from this tenant.
 
 
 Return to the :ref:`getting-started-label`

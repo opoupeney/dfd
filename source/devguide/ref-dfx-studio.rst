@@ -3,9 +3,9 @@ Exploring The Studio
 
 The DreamFace Studio is the place where DreamFace developers create beautiful, scalable, enterprise applications.
 
-It is a complete platform for creating, building and deploying DreamFace applications. In the
-DreamFace application architecture it corresponds to the node application (DFX) and contains both development and runtime
-environments. For more information on the architecture see :ref:`platform-architecture-label`
+It is a complete platform for creating, building and deploying your applications. In the DreamFace application
+architecture the DreamFace Studio corresponds to the node application (DFX) and contains both development and runtime
+environments. Development is truly dev and devops. For more information on the architecture see :ref:`platform-architecture-label`
 
 In the tutorial below you will learn how to navigate and find your way around the Studio.
 
