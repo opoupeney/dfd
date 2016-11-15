@@ -8,7 +8,7 @@ The Application Explorer is presented with a TreeMenu control. The first level o
 
 |
 
-.. figure:: ../images/devguide/dfx-studio-1pg-leftnav.png
+.. figure:: ../images/devguide/dfx-studio-hp-leftnav.png
 
 Platform, Applications, Shared Catalog Options
 
@@ -590,8 +590,8 @@ Shared Catalog
 The Shared Catalog is a special application that is created by default to allow the developers to reuse any application
 component across multiple applications within the same tenant.
 
-It is also possible to share Application Components across tenants by using export/import features through the Github
-interface in DreamFace.
+It is also possible to share Application Components across tenants by exporting / importing with the Github interface
+in DreamFace.
 
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

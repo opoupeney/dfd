@@ -44,12 +44,14 @@ Lets take a minute to explore the Home Page.
 The Home page has three main sections:
 
 1. The *Icon Bar* at the top of the page containing information about the application, action icons and buttons.
-2. The *Explorer* in the leftnav for navigating through application configuration setting and components.
+2. The *Explorer* in the leftnav for navigating through application configuration setting, applications and application components.
 3. The *Canvas* area (white) where applications statistics are displayed. This is where all the action takes place:
 
     * Information is diplayed
     * Applications get created
+    * View, Pages and API get created and modified
     * Configuration setting are defined
+    * Application workflow happens here
 
 |
 
@@ -62,31 +64,34 @@ The Icon Bar
 
 |
 
+.. image:: ../images/devguide/dfx-studio-hp-iconbar-left.png
+
 On the far left of the Icon Bar at the top of the page is the Home icon, the DreamFace logo and name *Studio* and highlighted
-in bright green is the current version of the platform. Clicking on the current version will display this versions Release
-Notes for in the canvas area.
+in bright green is the current version of the platform.
 
+Clicking on the current version will display Release Notes in the canvas area.
 
-.. image:: ../images/devguide/dfx-studio-1pg-version.png
+.. image:: ../images/devguide/dfx-studio-hp-rnotes.png
 
 |
 
-**Tenant Name**
+**Tenant ID**
 
 On the right hand side of the iconbar is the ID of the your cloud tenant, a help icon and a *Sign Out* icon.
 
-.. image:: ../images/devguide/dfx-studio-1pg-iconbar-rt.png
+.. image:: ../images/devguide/dfx-studio-hp-iconbar-rt.png
 
+The tenant ID is a unique ID provided by Bluemix. The tenant is a
 
 The help menu offers several options for getting help.
 
-.. image:: ../images/devguide/dfx-studio-1pg-helpmenu.png
+.. image:: ../images/devguide/dfx-studio-hp-helpmenu.png
 
 It includes :
 
 * **Stack Overflow** - A direct connection to the Stack Overflow Forum.
 * **Documentation** - Direct access to the the DreamFace Documentation.
-* **Play with Samples** - A link to view and download Samples components and graphical controls from the Samples Gallery.
+* **Play with Samples** - A link to view and download Samples Gallery sample components and graphical controls from github.
 * **Get Support** - Direct access the DreamFace Service desk for Reporting Bugs, Feature Requests and Requesting Assistance
 * **Contact Us** - If you don't have support or just want to send a quick message to support you can do it here.
 
@@ -113,8 +118,13 @@ Pressing *GO* displays Stack Overflow and performs a search on the keywords.
 
 **Play with Samples**
 
-This diplays the Samples Gallery where developers can explore and download different examples of DreamFace components into
-their own application environment.
+.. image:: ../images/devguide/dfx-help-playwithsamples.png
+   :width: 600px
+
+
+
+This diplays the download page where developers can explore and download different examples of DreamFace components from
+the Samples Gallery via github into their own application environment.
 
 |
 
@@ -123,9 +133,9 @@ their own application environment.
 .. image:: ../images/devguide/dfx-help-getsupport.png
 
 
-Login to the DreamFace Service Desk to Report a Bug, Request a New Feature or Request Assistance. You can view your active
-support tickets and interact with them, adding comments, screenshots more precise information or replying to an answer from
-support.
+Login to the DreamFace Service Desk to Search issues on keywords, Report a Bug, Request a New Feature or Request Assistance.
+You can also view your active support tickets and interact with them, adding comments, screenshots, more precise information
+or replying to a question from the DreamFace support team.
 
 
 .. image:: ../images/devguide/dfx-help-servicedesk.png
@@ -135,75 +145,85 @@ support.
 **Contact Us**
 
 .. image:: ../images/devguide/dfx-help-contactus.png
+   :width: 600px
+
 
 Send a message to the DreamFace Support Team.
 
 |
 |
 
-The Explorer
+The Left Nav
 ------------
 
-On the left side of the page underneath the platform name is the Explorer panel. The Explorer contains thre options: Platform,
+On the left side of the page is the App Explorer. The App Explorer contains thre options: Platform,
 Applications and Shared Catalogue. It is organized in a tree structure for easily navigating through the different setting
-and components when creating your applications.
+and components when creating and modifying your applications.
 
 |
 
-.. image:: ../images/devguide/dfx-studio-1pg-explorerx.png
+.. image:: ../images/devguide/dfx-studio-hp-explorer.png
 
 A platform can have one or more applications and each application has its own configuration and components. Shared Catalogue
 contains components that can be used across different applications.
 
-.. image:: ../images/devguide/dfx-studio-1pg-leftnav.png
-
-The Explorer can be collapsed to get more screen real estate by clicking on the
-
-.. image:: ../images/devguide/dfx-studio-1pg-chevron.png
-
-as seen collapsed here:
-
-.. image:: ../images/devguide/dfx-studio-1pg-leftnav-closed.png
-   :width: 600px
+.. image:: ../images/devguide/dfx-studio-hp-leftnav.png
 
 |
 
 **Search**
 
-The Explorer also contains a Search field to search for all components for a given name. Just enter the name of the component
-you are searching for and click on the search Icon. All components with that name will be listed in the canvas area of the page.
+At the top of the leftnav is a Search field to search for all components for a given name. Just enter the name of the
+component that you are searching for and click on the search Icon. All components with that name will be listed in the
+canvas area of the page.
 
 |
 
-.. image:: ../images/devguide/dfx-studio-1pg-searchx.png
+.. image:: ../images/devguide/dfx-studio-hp-search.png
 
 |
 
-.. image:: ../images/devguide/dfx-studio-1pg-leftnav.png
+.. image:: ../images/devguide/dfx-studio-hp-leftnav.png
 
 |
+
+**The Application Exporer**
+
+A detailed look at the Application Explorer can be found here :ref:`dfx-studio-explorer-label`
 
 The Canvas
 ----------
 
-**Stats**
+**App Statistics**
 
-By default, the platform displays application statistcs for each app in the tenant as well as information about components
-shared across applications. The main part of the screen or canvas is where results are displayed after some action is done.
-For instance, when you search on a name, the results of the search are displayed in the canvas and replace the stats. To
-redisplay your application statistics, just click on the *Home* icon.
+By default, the platform displays application statistcs for each application in the tenant as well as information about
+components shared across applications. The main part of the screen or canvas is where results are displayed after some
+action is completed.
 
-|
+This is where all the action takes place:
+
+    * Information is diplayed
+    * Applications get created
+    * View, Pages and API get created and modified
+    * Configuration setting are defined
+    * The Application development workflow happens here
+
+For example, when you search on a name, the results of the search are displayed in the canvas and replace the stats.
+The Stats give us a snapshot of our application. In the example below the application called Test has 1
+Page, 1 View and no API Services. The application called TestApp has 1 Page, 0 Views and 0 API Services
 
 .. image:: ../images/devguide/dfx-studio-1pg-statsx.png
    :width: 600px
 
 |
 
-The Stats give us a quick look at the application. In the example above the application called Test has 1 Page, 1 View and
-no API Services. The application called TestApp has 1 Page, 0 Views and 0 API Services
+To redisplay your application statistics after navigating somewhere else just click on the *Home* icon on the left side
+of the homepage iconbar.
+
+.. image:: ../images/devguide/dfx-studio-hp-iconbar-home.png
 
 |
+
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
