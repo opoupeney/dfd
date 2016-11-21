@@ -6,7 +6,7 @@ page you can test the functionality and play with the sample Statictext controls
 repository you will be able to use the samples in your applications.
 
 * `Try Sample Staticexts <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleTexts>`_
-* Download Samples from Github
+* :ref:`samples-github-label`
 
 |
 

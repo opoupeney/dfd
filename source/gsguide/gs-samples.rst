@@ -3,6 +3,20 @@
 Exploring the Samples Gallery
 =============================
 
+|
+
+Downloading Samples from Github
+-------------------------------
+
+The samples contained in the Samples Gallery are available for download directly from the DreamFace Studio.
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../../gsguide/samples/samples-download-from-github
+
+|
+
 Sample GCs
 ----------
 

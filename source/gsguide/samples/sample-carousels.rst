@@ -7,7 +7,7 @@ repository you will be able to use the samples in
 
 
 * `Try Sample Carousels <http://50.22.58.40:3300/deploy/qa/Samples/web/1.0.1/index.html#/page.html?login=guest&name=SampleCarousels>`_
-* Download Samples from Github
+* :ref:`samples-github-label`
 
 |
 

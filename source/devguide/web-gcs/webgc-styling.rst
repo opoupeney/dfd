@@ -8,7 +8,7 @@ Styling Attributes
 |                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
 |                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |
 |                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
-|                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
+|                        |                   | the attribute type, the user is guided by placeholder to enter the correct settings        |
 |                        |                   |                                                                                            |
 |                        |                   |        .. image:: ../../images/gcs/dfx-styles-editor.png                                   |
 |                        |                   |           :width: 450px                                                                    |

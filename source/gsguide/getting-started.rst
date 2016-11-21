@@ -39,4 +39,15 @@ time you'll be building and deploying your first DreamFace applications.
    ../gsguide/tutorials/connecting-data
    ../devguide/samples/sample-buttons
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+Eplore the Samples Gallery
+--------------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   ../gsguide/gs-samples
+
+
+   Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

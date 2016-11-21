@@ -68,7 +68,7 @@ Main Properties
 |                        |                   | will have a default Name of *btnButton2*. Name is not required and can be removed if not   |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| label                  | Any text or       | This is the text that will appear on the button indicating which  action that will         |
+| Label                  | Any text or       | This is the text that will appear on the button indicating which  action that will         |
 |                        | *expression*      | performed when the button is clicked. For example, the label might be *Cancel*, *OK*,      |
 |                        |                   | *DEPLOY TO CLOUD*, or *ADD COMMENT*.                                                       |
 |                        |                   |                                                                                            |
@@ -122,7 +122,8 @@ Wait Properties
 |                        |                   | in the Menu Editor. Once you are satisfied you save the menu that has been defined.        |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Auto-Disabled          | Name              | This field takes the name of a Dynamic Menu                                                |
+| Auto-Disabled          | *true* or *false* | This field takes the name of a Dynamic Menu                                                |
+|                        | angular expression|                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Icon                   | Name              | This field takes the name of a Dynamic Menu                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
@@ -130,8 +131,6 @@ Wait Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Icon Class             | Name              | This field takes the name of a Dynamic Menu                                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-
-
 
 |
 
