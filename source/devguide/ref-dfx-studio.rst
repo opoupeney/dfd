@@ -49,9 +49,9 @@ The Home page has three main sections:
 
     * Information is diplayed
     * Applications get created
-    * View, Pages and API get created and modified
-    * Configuration setting are defined
-    * Application workflow happens here
+    * View, Pages and API service objets and services get created and modified
+    * Configuration settings are defined
+    * Application development workflow happens here. It is where we define, configure and compose our applications.
 
 |
 
@@ -66,22 +66,40 @@ The Icon Bar
 
 .. image:: ../images/devguide/dfx-studio-hp-iconbar-left.png
 
-On the far left of the Icon Bar at the top of the page is the Home icon, the DreamFace logo and name *Studio* and highlighted
-in bright green is the current version of the platform.
+On the the left side of the Icon Bar at the top of the page is
 
-Clicking on the current version will display Release Notes in the canvas area.
+* the Home icon
+* the DreamFace logo
+* the application name *Studio* and
+* the current version of the DreamFace platform highlighted in bright green
+
+Clicking on the Home Icon will redisplay the the Application Platform Stats view or the initial view of the homepage.
+It’s a refresh of the canvas to go back to the initial view and redisplays application stats for all applications. It
+is very helpful when moving between apps and editing components.
+
+Clicking on the bright green current version will display the Release Notes in the canvas area.
 
 .. image:: ../images/devguide/dfx-studio-hp-rnotes.png
+   :width: 400px
 
 |
 
-**Tenant ID**
-
-On the right hand side of the iconbar is the ID of the your cloud tenant, a help icon and a *Sign Out* icon.
+**Tenant ID, Help Menu and Sign Out**
 
 .. image:: ../images/devguide/dfx-studio-hp-iconbar-rt.png
 
-The tenant ID is a unique ID provided by Bluemix. The tenant is a
+On the right hand side of the iconbar is
+
+* the ID of the your cloud tenant
+* a *Help* icon in the form of a bouy and
+* a *Sign Out* icon.
+
+
+The tenant ID can be a name if you create the tenant yourself or on Bluemix, a unique ID assigned by Bluemix to designate
+your unique tenant in the cloud. This tenant holds all of the your application settings, applications, application
+components and application builds. On Bluemix you may have noticed that you didn’t install anything when creating your
+DreamFace service. All development is cloud-based, so no installs are required, just create your tenant and start
+building your applications.
 
 The help menu offers several options for getting help.
 
@@ -89,13 +107,11 @@ The help menu offers several options for getting help.
 
 It includes :
 
-* **Stack Overflow** - A direct connection to the Stack Overflow Forum.
+* **Stack Overflow** - A direct connection to the Stack Overflow Forum with keyword search.
 * **Documentation** - Direct access to the the DreamFace Documentation.
-* **Play with Samples** - A link to view and download Samples Gallery sample components and graphical controls from github.
-* **Get Support** - Direct access the DreamFace Service desk for Reporting Bugs, Feature Requests and Requesting Assistance
-* **Contact Us** - If you don't have support or just want to send a quick message to support you can do it here.
-
-More detail is provided below.
+* **Play with Samples** - A link to view and download Samples Gallery sample components and graphical controls from github directly into your application.
+* **Get Support** - Direct access the DreamFace Service desk for looking up an issue, Reporting Bugs, Feature Requests and Requesting Assistance.
+* **Contact Us** - If you don't have support or just want to send a quick message to us, you can do it here.
 
 |
 
@@ -111,16 +127,23 @@ Pressing *GO* displays Stack Overflow and performs a search on the keywords.
 **Documentation**
 
 .. image:: ../images/devguide/dfx-help-documentation.png
+   :width: 600px
 
-*Documentation* displays the DreamFace documentation home page where developer can consult different documentation guides.
+*Documentation* displays the DreamFace documentation documentation which is presented in a series of guides.
+
+* The Getting Started Guide which provides tutorials for using the product.
+* The Reference Guide, a hands on reference to the product and
+* The Product Guide which gives a high level list of features and benefits, presents pricing and licensing.
+
+The documentation is searchable and you can easily navigate from section to section.
+
 
 |
 
 **Play with Samples**
 
 .. image:: ../images/devguide/dfx-help-playwithsamples.png
-   :width: 600px
-
+   :width: 500px
 
 
 This diplays the download page where developers can explore and download different examples of DreamFace components from
@@ -131,6 +154,7 @@ the Samples Gallery via github into their own application environment.
 **Get Support**
 
 .. image:: ../images/devguide/dfx-help-getsupport.png
+   :width: 700px
 
 
 Login to the DreamFace Service Desk to Search issues on keywords, Report a Bug, Request a New Feature or Request Assistance.
@@ -139,35 +163,42 @@ or replying to a question from the DreamFace support team.
 
 
 .. image:: ../images/devguide/dfx-help-servicedesk.png
+   :width: 600px
 
 |
 
 **Contact Us**
 
 .. image:: ../images/devguide/dfx-help-contactus.png
-   :width: 600px
+   :width: 700px
 
 
 Send a message to the DreamFace Support Team.
 
 |
+
+The Explorer (Left Nav)
+-----------------------
+
+On the left side of the page is the Explorer. The Explorer contains thre options: Platform,
+Applications and Shared Catalogue. It is organized in a tree structure for easily navigating through the different
+settings and components when creating and modifying applications.
+
 |
-
-The Left Nav
-------------
-
-On the left side of the page is the App Explorer. The App Explorer contains thre options: Platform,
-Applications and Shared Catalogue. It is organized in a tree structure for easily navigating through the different setting
-and components when creating and modifying your applications.
-
-|
-
-.. image:: ../images/devguide/dfx-studio-hp-explorer.png
-
-A platform can have one or more applications and each application has its own configuration and components. Shared Catalogue
-contains components that can be used across different applications.
 
 .. image:: ../images/devguide/dfx-studio-hp-leftnav.png
+
+
+A platform can have one or more applications and each application has its own configuration, developer components and
+builds and deployed versions. Shared Catalogue contains components that can be used across different applications.
+
+In the example below we have two applications; *DemoApp* and *Hello World*. Each application has
+
+* Configure - Configuration Settings for the application
+* Develop - development components which include Pages, Views and API Objects
+* Deploy  - option to manage builds and deploy the different versions of the application
+
+.. image:: ../images/devguide/dfx-studio-hp-appexplorer.png
 
 |
 
@@ -187,9 +218,6 @@ canvas area of the page.
 
 |
 
-**The Application Exporer**
-
-A detailed look at the Application Explorer can be found here :ref:`dfx-studio-explorer-label`
 
 The Canvas
 ----------
@@ -213,7 +241,9 @@ The Stats give us a snapshot of our application. In the example below the applic
 Page, 1 View and no API Services. The application called TestApp has 1 Page, 0 Views and 0 API Services
 
 .. image:: ../images/devguide/dfx-studio-1pg-statsx.png
-   :width: 600px
+
+To list the different components of an application click on the component type like *Pages*, *Views* or *APIs*. A list
+of the existing components of that type will be displayed and you can choose the componenet to edit.
 
 |
 

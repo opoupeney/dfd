@@ -4,7 +4,7 @@ The Explorer
 ============
 
 
-The Application Explorer is presented with a TreeMenu control. The first level of the menu contains:
+The Application Explorer is presented in a hierarchical tree structure control. The first level of the tree contains:
 
 |
 
@@ -18,7 +18,7 @@ Platform, Applications, Shared Catalog Options
 Platform
 --------
 
-**Platform** allows for global parameter settings across applications for Developers and Cloud settings.
+**Platform** give access to the global platform parameter settings across applications including Developers and Cloud settings.
 
 Under the Platform menu there are two options:
 
