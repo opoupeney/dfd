@@ -23,7 +23,7 @@ DreamFace Studio to add an image as a resource.
 Features
 --------
 * Point to any image url or extend DreamFace by adding the image as a resource.
-*
+
 
 
 |
@@ -65,8 +65,11 @@ Main Properties
 |                        |                   | corresponds to the order in which the control was created. The second image created will   |
 |                        |                   | have a default Name of *imgImage2*. Name is not required and can be removed if not needed. |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Source                 | Any text          | The source of the image.                                                                   |
-|                        |                   |                                                                                            |
+| Source                 | url or            | The source of the image. This can be a url indicating the location of the image as shown in|
+|                        | name of a resource| the placeholder in the field '/images/dfx_image_blank.png' surrounded by quotes or it can  |
+|                        |                   | be the *name* of a resource that you have added to DreamFace in the Application > YourApp >|
+|                        |                   | Configuration option of the the Application Explorer. For more information on Configuring  |
+|                        |                   | Resources see
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
 |                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |

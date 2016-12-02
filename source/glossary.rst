@@ -104,6 +104,8 @@ Glossary
         In a Single-Page Applications (SPA), the entire application runs as a single web page. The entire first page is loaded in the browser after the initial request to the server, subsequent interactions only replace parts of the first page that need to be updated. This approach eliminates the need to reload the entire page and is more efficient, reducing the time taken by the application to respond to user actions. The presentation layer for the entire application is factored out of pieces from the server and is managed in the browser.
     tenant
         Tenant refers to client of a DreamFace application. In DreamFace each tenant has it's own repository where all application settings, data and components are stored. A tenant can represent an environment (ie. dev, test, prod), a business unit (ie. marketing, sales), an organization (ie. Acme, Durant) or an application (ie. demo, crm, portal).
+    template
+        In DreamFace a template is an instance of an object, where its properties have been set to specific values and saved. Every property in the base object can be locked from future changes.
     two-way data binding
         Two-way data binding refers to the automatic synchronization of data between the model and view components in Angularjs applications.
     UI

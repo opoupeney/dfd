@@ -18,9 +18,7 @@ Platform, Applications, Shared Catalog Options
 Platform
 --------
 
-**Platform** give access to the global platform parameter settings across applications including Developers and Cloud settings.
-
-Under the Platform menu there are two options:
+**Platform** give access to platform parameter settings that apply across applications. The Platform options include:
 
 |
 
@@ -29,22 +27,22 @@ Under the Platform menu there are two options:
 |
 
 * **Developers** - Define all developers that have access to the platform.
-* **Cloud** - Defines parameters to connect your DreamFace application to Bluemix and create an public IP address and port to access it.
-
+* **Cloud** - Define Cloud parameters to connect your DreamFace app to Bluemix or to generate mobile apps with PhoneGap.
+* **Settings** - Other setting that need to be done at the Platform level for all applications.
 |
 
 Developers
 ^^^^^^^^^^
 
-Because developers can work on more than one application they to be added at the platform level.
+Because developers can work on more than one application they need to be added at the platform level. All parameters set
+at the Platform level are global.
 
 **Adding Developers**
 
 
 Adding developers to DreamFace is a straighforward task.
 
-Developers are created at the Platform level (above applications). This is normal since each developer can work on more than
-one application. All parameters set at the Platform level are global.
+Developers are created at the Platform level. Each developer can work on one or more applications.
 
 From the Platform / Developers menu click on Developers.
 
@@ -52,32 +50,40 @@ From the Platform / Developers menu click on Developers.
 
 |
 
-When adding developers for the first time after creating our app, there is already one existing developer which is *admin*,
-the application administrator. Admin is created when the application is created and is needed to create the other developers.
+When adding developers for the first time after creating your app, you will notice that there is already one developer *admin*.
+The *admin* developer is the application administrator. *admin* is created by default when the application is created and
+is needed to administer the application and to create other developers, users and configure the applicaton.
 
 |
 
 .. figure:: ../images/devguide/dfx-dev-admin.png
 
-   Figure : *admin is the only developer available at the beginning*
+   Figure : *admin is created when the application is created, other developers can be added as needed*
 |
 
-Lets create a developer called *Jack Russel*. Just fill in the fields. Login is the
-username that Jack will use to Sign In.
+Lets create a new developer. Click on the Create Developer button to add a new developer called *Jack Russel*.
+
+.. figure:: ../images/devguide/dfx-dev-create-developer.png
+
+   Figure : *Creating a new developer*
+
+
+Now just fill in the fields. Login is the username that Jack will use to Sign In and the other fields.
 
 .. figure:: ../images/devguide/dfx-dev-create-jrussel.png
 
    Figure : *Creating developer Jack Russel*
 
-Now we can click on the Roles tab and set Jack's role to developer.
+Now we can click on the Roles tab and set Jack's default role to developer. Leaving the Administrator role checked will
+also give Jack administrator priveleges.
 
 |
 
 .. figure:: ../images/devguide/dfx-dev-role-jrussel.png
 
-   Figure : *Giving developer Jack Russel developer role*..
+   Figure : *Giving developer Jack Russel developer and administrator roles*.
 
-When all fields have been filled in and Jack's role has been defined, click on Save to save the definition of our new developer.
+When all fields have been filled in and Jack's roles have been defined, click on Save to save the definition of our new developer.
 
 |
 
@@ -90,13 +96,21 @@ the admin checkbox.
 
 |
 
-Cloud
-^^^^^
+Cloud Parameters
+^^^^^^^^^^^^^^^
 
-This Cloud option is a way to connect your application to Bluemix.
+There are currently two options available in setting global Cloud Parameters:
+
+* IBM Bluemix - Define how to connect your application to Bluemix and create an public IP address and port to access it.
+* Phonegap - Define your credentials for using Phonegap Build to generate cross-platform mobile apps.
+
+|
+
+IBM Bluemix Cloud Settings
+,,,,,,,,,,,,,,,,,,,,,,,,,,
 
 DreamFace is a Bluemix Service. When you are logged in to your Bluemix account and you select the DreamFace Service
-and you are logged in automatically through your Bluemix account credentials and you arrive directly in the DreamFace Studio
+you are logged in automatically through your Bluemix account credentials and you arrive directly in the DreamFace Studio
 on Bluemix.
 
 Another way do use DreamFace on Bluemix is to say, DreamFace is used to create applications. I want my application to be
@@ -104,62 +118,100 @@ stored in my Bluemix environment.
 
 |
 
-.. image:: ../images/devguide/dfx-studio-platform-cloud.png
+.. image:: ../images/devguide/dfx-studio-platform-cloud-login.png
+   :width: 500px
 
-Here you will login with your Bluemix account by clicking on the Login button. You will then select your organization and
-space (defined by Bluemix). You can then create an image of your application. An image is a virtual container that
-includes your application and all of the dependencies: DreamFace and its dependencies, and  NodeJS, AngularJS,
-the operating system, etc, everything your application needs on the virtual machine to run is packaged together in the image.
-Once the image on Bluemix you can select it and create a public url and port.
+When you click the Login Button you will be asked to enter your Bluemix account email and password. You will then select
+your organization and space (defined by Bluemix). You can then create an image of your application. An image is a virtual
+container that includes your application and all of the dependencies: DreamFace and its dependencies, and  NodeJS, AngularJS,
+the operating system, etc, everything your application needs on the virtual machine to run, is packaged together in the image.
+Once the image on Bluemix is created, you can select it and create a public url and port.
 
 |
 
 .. image:: ../images/devguide/dfx-studio-platform-cloud.png
-:width: 700px
+   :width: 700px
 
 Here we have the dfx-a1 image which is to a DreamFace application. Click on the image of the application. Then you can define
 in which container you would like to install this image and run this application. You define the application name, public IP
 address, listening port, etc. When everything is defined you click on **Create** and your application will be reachable through
-that IP address and the port.
+the IP address and the port.
 
 |
 
 .. image:: ../images/devguide/dfx-bluemix-container-definition.png
-
+   :width: 700px
 
 It's a simple proces: you go to your DreamFace environment, you login to Bluemix, you create your image, you publish it
-and its done and ready to use.
+and its done and ready to use. You will now be able to access your application via the url you created.
+
+|
+
+Settings
+^^^^^^^^
+
+Setting groups all other platform Parameters which must be set. Currently there is just one, **Google Maps API KEY**.
+
+All Google Maps JavaScript API applications require authentication. DreamFace supports the use of the API Key for
+authentication with Google Maps. Please consult Google Maps on how to get you API key. Once you have it, you can enter
+it here and use it when you embed Google Maps in your application.
+
+The API key allows you to monitor your application's API usage in the Google API Console. See Google API Console help
+for more information. With a key, you have access to a free daily quota for usage.
 
 
-*Other Cloud environments to come*
+PhoneGap Build Parameters
+,,,,,,,,,,,,,,,,,,,,,,,,,
 
-Today there is only have one cloud platform available which is Bluemix. In the near future there will also be one for Docker.
 
+DreamFace packages your application assets (HTML5, CSS, Javascript) in a zip file in the DreamFace Build Manager. You can
+then send it to PhoneGap build to generate the different mobile versions for your application. The PhoneGap Parameter option
+allows you to define the credentials of your PhoneGap Build account which will be used by the Build Manager to compile your
+application assets.
+
+.. image:: ../images/devguide/dfx-platform-cloud-phonegap.png
+   :width: 300px
+
+PhoneGap Build is an open source applicationt that allows developers to upload your HTML5, CSS, and JavaScript assets to
+the Adobe® PhoneGap™ Build cloud service and it will compile and generate your mobile apps for different mobile operating
+systems and phones.
+
+|
 |
 
 Applications
 ------------
 
-An application is defined by two main parts:
+The Application Explorer gives you access to the three main tasks that you perform when building an application:
 
-* **Configuration** - The Configuration setting that determine the behavior of your application and how it interacts with other systems.
-* **Components** - The Components section of the Studio gives provides editors to create the differnt components of your application.
+|
+.. image:: ../images/devguide/dfx-app-explorer.png
 
 |
 
-Configuration
-^^^^^^^^^^^^^
+* **Configure** - The Configuration setting that determine the behavior of your application and how it interacts with other systems.
+* **Develop** - The Components section of the Studio gives provides editors to create the differnt components of your application.
+* **Deploy** - The Build Mangagement and Deploymet of your application to Cloud or Mobile.
+
+Development with DreamFace is truly configure, develop and do devops. Modern development includes devops.
+
+|
+
+Configure
+^^^^^^^^^
 
 The Configuration menu allows us to set different Application Properties which determine application behavior internally
-how the application interacts will external systems.
+and also how the application interacts will external systems.
 
 |
 
-.. image:: ../images/devguide/dfx-configuration.png
+.. image:: ../images/devguide/dfx-app-configure.png
+   :width: 700px
 
-In the Explorer (left nav) under the Configuration menu, all of the settings options are listed.  When you click on one,
-for example General, the GENERAL Tab is highlighted at the top of the panel to show that it is the current Tab. The different
-options are discussed in more detail below. Clicking on any of the other menu options will have the same behavior.
+In the Explorer (left nav) under the Configure menu option, all of the settings options are listed.  When you click on one,
+for example General, the GENERAL Tab is highlighted at the top of the panel to show that it is the current Tab. You can
+either navigate through the menu options in the left nav or click on the Tabs at the top of the screen. There is one
+Tab per menu option and sub-option. You can decide which way is easiet for you to navigate through the settings.
 
 |
 
@@ -169,10 +221,31 @@ General
 |
 
 .. image:: ../images/devguide/dfx-create-app.png
+   :width: 700px
 
-In GENERAL settings the mainApplication Properities are defined. These include Application Name, Application Title,
-Logo and Creation Date. See :ref:`app-create-label` to see how to define General Application Properities and create an
-application.
+In GENERAL settings there are three application properties that can be defined:
+
+* Application Properities
+* Web Login Page Definition
+* Mobile Login Page Definition
+
+
+**Application Properties**
+
+The Application Properities are defined her. These include Application Name, Application Title, Logo and Creation Date/Time stamp.
+See :ref:`app-create-label` to see how to define General Application Properities and create an application.
+
+
+**Web Login Page Definition**
+
+This option contains the code to generate your Web application login. You are free to modify this code to your web application
+requirements.
+
+**Mobile Login Page Definition**
+
+
+This option contains the code to generate your Web application login. You are free to modify this code to your web application
+requirements.
 
 |
 
@@ -187,19 +260,26 @@ Under the Devops settings there are three categories of settings:
 
 **Environments**
 
-Defines running application Environments.
+Defines running application Environments. More to come here. Please contact DreamFace support if you would like more
+information or a roadmap.
+
+|
 
 **Collaboration**
 
 .. image:: ../images/devguide/dfx-config-collaboration.png
+   :width: 600px
 
 Collaboration properties allows us to define a Slack Channel associated with the application so that every time there is
 a View, Page or API Service Object that is created, updated or removed, DreamFace will send messages to that channel to
 inform the team that a change has been made.
 
+|
+
 **Github**
 
 .. image:: ../images/devguide/dfx-config-github.png
+   :width: 600px
 
 The Github properties allow to define a Github Repository for the application to connect to and all components that are local
 to my application can be exported to the main repository and shared with other developers or if there is another DreamFace
@@ -226,6 +306,7 @@ In practical terms, it answers the questions:
 |
 
 .. image:: ../images/devguide/dfx-config-apisource.png
+
 
 Click on the **+ API SOURCE** button to define a new API Source.
 
@@ -270,31 +351,15 @@ Resources
 
 Under the Resources settings there are four categories of settings:
 
-* **Data Dictionarys** - A way to define JSON structures that can be reused.
+
 * **Javascript** - Create your own Javascript file or upload an existing Javascript file.
 * **CSS** - defines team collaboration on Slac
 * **Images and Assets** - defines a Github Repository for the application
 
-**Data Dictionary**
-
-The Data Dictionary offers a way to define JSON structures that can be reused. Here we can define a payload coming back
-from a REST service. This will allow the Studio to introspect the data and map it to fields automatically.
-
 |
 
-.. image:: ../images/devguide/dfx-studio-datadictionary.png
+.. image:: ../images/devguide/dfx-app-resources.png
 
-|
-
-The Data Dictionary Editor will allow use to define the business object data structure.
-
-.. image:: ../images/devguide/dfx-studio-ddeditor.png
-
-It is also possible to create a business object that does not relate to an API. In this data structure you can put fields
-of totally unrelated or related data. By defining this object, I can then pass it between View that can consume it and use
-the definitions to get some data mappings automatically.
-
-From a javascript point of view it is a class with a name that can be used throughout the application.
 |
 
 **Javascript**
@@ -306,6 +371,7 @@ Resources. The library of javascript in resources can be used throughout the app
 |
 
 .. image:: ../images/devguide/dfx-config-resources-js-create.png
+   :width: 700px
 
 To create a Javascript file, click on the **Create** button and give the file a name. In this example, the name is *MyLib*.
 Click *Ok* to save the name and start editing the javascript code.
@@ -313,12 +379,14 @@ Click *Ok* to save the name and start editing the javascript code.
 |
 
 .. image:: ../images/devguide/dfx-config-resources-js-edit.png
+   :width: 700px
 
 A code editor opens up and you can start adding the javascript. When finished, click on *Save* to save the code.
 
 |
 
 .. image:: ../images/devguide/dfx-config-resources-js-file.png
+   :width: 700px
 
 The file will appear in the Javascript Resources with the name given during creation and the .js extension.
 
@@ -441,48 +509,12 @@ Personalization
 ,,,,,,,,,,,,,,,
 
 Personalization is used to define restrictions, pre-defined values for graphical controls or access rights to some pages
-for each role. It will be available in a later release.
-
-|
-
-Deployment
-,,,,,,,,,,
-
-Once your application is finished and your are satisified with its functionality and behavior you can deploy it.
-
-|
-
-Deploying the application is a two step process, the first step is to build the application and the second step is to
-deploy it to the cloud.
-
-.. image:: ../images/devguide/dfx-config-build.png
+for each role. It will be available in a later release. Feel free to contact DreamFace Support to find out more or ask
+for a roadmap.
 
 
-DreamFace comes with three components:
-
-* DreamFace for development
-* DreamFace for deployment
-* DreamFace Compiler
-
-The Studio is part of DreamFace for development. DreamFace for development and DreamFace for deployment share the same
-code base but they different usages. DreamFace for deployment does not contain the Studio and each application is running
-on a separate port.
-
-You use DreamFace for development to create your application. When your application is ready, you can click on **+BUILD NOW**
-to call the DreamFace Compiler to compile and package your application. This will transform all of the components in the
-repository into to code that can be executed. It will create a ZIP file which will be stored on the development server.
-
-The next action needed is *Deploy this Build* to the deployment server, which means to send the zip file to the deployment
-server. DreamFace for deployment will unzip the file and define it in its list of hosted applications. Once this is done, the
-deployed application can be executed and log your users.
-
-
-For more details on the DreamFace architecture See :ref:`platform-architecture-label`
-
-|
-
-Components
-^^^^^^^^^^
+Develop
+^^^^^^^
 
 Application Components include:
 
@@ -581,6 +613,44 @@ sense) that you can later bind to a the user interface View to access and modify
 
 The different API Services in the Service Object are methods.
 
+
+|
+
+Deploy
+^^^^^^
+
+Once your application is finished and your are satisified with its functionality and behavior you can deploy it.
+
+|
+
+Deploying the application is a two step process, the first step is to build the application and the second step is to
+deploy it to the cloud.
+
+.. image:: ../images/devguide/dfx-config-build.png
+
+
+DreamFace comes with three components:
+
+* DreamFace for development
+* DreamFace for deployment
+* DreamFace Compiler
+
+The Studio is part of DreamFace for development. DreamFace for development and DreamFace for deployment share the same
+code base but they different usages. DreamFace for deployment does not contain the Studio and each application is running
+on a separate port.
+
+You use DreamFace for development to create your application. When your application is ready, you can click on **+BUILD NOW**
+to call the DreamFace Compiler to compile and package your application. This will transform all of the components in the
+repository into to code that can be executed. It will create a ZIP file which will be stored on the development server.
+
+The next action needed is *Deploy this Build* to the deployment server, which means to send the zip file to the deployment
+server. DreamFace for deployment will unzip the file and define it in its list of hosted applications. Once this is done, the
+deployed application can be executed and log your users.
+
+
+For more details on the DreamFace architecture See :ref:`platform-architecture-label`
+
+|
 
 
 
