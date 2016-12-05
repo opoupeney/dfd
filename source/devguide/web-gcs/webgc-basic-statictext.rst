@@ -21,7 +21,7 @@ identify different sections of the View. They can also be used to add context to
 Features
 --------
 * Complete Styling with CSS, CSS Classes or Dynamic Classes
-* Hide or Show Capabilies
+* Dynamic Hide or Show Capabilies
 * Easy Tooltip setting and tooltip positionning
 * Full set of Events (ie. On Click or Mouse Over, ...)
 
@@ -71,8 +71,9 @@ Tooltip Properties
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Tooltip Properties** | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Tooltip Text           |  Any text         | Tip to help the user know what to do. It will be displayed when mouse passes over this     |
-|                        |                   | control. The Tooltip Text can also be an expression.                                       |
+| Tooltip Text           | Angular expression| Tip to help the user know what to do. It will be displayed when mouse passes over this     |
+|                        |                   | control. The Tooltip Text can also be an expression,for example 'this is the tool' + 'TIP' |
+|                        |                   | would display in the tooltip *this is the toolTIP*                                         |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Tooltip Direction      | Left, Top,        | A radio button is provided with the values Left, Top, Bottom or Right corresponding to the |
 |                        | Bottom, Right     | position where the tooltip will be displayed relative to the text.                         |

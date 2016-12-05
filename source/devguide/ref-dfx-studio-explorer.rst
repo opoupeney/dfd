@@ -1,7 +1,7 @@
 .. _dfx-studio-explorer-label:
 
 The Explorer
-============
+############
 
 
 The Application Explorer is presented in a hierarchical tree structure control. The first level of the tree contains:
@@ -16,7 +16,7 @@ Platform, Applications, Shared Catalog Options
 
 
 Platform
---------
+********
 
 **Platform** give access to platform parameter settings that apply across applications. The Platform options include:
 
@@ -32,7 +32,7 @@ Platform
 |
 
 Developers
-^^^^^^^^^^
+==========
 
 Because developers can work on more than one application they need to be added at the platform level. All parameters set
 at the Platform level are global.
@@ -97,7 +97,7 @@ the admin checkbox.
 |
 
 Cloud Parameters
-^^^^^^^^^^^^^^^
+================
 
 There are currently two options available in setting global Cloud Parameters:
 
@@ -107,7 +107,7 @@ There are currently two options available in setting global Cloud Parameters:
 |
 
 IBM Bluemix Cloud Settings
-,,,,,,,,,,,,,,,,,,,,,,,,,,
+--------------------------
 
 DreamFace is a Bluemix Service. When you are logged in to your Bluemix account and you select the DreamFace Service
 you are logged in automatically through your Bluemix account credentials and you arrive directly in the DreamFace Studio
@@ -147,21 +147,8 @@ and its done and ready to use. You will now be able to access your application v
 
 |
 
-Settings
-^^^^^^^^
-
-Setting groups all other platform Parameters which must be set. Currently there is just one, **Google Maps API KEY**.
-
-All Google Maps JavaScript API applications require authentication. DreamFace supports the use of the API Key for
-authentication with Google Maps. Please consult Google Maps on how to get you API key. Once you have it, you can enter
-it here and use it when you embed Google Maps in your application.
-
-The API key allows you to monitor your application's API usage in the Google API Console. See Google API Console help
-for more information. With a key, you have access to a free daily quota for usage.
-
-
 PhoneGap Build Parameters
-,,,,,,,,,,,,,,,,,,,,,,,,,
+-------------------------
 
 
 DreamFace packages your application assets (HTML5, CSS, Javascript) in a zip file in the DreamFace Build Manager. You can
@@ -177,10 +164,34 @@ the Adobe® PhoneGap™ Build cloud service and it will compile and generate you
 systems and phones.
 
 |
+
+Settings
+========
+
+The Settings option groups together all other platform Parameters which can be set. Currently there is just one:
+
+* **Google Maps API KEY** - an API Key supplied by Google for authentication and managing usage.
+
+Google Maps API Key
+-------------------
+
+All Google Maps JavaScript API applications require authentication. DreamFace supports the use of the Google Maps API key
+when using Google Maps in your application.
+
+An API key is a unique identifier that you generate using the Google API console. The API key allows you to monitor your
+application's API usage in the Google API Console. With an API key you have access to a free daily quota for usage. Check
+the Google Maps API key and API Console help for more information.
+
+Using an API key does not require any user action or consent. API keys do not grant access to any account information,
+and are not used for authorization.
+
+Once your API Key has been generated, you can enter it here and use it when you call Google Maps APIs to embed Google
+Maps in your application.
+
 |
 
 Applications
-------------
+************
 
 The Application Explorer gives you access to the three main tasks that you perform when building an application:
 
@@ -512,6 +523,7 @@ Personalization is used to define restrictions, pre-defined values for graphical
 for each role. It will be available in a later release. Feel free to contact DreamFace Support to find out more or ask
 for a roadmap.
 
+|
 
 Develop
 ^^^^^^^
@@ -655,7 +667,7 @@ For more details on the DreamFace architecture See :ref:`platform-architecture-l
 
 
 Shared Catalog
---------------
+**************
 
 The Shared Catalog is a special application that is created by default to allow the developers to reuse any application
 component across multiple applications within the same tenant.
