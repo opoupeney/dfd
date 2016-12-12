@@ -11,11 +11,10 @@ Main Properties
 |                        |                    | :term:`GC`. It is set to 'default' by default. For more information on how to use Templates|
 |                        |                    | see :ref:`dfx-templates-label`.                                                            |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
-| **Name**               | txtText#           | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                    | and set component properties. DreamFace gives a default name that refers to the :term:`GC` |
-|                        |                    | followed a number which cooresponds to the order in which the control was created. For     |
-|                        |                    | example, a *statictext* would have a default name of *txtText#*. The second statictext     |
-|                        |                    | created will have a default name of *txtText2*. Name is not required and can be removed if |
+| **Name**               | gcName#            | This is the technical name of the Graphical Control. It is a reference to the component's  |
+|                        |                    | DOM element. It can be used to dynamically access and set component properties. DreamFace  |
+|                        |                    | gives a default name that refers to the :term:`GC` followed a number which cooresponds to  |
+|                        |                    | the order in which the control was created. Name is not required and can be removed if not |
 |                        |                    | needed. For a complete list see :ref:`style-gcnames-label`.                                |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
 | **Text**               | Any text in quotes | Any text that will be displayed in the field. It should be in quotes, otherwise it will be |
@@ -33,6 +32,26 @@ Main Properties
 |                        |                    | in Preview Mode when testing the View.                                                     |
 |                        |                    |                                                                                            |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
+| **Icon**               | favicon            | Click on the **...** to the right of the field to display a list of icons                  |
+|                        |                    | :ref:`dfx-icons-label` to select from.                                                     |
+|                        |                    |                                                                                            |
++------------------------+--------------------+--------------------------------------------------------------------------------------------+
+| **Icon Position**      | *Left* or          | Select one of the options *Left*, *Center* or *Right* to display in that postion in the    |
+|                        | *Center* or        | button. If there is a label on the button and *Center* is selected, it will display on the |
+|                        | *Right*            | left of the text. In this example *left* is selected (also the default)                    |
+|                        |                    |         .. image:: ../../images/gcs/dfx-icon-position.png                                  |
+|                        |                    | which would look like this at preview time                                                 |
+|                        |                    |        .. image:: ../../images/gcs/dfx-icon-position-preview.png                           |
++------------------------+--------------------+--------------------------------------------------------------------------------------------+
+| **Menu Items**          | Item Editor        | Clicking on the edit menu items field                                                      |
+|                        |                    |                                                                                            |
+|                        |                    |         .. image:: ../../images/gcs/dfx-main-properties-menu.png                           |
+|                        |                    |                                                                                            |
+|                        |                    | will open the Menu Editor and allow you to define menu items for use on the Button         |
+|                        |                    |                                                                                            |
+|                        |                    |         .. image:: ../../images/gcs/dfx-properties-menu-editor.png                         |
+|                        |                    |                                                                                            |
++------------------------+--------------------+--------------------------------------------------------------------------------------------+
 | **Display**            | *true* or *false*  | This is a property to show or hide the :ter:`GC`.                                          |
 |                        |        or          | The value can either be a literal *true* to display the field or *false* to hide it, or it |
 |                        | boolean expression | can be a angular expression that evaulates to *true* or *false*, for example,              |
@@ -48,5 +67,12 @@ Main Properties
 |                        |                    |                                                                                            |
 |                        |                    | See :ref:`angular-expression-label`  for more help on Angular Boolean Expressions          |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
+| **Disabled**           | *true* or *false*  | *true* to disable the field or *false* to make it active or it be a angular expression that|
+|                        | angular expression | evaulates to *true* or *false*, for example,                                               |
+|                        |                    |                                                                                            |
+|                        |                    | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false                           |
+|                        |                    |                                                                                            |
++------------------------+--------------------+--------------------------------------------------------------------------------------------+
+
 
 |

@@ -57,6 +57,8 @@ Glossary
         A framework refers to a collection of libraries/classes with the common goal of providing a scaffold on which to build software. Frameworks might completely alter how you implement your program or they might just speed up common tasks. Example usage: "I built this app using an MVC framework for the backend."
     Full-Stack
         A Fullstack developer is a developer that can develop both the client and server sides of an application and who has familiarity at each layer of the technology stack from UX/UI to APIs to Data Modeling, Business Logic and Sever.
+    GC
+       GC is an abbreviation for Graphical Control. DreamFace provides predefined Graphical Controls like input fields, button, graphs, etc. in the View Editor that can be used to define the :term:`UI` of a DreamFace application.
     grunt
         A command-line utility for running build scripts.
     graphical controls

@@ -42,7 +42,7 @@ Try some Sample Statictext controls
 Reference
 ---------
 
-The Statictext control can be set for the following categories of properties:
+The Statictext control can define the following categories of properties:
 
 * :ref:`webgc-text-main-label`
 * :ref:`webgc-text-styling-label`

@@ -53,6 +53,7 @@ Developers Reference
     ref-dfx-signin
     ref-dfx-studio
     ref-dfx-studio-explorer
+    ref-dfx-editors.rst
     ref-dfx-create-app
     dfx-concepts-templates
     ref-graphical-controls
