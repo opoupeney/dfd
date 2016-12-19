@@ -3,8 +3,8 @@
 Angular Expressions
 ===================
 
-Many DreamFace graphical controls use Angular Expressions to define labels or content. Whenever you see a value in
-single quotes, for example 'Button' or when a property requires a *true* or *false* value you can use an
+Many DreamFace graphical controls use Angular Expressions to define text, labels or content. Whenever you see a value in
+single quotes, for example 'Text', 'Label' or 'Button' or when a property requires a *true* or *false* value you can use an
 :term:`Angular expression`.
 
 Like javascript expressions, Angular expressions can contain any set of literals (text inside single quotes), scope
@@ -62,3 +62,4 @@ Angular Expression `Cheatsheet <https://docs.angularjs.org/guide/expression>`_
 
 |
 |
+

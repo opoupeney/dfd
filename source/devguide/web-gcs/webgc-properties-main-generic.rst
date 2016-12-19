@@ -17,33 +17,64 @@ Main Properties
 |                        |                    | the order in which the control was created. Name is not required and can be removed if not |
 |                        |                    | needed. For a complete list see :ref:`style-gcnames-label`.                                |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
-| **Text**               | Any text in quotes | Any text that will be displayed in the field. It should be in quotes, otherwise it will be |
-|                        |         or         | interpreted as a scope variable.                                                           |
-|                        | angular expression |                                                                                            |
-|                        |         or         | **Text can also be an angular expression** which will be evaluated at runtime.             |
-|                        | scope variable     |                                                                                            |
-|                        |                    | See more about how to define :ref:`angular-expression-label` here.                         |
+| **Binding**            | scope variable     | Binding is a Graphical Control input property to databind to a scope variable. A scope     |
+|                        |                    | variable name can be added directly typing the name in the Binding property field or by    |
+|                        |                    | choosing from a list of possible scope variables listed in the Dialog Help. Dialog help can|
+|                        |                    | be reached by clicking **...** on the right hand side of the Binding field.                |
 |                        |                    |                                                                                            |
-|                        |                    | **Note** - If your label doesn't appear in Preview mode, make sure the text is in quotes.  |
-|                        |                    | If you have an angular expression that does not appear in Preview mode it means that their |
-|                        |                    | most likely an error in your angular expression. Take a look at the sample angular         |
+|                        |                    | Bindings can be simple or complex:                                                         |
+|                        |                    |                                                                                            |
+|                        |                    | * Simple Binding - scope variable name, for example *myVar*                                |
+|                        |                    | * Complex Binding - a path to the scope variable, for example *myArray[3].myVar*           |
+|                        |                    |                                                                                            |
+|                        |                    | If the :term:`GC` is in a repeatable panel and needs to be bound to a repeatable item, use |
+|                        |                    | *$dfx_item.myVar* to get the value. For more information on $dfx_item see                  |
+|                        |                    | :ref:`gcs-dfx-varibles`                                                                    |
+|                        |                    |                                                                                            |
++------------------------+--------------------+--------------------------------------------------------------------------------------------+
+| **Text** or **Label**  | Any text in quotes | Any Text / Label that will be displayed in the field. It should be in quotes, otherwise it |
+|                        |         or         | will be interpreted as a scope variable.                                                   |
+|                        | angular expression |                                                                                            |
+|                        |         or         | Text / Label can also be an angular expression which will be evaluated at runtime.         |
+|                        | scope variable     |                                                                                            |
+|                        |                    | See more about how to define an :ref:`angular-expression-label` here.                      |
+|                        |                    |                                                                                            |
+|                        |                    | **Note** - If your text / label does not appear in Preview mode, make sure the text is in  |
+|                        |                    |  quotes. If you have an angular expression that does not appear in Preview mode it could   |
+|                        |                    | mean that there is an error in your angular expression. Take a look at the sample angular  |
 |                        |                    | expressions in the Samples Gallery. If your expression contains an apostrophe, use double  |
 |                        |                    | quotes. For example "It's a button" would evaluate to: *It's a button* at runtime or in    |
-|                        |                    | in Preview Mode when testing the View.                                                     |
+|                        |                    | in Preview Mode when testing the View Editor.                                              |
 |                        |                    |                                                                                            |
+|                        |                    | Text / Label can also be a scope variable. The scope variable name can be added directly   |
+|                        |                    | in the Text / Label property field or can be chosen from a list of possible scope variables|
+|                        |                    | in the Dialog Help. Dialog help can be reached by clicking **...** on the right side of the|
+|                        |                    | Text / Label property field.                                                               |
+|                        |                    |                                                                                            |
+|                        |                    | Scope variables can be simple or complex:                                                  |
+|                        |                    |                                                                                            |
+|                        |                    | * Simple  - scope variable name, for example *myVar*                                       |
+|                        |                    | * Complex - a path to the scope variable, for example *myArray[3].myVar*                   |
+|                        |                    |                                                                                            |
+|                        |                    | If the :term:`GC` is in a repeatable panel and needs to be bound to a repeatable item, use |
+|                        |                    | *$dfx_item.myVar* to get the value. For more information on $dfx_item see                  |
+|                        |                    | :ref:`gcs-dfx-varibles`                                                                    |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
 | **Icon**               | favicon            | Click on the **...** to the right of the field to display a list of icons                  |
 |                        |                    | :ref:`dfx-icons-label` to select from.                                                     |
 |                        |                    |                                                                                            |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
-| **Icon Position**      | *Left* or          | Select one of the options *Left*, *Center* or *Right* to display in that postion in the    |
-|                        | *Center* or        | button. If there is a label on the button and *Center* is selected, it will display on the |
-|                        | *Right*            | left of the text. In this example *left* is selected (also the default)                    |
+| **Icon Position**      | *Left* or          | The icon can be positionned on the right, left or center of the Label. *Center* position   |
+|                        | *Center* or        | only works if the Label is empty or blank. If *center* selected as the icon position when  |
+|                        | *Right*            | the Label is not blank, the position will default to *left*.                               |
+|                        |                    |                                                                                            |
+|                        |                    | Select one of the options *Left*, *Center* or *Right* to display the icon in that postion. |
+|                        |                    | In this example *left* is selected (also the default)                                      |
 |                        |                    |         .. image:: ../../images/gcs/dfx-icon-position.png                                  |
 |                        |                    | which would look like this at preview time                                                 |
 |                        |                    |        .. image:: ../../images/gcs/dfx-icon-position-preview.png                           |
 +------------------------+--------------------+--------------------------------------------------------------------------------------------+
-| **Menu Items**          | Item Editor        | Clicking on the edit menu items field                                                      |
+| **Menu Items**         | Item Editor        | Clicking on the edit menu items field                                                      |
 |                        |                    |                                                                                            |
 |                        |                    |         .. image:: ../../images/gcs/dfx-main-properties-menu.png                           |
 |                        |                    |                                                                                            |

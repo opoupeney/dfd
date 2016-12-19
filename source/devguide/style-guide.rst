@@ -1,7 +1,7 @@
 .. _style-label:
 
-Programming Style Guide and Naming Conventions
-==============================================
+Programming Style Guide, Naming Conventions and Shortcut Keys
+=============================================================
 
 
 Conventions in the View Editor
@@ -88,23 +88,46 @@ component naming:
 
 |
 
-==========================   =========  =====================================
-Main Components	             Prefix     Example
-==========================   =========  =====================================
-View (web)	                 view       *wvMyView*, *wviewMyView*
-View (mobile)                mview      *mvMyMobileView*, *mviewMyMobileView*
-API Service Name	         ALLCAPS    *NEWS*
-API Route URL                camelCase  *NEWS/getCNN*
-Shared DataView (web)	     ws         *wsMyWebView*
-Shared DataView (mobile)     ms         *msMyMobileView*
-Shared DataQuery 	         qs         *qsMyDataQuery*
-Page                         none       No prefix
-Application                  none       No prefix
-==========================   =========  =====================================
+==========================   ==========  ===============
+Main Components	             Prefix      Example
+==========================   ==========  ===============
+View (web)                   wv          wvMyView
+View (mobile)                mv          mvMyMobileView
+API Service Name             ALLCAPS     NEWS
+API Route URL                camelCase   NEWS/getCNN
+Shared View (web)            ws          wsMyWebView
+Shared View (mobile)         ms          msMyMobileView
+Shared DataQuery             none        No prefix
+Page                         none        No prefix
+Application                  none        No prefix
+==========================   ==========  ===============
 
 |
+|
+
+Shortcut Keys
+^^^^^^^^^^^^^
+
+Windows
+-------
+
+=============   ==========  ===============================
+Shortcut Key	Function    Description
+-------------   ----------  -------------------------------
+Ctrl-S          Save        Save shortcut in View Editor
+=============   ==========  ===============================
 
 
+Mac
+---
+
+=============   ==========  ===============================
+Shortcut Key	Function    Description
+-------------   ----------  -------------------------------
+⌘-S, cmd-S      Save        Save shortcut in View Editor
+=============   ==========  ===============================
+
+|
 |
 
 .. _style-gcnames-label:
@@ -113,6 +136,8 @@ Default Graphical Control Names
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Below is a list of default :term:`GC` names for all Graphical Controls in the View Editor:
+
+|
 
 ==================   =========   ======   ===================
 Graphical Controls   Group       Prefix   Default Name

@@ -1,3 +1,5 @@
+.. _gcs-styling-label:
+
 Styling Graphical Controls
 ==========================
 
@@ -31,7 +33,7 @@ take effect directly on the *Sample Text* at the top as in the example below for
 |
 
 Defining Classes in the Styles Editor
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 CSS classes that can be used to style the graphical contols like buttons, text fields, inputs, etc. are defined in the
 Styles Editor, inside the View Editor of the DreamFace Studio.
@@ -42,6 +44,15 @@ the Styles Editor.
 .. image:: ../images/gcs/style-editor.png
 
 |
+
+Style Precendence
+^^^^^^^^^^^^^^^^^
+
+The styles take effect with the following precedence: Style, Class and Dynamic Class and have a cumulative effect. For
+example, if color is set to red *color:red* in the Style field, even if the color is set in Class or Dynamic Class the
+Style value will take precedence and the :term:`GC` will be red. Other attributes that are set in the Class or Dynamic
+Class will be added to the attributes set in the Style for a cumulative effect.
+
 
 See it in Action
 ^^^^^^^^^^^^^^^

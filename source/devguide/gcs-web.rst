@@ -45,6 +45,7 @@ applications :
    :maxdepth: 1
 
    ./web-gcs/webgc-basic-statictext
+   ./web-gcs/webgc-basic-statictext2
    ./web-gcs/webgc-basic-button
    ./web-gcs/webgc-basic-icon
    ./web-gcs/webgc-basic-image

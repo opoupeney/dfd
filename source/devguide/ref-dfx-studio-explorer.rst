@@ -71,6 +71,7 @@ Lets create a new developer. Click on the Create Developer button to add a new d
 Now just fill in the fields. Login is the username that Jack will use to Sign In and the other fields.
 
 .. figure:: ../images/devguide/dfx-dev-create-jrussel.png
+   :width: 400px
 
    Figure : *Creating developer Jack Russel*
 
@@ -193,31 +194,32 @@ Maps in your application.
 Applications
 ************
 
-The Application Explorer gives you access to the three main tasks that you perform when building an application:
+The Applications Option in The Explorer gives access to the three main tasks that you perform when building an application:
 
 |
 .. image:: ../images/devguide/dfx-app-explorer.png
 
 |
 
-* **Configure** - The Configuration setting that determine the behavior of your application and how it interacts with other systems.
-* **Develop** - The Components section of the Studio gives provides editors to create the differnt components of your application.
-* **Deploy** - The Build Mangagement and Deploymet of your application to Cloud or Mobile.
+* **Configure** - Set the Configuration settings that determine the behavior of your application and how it interacts with other systems.
+* **Develop** - Develop the application components and compose the application.
+* **Deploy** - Build and Deploy your application to the Cloud or Mobile platforms.
 
-Development with DreamFace is truly configure, develop and do devops. Modern development includes devops.
+DreamFace development is configuration, development and build management and deployment. DreamFace provides a modern
+approach to application development where DEV includes development and devops.
 
 |
 
 Configure
-^^^^^^^^^
+=========
 
-The Configuration menu allows us to set different Application Properties which determine application behavior internally
-and also how the application interacts will external systems.
+The Configuration menu allows us to set different application parameters which determine how the application behaves
+internally and how the application interacts will external systems.
 
 |
 
 .. image:: ../images/devguide/dfx-app-configure.png
-   :width: 700px
+
 
 In the Explorer (left nav) under the Configure menu option, all of the settings options are listed.  When you click on one,
 for example General, the GENERAL Tab is highlighted at the top of the panel to show that it is the current Tab. You can
@@ -227,7 +229,7 @@ Tab per menu option and sub-option. You can decide which way is easiet for you t
 |
 
 General
-,,,,,,,
+-------
 
 |
 
@@ -241,19 +243,21 @@ In GENERAL settings there are three application properties that can be defined:
 * Mobile Login Page Definition
 
 
-**Application Properties**
+Application Properties
+^^^^^^^^^^^^^^^^^^^^^^
 
 The Application Properities are defined her. These include Application Name, Application Title, Logo and Creation Date/Time stamp.
 See :ref:`app-create-label` to see how to define General Application Properities and create an application.
 
 
-**Web Login Page Definition**
+Web Login Page Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This option contains the code to generate your Web application login. You are free to modify this code to your web application
 requirements.
 
-**Mobile Login Page Definition**
-
+Mobile Login Page Definition
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This option contains the code to generate your Web application login. You are free to modify this code to your web application
 requirements.
@@ -261,7 +265,7 @@ requirements.
 |
 
 Devops
-,,,,,,
+------
 
 Under the Devops settings there are three categories of settings:
 
@@ -269,14 +273,16 @@ Under the Devops settings there are three categories of settings:
 * **Collaboration** - defines team collaboration on Slack
 * **Github** - defines a Github Repository for the application
 
-**Environments**
+Environments
+^^^^^^^^^^^^
 
 Defines running application Environments. More to come here. Please contact DreamFace support if you would like more
 information or a roadmap.
 
 |
 
-**Collaboration**
+Collaboration
+^^^^^^^^^^^^^
 
 .. image:: ../images/devguide/dfx-config-collaboration.png
    :width: 600px
@@ -287,7 +293,8 @@ inform the team that a change has been made.
 
 |
 
-**Github**
+Github
+^^^^^^
 
 .. image:: ../images/devguide/dfx-config-github.png
    :width: 600px
@@ -299,7 +306,7 @@ instance somewhere those application components can be imported to the local rep
 |
 
 API Sources
-,,,,,,,,,,,
+-----------
 
 Accessing backend APIs with DreamFace is done in a very powerful decoupled way. The first step is to define the source of
 of the API, where this API is coming from and which authentication protocol and developer credentials are needed to access
@@ -358,7 +365,7 @@ independent from the source definition.
 |
 
 Resources
-,,,,,,,,,
+---------
 
 Under the Resources settings there are four categories of settings:
 
@@ -373,7 +380,9 @@ Under the Resources settings there are four categories of settings:
 
 |
 
-**Javascript**
+Javascript
+^^^^^^^^^^
+
 
 When a creating a View you may want to use some javascript code that is not local to the View or you may want to use the
 code in several Views. Javascript files can be created here with the code editor or imported (dropped) into the Application
@@ -403,7 +412,9 @@ The file will appear in the Javascript Resources with the name given during crea
 
 |
 
-**CSS**
+CSS
+^^^^
+
 
 :term:`CSS` resources can be created here in the code editor or imported (dropped). Once a CSS file is part of the resources
 it is added to the application environment and can be accessed throughout the application.
@@ -429,7 +440,8 @@ The file will appear in the CSS Resources with the name given during creation an
 
 |
 
-**Images & Assets**
+Images & Assets
+^^^^^^^^^^^^^^^
 
 Images and other assets can be imported (dropped) in the the Application Resources and added to the application environment.
 As with Javascript and CSS files, they will be attached and accessible throughout the application.
@@ -437,8 +449,7 @@ As with Javascript and CSS files, they will be attached and accessible throughou
 |
 
 Users and Roles
-,,,,,,,,,,,,,,,
-
+---------------
 
 Application Users are the end users of the application and are different from developers. They need different access rights
 and roles. These users and roles can be defined here.
@@ -451,7 +462,9 @@ There is also one defaut role created at the beginning, the *guest* role.
 
 Users are defined by properties and roles.
 
-**User Object Definition**
+User Object Definition
+^^^^^^^^^^^^^^^^^^^^^^
+
 
 .. image:: ../images/devguide/dfx-config-users-object.png
 
@@ -470,7 +483,9 @@ The Application User calls a View, the View calls an API Service, if the role of
 list of roles for that service, it won't be executed and an error will be triggered.
 
 
-**Roles**
+Roles
+^^^^^
+
 
 Roles define the different roles of a user can have. By default there is a *guest* role.
 
@@ -490,7 +505,8 @@ are defined in Role Properties.
 User rights can be associated with the Role. By default *API Execution Rights* are granted. This means that the user can
 exectute a query and access the data coming from API Routes defined in DreamFace.
 
-**Application Users**
+Application Users
+^^^^^^^^^^^^^^^^^
 
 Once the User credentials and Roles are defined, the actual Application Users need to be defined. By default, *appuser*
 is defined when the application is created.
@@ -517,7 +533,7 @@ can be used as the Default role, in this case the default is the *guest* role.
 |
 
 Personalization
-,,,,,,,,,,,,,,,
+---------------
 
 Personalization is used to define restrictions, pre-defined values for graphical controls or access rights to some pages
 for each role. It will be available in a later release. Feel free to contact DreamFace Support to find out more or ask
@@ -526,7 +542,7 @@ for a roadmap.
 |
 
 Develop
-^^^^^^^
+=======
 
 Application Components include:
 
@@ -556,7 +572,7 @@ nav, ...), to a page of the application. Cards and View Cards allow us to stay o
 |
 
 Pages
-,,,,,
+-----
 
 A Page is an assembly or composition of Views surrounded by a Page Template that determines how it will be presented.
 
@@ -574,7 +590,7 @@ All Views that are combined on a Page can share the Page scope to pass data from
 
 
 Views
-,,,,,
+-----
 
 A View is a user interface component. In the Angular sense a View is an Angular Module. In the View Editor in the script
 the View is the definition of the Angular Module for the current View. The module has a controller that is the main function
@@ -592,7 +608,7 @@ When the View is deployed it becomes an Angular Module.
 |
 
 API Service Object
-,,,,,,,,,,,,,,,,,,
+------------------
 
 In DreamFace we build Views and Pages that can consume APIs.
 
@@ -629,7 +645,7 @@ The different API Services in the Service Object are methods.
 |
 
 Deploy
-^^^^^^
+======
 
 Once your application is finished and your are satisified with its functionality and behavior you can deploy it.
 
@@ -665,7 +681,6 @@ For more details on the DreamFace architecture See :ref:`platform-architecture-l
 |
 
 
-
 Shared Catalog
 **************
 
@@ -675,6 +690,7 @@ component across multiple applications within the same tenant.
 It is also possible to share Application Components across tenants by exporting / importing with the Github interface
 in DreamFace.
 
+|
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
