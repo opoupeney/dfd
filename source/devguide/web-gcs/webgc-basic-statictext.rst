@@ -44,72 +44,55 @@ Reference
 
 The Statictext control can define the following categories of properties:
 
-* :ref:`webgc-text-main-label`
-* :ref:`webgc-text-styling-label`
-* :ref:`webgc-text-tooltip-label`
-* :ref:`webgc-text-events-label`
+Main Properties
+^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-text
+   webgc-prop-main-display
 
 |
 
-.. _webgc-text-main-label:
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
 
-.. include:: webgc-properties-main.rst
+.. toctree::
+   :maxdepth: 1
 
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
 |
-
-.. _webgc-text-styling-label:
-
-.. include:: webgc-styling.rst
-
-|
-
-.. _webgc-text-tooltip-label:
 
 Tooltip Properties
 ^^^^^^^^^^^^^^^^^^
-
 Tooltip properties allow us to set the text and style of the tooltip that will appear when we hover the mouse over the
 :term:`GC`.
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Tooltip Properties** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Text                   | 'string' or       | This is the text of the tooltip which contains instructions to help the user know what to  |
-|                        | scope variable or | do. It will be displayed when mouse passes over the :term:`GC`. The Text can also be an    |
-|                        | angular expression| expression,`for example 'this is the tool' + 'TIP' would display *this is the toolTIP*.    |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Direction              | Left, Top,        | The value of this field indicates where the tooltip text will appear. A radio button is    |
-|                        | Bottom, Right     | provided with the values Left, Top, Bottom or Right corresponding to the position where the|
-|                        |                   | tooltip will be displayed relative to the :term:`GC`.                                      |
-|                        |                   |                                                                                            |
-|                        |                   |   .. image:: ../../images/gcs/web/wgc-statictext-tooltip-direction.png                     |
-|                        |                   |      :width: 400px                                                                         |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
-|                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
-|                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |
-|                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
-|                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
-|                        |                   |                                                                                            |
-|                        |                   |   .. image:: ../../images/gcs/dfx-styles-editor.png                                        |
-|                        |                   |      :width: 300px                                                                         |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Class                  | CSS class         | Name of CSS class(es) separated by a space, to use to style the :term:`GC`.                |
-|                        |                   | For more on styling :term:`GC`s see :ref:`gcs-styling-label`                               |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-tooltip-text
+   webgc-prop-tooltip-direction
+   webgc-prop-style
+   webgc-prop-class
+
+       |
+
+Event Properties
+^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events.rst
 
 |
-
-See :ref:`gcs-styling-label`
-
-
-.. _webgc-text-events-label:
-
-.. include:: webgc-events.rst
-
 |
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

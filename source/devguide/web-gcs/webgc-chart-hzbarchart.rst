@@ -40,7 +40,6 @@ Reference
 
 The Horizontal Barchart control properties can be set for the following property categories:
 
-* :ref:`webgc-hzbarchart-main-label`
 * :ref:`webgc-hzbarchart-options-label`
 * :ref:`webgc-hzbarchart-render-label`
 * :ref:`webgc-hzbarchart-styling-label`
@@ -48,11 +47,33 @@ The Horizontal Barchart control properties can be set for the following property
 
 |
 
-.. _webgc-hzbarchart-main-label:
-
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |

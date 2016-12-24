@@ -20,15 +20,15 @@ providing the current list of functions that are available to be used from the V
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 | **Events**       | Possible Values | Description                                                                                        |
 +==================+=================+====================================================================================================+
-| On Click:        | *function name* | The function is executed when the user clicks on the control triggering the On Click event.        |
+| On Click:        | *Function call* | The function is executed when the user clicks on the control triggering the On Click event.        |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Mouse Over:   | *Function Name* | The function is executed when the user passes the mouse over the control.                          |
+| On Mouse Over:   | *Function call* | The function is executed when the user passes the mouse over the control.                          |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Mouse Leave:  | *Function Name* | The function is executed when the mouse is moved out of the control.                               |
+| On Mouse Leave:  | *Function call* | The function is executed when the mouse is moved out of the control.                               |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On State Change: | *Function Name* | The function is executed when the user presses a mouse button over the control.                    |
+| On State Change: | *Function call* | The function is executed when the user presses a mouse button over the control.                    |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
-| On Render End:   | *Function Name* | The *Mouse Up* event occurs when the mouse is released over the control which triggers the function|
+| On Render End:   | *Function call* | The *Mouse Up* event occurs when the mouse is released over the control which triggers the function|
 |                  |                 | to be executed.                                                                                    |
 +------------------+-----------------+----------------------------------------------------------------------------------------------------+
 

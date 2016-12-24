@@ -154,7 +154,7 @@ This way of using scope variables and functions in the Carousel options (slides)
 .. _webgc-carousel-main-label:
 
 Main Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 |
 

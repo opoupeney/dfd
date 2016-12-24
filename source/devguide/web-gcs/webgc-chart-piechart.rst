@@ -41,18 +41,39 @@ Reference
 
 The Linechart control properties can be set for the following property categories:
 
-* :ref:`webgc-piechart-main-label`
 * :ref:`webgc-piechart-render-label`
 * :ref:`webgc-piechart-styling-label`
 * :ref:`webgc-piechart-events-label`
 
 |
 
-.. _webgc-piechart-main-label:
-
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |

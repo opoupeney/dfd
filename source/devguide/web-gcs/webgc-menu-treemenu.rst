@@ -49,7 +49,7 @@ Reference
 
 The Treemenu control properties can be set for the following property categories:
 
-* :ref:`webgc-treemenu-main-label`
+
 * :ref:`webgc-treemenu-menu-label`
 * :ref:`webgc-treemenu-render-label`
 * :ref:`webgc-treemenu-styling-label`
@@ -57,10 +57,31 @@ The Treemenu control properties can be set for the following property categories
 
 |
 
-.. _webgc-treemenu-main-label:
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
 
 |
 

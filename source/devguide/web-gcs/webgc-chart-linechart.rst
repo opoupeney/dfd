@@ -40,7 +40,6 @@ Reference
 
 The Linechart control properties can be set for the following property categories:
 
-* :ref:`webgc-linechart-main-label`
 * :ref:`webgc-linechart-options-label`
 * :ref:`webgc-linechart-render-label`
 * :ref:`webgc-linechart-styling-label`
@@ -48,11 +47,33 @@ The Linechart control properties can be set for the following property categorie
 
 |
 
-.. _webgc-linechart-main-label:
-
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |

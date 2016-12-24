@@ -60,10 +60,34 @@ The Fab control properties can be set for the following property categories:
 
 |
 
-.. _webgc-fab-main-label:
+Main Properties
+^^^^^^^^^^^^^^
 
-FAB Main Properties
-^^^^^^^^^^^^^^^^^^^
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |
@@ -84,16 +108,6 @@ FAB Main Properties
 | Menu Icon              | `Name of the      | The value can either be a literal *true* to display the field or *false* to hide it. It can|
 |                        | favicon`          | also be a angular expression that evaulates to *true* or *false*, for example,             |
 |                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display                | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
-|                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
-|                        |                   |                                                                                            |
-|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Disabled               | *true* or *false* | The value can either be a literal *true* to display the field or *false* to hide it, or it |
-|                        | angular expression| be a angular expression that evaulates to *true* or *false*, for example,                  |
-|                        |                   |                                                                                            |
-|                        |                   | 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to false.                          |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
 

@@ -43,24 +43,40 @@ Reference
 
 The Button control properties can be set for the following categories of properties:
 
-* :ref:`webgc-button-main-label`
-* :ref:`webgc-button-wait-label`
-* :ref:`webgc-button-styling-label`
-* :ref:`webgc-button-events-label`
-
-
 |
 
-.. _webgc-button-main-label:
+Main Properties
+^^^^^^^^^^^^^^
 
+.. toctree::
+   :maxdepth: 1
 
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+       |
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
 
 |
 
 .. _webgc-button-wait-label:
 
 Wait Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Menu Items**         | Possible Values   | Description                                                                                |
@@ -84,7 +100,7 @@ Wait Properties
 .. _webgc-button-menu-label:
 
 Menu Items
-^^^^^^^^^
+^^^^^^^^^^
 
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+

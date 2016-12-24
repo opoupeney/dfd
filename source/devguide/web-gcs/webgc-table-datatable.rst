@@ -41,15 +41,6 @@ Coming Soon
 Reference
 ---------
 
-
-The Date Picker control properties can be set for the following property categories:
-
-* :ref:`webgc-datatable-main-label`
-* :ref:`webgc-datatable-render-label`
-* :ref:`webgc-datatable-styling-label`
-* :ref:`webgc-datatable-events-label`
-
-
 Table columns have a value and can be rendered as one of the following pre-defined graphical controls:
 
 * **Statictext**
@@ -64,7 +55,7 @@ Table columns have a value and can be rendered as one of the following pre-defin
 
 The Datatable control properties can be set for the following property categories:
 
-* :ref:`webgc-datatable-main-label`
+
 * :ref:`webgc-datatable-columns-label`
 * :ref:`webgc-datatable-render-label`
 * :ref:`webgc-datatable-styling-label`
@@ -72,10 +63,34 @@ The Datatable control properties can be set for the following property categorie
 
 |
 
-.. _webgc-datatable-main-label:
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |

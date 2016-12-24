@@ -52,7 +52,7 @@ Reference
 
 The Panel control properties can be set for the following property categories:
 
-* :ref:`webgc-panel-main-label`
+
 * :ref:`webgc-panel-repeatable-label`
 * :ref:`webgc-panel-render-label`
 * :ref:`webgc-panel-styling-label`
@@ -64,10 +64,36 @@ The Panel control properties can be set for the following property categories:
 
 |
 
-.. _webgc-panel-main-label:
 
 Main Properties
-^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
+
+
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values   | Description                                                                                |

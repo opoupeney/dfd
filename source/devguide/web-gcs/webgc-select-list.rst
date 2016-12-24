@@ -42,17 +42,38 @@ Reference
 
 The Select control properties can be set for the following property categories:
 
-* :ref:`webgc-list-main-label`
+
 * :ref:`webgc-list-render-label`
 * :ref:`webgc-list-styling-label`
 * :ref:`webgc-list-events-label`
 
 |
 
-.. _webgc-list-main-label:
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
 
 |
 

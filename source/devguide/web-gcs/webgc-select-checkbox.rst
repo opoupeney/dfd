@@ -42,17 +42,40 @@ Reference
 
 The Checkbox control properties can be set for the following property categories:
 
-* :ref:`webgc-checkbox-main-label`
 * :ref:`webgc-checkbox-render-label`
 * :ref:`webgc-checkbox-styling-label`
 * :ref:`webgc-checkbox-events-label`
 
 |
 
-.. _webgc-checkbox-main-label:
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
+
 
 |
 

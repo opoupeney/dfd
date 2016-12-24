@@ -41,7 +41,6 @@ Reference
 
 The Cummulative Linechart control properties can be set for the following property categories:
 
-* :ref:`webgc-cmlinechart-main-label`
 * :ref:`webgc-cmlinechart-options-label`
 * :ref:`webgc-cmlinechart-render-label`
 * :ref:`webgc-cmlinechart-styling-label`
@@ -49,20 +48,37 @@ The Cummulative Linechart control properties can be set for the following proper
 
 |
 
-.. _webgc-cmlinechart-main-label:
-
 Main Properties
 ^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-label
+   webgc-prop-main-icon
+   webgc-prop-main-display
+   webgc-prop-main-disable
+
+|
+
+Styling Properties
+^^^^^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
 
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Main Properties        | Possible Values   | Description                                                                                |
 +========================+===================+============================================================================================+
-| Name                   | lineChart#        | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                   | and set component properties. DreamFace gives a default name of *linneChart#* where #      |
-|                        |                   | corresponds to the order in which it was created. If it's the second control created it    |
-|                        |                   | will have a default Name of *lineChart2*. Name is not required and can be removed if not   |
-|                        |                   | needed.                                                                                    |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Binding                | $scope variable   | The data table can be bound to a value contained in a $scope variable.                     |
 |                        |                   |                                                                                            |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
