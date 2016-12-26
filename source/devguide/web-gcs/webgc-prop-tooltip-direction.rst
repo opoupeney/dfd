@@ -5,10 +5,17 @@ Tooltip Direction indicates where the tooltip text will appear. A radio button i
 Top, Bottom or Right corresponding to the position where the tooltip will be displayed relative to the :term:`GC`.
 
 
-Radio Selection: *Left, Top, Bottom, Right*
+**Value:** - Radio Selection: *Left, Top, Bottom, Right*
 
+|
 
 .. image:: ../../images/gcs/web/wgc-statictext-tooltip-direction.png
    :width: 400px
 
-The value of this field i                                     |
+**Default:** - *Bottom* the tooltip will be displayed at the bottom of the :term:`GC` by default.
+
+**Notes:**
+
+This is Tooltip position. Can be top, right, bottom, left and set by corresponding radio button.
+
+|

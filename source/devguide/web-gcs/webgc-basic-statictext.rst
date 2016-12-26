@@ -18,15 +18,6 @@ identify different sections of the View. They can also be used to add context to
 
 |
 
-Features
---------
-* Complete Styling with CSS, CSS Classes or Dynamic Classes
-* Dynamic Hide or Show Capabilies
-* Easy Tooltip setting and tooltip positionning
-* Full set of Events (ie. On Click or Mouse Over, ...)
-
-|
-
 See it in Action
 ----------------
 
@@ -42,10 +33,11 @@ Try some Sample Statictext controls
 Reference
 ---------
 
-The Statictext control can define the following categories of properties:
+The Statictext control can define the following properties :
 
 Main Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
+Statictext Main Properties allow us to define the text and display or hide it.
 
 .. toctree::
    :maxdepth: 1
@@ -58,8 +50,9 @@ Main Properties
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
+The Statictext Styling Attributes allow us to add styles, classes, dynamic classes to the text:
 
 .. toctree::
    :maxdepth: 1
@@ -71,28 +64,29 @@ Styling Properties
 
 Tooltip Properties
 ^^^^^^^^^^^^^^^^^^
-Tooltip properties allow us to set the text and style of the tooltip that will appear when we hover the mouse over the
-:term:`GC`.
+Tooltip properties define the text, style and position of the tooltip relative to the Statictext. The tooltip appears
+the mouse hovers over the Statictext :term:`GC`.
 
 .. toctree::
    :maxdepth: 1
 
    webgc-prop-tooltip-text
    webgc-prop-tooltip-direction
-   webgc-prop-style
-   webgc-prop-class
+   webgc-prop-style-style
+   webgc-prop-style-class
 
-       |
+|
 
 Event Properties
 ^^^^^^^^^^^^^^^^
+
+Events properties define the events available and the action to take when an event occurs, for example clicking on the Statictext.
 
 .. toctree::
    :maxdepth: 1
 
    webgc-events.rst
 
-|
 |
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

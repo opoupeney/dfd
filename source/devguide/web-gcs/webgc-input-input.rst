@@ -17,17 +17,6 @@ The Input graphical control is a single-line input field where users can enter d
 
 |
 
-|
-
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-
-|
-
 See it in Action
 ----------------
 
@@ -45,7 +34,7 @@ Reference
 
 The Input Field control properties can be set for the following property categories:
 
-* :ref:`webgc-input-main-label`
+
 * :ref:`webgc-input-validation-label`
 * :ref:`webgc-input-render-label`
 * :ref:`webgc-input-styling-label`
@@ -53,11 +42,7 @@ The Input Field control properties can be set for the following property categor
 
 |
 
-.. _webgc-input-main-label:
 
-
-Main Properties
-^^^^^^^^^^^^^^
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -71,11 +56,11 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
+Styling Attributes
 ^^^^^^^^^^^^^^^^^^
 
 .. toctree::

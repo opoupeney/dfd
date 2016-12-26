@@ -32,10 +32,6 @@ The **select** control properties can be set for the following property categori
 
 Main Properties
 ^^^^^^^^^^^^^^^
-
-Main Properties
-^^^^^^^^^^^^^^
-
 .. toctree::
    :maxdepth: 1
 
@@ -45,12 +41,12 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -118,9 +114,14 @@ Styling
 
 |
 
-.. _webgc-select-events-label:
 
-.. include:: webgc-events-select.rst
+Events
+^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events-select.rst
 
 |
 

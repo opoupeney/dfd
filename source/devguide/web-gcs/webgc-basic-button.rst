@@ -17,15 +17,6 @@ indicate the action to be performed when the button is clicked.
 
 |
 
-Features
---------
-* Buttons can be styled with CSS (plain, classes or dynamic classes or angular material classes)
-* Buttons can have a full set of actions associated with different events (click, mouse over, mouse enter, ...)
-* Buttons can be visible or invisible, enabled or disabled.
-* Buttons can have different shapes rectangular or fab and can have menu attached
-
-|
-
 See it in Action
 ----------------
 
@@ -38,15 +29,18 @@ Try the Sample Buttons
 
 |
 
-Reference
----------
+Button Reference
+----------------
 
-The Button control properties can be set for the following categories of properties:
+A Button can define the following properties:
 
 |
 
 Main Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
+
+Button Main Properties allow us to set the Button Label, Icon, Menu Items if the Button has a menu and whether the Button
+is displayed and enabled.
 
 .. toctree::
    :maxdepth: 1
@@ -56,76 +50,44 @@ Main Properties
    webgc-prop-main-name
    webgc-prop-main-label
    webgc-prop-main-icon
-   webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-icon-type
+   webgc-prop-main-icon-position
+   webgc-prop-main-menuitems
+   webgc-prop-main-disabled
 
-       |
+|
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
+The Button Styling Attributes allow us to add styles, classes, dynamic classes to the Button container, label and menu items:
 
 .. toctree::
    :maxdepth: 1
 
-   webgc-prop-style-style
-   webgc-prop-style-class
-   webgc-prop-style-dynamic
+   webgc-styling-button
 
 |
-
-.. _webgc-button-wait-label:
 
 Wait Properties
 ^^^^^^^^^^^^^^^
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Menu Items**         | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Binding                | Editor            | Beside the Static menu property is a **Edit** link to the Menu Editor. You define the Menu |
-|                        |                   | in the Menu Editor. Once you are satisfied you save the menu that has been defined.        |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Auto-Disabled          | *true* or *false* | This field takes the name of a Dynamic Menu                                                |
-|                        | angular expression|                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon                   | Name              | This field takes the name of a Dynamic Menu                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Style             | Name              | This field takes the name of a Dynamic Menu                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Class             | Name              | This field takes the name of a Dynamic Menu                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-wait
 
 |
 
-.. _webgc-button-menu-label:
+Events
+^^^^^^
 
-Menu Items
-^^^^^^^^^^
+.. toctree::
+   :maxdepth: 1
 
-
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Menu Items**         | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Static                 | Editor            | Beside the Static menu property is a **Edit** link to the Menu Editor. You define the Menu |
-|                        |                   | in the Menu Editor. Once you are satisfied you save the menu that has been defined.        |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic                | Name              | This field takes the name of a Dynamic Menu                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+   webgc-events.rst
 
 |
 
-.. _webgc-button-styling-label:
+ Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
-.. include:: webgc-styling-button.rst
-
-|
-
-.. _webgc-button-events-label:
-
-.. include:: webgc-events.rst
-
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
-
-|
 

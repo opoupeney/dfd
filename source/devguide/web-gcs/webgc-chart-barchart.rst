@@ -16,17 +16,6 @@ The pre-defined Charts graphical controls available in the Widget Editor are bas
 
 |
 
-|
-
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-
-|
-
 See it in Action
 ----------------
 
@@ -59,12 +48,12 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1

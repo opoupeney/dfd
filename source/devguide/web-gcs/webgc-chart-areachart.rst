@@ -14,14 +14,6 @@ The Area Chart control provides a pre-defined areachart. available in the View E
 
 .. image:: ../../images/gcs/web/webgc-areachart.png
 
-|
-
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
 
 |
 
@@ -57,12 +49,12 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1

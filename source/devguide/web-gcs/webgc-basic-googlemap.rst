@@ -17,13 +17,6 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 |
 
-Features
---------
-* Google Maps based on Lattitude and Longitude
-* Directions and Markers using Google Maps API
-
-|
-
 See it in Action
 ----------------
 
@@ -46,8 +39,8 @@ Main Properties
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1

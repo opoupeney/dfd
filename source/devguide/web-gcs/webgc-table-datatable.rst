@@ -20,17 +20,6 @@ multi-selection on rows for treatment as a single row or a group of rows.
 
 |
 
-|
-
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-
-|
-
 See it in Action
 ----------------
 
@@ -75,11 +64,11 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
+Styling Attributes
 ^^^^^^^^^^^^^^^^^^
 
 .. toctree::
@@ -216,9 +205,13 @@ Styling Attributes
 
 |
 
-.. _webgc-datatable-events-label:
+Events
+^^^^^^
 
-.. include:: webgc-events-focus.rst
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events-focus.rst
 
 
 Example

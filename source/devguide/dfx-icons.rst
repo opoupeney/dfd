@@ -18,5 +18,11 @@ Awesome containing the name will be filtered and shown for selection.
 
 |
 
+Click on the Font Awesome Icons label to get a list of Font Awesome Icons to choose from:
+
+.. image:: ../images/gcs/dfx-faicons.png
+
+|
+
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

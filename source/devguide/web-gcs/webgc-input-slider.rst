@@ -18,15 +18,6 @@ for example it could slide between 0 and 100. When the user slides the handle an
 
 |
 
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-
-|
-
 See it in Action
 ----------------
 
@@ -68,12 +59,12 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -99,10 +90,13 @@ This is the rendering section.
 
 |
 
+Events
+^^^^^^
 
-.. _webgc-slider-events-label:
+.. toctree::
+   :maxdepth: 1
 
-.. include:: webgc-events-onchange.rst
+   webgc-events-onchange.rst
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

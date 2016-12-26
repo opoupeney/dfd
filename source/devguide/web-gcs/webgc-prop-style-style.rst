@@ -1,6 +1,9 @@
+.. _webgc-prop-style-label:
+
 Style
 =====
 
+The Style property defines the style of the :term:`GC`.
 |
 
 .. image:: ../../images/devguide/dfx-prop-style-style.png
@@ -10,9 +13,11 @@ Style
 
 **Default:** - *None*
 
-**Notes:** - By clicking on the **...** on the right hand side of the field, a window opens up proposing to change
-attributes for **font**, **color**, **padding** and **margin** presented in a tree. When clicking on the arrow to the
-left of the attribute type, the user is guide by placeholder to enter the correct settings.
+**Notes:**
+
+By clicking on the **...** on the right hand side of the field, a window opens up proposing to change attributes for
+**font**, **color**, **padding** and **margin** presented in a tree. When clicking on the arrow to the left of the
+attribute type, the user is guide by placeholder to enter the correct settings.
 
 |
 

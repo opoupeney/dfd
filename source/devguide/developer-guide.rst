@@ -48,7 +48,7 @@ Developers Reference
 --------------------
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     ref-dfx-signin
     ref-dfx-studio

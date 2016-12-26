@@ -20,17 +20,6 @@ the view.
 
 |
 
-|
-
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-
-|
-
 See it in Action
 ----------------
 
@@ -72,12 +61,12 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -185,11 +174,17 @@ Styling Attributes
 
 |
 
-.. _webgc-hzmenu-events-label:
 
-.. include:: webgc-events.rst
+Events
+^^^^^^
 
-|
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events.rst
+
+
+   |
 
 
 **How to create a treemenu**
@@ -203,12 +198,6 @@ Styling Attributes
 +-------------------------------------------------------------------------------------------------+-------------------------------------------------------+
 
 |
-|
-
-
-.. _webgc-statictext_events-label:
-
-.. include:: webgc-props-events.rst
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

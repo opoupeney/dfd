@@ -18,16 +18,6 @@ DreamFace Studio to add an image as a resource.
 
 |
 
-|
-
-Features
---------
-* Point to any image url or extend DreamFace by adding the image as a resource.
-
-
-
-|
-
 See it in Action
 ----------------
 
@@ -63,12 +53,12 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -125,9 +115,13 @@ Styling Attributes
 
 |
 
-.. _webgc-image-events-label:
+Events
+^^^^^^
 
-.. include:: webgc-events.rst
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events.rst
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

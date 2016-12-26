@@ -17,17 +17,6 @@ A Carousel is a graphical component that lets you scroll easily through a set of
 
 |
 
-|
-
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
-
-|
-
 See it in Action
 ----------------
 
@@ -300,9 +289,14 @@ Styling Attributes
 
 |
 
-.. _webgc-carousel-events-label:
+Events
+^^^^^^
 
-.. include:: webgc-events-focus.rst
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events-focus.rst
+
 
 .. _webgc-tips-label:
 

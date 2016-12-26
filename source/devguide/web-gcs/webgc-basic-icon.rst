@@ -15,15 +15,6 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 .. image:: ../../images/gcs/web/webgc-icon.png
 
-|
-
-Features
---------
-* Full selection of SVG Icons with Categories Menu
-* Full selection of Font Awesome Icons
-* Help feature allows selection / search for icon
-
-|
 
 See it in Action
 ----------------
@@ -42,10 +33,6 @@ Reference
 
 The Icon control properties can be set for the following property categories:
 
-* :ref:`webgc-icon-render-label`
-* :ref:`webgc-icon-styling-label`
-* :ref:`webgc-icon-events-label`
-
 |
 
 .Main Properties
@@ -60,12 +47,12 @@ The Icon control properties can be set for the following property categories:
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -92,9 +79,13 @@ This is the rendering section.
 
 |
 
-.. _webgc-icon-events-label:
+Events
+^^^^^^
 
-.. include:: webgc-events.rst
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events.rst
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

@@ -15,16 +15,6 @@ date for a date field. The user can select and validate a date from a overlay ca
 
 .. image:: ../../images/gcs/web/webgc-datepicker-help.png
    :width: 400px
-|
-
-|
-
-Features
---------
-* Feature 1
-* Feature 2
-* Feature 3
-* Feature 4
 
 |
 
@@ -72,12 +62,12 @@ Main Properties
    webgc-prop-main-label
    webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disable
+   webgc-prop-main-disabled
 
 |
 
-Styling Properties
-^^^^^^^^^^^^^^^^^^^
+Styling Attributes
+^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -162,9 +152,14 @@ Styling Attributes
 
 |
 
-.. _webgc-datepicker-events-label:
 
-.. include:: webgc-events-onchange.rst
+Events
+^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-events-onchange.rst
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
