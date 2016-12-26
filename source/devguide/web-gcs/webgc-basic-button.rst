@@ -53,7 +53,18 @@ is displayed and enabled.
    webgc-prop-main-icon-type
    webgc-prop-main-icon-position
    webgc-prop-main-menuitems
+   webgc-prop-main-display
    webgc-prop-main-disabled
+
+|
+
+Wait Properties
+^^^^^^^^^^^^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-wait
 
 |
 
@@ -65,16 +76,6 @@ The Button Styling Attributes allow us to add styles, classes, dynamic classes t
    :maxdepth: 1
 
    webgc-styling-button
-
-|
-
-Wait Properties
-^^^^^^^^^^^^^^^
-
-.. toctree::
-   :maxdepth: 1
-
-   webgc-prop-wait
 
 |
 

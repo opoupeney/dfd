@@ -36,22 +36,8 @@ Try the Sample Buttons
 Reference
 ---------
 
-
-
 The Chips control properties can be set for the following property categories:
 
-* :ref:`webgc-chips-main-label`
-* :ref:`webgc-chips-render-label`
-* :ref:`webgc-chips-styling-label`
-* :ref:`webgc-chips-events-label`
-
-|
-
-.. _webgc-chips-main-label:
-
-
-Main Properties
-^^^^^^^^^^^^^^^
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -62,8 +48,10 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
-   webgc-prop-main-label
-   webgc-prop-main-icon
+   webgc-prop-main-binding
+   webgc-prop-main-input
+   webgc-prop-main-firstlabel
+   webgc-prop-main-followlabel
    webgc-prop-main-display
    webgc-prop-main-disabled
 
@@ -72,60 +60,28 @@ Main Properties
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
 
+Container Syling
+''''''''''''''''
+
 .. toctree::
    :maxdepth: 1
 
-   webgc-prop-style-style
-   webgc-prop-style-class
-   webgc-prop-style-dynamic
+       webgc-prop-flexwidth
+       webgc-prop-style-style
+       webgc-prop-style-class
+       webgc-prop-style-dynamic
+
+Labels Styling
+''''''''''''''
+
+.. toctree::
+   :maxdepth: 1
+       webgc-prop-style-style
+       webgc-prop-style-class
+       webgc-prop-style-style
+       webgc-prop-style-class
 
 |
-
-
-|
-
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Name                   | chpChips#         | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                   | and set component properties. DreamFace gives a default name of *chpChips#* where #        |
-|                        |                   | corresponds to the order in which it was created. If it's the second chips control created |
-|                        |                   | it will have a default Name of *chpChips2*. Name is not required and can be removed if not |
-|                        |                   | needed.                                                                                    |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| label                  | Any text          | This is the text that will appear under the icon, for example the fa-home icon could have  |
-|                        |                   | the label Home as DreamFace uses as the default for this component.                        |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| icon                   | favicon           | Click on the **...** to the right of the field to select one of the favicons from the list.|
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-icons.png                                              |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-
-|
-
-.. _webgc-chips-render-label:
-
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-
-|
-
-.. _webgc-chips-styling-label:
-
-
-.. include:: webgc-styling-slider.rst
-
-|
-
 
 Events
 ^^^^^^

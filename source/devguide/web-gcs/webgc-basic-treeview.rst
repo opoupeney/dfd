@@ -56,12 +56,9 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
-   webgc-prop-main-label
-   webgc-prop-main-icon
    webgc-prop-main-display
-   webgc-prop-main-disabled
-
-|
+   webgc-prop-main-treeview
+   webgc-prop-main-selected
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
@@ -69,6 +66,10 @@ Styling Attributes
 .. toctree::
    :maxdepth: 1
 
+   webgc-prop-style-flexwidth
+   webgc-prop-style-iconifopened
+   webgc-prop-style-iconifclosed
+   webgc-prop-style-iconcolor
    webgc-prop-style-style
    webgc-prop-style-class
    webgc-prop-style-dynamic
@@ -177,21 +178,7 @@ Styling Attributes
 |                        |                   |                                                                                            |
 |                        |                   |        .. image:: ../../images/gcs/web/wgc-treeview-orange-icon.png                        |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
-|                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
-|                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |
-|                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
-|                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-help-css-styles.png                                 |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Class                  | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Class          | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
-|                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
 
-|
 
 Events
 ^^^^^^

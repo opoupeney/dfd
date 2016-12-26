@@ -37,13 +37,6 @@ Reference
 
 The Progressbar control properties can be set for the following property categories:
 
-* :ref:`webgc-progressbar-main-label`
-* :ref:`webgc-progressbar-render-label`
-* :ref:`webgc-progressbar-styling-label`
-* :ref:`webgc-progressba-events-label`
-
-|
-
 .. _webgc-progressbar-main-label:
 
 Main Properties
@@ -55,10 +48,10 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
+   webgc-prop-main-binding
    webgc-prop-main-label
-   webgc-prop-main-icon
+   webgc-prop-main-progress-type
    webgc-prop-main-display
-   webgc-prop-main-disabled
 
 |
 

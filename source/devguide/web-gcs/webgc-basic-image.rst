@@ -35,11 +35,6 @@ Reference
 
 The Image control properties can be set for the following property categories:
 
-* :ref:`webgc-image-render-label`
-* :ref:`webgc-image-styling-label`
-* :ref:`webgc-image-events-label`
-
-|
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -50,68 +45,34 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
-   webgc-prop-main-label
-   webgc-prop-main-icon
+   webgc-prop-main-source
    webgc-prop-main-display
-   webgc-prop-main-disabled
 
 |
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
+
+Container Syling
+''''''''''''''''
 
 .. toctree::
    :maxdepth: 1
 
+   webgc-prop-style-width
+   webgc-prop-style-height
    webgc-prop-style-style
    webgc-prop-style-class
    webgc-prop-style-dynamic
 
-|
+Image Syling
+''''''''''''''''
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Source                 | url or            | The source of the image. This can be a url indicating the location of the image as shown in|
-|                        | name of a resource| the placeholder in the field '/images/dfx_image_blank.png' surrounded by quotes or it can  |
-|                        |                   | be the *name* of a resource that you have added to DreamFace in the Application > YourApp >|
-|                        |                   | Configuration option of the the Application Explorer. For more information on Configuring  |
-|                        |                   | Resources see
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-
-|
-
-.. _webgc-image-render-label:
-
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-|
-
-.. _webgc-image-styling-label:
-
-Styling Attributes
-^^^^^^^^^^^^^^^^^^
-
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Styling Attributes** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
-|                        |                   | *color:red; background-color:lightgray*.                                                   |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
-|                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Width                  | number of pixels  | The width of the image in pixels, for example 150px, which is the default value.           |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Height                 | number of pixels  |The height of the image in pixels, for example 150px, which is the default value.           |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. toctree::
+   :maxdepth: 1
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
 
 |
 

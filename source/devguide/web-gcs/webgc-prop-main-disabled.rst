@@ -14,7 +14,7 @@ Disabled is a property to enable / disable a :term:`GC` the text that will be di
 * *boolean angular expression* that evaulates to *true* or *false*, for example, 5 > 2 would evaluate to *true* and 5 < 2 would evaluate to *false*.
 * *$scope variable* simple or complex (ie. array) is defined in the script of the View in the Script Editor.
 
-**Default:** *true*
+**Default:** *false*
 
 **Notes:** Check out the Samples Gallery and mini apps for more examples of Dynamic fields that show or hide using the Display property.
 

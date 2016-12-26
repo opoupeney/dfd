@@ -37,12 +37,6 @@ Reference
 
 The HTML control properties can be set for the following property categories:
 
-* :ref:`webgc-html-render-label`
-* :ref:`webgc-html-styling-label`
-* :ref:`webgc-html-events-label`
-
-|
-
 Main Properties
 ^^^^^^^^^^^^^^
 
@@ -52,8 +46,8 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
-   webgc-prop-main-label
-   webgc-prop-main-icon
+   webgc-prop-main-Binding
+   webgc-prop-main-Content
    webgc-prop-main-display
    webgc-prop-main-disabled
 
@@ -65,6 +59,7 @@ Styling Attributes
 .. toctree::
    :maxdepth: 1
 
+   webgc-prop-style-flexwidth
    webgc-prop-style-style
    webgc-prop-style-class
    webgc-prop-style-dynamic

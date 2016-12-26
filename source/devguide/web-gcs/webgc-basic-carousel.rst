@@ -32,18 +32,20 @@ Try the Sample Carousel controls
 Reference
 ---------
 
-
-
 The Carousel control properties can be set for the following property categories:
 
-* :ref:`webgc-carousel-quickstart-label`
-* :ref:`webgc-carousel-main-label`
-* :ref:`webgc-carousel_options-label`
-* :ref:`webgc-carousel-render-label`
-* :ref:`webgc-carousel-styling-label`
-* :ref:`webgc-carousel-events-label`
-* :ref:`webgc-tips-label`
+Button Main Properties allow us to set the Button Label, Icon, Menu Items if the Button has a menu and whether the Button
+is displayed and enabled.
 
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-main-id
+   webgc-prop-main-template
+   webgc-prop-main-name
+   webgc-prop-main-autoslide
+   webgc-prop-main-display
+   webgc-prop-main-options
 
 |
 
@@ -207,11 +209,6 @@ Main Properties
 |                        |                   | will have a default Name of *crsCarousel2*. Name is not required and can be removed if not |
 |                        |                   | needed.                                                                                    |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Auto Slide             | *true* or *false* | *true* to auto-slide the display and *false* to slide manually. The default is *false*.    |
-|                        |                   | This field takes values of *true* or *false* only.                                         |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Slide Interval         | n milliseconds    | This property is only displayed when Auto Slide is equal to *true*. Slide interval takes   |
-|                        |                   | a number in milliseconds. The default is 3000 milliseconds.                                |
 +------------------------+-------------------+--------------------------------------------------------------------------------------------+
 | Display                | expression        | The value can either be a literal *true* to display the field or *false* to hide it, or it |
 |                        | *true* or *false* | be a angular expression that evaulates to *true* or *false*, for example,                  |

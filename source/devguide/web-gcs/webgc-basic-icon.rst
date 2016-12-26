@@ -33,10 +33,8 @@ Reference
 
 The Icon control properties can be set for the following property categories:
 
-|
-
 .Main Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -48,6 +46,7 @@ The Icon control properties can be set for the following property categories:
    webgc-prop-main-icon
    webgc-prop-main-display
    webgc-prop-main-disabled
+
 
 |
 
