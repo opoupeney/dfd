@@ -62,7 +62,7 @@ Knob Properties
 .. toctree::
    :maxdepth: 1
 
-   webgc-prop-main-knob
+   webgc-prop-knob
 
 |
 

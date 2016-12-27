@@ -1,8 +1,9 @@
 Whiteframe
 ==========
 
-Sets the value for the allows elevation shadow of the JSON :term:`GC` called the Whiteframe.
-
+Sets the value for the elevation shadow of an element :term:`GC` called the Whiteframe. The value is in :term:`dp` units,
+the higher the value of the dp the more shadow depth the element will have which helps the user the perception of
+which object is above the other.
 
 .. image:: ../../images/devguide/dfx-prop-main-whiteframe.png
 

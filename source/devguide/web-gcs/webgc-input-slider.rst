@@ -38,15 +38,6 @@ Reference
 
 The Slider control properties can be set for the following property categories:
 
-* :ref:`webgc-slider-main-label`
-* :ref:`webgc-slider-render-label`
-* :ref:`webgc-slider-styling-label`
-* :ref:`webgc-slider-events-label`
-
-|
-
-.. _webgc-slider-main-label:
-
 Main Properties
 ^^^^^^^^^^^^^^^
 
@@ -66,27 +57,34 @@ Main Properties
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
 
+Container Styling
+'''''''''''''''''
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-flexwidth
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+Label Styling
+'''''''''''''
+
 .. toctree::
    :maxdepth: 1
 
    webgc-prop-style-style
    webgc-prop-style-class
-   webgc-prop-style-dynamic
 
-|
+Item Styling
+''''''''''''
 
-.. _webgc-slider-render-label:
+.. toctree::
+   :maxdepth: 1
 
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-|
-
-.. _webgc-slider-styling-label:
-
-.. include:: webgc-styling-slider.rst
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
 

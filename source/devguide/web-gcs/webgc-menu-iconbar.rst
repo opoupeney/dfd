@@ -41,13 +41,6 @@ Reference
 
 The Icon control properties can be set for the following property categories:
 
-* :ref:`webgc-iconbar-main-label`
-* :ref:`webgc-iconbar-render-label`
-* :ref:`webgc-iconbar-styling-label`
-* :ref:`webgc-iconbar-events-label`
-
-
-|
 
 Main Properties
 ^^^^^^^^^^^^^^

@@ -40,14 +40,6 @@ Reference
 
 The Treemenu control properties can be set for the following property categories:
 
-
-* :ref:`webgc-treemenu-menu-label`
-* :ref:`webgc-treemenu-render-label`
-* :ref:`webgc-treemenu-styling-label`
-* :ref:`webgc-treemenu-events-label`
-
-|
-
 Main Properties
 ^^^^^^^^^^^^^^
 

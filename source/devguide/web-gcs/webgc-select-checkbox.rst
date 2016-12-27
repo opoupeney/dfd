@@ -31,10 +31,6 @@ Reference
 
 The Checkbox control properties can be set for the following property categories:
 
-* :ref:`webgc-checkbox-render-label`
-* :ref:`webgc-checkbox-styling-label`
-* :ref:`webgc-checkbox-events-label`
-
 |
 
 Main Properties
@@ -66,7 +62,6 @@ Styling Attributes
 |
 
 
-|
 
 +------------------------+----------------------+--------------------------------------------------------------------------------------------+
 | **Main Properties**    | Possible Values      | Description                                                                                |

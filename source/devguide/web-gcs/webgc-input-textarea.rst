@@ -37,14 +37,6 @@ Reference
 
 The Textarea Field control properties can be set for the following property categories:
 
-
-* :ref:`webgc-textarea-validation-label`
-* :ref:`webgc-textarea-render-label`
-* :ref:`webgc-textarea-styling-label`
-* :ref:`webgc-textarea-events-label`
-
-|
-
 Main Properties
 ^^^^^^^^^^^^^^
 
@@ -55,65 +47,47 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
+   webgc-prop-main-binding
    webgc-prop-main-label
    webgc-prop-main-icon
+   webgc-prop-main-icon-position
+   webgc-prop-main-numrows
    webgc-prop-main-display
    webgc-prop-main-disabled
+
+|
+
+Validation Properties
+^^^^^^^^^^^^^^^^^^^^^
+Coming soon.
 
 |
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
 
+Container Styling
+'''''''''''''''''
+
 .. toctree::
    :maxdepth: 1
 
+   webgc-prop-style-flexwidth
    webgc-prop-style-style
    webgc-prop-style-class
    webgc-prop-style-dynamic
 
-|
+Icon Styling
+''''''''''''
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Binding                | Any text          | The HTML control can be bound to data coming from a service, for example a service that    |
-|                        |                   | goes to a content management system. Text that will be displayed in the field.             |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Content                | Any HTML text     | The content can be edited to enter any HTML text manually in a contextual script editor.   |
-|                        |                   | The new content will be displayed as soon as it is saved.                                  |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-html-editor.png                                     |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-iconsize
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
-
-.. _webgc-textarea-validation-label:
-
-Validation Properties
-^^^^^^^^^^^^^^^^^^^^^
-
-Validation Properties go here.
-
-|
-
-.. _webgc-textarea-render-label:
-
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-
-|
-
-.. _webgc-textarea-styling-label:
-
-.. include:: webgc-styling-slider.rst
-
-|
-
 
 Events
 ^^^^^^
