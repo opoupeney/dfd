@@ -20,20 +20,8 @@ Typically, progress bars are not clickable.
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-progressbar
-
-|
-
-Reference
----------
+Progressbar Reference
+---------------------
 
 The Progressbar control properties can be set for the following property categories:
 
@@ -100,6 +88,16 @@ Events
 
 |
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try the Sample Progressbar controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-progressbar
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

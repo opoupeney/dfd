@@ -5,8 +5,8 @@ Datepicker
 ==========
 
 .. image:: ../../images/icons/input_datepicker.png
-    :width: 50px
-    :height: 50px
+   :width: 50px
+   :height: 50px
 
 The datepicker is a standard input field tied to an interactive overlay calendar component that assists the user in entering a valid
 date for a date field. The user can select and validate a date from a overlay calendar and that value will be copied to the field.
@@ -18,23 +18,15 @@ date for a date field. The user can select and validate a date from a overlay ca
 
 |
 
-See it in Action
-----------------
+Datepicker Quickstart Properties Reference
+------------------------------------------
 
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-datepicker
-
-    |
+Remember that values entered in the properties fields only take effect after they have been saved.
 
 |
 
-Reference
----------
-
+Datepicker Reference
+--------------------
 
 The Date Picker control properties can be set for the following property categories:
 
@@ -55,6 +47,13 @@ Main Properties
 
 |
 
+Validation Properties
+^^^^^^^^^^^^^^^^^^^^^
+* Required
+* Range messages
+
+|
+
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
 
@@ -69,12 +68,6 @@ Styling Attributes
 
 |
 
-Validation Properties
-^^^^^^^^^^^^^^^^^^^^^
-* Required
-* Range messages
-
-
 Events
 ^^^^^^
 
@@ -83,7 +76,19 @@ Events
 
    webgc-events-onchange.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Datepicker controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-datepicker
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

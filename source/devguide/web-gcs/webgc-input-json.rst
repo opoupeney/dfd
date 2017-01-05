@@ -18,19 +18,8 @@ The JSON graphical control is a json editor field where users can enter json.
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Iconss
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-json
-|
-
-Reference
----------
+JSON Reference
+--------------
 
 The Input Field control properties can be set for the following property categories:
 
@@ -75,6 +64,18 @@ Events
 
    webgc-events-onchange.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample JSON controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-json
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

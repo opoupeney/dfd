@@ -1,8 +1,8 @@
 .. image:: ../../images/badges/badge_web.png
    :class: pull-right
 
-Input Field
-===========
+Input
+=====
 
 .. image:: ../../images/icons/input_input.png
     :width: 50px
@@ -17,20 +17,8 @@ The Input graphical control is a single-line input field where users can enter d
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Iconss
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-input
-
-|
-
-Reference
----------
+Input Reference
+---------------
 
 The Input Field control properties can be set for the following property categories:
 
@@ -56,10 +44,18 @@ Main Properties
 Validation Properties
 ^^^^^^^^^^^^^^^^^^^^^
 
-TBD
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-validation
+
+|
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
+
+Container Stying
+''''''''''''''''
 
 .. toctree::
    :maxdepth: 1
@@ -68,6 +64,20 @@ Styling Attributes
    webgc-prop-style-class
    webgc-prop-style-dynamic
 
+|
+
+Icon Styling
+''''''''''''
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-iconsize
+   webgc-prop-style-iconstyle
+   webgc-prop-style-iconclass
+   webgc-prop-style-dynamic
+
+|
 
 Events
 ^^^^^^
@@ -76,6 +86,18 @@ Events
    :maxdepth: 1
 
    webgc-events-onchange.rst
+
+|
+
+See it in Action
+----------------
+
+Try the Sample Input controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-input
 
 |
 

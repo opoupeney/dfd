@@ -18,20 +18,15 @@ identify different sections of the View. They can also be used to add context to
 
 |
 
-See it in Action
-----------------
+Statictext Quickstart Properties Reference
+------------------------------------------
 
-Try some Sample Statictext controls
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-statictext
+Remember that values entered in the properties fields only take effect after they have been saved.
 
 |
 
-Reference
----------
+Statictext Reference
+--------------------
 
 The Statictext control can define the following properties :
 
@@ -87,7 +82,18 @@ Events properties define the events available and the action to take when an eve
 
    webgc-events.rst
 
+|
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try some Sample Statictext controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-statictext
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

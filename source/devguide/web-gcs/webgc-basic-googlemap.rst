@@ -17,14 +17,11 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Maps
-
+Google Maps Reference
+---------------------
 
 Main Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -51,8 +48,11 @@ Styling Attributes
 
 |
 
+See it in Action
+----------------
 
-
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+Try the Sample Maps
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

@@ -22,23 +22,10 @@ and with sample icons:
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-iconbar
-
-|
-
-Reference
----------
+Iconbar Reference
+-----------------
 
 The Icon control properties can be set for the following property categories:
-
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -104,6 +91,18 @@ Events
 
    webgc-events.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Iconbars
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-iconbar
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

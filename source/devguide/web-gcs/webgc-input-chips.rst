@@ -18,26 +18,10 @@ Chips may also contain icons.
 
 |
 
-
-See it in Action
-----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-chips
-
-    |
-
-|
-
-Reference
----------
+Chips Reference
+---------------
 
 The Chips control properties can be set for the following property categories:
-
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -55,7 +39,7 @@ Main Properties
    webgc-prop-main-display
    webgc-prop-main-disabled
 
-           |
+|
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
@@ -66,20 +50,23 @@ Container Syling
 .. toctree::
    :maxdepth: 1
 
-       webgc-prop-flexwidth
-       webgc-prop-style-style
-       webgc-prop-style-class
-       webgc-prop-style-dynamic
+   webgc-prop-flexwidth
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
 
 Labels Styling
 ''''''''''''''
 
+First Label Style and Class and Following Label Style and Class
+
 .. toctree::
    :maxdepth: 1
-       webgc-prop-style-style
-       webgc-prop-style-class
-       webgc-prop-style-style
-       webgc-prop-style-class
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
 
@@ -91,6 +78,18 @@ Events
 
    webgc-events-chips.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Chips
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-chips
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

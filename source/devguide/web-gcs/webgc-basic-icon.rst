@@ -15,21 +15,17 @@ about telephone numbers, a house might mean to fill in your home address in a fo
 
 .. image:: ../../images/gcs/web/webgc-icon.png
 
+|
 
-See it in Action
-----------------
+Icon Quickstart Properties Reference
+------------------------------------
 
-Try the Sample Iconss
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-icons
+Remember that values entered in the properties fields only take effect after they have been saved.
 
 |
 
-Reference
----------
+Icon Reference
+--------------
 
 The Icon control properties can be set for the following property categories:
 
@@ -115,6 +111,18 @@ Events
 
    webgc-events.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Icons
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-icons
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

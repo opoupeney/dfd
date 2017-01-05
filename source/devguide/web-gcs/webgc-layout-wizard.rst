@@ -17,21 +17,8 @@ A wizard control is a multi-step form.
 
 |
 
-See it in Action
+Wizard Reference
 ----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-wizard
-
-|
-
-Reference
----------
-
 
 The Wizard control properties can be set for the following property categories:
 
@@ -174,6 +161,18 @@ Events
 
    webgc-events-focus.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Wizards
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-wizard
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

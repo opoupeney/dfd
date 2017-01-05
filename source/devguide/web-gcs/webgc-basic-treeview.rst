@@ -24,20 +24,15 @@ files allowing users to organize and easily find files.
 
 |
 
-See it in Action
-----------------
+Treeview Quickstart Properties Reference
+----------------------------------------
 
-Try the Sample Treeviews
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-treeviews
+Remember that values entered in the properties fields only take effect after they have been saved.
 
 |
 
-Reference
----------
+Treeview Reference
+------------------
 
 
 The Treeview control properties can be set for the following property categories:
@@ -81,6 +76,16 @@ Events
 
 |
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try the Sample Treeview Controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-treeviews
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

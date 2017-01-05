@@ -18,23 +18,8 @@ for example it could slide between 0 and 100. When the user slides the handle an
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-slider
-
-    |
-
-|
-
-Reference
----------
-
+Detailed Slider Reference
+-------------------------
 
 The Slider control properties can be set for the following property categories:
 
@@ -96,6 +81,18 @@ Events
 
    webgc-events-onchange.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Slider controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-slider
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

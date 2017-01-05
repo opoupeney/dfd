@@ -17,24 +17,11 @@ counterclockwise (usually decresases the value) direction.
 
 .. image:: ../../images/gcs/web/webgc-knob.png
 
-|
-
-See it in Action
-----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-knob
-
-    |
 
 |
 
-Reference
----------
+Knob Reference
+--------------
 
 The Knob control properties can be set for the following property categories:
 
@@ -114,7 +101,18 @@ Events
 
    webgc-events-knob.rst
 
+|
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try the Sample Knobs
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-knob
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

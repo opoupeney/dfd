@@ -17,15 +17,10 @@ indicate the action to be performed when the button is clicked.
 
 |
 
-See it in Action
-----------------
+Button Quickstart Properties Reference
+--------------------------------------
 
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-buttons
+Remember that values entered in the properties fields only take effect after they have been saved.
 
 |
 
@@ -33,8 +28,6 @@ Button Reference
 ----------------
 
 A Button can define the following properties:
-
-|
 
 Main Properties
 ^^^^^^^^^^^^^^^
@@ -120,6 +113,19 @@ Events
 
 |
 
- Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+
+See it in Action
+----------------
+
+Try the Sample Buttons
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-buttons
+
+|
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
 

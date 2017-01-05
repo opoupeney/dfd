@@ -18,22 +18,8 @@ of icons, often presented as stars.
 
 |
 
-See it in Action
+Rating Reference
 ----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-rating
-
-    |
-
-|
-
-Reference
----------
 
 
 The Rating control properties can be set for the following property categories:
@@ -70,14 +56,6 @@ Styling Attributes
 |
 
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Range                  | number            |                        |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-|
-
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
@@ -105,6 +83,17 @@ Events
 
 |
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try the Sample Ratings
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-rating
 
 |
+
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

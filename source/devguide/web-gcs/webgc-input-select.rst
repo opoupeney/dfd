@@ -16,8 +16,8 @@ The select component allows users to select from a list of values, for example Y
 
 |
 
-Reference
----------
+Select Reference
+----------------
 
 The **select** control properties can be set for the following property categories:
 
@@ -60,6 +60,16 @@ Events
 
 |
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try the Sample Select controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-select
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

@@ -20,26 +20,13 @@ the view.
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Buttons
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-hzmenu
-
-|
-
-
-Reference
----------
+Detailed Horizontalmenu Reference
+---------------------------------
 
 The Horizontalmenu control properties can be set for the following property categories:
 
 Main Properties
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -104,6 +91,16 @@ Events
 
 |
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try the Sample Horizontalmenu controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-hzmenu
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

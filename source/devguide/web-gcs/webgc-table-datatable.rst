@@ -20,15 +20,8 @@ multi-selection on rows for treatment as a single row or a group of rows.
 
 |
 
-See it in Action
-----------------
-
-Coming Soon
-
-|
-
-Reference
----------
+Datatable Reference
+-------------------
 
 Table columns have a value and can be rendered as one of the following pre-defined graphical controls:
 
@@ -176,14 +169,6 @@ Columns
 
 .. _webgc-datatable-render-label:
 
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-|
-
-.. _webgc-datatable-styling-label:
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
@@ -213,6 +198,14 @@ Events
 
    webgc-events-focus.rst
 
+|
+
+See it in Action
+----------------
+
+Coming Soon
+
+|
 
 Example
 -------

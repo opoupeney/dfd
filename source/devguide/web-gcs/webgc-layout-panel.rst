@@ -28,25 +28,10 @@ See for more on Angular Material Panel Layouts see `Angular Material Layouts and
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Panel controls
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-panel
-
-|
-
-Reference
----------
+Panel Reference
+---------------
 
 The Panel control properties can be set for the following property categories:
-
-|
-
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -188,6 +173,16 @@ to any other panel. Copy-Paste also works with nested components and from one ca
 
 |
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+See it in Action
+----------------
+
+Try the Sample Panel controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-panel
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

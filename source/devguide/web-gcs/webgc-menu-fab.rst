@@ -24,26 +24,10 @@ When opened:
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Fab
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-fab
-
-|
-
-|
-
-Reference
----------
+Fab Reference
+-------------
 
 The Fab control properties can be set for the following property categories:
-
-|
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -120,6 +104,18 @@ Events
 
    webgc-events-focus.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Fab controls
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-fab
 
 |
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

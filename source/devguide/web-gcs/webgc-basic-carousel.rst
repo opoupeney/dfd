@@ -17,25 +17,40 @@ A Carousel is a graphical component that lets you scroll easily through a set of
 
 |
 
-See it in Action
-----------------
+Carousel Quickstart Properties Reference
+----------------------------------------
 
-Try the Sample Carousel controls
+In summary the Carousel has 5 important properties and each slide (or Carousel option) has 5 important properties:
 
-.. toctree::
-   :maxdepth: 1
+The Carousel properties are :
 
-   ../../gsguide/samples/sample-carousels
+* Options source (array). See Options below for more details
+* Autoslide (boolean). By default ‘false’.
+* Slide Interval (millisecond). By default 3000.
+* Max Width a number in pixels. The default is ‘1200px’.
+* Max Height- a number in pixels. The default is ‘400px’.
+
+**Note** Max Width and Max Height needs to be set for responsive design for calculating proportion sides of the Carousel.
+
+Carousel Slide option properties:
+
+* Name - it is parameter for accessibility in static representation inside popup dialog (no need to set it in dynamic represenation).
+* Src - is the image url. In static representation it is expression. It is possible to put into src field image url without/within quotes and as a scope variable (like that 'src': 'scopeSrc'). In dynamic - it is just real image url.
+* Title - html content inside which it is possible to use scope variables. For static representation in popup dialog click ‘Edit’ button to open ‘Html Editor’ and edit it.
+* Description - the same as ‘Title’.
+* Onclick - is ‘ng-click’ event on Slide image.
+
+A Slide Editor is avaiable to define the Slides and Slide options, to add or remove slides and to change the order of the slides. See Options below.
+
+Remember that values entered in the properties fields only take effect after they have been saved.
 
 |
 
-Reference
----------
+Carousel Reference
+------------------
 
 The Carousel control properties can be set for the following property categories:
 
-Button Main Properties allow us to set the Button Label, Icon, Menu Items if the Button has a menu and whether the Button
-is displayed and enabled.
 
 .. toctree::
    :maxdepth: 1
@@ -62,32 +77,29 @@ Styling Attributes
    webgc-prop-style-class
    webgc-prop-style-dynamic
 
+|
 
-Carousel Quickstart
-^^^^^^^^^^^^^^^^^^
+Events
+^^^^^^
 
-In summary the Carousel has 5 properties itself and each slide (or Carousel option) has 5 properties:
+.. toctree::
+   :maxdepth: 1
 
-The Carousel properties are :
+   webgc-events-focus.rst
 
-* Options source (array). Can be static/dynamic. For static representation that array can be defined in the . For dynamic - need to put scope array name into field ‘Dynamic’ of Options section in Property panel.
-* Autoplay (boolean). By default ‘false’.
-* Slide Interval (millisecond). Dy default 3000.
-* Max Width a number in pixels. The default is ‘1200px’.
-* Max Height- a number in pixels. The default is ‘400px’.
+|
 
-**Note** Max Width and Max Height needs to be set for responsive design for calculating proportion sides of the Carousel.
+See it in Action
+----------------
 
-Carousel Slide option properties:
+Try the Sample Carousel controls
 
-Name - it is parameter for accessibility in static representation inside popup dialog (no need to set it in dynamic represenation).
-Src - is the image url. In static representation it is expression. It is possible to put into src field image url without/within quotes and as a scope variable (like that 'src': 'scopeSrc'). In dynamic - it is just real image url.
-Title - html content inside which it is possible to use scope variables. For static representation in popup dialog click ‘Edit’ button to open ‘Html Editor’ and edit it.
-Description - the same as ‘Title’.
-Onclick - is ‘ng-click’ event on Slide image.
+.. toctree::
+   :maxdepth: 1
 
-A Slide Editor is avaiable to define the Slides and Slide options, to add or remove slides and to change the order of the slides.
+   ../../gsguide/samples/sample-carousels
 
+|
 
 Example
 '''''''
@@ -154,27 +166,6 @@ This way of using scope variables and functions in the Carousel options (slides)
 
 |
 
-
-
-|
-
-Events
-^^^^^^
-
-.. toctree::
-   :maxdepth: 1
-
-   webgc-events-focus.rst
-
-
-
-
-Tips and Tricks
-^^^^^^^^^^^^^^^
-
-# Remember that values entered in the properties fields only take effect after they have been saved.
-
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 
-|
 

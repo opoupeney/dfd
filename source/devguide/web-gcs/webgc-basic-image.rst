@@ -18,23 +18,18 @@ DreamFace Studio to add an image as a resource.
 
 |
 
-See it in Action
-----------------
+Image Quickstart Properties Reference
+-------------------------------------
 
-Try the Sample Images
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-images
+Remember that values entered in the properties fields only take effect after they have been saved.
 
 |
 
-Reference
----------
+
+Image Reference
+---------------
 
 The Image control properties can be set for the following property categories:
-
 
 Main Properties
 ^^^^^^^^^^^^^^
@@ -84,8 +79,18 @@ Events
 
    webgc-events.rst
 
+|
+
+See it in Action
+----------------
+
+Try the Sample Images
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-images
+
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
-
-|
 

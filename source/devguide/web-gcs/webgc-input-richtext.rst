@@ -21,23 +21,8 @@ Using formatting, you can make text bold or italic, change the color, font and m
 
 |
 
-See it in Action
-----------------
-
-Try the Sample Richtext
-
-.. toctree::
-   :maxdepth: 1
-
-   ../../gsguide/samples/sample-richtext
-
-    |
-
-|
-
-Reference
----------
-
+Richtext Reference
+------------------
 
 The Richtext control properties can be set for the following property categories:
 
@@ -94,9 +79,6 @@ Styling Attributes
 
 |
 
-|
-
-
 Events
 ^^^^^^
 
@@ -105,6 +87,19 @@ Events
 
    webgc-events-onchange.rst
 
-Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
+|
+
+See it in Action
+----------------
+
+Try the Sample Richtexts
+
+.. toctree::
+   :maxdepth: 1
+
+   ../../gsguide/samples/sample-richtext
 
 |
+
+
+Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
