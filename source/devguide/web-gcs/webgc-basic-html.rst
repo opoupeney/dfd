@@ -46,8 +46,8 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
-   webgc-prop-main-Binding
-   webgc-prop-main-Content
+   webgc-prop-main-binding
+   webgc-prop-main-content
    webgc-prop-main-display
    webgc-prop-main-disabled
 
@@ -66,41 +66,6 @@ Styling Attributes
 
 |
 
-
-Main Properties
-^^^^^^^^^^^^^^^
-
-|
-
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Binding                | Any text          | The HTML control can be bound to data coming from a service, for example a service that    |
-|                        |                   | goes to a content management system. Text that will be displayed in the field.             |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Content                | Any HTML text     | The content can be edited to enter any HTML text manually in a contextual script editor.   |
-|                        |                   | The new content will be displayed as soon as it is saved.                                  |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-html-editor.png                                     |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-|
-
-.. _webgc-html-render-label:
-
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-|
-
-.. _webgc-html-styling-label:
-
-.. include:: webgc-styling-slider.rst
-
-|
-
 Events
 ^^^^^^
 
@@ -108,6 +73,8 @@ Events
    :maxdepth: 1
 
    webgc-events.rst
+
+|
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.
 

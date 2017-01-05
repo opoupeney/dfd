@@ -31,12 +31,6 @@ Reference
 
 The Radio control properties can be set for the following property categories:
 
-* :ref:`webgc-radio-render-label`
-* :ref:`webgc-radio-styling-label`
-* :ref:`webgc-radio-events-label`
-
-|
-
 Main Properties
 ^^^^^^^^^^^^^^
 
@@ -46,8 +40,10 @@ Main Properties
    webgc-prop-main-id
    webgc-prop-main-template
    webgc-prop-main-name
+   webgc-prop-main-binding
    webgc-prop-main-label
-   webgc-prop-main-icon
+   webgc-prop-main-options
+   webgc-prop-main-direction
    webgc-prop-main-display
    webgc-prop-main-disabled
 
@@ -55,6 +51,9 @@ Main Properties
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
+
+Container Stying
+''''''''''''''''
 
 .. toctree::
    :maxdepth: 1
@@ -65,60 +64,26 @@ Styling Attributes
 
 |
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Name                   | rdRadio#          | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                   | and set component properties. DreamFace gives a default name of *rdRadio#* where #         |
-|                        |                   | corresponds to the order in which it was created. If it's the second radio control created |
-|                        |                   | it will have a default Name of *rdRadio12*. Name is not required and can be removed if not |
-|                        |                   | needed.                                                                                    |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| label                  | Any text          | This is the text that will appear under the icon, for example the fa-home icon could have  |
-|                        |                   | the label Home as DreamFace uses as the default for this component.                        |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| icon                   | favicon           | Click on the **...** to the right of the field to select one of the favicons from the list.|
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-icons.png                                           |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-|
+Label Stying
+''''''''''''
 
-.. _webgc-radio-render-label:
+.. toctree::
+   :maxdepth: 1
 
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
 
-.. _webgc-radio-styling-label:
+Item Styling
+''''''''''''
+.. toctree::
+   :maxdepth: 1
 
-Styling Attributes
-^^^^^^^^^^^^^^^^^^
-
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Styling Attributes** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
-|                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
-|                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |
-|                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
-|                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-icon-css.png                                        |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
-|                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
 

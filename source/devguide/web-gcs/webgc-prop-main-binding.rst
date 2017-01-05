@@ -31,6 +31,8 @@ Binding can be:
 simple: scope variable name (for example myVariable);
 complex: the path to the variable (for example myArray[3].myVariable).
 
-If the checkbox is inside Repeatable Panel and needs to bind to to some repeatable  item property, then the binding
-should be: myVariable.value[$dfx_index].
+If the :term:`GC` is in a Repeatable Panel and needs to bind to to some repeatable item property, then the binding
+should be: $dfx_item.myVariable. For more on $dfx_item see :ref:`dfx-webgc-panel-label`
 
+**HTML Binding** - The HTML control can be bound to data coming from a service, for example a service that
+goes to a content management system. Text that will be displayed in the field.

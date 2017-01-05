@@ -1,5 +1,5 @@
-Direction
-=========
+Tooltip Direction
+=================
 
 Tooltip Direction indicates where the tooltip text will appear. A radio button is provided with the values Left,
 Top, Bottom or Right corresponding to the position where the tooltip will be displayed relative to the :term:`GC`.
@@ -16,6 +16,6 @@ Top, Bottom or Right corresponding to the position where the tooltip will be dis
 
 **Notes:**
 
-This is Tooltip position. Can be top, right, bottom, left and set by corresponding radio button.
+The Tooltip position can be top, right, bottom, left and is set by selecting one of the corresponding radio button values.
 
 |

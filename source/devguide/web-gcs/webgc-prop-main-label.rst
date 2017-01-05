@@ -1,3 +1,5 @@
+.. _dfx-webgc-main-label-label:
+
 Label
 =====
 
@@ -38,3 +40,5 @@ If the :term:`GC` is in a repeatable panel and needs to be bound to a repeatable
 
 
 See more about how to define an :ref:`angular-expression-label` here.
+
+|

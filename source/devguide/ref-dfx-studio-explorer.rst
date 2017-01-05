@@ -546,13 +546,14 @@ Develop
 
 Application Components include:
 
+.. image:: ../images/devguide/dfx-studio-1pg-develop.png
+
+|
+
 * **Pages** a composition of Views organized in a layout of on or more view cards.
 * **Views** reusable user interface components which consume APIs Services to interact with back-end data.
 * **API Service Objects** reusable components that define the data access.
 
-|
-
-.. image:: ../images/devguide/dfx-studio-1pg-leftnav.png
 
 These are the main components of a DreamFace application.
 

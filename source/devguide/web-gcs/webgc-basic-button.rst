@@ -70,12 +70,43 @@ Wait Properties
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
-The Button Styling Attributes allow us to add styles, classes, dynamic classes to the Button container, label and menu items:
+The Icon Styling Attributes allow us to add styles, classes, dynamic classes to the Icon container, Icon and Label items:
+
+Container Stying
+''''''''''''''''
 
 .. toctree::
    :maxdepth: 1
 
-   webgc-styling-button
+   webgc-prop-style-sizetowidth
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+
+|
+
+Icon Styling
+''''''''''''
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-iconsize
+   webgc-prop-style-iconstyle
+   webgc-prop-style-iconclass
+
+|
+
+Item Styling
+''''''''''''
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-iconsize
+   webgc-prop-style-iconstyle
+   webgc-prop-style-iconclass
 
 |
 

@@ -1,5 +1,5 @@
 Text
-=====
+====
 
 This is the text that will be displayed in a :term:`GC`. The text can be used as a label and usually provides
 instructions to guide the user.
@@ -38,3 +38,5 @@ If the :term:`GC` is in a repeatable panel and needs to be bound to a repeatable
 
 
 See more about how to define an :ref:`angular-expression-label` here.
+
+|

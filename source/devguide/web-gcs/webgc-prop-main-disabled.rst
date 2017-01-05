@@ -1,7 +1,8 @@
 Disabled
 ========
 
-Disabled is a property to enable / disable a :term:`GC` the text that will be displayed in a :term:`GC`. The text usually provides instructions to guide the user.
+Disabled is a property to enable / disable a :term:`GC`. If the value is *true* the GC is enabled. When the value is
+*false* is disabled, which means even if it is visible it will not will not be functional.
 
 |
 
@@ -16,11 +17,12 @@ Disabled is a property to enable / disable a :term:`GC` the text that will be di
 
 **Default:** *false*
 
-**Notes:** Check out the Samples Gallery and mini apps for more examples of Dynamic fields that show or hide using the Display property.
+**Notes:**
 
-The value can either be a literal *true* to display the field or *false* to hide it, an angular expression that evaulates
-to *true* or *false*, or  It is also possible to use a $scope variable (defined in the script of the View in the Script
-Editor).
+Check out the Samples Gallery and mini apps for more examples of Dynamic fields that show or hide using the Disabled property.
+
+The value can either be a literal *true* to disable the GC or *false* to enable it, an angular expression that evaulates
+to *true* or *false*, or a $scope variable has a Boolean value (defined in the script of the View in the Script Editor).
 
 On the right hand side of the field you will see **...** indicating that help in defining expression is available.
 Click on the *...** and a Expression Editor will be displayed, indicating existing scope variables and functions. You
@@ -30,3 +32,4 @@ would be displayed.
 
 See :ref:`angular-expression-label`  for more help on Angular Boolean Expressions
 
+|

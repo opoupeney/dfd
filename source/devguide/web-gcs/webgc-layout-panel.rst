@@ -1,6 +1,7 @@
-
 .. image:: ../../images/badges/badge_web.png
    :class: pull-right
+
+.. _dfx-webgc-panel-label:
 
 Panel
 =====

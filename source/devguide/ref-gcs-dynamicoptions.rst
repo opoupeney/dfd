@@ -69,10 +69,8 @@ Label - name of Source object property that contain RadioButton label (not requi
 Example:
 
 ::
-$scope.myFruits = [{"code": 1, "name": "Apple"}, {"code": 2, "name": "Banana"}, {"code": 3, "name": "Kiwi"}];
 
-
-
+   $scope.myFruits = [{"code": 1, "name": "Apple"}, {"code": 2, "name": "Banana"}, {"code": 3, "name": "Kiwi"}];
 
 
 Select Options: the same as with RadioButtons.
@@ -373,4 +371,14 @@ As a result - all three components created using dynamic options from scope and 
 
 
 
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| **Options Items**      | Possible Values   | Description                                                                                |
++========================+===================+============================================================================================+
+| Static                 | Defined in Slide  | Beside the Static menu property is an **Edit** link to the Slied Editor. Here you can      |
+|                        | Editor            | you define the slides that will be displayed using an editor to guide the definition.      |
+|                        |                   | Once you are satisfied you save the menu that has been defined.                            |
+|                        |                   |                                                                                            |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
+| Dynamic                | Name              | This field takes the name of a Dynamic Menu                                                |
++------------------------+-------------------+--------------------------------------------------------------------------------------------+
 

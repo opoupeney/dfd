@@ -3,7 +3,7 @@
 Name
 ====
 
-Name is the technical name of the :term:`GC`.
+The Name property is the technical name of the :term:`GC`.
 
 |
 

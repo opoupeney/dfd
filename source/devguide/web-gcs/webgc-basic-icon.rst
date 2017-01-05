@@ -33,8 +33,8 @@ Reference
 
 The Icon control properties can be set for the following property categories:
 
-.Main Properties
-^^^^^^^^^^^^^^^^
+Main Properties
+^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 1
@@ -47,11 +47,32 @@ The Icon control properties can be set for the following property categories:
    webgc-prop-main-display
    webgc-prop-main-disabled
 
+|
+
+State
+^^^^^
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-state
+
+|
+
+Wait
+^^^^
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-wait
 
 |
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
+
+Container Stying
+''''''''''''''''
 
 .. toctree::
    :maxdepth: 1
@@ -62,19 +83,27 @@ Styling Attributes
 
 |
 
+Icon Styling
+''''''''''''
 
-.. _webgc-icon-render-label:
+.. toctree::
+   :maxdepth: 1
 
-Rendering
-^^^^^^^^^
+   webgc-prop-style-iconsize
+   webgc-prop-style-iconstyle
+   webgc-prop-style-iconclass
+   webgc-prop-style-dynamic
 
-This is the rendering section.
+|
 
+Label Styling
+'''''''''''''
+.. toctree::
+   :maxdepth: 1
 
-.. _webgc-icon-styling-label:
-
-
-.. include:: webgc-styling.rst
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
 
 |
 

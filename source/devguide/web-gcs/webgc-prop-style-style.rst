@@ -4,6 +4,7 @@ Style
 =====
 
 The Style property defines the style of the :term:`GC`.
+
 |
 
 .. image:: ../../images/devguide/dfx-prop-style-style.png

@@ -2,7 +2,7 @@ Tooltip Text
 ============
 
 This is the text of the tooltip. The tooltip provides instructions to help guide the user. It will be displayed
-when mouse passes over the :term:`GC`. The Text can also be an expression,`.
+when the mouse passes over the :term:`GC`.
 
 **Values:**
 
@@ -28,3 +28,5 @@ Scope variables can be simple or complex:
 * Complex - a path to the scope variable, for example *myArray[3].myVar*
 
 See more about how to define an :ref:`angular-expression-label` here.
+
+|

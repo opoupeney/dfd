@@ -1,6 +1,3 @@
-.. _webgc-prop-style-width-label:
-
-
 Width
 =====
 

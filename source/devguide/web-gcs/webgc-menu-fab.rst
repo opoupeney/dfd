@@ -81,56 +81,34 @@ Container Styling
 Menu Styling
 ''''''''''''
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Styling Attributes** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
-|                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
-|                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |
-|                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
-|                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-help-css-styles.png                                 |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Class                  | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Size              | number in pixels  |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Style             | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip Direction      | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip Style          | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip Class          | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+   webgc-prop-style-iconsize
+   webgc-prop-style-iconstyle
+   webgc-prop-tooltip-direction
+   webgc-prop-style-style
+   webgc-prop-style-class
+
+|
 
 Item Styling
 ''''''''''''
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Styling Attributes** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Style                  | CSS syles         | CSS style attribure(s) to use for this component, separated by semi-colons, for example:   |
-|                        |                   | *color:red; background-color:lightgray*. By clicking on the **...** on the right hand side |
-|                        |                   | of the field, a window opens up proposing to change attributes for **font**, **color**,    |
-|                        |                   | **padding** and **margin** presented in a tree. When clicking on the arrow to the left of  |
-|                        |                   | the attribute type, the user is guide by placeholder to enter the correct settings         |
-|                        |                   |                                                                                            |
-|                        |                   |        .. image:: ../../images/gcs/dfx-help-css-styles.png                                 |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Class                  | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Size              | number in pixels  |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Style             | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip Direction      | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip Style          | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Tooltip Class          | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-dynamic
+   webgc-prop-style-iconsize
+   webgc-prop-style-iconstyle
+   webgc-prop-tooltip-direction
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
 

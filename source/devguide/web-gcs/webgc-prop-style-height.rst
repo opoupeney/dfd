@@ -1,6 +1,3 @@
-.. _webgc-prop-style-height-label:
-
-
 Height
 ======
 
@@ -11,3 +8,5 @@ Height of the image in pixels
 **Default:** - *150px* Default height on Images is 150px.
 
 |
+
+

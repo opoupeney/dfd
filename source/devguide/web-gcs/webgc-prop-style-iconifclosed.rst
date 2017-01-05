@@ -1,19 +1,18 @@
-Icon if Opened
+Icon if Closed
 ==============
 
-Name of icon to be displayed when tree menu is opened, for example 'fa-plus'. indicating that the user can open the
-treeview.
+Name of icon to be displayed when Tree is closed/collapsed, for example 'fa-plus' and children are hidden.
 
 .. image::  ../../images/gcs/web/wgc-treeview-closed-icon.png
 
-Which would look like row 2 in this example, incating that the tree list is collapsed or closed.
+Which would look like row 2 in this example, indicating that the tree list is collapsed or closed.
 
 .. image:: ../../images/gcs/web/webgc-treeview.png
 
 |
 
-**Value:** - Icon Name
+**Value:** - Icon Name, string in quotes; expression or Scope Variable
 
-**Default:** - *'fa-plus'*
+**Default:** - *'fa-minus'*
 
 |

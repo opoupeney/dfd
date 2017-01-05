@@ -4,17 +4,19 @@
 Class
 =====
 
-**Value:** - Name of CSS class(es) separated by a space used for styling.
+The name of the CSS class used to style the :term:`GC`.
 
 |
 
 .. image:: ../../images/devguide/dfx-prop-style-class.png
 
+**Value:** - Name of CSS class(es) separated by a space used for styling.
+
 **Default:** - *None*
 
 **Notes:**
 
-The Class can be defined in the DreamFace Styles Editor (found in the View Editor) or imported / created in a CSS file
+The Class can be defined in the DreamFace :ref:`dfx-editor-styles-label` (found in the View Editor) or imported / created in a CSS file
 in the Resource Editor (found in the Applicaiton configuration parameters).
 
 Styles defined in Style take precedence over the same styles defined in the Class(es). If color is defined as blue in the

@@ -18,6 +18,8 @@ DreamFace has several editors to assist with creating every kind of component an
    ../devguide/dfx-editor-page.rst
    ../devguide/dfx-editor-api.rst
    ../devguide/dfx-build-manager.rst
+   ../devguide/webgc/webgc-prop-main-treeview.rst
+
 |
 
 Return to the `Documentation Home <http://localhost:63342/dfd/build/index.html>`_.

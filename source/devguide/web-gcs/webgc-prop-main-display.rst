@@ -3,7 +3,9 @@
 Display
 =======
 
-This is a property to show or hide a Text of Label.
+Display is a property to show or hide a :term:`GC`. If the value is *true* the GC is displayed. When the value is
+*false* the GC is hidden.
+
 
 |
 
@@ -34,3 +36,5 @@ using the value stored in the scope variable myVar, if equal to 5 the expression
 would be displayed.
 
 See :ref:`angular-expression-label`  for more help on Angular Boolean Expressions
+
+|

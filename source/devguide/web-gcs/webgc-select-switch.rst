@@ -37,12 +37,6 @@ Reference
 
 The Switch control properties can be set for the following property categories:
 
-* :ref:`webgc-switch-render-label`
-* :ref:`webgc-switch-styling-label`
-* :ref:`webgc-switch-events-label`
-
-|
-
 Main Properties
 ^^^^^^^^^^^^^^
 
@@ -51,9 +45,12 @@ Main Properties
 
    webgc-prop-main-id
    webgc-prop-main-template
+   webgc-prop-main-binding
    webgc-prop-main-name
    webgc-prop-main-label
-   webgc-prop-main-icon
+   webgc-prop-main-options
+   webgc-prop-main-direction
+   webgc-prop-main-displayvalue
    webgc-prop-main-display
    webgc-prop-main-disabled
 
@@ -61,6 +58,9 @@ Main Properties
 
 Styling Attributes
 ^^^^^^^^^^^^^^^^^^
+
+Container Stying
+''''''''''''''''
 
 .. toctree::
    :maxdepth: 1
@@ -71,71 +71,26 @@ Styling Attributes
 
 |
 
+Label Stying
+''''''''''''
+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Main Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Name                   | swtSwitchd#       | Name is a reference to the component's DOM element. It can be used to dynamically access   |
-|                        |                   | and set component properties. DreamFace gives a default name of *swtSwitchd#* where #      |
-|                        |                   | corresponds to the order in which the control was created. If it's the second Switch       |
-|                        |                   | created it will have a default Name of *swtSwitch*. Name is not required and can be        |
-|                        |                   | removed if notneeded.                                                                      |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Binding                | Any text          | The HTML control can be bound to data coming from a service, for example a service that    |
-|                        |                   | goes to a content management system. Text that will be displayed in the field.             |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| label                  | Any text          | This is the text that will appear above the date field to indicate to the user what date   |
-|                        |                   | is being entered.                                                                          |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display value          | *true* or *false* | *true* to display the field or *false* to hide it. By clicking on the arrow to the right   |
-|                        |                   | side of the field a drop down list will propose the values  *true* or *false*              |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| true value             |                   |                                                                                            |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| false value            |                   |                                                                                            |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Display                | *true* or *false* | *true* to display the field or *false* to hide it.                                         |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Disabled               | *true* or *false* | *true* to disable the field or *false* to make it active.                                  |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+Item Styling
+''''''''''''
+.. toctree::
+   :maxdepth: 1
 
-|
-
-.. _webgc-switch-render-label:
-
-Rendering
-^^^^^^^^^
-
-This is the rendering section.
-
-|
-
-.. _webgc-switch-styling-label:
-
-Styling Attributes
-^^^^^^^^^^^^^^^^^^
-
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Styling Attributes** | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Style                  | CSS syles         | By clicking on the **...** on the right h                                                  |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Classes                | CSS class         | Name of CSS class to use for the component.                                                |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Dynamic Classes        | CSS Class         | The Dynamic Class is a CSS class that will be added to the graphical control if an Angular |
-|                        |                   | Expression is verified. It is rendered as a ng-class attribute.                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-
-|
+   webgc-prop-style-style
+   webgc-prop-style-class
+   webgc-prop-style-style
+   webgc-prop-style-class
 
 |
 

@@ -11,7 +11,7 @@ Template is the name of the :term:`GC` template that will be used as a base obje
 
 **Value:** template name, example *button_model1*
 
-**Default:** *defalult*
+**Default:** *default*
 
 **Notes:**
 

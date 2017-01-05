@@ -1,30 +1,87 @@
 Wait Properties
 ===============
 
-This property sets the Icon that will show a wait status on the :term:`GC` while some action is running until its completion.
-While the in wait mode the :term:`GC`can be disabled.
+Wait properties allow the user to set a “Wait” status on a :term:`GC` and define a Icon and its behavior while some
+action is being performed, for example loading data. While the in wait mode the :term:`GC`can be disabled.
+
+DFX GCs Wait Extension is Implemented on the following GCs: Icon, Button, Toolbar Button.
+
+An Icon will be displayed and the GC disabled or not during the action being performed. Style and class of the Icon
+displayed during the wait can be set dynamically.
 
 |
 
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| **Wait Properties**    | Possible Values   | Description                                                                                |
-+========================+===================+============================================================================================+
-| Binding                | Scope Variable    | Beside the Static menu property is a **Edit** link to the Menu Editor. You define the Menu |
-|                        | 'string'          | in the Menu Editor. Once you are satisfied you save the menu that has been defined.        |
-|                        |                   |                                                                                            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Auto-Disabled          | *true* or *false* | Value is *true* to disable the :term:`GC` during the wait period or *false* to keep it     |
-|                        | angular expression| active. The value can also be the result of an Boolean Angular Expression, see             |
-|                        |                   | :ref:`angular-expression-label` for more details.                                          |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon                   | Name of Icon      | The name of the Font Awesome or SVG Icon to use in the wait. Enter the name in the property|
-|                        |                   | field or click on **...** for a list to select from. See :ref:`dfx-icons-label`            |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Style             | CSS attributes    | Name of CSS class(es) separated by a space used for styling. For more detail see           |
-|                        |                   | :ref:webgc-prop-style-label`                                                               |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
-| Icon Class             | class name        | Name of CSS class(es) separated by a space used for styling. For more detail see           |
-|                        |                   | :ref:webgc-prop-style-class-label`                                                         |
-+------------------------+-------------------+--------------------------------------------------------------------------------------------+
+.. toctree::
+   :maxdepth: 1
+
+   webgc-prop-statebinding
+   webgc-prop-wait-autodisabled
+   webgc-prop-main-icon
+   webgc-prop-style-iconstyle
+   webgc-prop-style-wait-iconclass
+
+
+**Notes:**
+
+value (expression): if is set - result of expression must be boolean to set/unset Wait status.
+autoDisabled (expression): if is set - result of expression must be boolean to disable or nor GC during Wait.
+icon (object): an icon that is showing during Wait. Properties of that icon have highest priority above standart and state properties.
+
+|
+
+Example
+^^^^^^^
+
+Create a button with a wait state and another to toggle the wait state.
+
+Wait state off.
+
+.. image:: ../../images/devguide/dfx-prop-wait-example-off.png
+   :width: 200px
+
+
+Wait state on.
+
+.. image:: ../../images/devguide/dfx-prop-wait-example-on.png
+   :width: 200px
+
+|
+
+Create :term:`GC` Button in View Editor and fill in the **Wait properties** as in the example below:
+
+.. image:: ../../images/devguide/dfx-prop-wait-example.png
+   :width: 500px
+
+Then go to the Script Editor and enter the following script:
+
+::
+
+   $scope.waiting = false;
+   $scope.autoDisabled = false;
+
+   $scope.toggleWaitDisabled = function() {
+		   $scope.waiting = $scope.waiting ? false : true;
+      	   $scope.autoDisabled = $scope.autoDisabled ? false : true;
+   };
+
+Next - return to the Designer of the View Editor and add another button. Then add toggleWaitDisabled() to onclick Event property.
+Change container style to *background-color:midnightblue;* and test.
+
+
+For the techies only:
+Default Wait property object in DreamFace:
+
+::
+
+   {
+    "value": "",
+    "autoDisabled": false,
+    "icon": {
+        "value": "'fa-spinner'",
+        "type": "fa-icon",
+        "style": "",
+        "class": "fa-pulse"
+    }
+
 
 |

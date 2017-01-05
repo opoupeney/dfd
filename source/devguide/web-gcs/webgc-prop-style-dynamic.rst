@@ -1,7 +1,8 @@
-Dynamic
-=======
+Dynamic Class
+=============
 
-The Dynamic CSS Class is a class that will be added to the graphical control if an Boolean Angular Expression is verified.
+The Dynamic Class is the Name of the CSS class that will be used to style the :term:`GC` if a Boolean Angular Expression
+is true.
 
 |
 
